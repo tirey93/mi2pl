@@ -2,8 +2,8 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/po2tomi_converter/.vs
-/po2tomi_converter/.vs/po2tomi_converter/v17/.suo
+/mi2se_classic_injector/.vs
+/mi2se_classic_injector/.vs/mi2se_classic_injector/v17/.suo
 
 /omega_t/1/omegat/project_stats.txt
 /omega_t/1/omegat/project_save.tmx.*.bak
@@ -25,10 +25,10 @@
 /omega_t/5/omegat/project_save.tmx.*.bak
 /omega_t/5/omegat/last_entry.properties
 
-/po2tomi_converter/bin
-/po2tomi_converter/obj
-/po2tomi_converter/bin/Debug/netcoreapp3.1/config.json
-/skrypty/po2tomi_converter.exe - Shortcut.lnk
-/po2tomi_converter/po2tomi_converter/bin/Debug/net8.0
-/po2tomi_converter/po2tomi_converter/obj
+/mi2se_classic_injector/bin
+/mi2se_classic_injector/obj
+/mi2se_classic_injector/bin/Debug/netcoreapp3.1/config.json
+/skrypty/mi2se_classic_injector.exe - Shortcut.lnk
+/mi2se_classic_injector/mi2se_classic_injector/bin/Debug/net8.0
+/mi2se_classic_injector/mi2se_classic_injector/obj
 /mi2se_classic_injector/.vs/mi2se_classic_injector
