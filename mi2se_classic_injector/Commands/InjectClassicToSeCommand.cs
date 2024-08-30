@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using mi2se_classic_injector.Extensions;
 
 namespace mi2se_classic_injector.Commands
 {
@@ -13,7 +13,8 @@ namespace mi2se_classic_injector.Commands
         private readonly MainSettings _settings;
         private readonly LiteralSettings _literalSettings;
         private readonly string[] _newOrgLines;
-        private readonly string[] _classicOrgLines;
+        private readonly string[] _newOrgLinesNoChange;
+        private readonly Dictionary<string, int> _classicOrgLines;
         private readonly string[] _classicPolLines;
 
         public bool HasErrors { get; set; }
@@ -38,14 +39,46 @@ namespace mi2se_classic_injector.Commands
                 return;
             }
 
-            _newOrgLines = File.ReadAllLines(_settings.NewOrgPath);
-            _classicOrgLines = File.ReadAllLines(_settings.ClassicOrgPath);
-            _classicPolLines = File.ReadAllLines(_settings.ClassicPolPath);
+            _newOrgLinesNoChange = File.ReadAllLines(_settings.NewOrgPath).ToArray();
+            _newOrgLines = File.ReadAllLines(_settings.NewOrgPath)
+                .Select(x => x.Replace(" ", "").ToLower()).ToArray();
+
+            _classicPolLines = File.ReadAllLines(_settings.ClassicPolPath)
+                .DivideMergedClassicLines()
+                .ReplaceClassicLiterals(_literalSettings);
+
+            _classicOrgLines = File.ReadAllLines(_settings.ClassicOrgPath)
+                .DivideMergedClassicLines()
+                .ReplaceClassicLiterals(_literalSettings)
+                .Select((value, index) => new { value = value.Replace(" ", "").ToLower(), index })
+                .GroupBy(pair => pair.value)
+                .ToDictionary(pair => pair.Key, pair => pair.FirstOrDefault().index);
         }
 
         public void Execute()
         {
-            Console.WriteLine("InjectClassicToSeCommand.Execute()");
+            StringBuilder errors = new StringBuilder();
+
+            for (int newIndex = 0; newIndex < _newOrgLines.Length; newIndex++)
+            {
+                if(newIndex == 40)
+                {
+
+                }
+                var orgNewLine = _newOrgLines[newIndex];
+                
+                if(_classicOrgLines.TryGetValue(orgNewLine, out var index))
+                {
+
+                }
+                else
+                {
+                    var message = $"{newIndex + 1}\t{_newOrgLinesNoChange[newIndex]}";
+                    errors.AppendLine(message);
+                }
+            }
+
+            File.WriteAllText("errors.tsv", errors.ToString());
         }
     }
 }

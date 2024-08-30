@@ -8,5 +8,6 @@ namespace mi2se_classic_injector.Settings
 {
     public class LiteralSettings
     {
+        public string[] ClassicLiterals { get; set; }
     }
 }

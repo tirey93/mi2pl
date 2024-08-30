@@ -11,6 +11,7 @@ var configuration = new ConfigurationBuilder()
 var serviceProvider = new ServiceCollection()
 
     .Configure<MainSettings>(configuration.GetSection(nameof(MainSettings)))
+    .Configure<LiteralSettings>(configuration.GetSection(nameof(LiteralSettings)))
     .AddTransient<InjectClassicToSeCommand>()
     .BuildServiceProvider();
 
