@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using mi2se_classic_injector.Extensions;
+using System.Text.RegularExpressions;
 
 namespace mi2se_classic_injector.Commands
 {
@@ -16,6 +17,7 @@ namespace mi2se_classic_injector.Commands
         private readonly string[] _newOrgLinesNoChange;
         private readonly Dictionary<string, int> _classicOrgLines;
         private readonly string[] _classicPolLines;
+        private readonly Regex _regexClassicMarkup = new Regex(".*\\\\255\\\\[0-9]{3}\\\\[0-9]{3}\\\\[0-9]{3}.*");
 
         public bool HasErrors { get; set; }
 
@@ -58,18 +60,20 @@ namespace mi2se_classic_injector.Commands
         public void Execute()
         {
             StringBuilder errors = new StringBuilder();
+            var classicMarkupOrgLines = _classicOrgLines
+                .Where(x => _regexClassicMarkup.IsMatch(x.Key));
 
             for (int newIndex = 0; newIndex < _newOrgLines.Length; newIndex++)
             {
                 if(newIndex == 40)
                 {
-
                 }
                 var orgNewLine = _newOrgLines[newIndex];
                 
-                if(_classicOrgLines.TryGetValue(orgNewLine, out var index))
+                if(_classicOrgLines.TryGetValue(orgNewLine, out var index) 
+                    || classicMarkupOrgLines.TryGetIndexFromMarkup(orgNewLine, out index))
                 {
-
+                    //normal behavior
                 }
                 else
                 {

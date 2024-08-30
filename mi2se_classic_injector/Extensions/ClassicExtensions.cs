@@ -1,14 +1,13 @@
 ﻿using mi2se_classic_injector.Settings;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Text.RegularExpressions;
 
 namespace mi2se_classic_injector.Extensions
 {
     public static class ClassicExtensions
     {
+        private static readonly Regex _regexClassicMarkup = new Regex(".*\\\\255\\\\[0-9]{3}\\\\[0-9]{3}\\\\[0-9]{3}.*");
+        private static readonly Regex _regexNumber = new Regex(".*[1-9][0-9]*.*");
+
         public static string[] DivideMergedClassicLines(this string[] lines)
         {
             var result = new List<string>();
@@ -53,6 +52,33 @@ namespace mi2se_classic_injector.Extensions
             }
 
             return result.ToArray();
+        }
+
+        public static bool TryGetIndexFromMarkup(this IEnumerable<KeyValuePair<string, int>> markupList, string line, out int index)
+        {
+            var numberMatch = _regexNumber.Match(line);
+            if (numberMatch.Success)
+            {
+
+                
+            }
+
+            index = -1;
+            return false;
+        }
+
+        private static bool TryGetIndexFromNumber(IEnumerable<KeyValuePair<string, int>> markupList, string line, out int index)
+        {
+            foreach (var classicLine in markupList)
+            {
+                if(_regexClassicMarkup.Replace(classicLine.Key, "") == line)
+                {
+
+                }
+            }
+
+            index = -1;
+            return false;
         }
     }
 }
