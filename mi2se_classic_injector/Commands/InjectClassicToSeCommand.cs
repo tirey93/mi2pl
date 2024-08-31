@@ -44,7 +44,7 @@ namespace mi2se_classic_injector.Commands
 
             _newOrgLinesNoChange = File.ReadAllLines(_settings.NewOrgPath).ToArray();
             _newOrgLines = File.ReadAllLines(_settings.NewOrgPath)
-                .Select(x => x.TrimWhiteSpaces()).ToArray();
+                .Select(x => x.TrimNonAlphaNumSpaces()).ToArray();
 
             _classicPolLines = File.ReadAllLines(_settings.ClassicPolPath)
                 .DivideMergedClassicLines()
@@ -53,21 +53,22 @@ namespace mi2se_classic_injector.Commands
             _classicOrgLines = File.ReadAllLines(_settings.ClassicOrgPath)
                 .DivideMergedClassicLines()
                 .ReplaceClassicLiterals(_literalSettings)
-                .Select((value, index) => new { value = value.TrimWhiteSpaces(), index })
+                .Select((value, index) => new { value = value.TrimNonAlphaNumSpaces(), index })
                 .GroupBy(pair => pair.value)
                 .ToDictionary(pair => pair.Key, pair => pair.FirstOrDefault().index);
 
             var bookTranslations = new Dictionary<string, string>();
-            var regexBooks = new Regex("thecoversays`(.*).`");
-            //foreach (var orgLine in _newOrgLines)
-            //{
-            //    var regexMatch = regexBooks.Match(orgLine);
-            //    if (regexMatch.Success)
-            //    {
-            //        var classicLine = _classicOrgLines[regexMatch.Groups[1].Value];
-            //        bookTranslations.Add(regexMatch.Value, _classicPolLines[classicLine]);
-            //    }
-            //}
+            var regexBooks = new Regex("thecoversays(.*)");
+            foreach (var orgLine in _newOrgLines)
+            {
+                var regexMatch = regexBooks.Match(orgLine);
+                var value = regexMatch.Groups[1].Value;
+                if (regexMatch.Success && value.Length > 0)
+                {
+                    var classicLine = _classicOrgLines[value];
+                    bookTranslations.Add(value, _classicPolLines[classicLine]);
+                }
+            }
             _bookTranslations = bookTranslations;
         }
 
