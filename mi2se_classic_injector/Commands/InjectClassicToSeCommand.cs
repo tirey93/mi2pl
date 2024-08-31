@@ -87,7 +87,7 @@ namespace mi2se_classic_injector.Commands
 
             for (int newIndex = 0; newIndex < _newOrgLines.Length; newIndex++)
             {
-                if(newIndex == 180)
+                if(newIndex == 7550)
                 {
                 }
                 var orgNewLine = _newOrgLines[newIndex];
@@ -116,6 +116,14 @@ namespace mi2se_classic_injector.Commands
                 {
 
                 }
+                else if(IsMatchingBuying(orgNewLine, out index))
+                {
+
+                }
+                else if(IsMatchingForbidden(orgNewLine, out index))
+                {
+
+                }
                 else
                 {
                     var message = $"{newIndex + 1}\t{_newOrgLinesNoChange[newIndex]}";
@@ -124,6 +132,50 @@ namespace mi2se_classic_injector.Commands
             }
 
             File.WriteAllText("../../../../errors.tsv", errors.ToString());
+        }
+
+        private bool IsMatchingForbidden(string orgNewLine, out int index)
+        {
+            index = -1;
+            if (!orgNewLine.Contains("wecantgotheremonthatstheforbidden"))
+                return false;
+            foreach (var item in _literalSettings.ForbiddenLiterals)
+            {
+                var regexBuy = new Regex($@"wecantgotheremonthatstheforbidden{item.TrimNonAlphaNumSpaces()}");
+                if (regexBuy.IsMatch(orgNewLine))
+                {
+                    index = 7461;
+                    return true;
+
+                }
+            }
+
+            return false;
+        }
+
+        private bool IsMatchingBuying(string orgNewLine, out int index)
+        {
+            index = -1;
+            if(!orgNewLine.Contains("idliketobuyth") && !orgNewLine.Contains("canisellbackth"))
+                return false;
+            foreach (var item in _literalSettings.BuyingLiterals)
+            {
+                var regexBuy = new Regex($"idliketobuyth.*{item.TrimNonAlphaNumSpaces()}");
+                if (regexBuy.IsMatch(orgNewLine))
+                {
+                    index = 5465;
+                    return true;
+
+                }
+                var regexSell = new Regex($"canisellbackth.*{item.TrimNonAlphaNumSpaces()}");
+                if (regexSell.IsMatch(orgNewLine))
+                {
+                    index = 5534;
+                    return true;
+                }
+            }
+
+            return false;
         }
 
         private bool IsMatchingMoney(string orgNewLine, out int index)
