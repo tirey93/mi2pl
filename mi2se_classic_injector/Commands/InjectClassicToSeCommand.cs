@@ -54,6 +54,7 @@ namespace mi2se_classic_injector.Commands
             var classicOrgLines = File.ReadAllLines(_settings.ClassicOrgPath)
                 .DivideMergedClassicLines()
                 .ReplaceClassicLiterals(_literalSettings);
+            //File.WriteAllLines("engTokens", classicOrgLines.Select(x => x.TrimNonAlphaNumSpaces()));
 
             _classicOrgLines = classicOrgLines
                 .Select((value, index) => new { value = value.TrimNonAlphaNumSpaces(), index })
@@ -61,6 +62,7 @@ namespace mi2se_classic_injector.Commands
                 .ToDictionary(pair => pair.Key, pair => pair.FirstOrDefault().index);
             _classicMarkupOrgLines = _classicOrgLines
                 .Where(x => _regexClassicMarkup.IsMatch(x.Key)).ToList();
+
 
             var bookTranslations = new Dictionary<string, string>();
             var regexBooks = new Regex("thecoversays(.*)");
@@ -85,7 +87,7 @@ namespace mi2se_classic_injector.Commands
 
             for (int newIndex = 0; newIndex < _newOrgLines.Length; newIndex++)
             {
-                if(newIndex == 4051)
+                if(newIndex == 404)
                 {
                 }
                 var orgNewLine = _newOrgLines[newIndex];

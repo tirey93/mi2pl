@@ -16,23 +16,13 @@
 333	Maybe0xA0I0xA0should0xA0cut0xA0you0xA0one0xA0out0xA0of0xA0cement!
 391	Did I mention that I'm Guybrush the LeChuck-busting stud?
 393	Hi. I'm Guybrush Threepwood, LeChuck-busting stud.
-405	I was sent by the I.R.S.  Let me see your files.
-491	You do open-heart surgery?
 550	I can't see a thing without me monocle!
-561	Pretty nice map, eh?
 618	I can't believe somebody would STEAL it...
 791	Ha ha ha. Hilarious.
 887	I went out for a swim.
 998	Aw, isn't that cute.
 1090	I'm gonna tear you limb from limb!
-1312	I'm Guybrush.  You tried to sell me the minutes of a PTA meeting in the last game, claiming it was a map.
-1348	I think you're overlooking the potential symbolism to be gained by your closeness to the earth.
 1378	Give me money for the polish.
-1421	That you should bore passers-by to tears with long stories?
-1453	Pretty please with sugar, nuts, a cherry, and chocolate sprinkles?
-1585	How much wood could a woodchuck chuck if a woodchuck could chuck wood?
-1610	But if a woodchuck could chuck and would chuck some amount of wood, what amount of wood would a woodchuck chuck?
-1613	A woodchuck should chuck if a woodchuck could chuck wood, as long as a woodchuck would chuck wood.
 1657	`Here lies Daredevil \nJim McDow.
 1658	Hand of steel, leg of wood...... \nJim took every risk he could.
 1659	A life of action--that was Jim's.\nToo bad he ran out of limbs.`
@@ -46,26 +36,14 @@
 2168	Would you like my monocle?
 2169	Would you like my money?
 2170	Would you like this?
-2289	That's right.  I'm the man who swashed the Ghost Pirate LeChuck's buckles.
-2291	No, my name is Smith.  You must have me confused with someone else.
-2300	Look behind you, a three-headed monkey!
-2320	Would you like to hear the story of the time I blew LeChuck's top?
-2335	Such as why there's a wanted poster on the wharf with my picture on it?
-2383	I guess that bounty would buy a lot of bacon grease and pure fat, huh?
-2391	I'll be back!
-2392	I'll be BACK!
-2393	I'LL be back!
-2394	I'll BE back!
 2458	I said, hands off my fishing rod.
 2461	I said, hands off my fishing rod.
 2464	I said, hands off my fishing rod.
 2467	I said, hands off my fishing rod.
 2484	Oh, I beg to differ with you:
-2500	The fish you catch are so small you'd need tweezers to throw them back.
 2519	I think you're just trying to get your hands on my fishing pole.
 2535	...I'll GIVE you my prize-winning fishing pole.
 2546	You mean, on rice with a little wasabi and soy sauce?
-2557	It's a revolting idea.  I can't think of anything I'd less rather do.
 2564	I am really looking forward to making you eat my catch.
 2574	Think I'll drop a line right here.
 3056	Says here the Mad Monkey sank at 33 North...
@@ -199,7 +177,6 @@
 3497	`Numerology for Beginners`. Hmmm, I'll have to remember that.
 3498	`Use of Nylon by Pirates`. Hmmm, I'll have to remember that.
 3499	`More of Me to Love`. Hmmm, I'll have to remember that.
-3500	`&$*#!`. Hmmm, I'll have to remember that.
 3501	`Favorite Gumbo Recipes`. Hmmm, I'll have to remember that.
 3502	`Scourge of the Pizza`. Hmmm, I'll have to remember that.
 3503	`There's Always A Rainbow`. Hmmm, I'll have to remember that.
@@ -297,30 +274,18 @@
 3595	`Just one of the Primates`. Hmmm, I'll have to remember that.
 3596	`Zoo Animals More Intelligent Than Humans`. Hmmm, I'll have to remember that.
 3597	`1001 Pirate Songs, a Book You Shouldn't Have`. Hmmm, I'll have to remember that.
-3598	Hmmm, I'll have to remember that.
-3599	Hmmm, I'll have to remember that.
-3600	Hmmm, I'll have to remember that.
-3601	Hmmm, I'll have to remember that.
-3602	Hmmm, I'll have to remember that.
-3681	We have {string:global_44}...
 3683	We have a Free Pass to see The Linguini Brothers Circus...
 3684	We have a Three-Day Vacation on Fabulous Hook Island...
-3686	We have {string:global_44}!
 3687	We have a Free Pass to see The Linguini Brothers Circus!
 3688	We have a Three-Day Vacation on Fabulous Hook Island!
 3878	You can have a Free Pass to see The Linguini Brothers Circus!
 3879	You can have a Three-Day Vacation on Fabulous Hook Island!
-3880	You can have {string:global_44}!
-3883	Gimme the MONEY!
 3885	I really want the CIRCUS TICKET!
 3886	I really want the VACATION!
-3887	I really want the {string:global_45}!
 3893	He wants a Three-Day Vacation on Fabulous Hook Island!
 3894	He wants a Free Pass to see The Linguini Brothers Circus!
-3895	He wants {string:global_44}!
 4059	...and a Three-Day Vacation on Fabulous Hook Island.
 4060	...and a Free Pass to see The Linguini Brothers Circus.
-4061	...and {string:global_44}.
 4206	{var:global_269} {string:global_39} it is.
 4221	You0xA0are0xA0starting0xA0to0xA0annoy0xA0me.
 4361	The winning number will be {var:global_268} {string:global_34}.
@@ -330,12 +295,8 @@
 4500	That is a nice looking beard.
 4501	One thing's for sure...
 4502	I am never shaving this off.
-4699	Look behind you, a three-headed monkey!
 4946	Careful with those pitons, or we'll fall into the jelly.
 5006	How'd you like a nice Fruit Punch?
-5037	Hey, old man.  How about blowing off the cannon?
-5075	You'd better believe it!
-5131	Are you the same Kate who bought all the near-grog at the Bloody Lip?
 5156	I don't have that much money.
 5157	I don't have that much.
 5214	It's a plaque with an odd-looking gob of something on it.
@@ -398,8 +359,6 @@
 6410	To the salmon pate!
 6411	Pate!
 6412	Pate!
-6663	Where'd you get that drink?
-6669	Say, did you make that costume yourself?
 6703	Hey, it's Kyle Katarn in a dress!
 6704	Hey, it's Kyle Katarn!
 6705	Hey, it's Kyle Katarn in a dress!
@@ -446,12 +405,9 @@
 7072	The rib bone is connected to the leg bone.
 7073	The rib bone is connected to the hip bone.
 7074	The rib bone is connected to the head bone.
-7075	...{string:global_47} bone connected to the {string:global_48} bone...
 7139	Deep in the Caribbean, hidden by an endless storm, lies LeChuck's fortress...
 7156	Meanwhile, back at the fortress...
-7163	It is not the treasure that is important.
 7168	Deep inside LeChuck's fortress...
-7183	Do you have anything else to report?
 7191	You've allowed him to find the second map piece, haven't you!!
 7195	Deep within LeChuck's fortress bla bla bla bla bla...
 7210	Yawn
@@ -470,7 +426,6 @@
 7401	I will take your bones...
 7420	How much wood would a woodchuck chuck, if a...
 7431	How much wood would a woodchuck chuck, if a...
-7529	What did you do, order this ship out of the back of a comic book?
 7530	This ship is so small, the rats are leaving it humpbacked.
 7551	We can't go there, mon. That's the Forbidden Triangle.
 7552	We can't go there, mon. That's the Forbidden Square.
@@ -498,8 +453,6 @@
 7574	We can't go there, mon. That's the Forbidden Right Circular Conic Cross-Section.
 7575	We can't go there, mon. That's the Forbidden Eccentric Cylindrical Projection.
 7576	It's about as broken as it's gonna get.
-7628	I think I have an answer to the philosophical puzzle you posed for me.
-7636	Do you mean to tell me that your WHOLE LIFE has been merely a prelude to meeting me here today?
 7729	Macintosh Red?
 7800	I'd better get over there.
 7914	Now you're in for it...
@@ -528,20 +481,11 @@
 7988	Yeow!
 7989	Boy, that look comfy!
 8069	You know, this doll reminds me of the Stretchy Muscleman I had as a kid.
-8070	I wonder what would happen if I tore the leg off this thing?
 8097	No chance, you'll just rip my lungs out when I get close.
-8098	Leg or no leg, I trust you about as far as I can throw Manhattan.
-8119	When our mother told you to hunt me down, did she actually mention KILLING me, or was that your idea?
-8121	Do you really think a truck is more important than your own BROTHER?
-8130	Will you promise not to hold me down and spit on me anymore?
 8155	You don't know what kinds of murderers and ne'er do wells might be hanging around a place like this.
-8158	I'm Guybrush Threepwood, a mighty pirate.  I don't have to worry about stuff like that.
 8201	Huh?
 8209	...and I brought a little surprise for you!
-8210	I think you being my brother is enough of a surprise for one day.
 8213	I don't suppose it's a LucasArts0x99 game...
-8220	Is this going to be anything like `pin the tail on the donkey`?
-8230	I'll do anything, just please don't do that again!
 8317	0
 8318	0
 8319	0

@@ -5,7 +5,7 @@ namespace mi2se_classic_injector.Extensions
 {
     public static class ClassicExtensions
     {
-        private static readonly Regex _regexClassicMarkup = new Regex("(\\\\255\\\\[0-9]{3}\\\\[0-9]{3}\\\\[0-9]{3})");
+        private static readonly Regex _regexClassicMarkup = new Regex(@"(\\255\\[0-9]{3}\\[0-9]{3}\\[0-9]{3})");
 
         public static string[] DivideMergedClassicLines(this string[] lines)
         {
@@ -34,17 +34,28 @@ namespace mi2se_classic_injector.Extensions
 
             foreach (var line in lines)
             {
-                if (i == 124)
+                if (i == 424)
                 {
 
                 }
                 var lineAfterReplace = line;
+                var markup = string.Empty;
+                var match = _regexClassicMarkup.Match(line);
+                if (match.Success)
+                {
+                    markup = match.Groups[1].Value;
+                    lineAfterReplace = line.Replace(markup, "{markup}");
+                }
                 foreach (var literal in splittedLiterals)
                 {
                     if (line.Contains(literal.Key))
                     {
                         lineAfterReplace = lineAfterReplace.Replace(literal.Key, literal.Value);
                     }
+                }
+                if (match.Success)
+                {
+                    lineAfterReplace = lineAfterReplace.Replace("{markup}", markup);
                 }
                 result.Add(lineAfterReplace);
                 i++;
