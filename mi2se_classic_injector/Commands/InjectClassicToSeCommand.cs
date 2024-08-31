@@ -80,7 +80,7 @@ namespace mi2se_classic_injector.Commands
             var classicMarkupOrgLines = _classicOrgLines
                 .Where(x => _regexClassicMarkup.IsMatch(x.Key)).ToList();
 
-            //IsMatchingToBookQuestions("doyouhaveanimatronics", out var r, out var x);
+            IsMatchingToBookQuestions("doyouhaveanimatronics", out var r, out var x);
 
             for (int newIndex = 0; newIndex < _newOrgLines.Length; newIndex++)
             {
@@ -101,6 +101,10 @@ namespace mi2se_classic_injector.Commands
                 {
                     
                 }
+                else if (IsMatchingColors(orgNewLine, out regex, out var number))
+                {
+                    
+                }
                 else
                 {
                     var message = $"{newIndex + 1}\t{_newOrgLinesNoChange[newIndex]}";
@@ -109,6 +113,31 @@ namespace mi2se_classic_injector.Commands
             }
 
             File.WriteAllText("../../../../errors.tsv", errors.ToString());
+        }
+
+        private bool IsMatchingColors(string orgNewLine, out Regex regex, out string number)
+        {
+            regex = null;
+            number = null;
+
+            var colorRegexes = new List<Regex>
+            {
+                new Regex(@"[1-9][0-9]*red"),
+                new Regex(@"[1-9][0-9]*black"),
+            };
+
+            foreach (var colorRegex in colorRegexes)
+            {
+                var match = colorRegex.Match(orgNewLine);
+                if (match.Success)
+                {
+                    regex = colorRegex;
+                    number = match.Groups[1].Value;
+                    return true;
+                }
+            }
+
+            return false;
         }
 
         private bool IsMatchingToBookQuestions(string orgNewLine, out Regex regex, out string bookToken)
