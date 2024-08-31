@@ -59,16 +59,16 @@ namespace mi2se_classic_injector.Commands
 
             var bookTranslations = new Dictionary<string, string>();
             var regexBooks = new Regex("thecoversays(.*)");
-            foreach (var orgLine in _newOrgLines)
-            {
-                var regexMatch = regexBooks.Match(orgLine);
-                var value = regexMatch.Groups[1].Value;
-                if (regexMatch.Success && value.Length > 0)
-                {
-                    var classicLine = _classicOrgLines[value];
-                    bookTranslations.Add(value, _classicPolLines[classicLine]);
-                }
-            }
+            //foreach (var orgLine in _newOrgLines)
+            //{
+            //    var regexMatch = regexBooks.Match(orgLine);
+            //    var value = regexMatch.Groups[1].Value;
+            //    if (regexMatch.Success && value.Length > 0)
+            //    {
+            //        var classicLine = _classicOrgLines[value];
+            //        bookTranslations.Add(value, _classicPolLines[classicLine]);
+            //    }
+            //}
             _bookTranslations = bookTranslations;
         }
 
@@ -78,7 +78,6 @@ namespace mi2se_classic_injector.Commands
             var classicMarkupOrgLines = _classicOrgLines
                 .Where(x => _regexClassicMarkup.IsMatch(x.Key)).ToList();
 
-            //classicMarkupOrgLines.TryGetIndexFromMarkup("I'm not holding the {name:local_1}.", out var r);
 
             for (int newIndex = 0; newIndex < _newOrgLines.Length; newIndex++)
             {
@@ -100,7 +99,7 @@ namespace mi2se_classic_injector.Commands
                 }
             }
 
-            File.WriteAllText("errors.tsv", errors.ToString());
+            File.WriteAllText("../../../../errors.tsv", errors.ToString());
         }
     }
 }
