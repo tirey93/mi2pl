@@ -87,7 +87,7 @@ namespace mi2se_classic_injector.Commands
 
             for (int newIndex = 0; newIndex < _newOrgLines.Length; newIndex++)
             {
-                if(newIndex == 404)
+                if(newIndex == 180)
                 {
                 }
                 var orgNewLine = _newOrgLines[newIndex];
@@ -112,6 +112,10 @@ namespace mi2se_classic_injector.Commands
                 {
 
                 }
+                else if(IsMatchingMoney(orgNewLine, out index))
+                {
+
+                }
                 else
                 {
                     var message = $"{newIndex + 1}\t{_newOrgLinesNoChange[newIndex]}";
@@ -119,7 +123,27 @@ namespace mi2se_classic_injector.Commands
                 }
             }
 
-            File.WriteAllText("../../../../errors.tsv", errors.ToString());
+            File.WriteAllText("../../../../errors_ui.tsv", errors.ToString());
+        }
+
+        private bool IsMatchingMoney(string orgNewLine, out int index)
+        {
+            index = -1;
+            
+            if (!orgNewLine.Contains(_literalSettings.DimeMarkup.Split(",")[0]) && !orgNewLine.Contains(_literalSettings.EightMarkup.Split(",")[0]))
+                return false;
+
+            foreach (var line in _classicMarkupOrgLines)
+            {
+                var replacedLine = orgNewLine.Replace(_literalSettings.DimeMarkup.Split(",")[0], _literalSettings.DimeMarkup.Split(",")[1]);
+                replacedLine = replacedLine.Replace(_literalSettings.EightMarkup.Split(",")[0], _literalSettings.EightMarkup.Split(",")[1]);
+                if (line.Key == replacedLine)
+                {
+                    index = line.Value;
+                    return true;
+                }
+            }
+            return false;
         }
 
         private bool IsMatchAfterRemoveMarkup(string orgNewLine, out int index)

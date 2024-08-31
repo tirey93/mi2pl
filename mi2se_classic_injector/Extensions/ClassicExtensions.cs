@@ -74,7 +74,6 @@ namespace mi2se_classic_injector.Extensions
 
             return false;
         }
-
         private static bool TryGetIndexFromNumber(IEnumerable<KeyValuePair<string, int>> markupList, string line, out int index)
         {
             index = -1;

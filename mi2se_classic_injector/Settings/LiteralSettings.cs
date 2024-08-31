@@ -9,5 +9,7 @@ namespace mi2se_classic_injector.Settings
     public class LiteralSettings
     {
         public string[] ClassicLiterals { get; set; }
+        public string DimeMarkup { get; set; }
+        public string EightMarkup { get; set; }
     }
 }
