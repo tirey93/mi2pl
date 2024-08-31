@@ -16,6 +16,7 @@ namespace mi2se_classic_injector.Commands
         private readonly string[] _newOrgLines;
         private readonly string[] _newOrgLinesNoChange;
         private readonly Dictionary<string, int> _classicOrgLines;
+        private readonly List<KeyValuePair<string, int>> _classicMarkupOrgLines;
         private readonly Dictionary<string, string> _bookTranslations;
         private readonly string[] _classicPolLines;
         private readonly Regex _regexClassicMarkup = new Regex(@"(\\255\\[0-9]{3}\\[0-9]{3}\\[0-9]{3})");
@@ -58,6 +59,8 @@ namespace mi2se_classic_injector.Commands
                 .Select((value, index) => new { value = value.TrimNonAlphaNumSpaces(), index })
                 .GroupBy(pair => pair.value)
                 .ToDictionary(pair => pair.Key, pair => pair.FirstOrDefault().index);
+            _classicMarkupOrgLines = _classicOrgLines
+                .Where(x => _regexClassicMarkup.IsMatch(x.Key)).ToList();
 
             var bookTranslations = new Dictionary<string, string>();
             var regexBooks = new Regex("thecoversays(.*)");
@@ -77,8 +80,6 @@ namespace mi2se_classic_injector.Commands
         public void Execute()
         {
             StringBuilder errors = new StringBuilder();
-            var classicMarkupOrgLines = _classicOrgLines
-                .Where(x => _regexClassicMarkup.IsMatch(x.Key)).ToList();
 
             IsMatchingToBookQuestions("doyouhaveanimatronics", out var r, out var x);
 
@@ -91,7 +92,7 @@ namespace mi2se_classic_injector.Commands
                 var noChangeLine = _newOrgLinesNoChange[newIndex];
                 
                 if(_classicOrgLines.TryGetValue(orgNewLine, out var index) 
-                    || classicMarkupOrgLines.TryGetIndexFromMarkup(orgNewLine, out index))
+                    || _classicMarkupOrgLines.TryGetIndexFromMarkup(orgNewLine, out index))
                 {
                     var res = _classicPolLines[index];
                 }
@@ -105,6 +106,10 @@ namespace mi2se_classic_injector.Commands
                 {
                     
                 }
+                else if(IsMatchAfterRemoveMarkup(orgNewLine, out index))
+                {
+
+                }
                 else
                 {
                     var message = $"{newIndex + 1}\t{_newOrgLinesNoChange[newIndex]}";
@@ -113,6 +118,21 @@ namespace mi2se_classic_injector.Commands
             }
 
             File.WriteAllText("../../../../errors.tsv", errors.ToString());
+        }
+
+        private bool IsMatchAfterRemoveMarkup(string orgNewLine, out int index)
+        {
+            index = -1;
+            foreach (var markupLine in _classicMarkupOrgLines)
+            {
+                var lineNoMarkup = _regexClassicMarkup.Replace(markupLine.Key, "");
+                if (lineNoMarkup == orgNewLine)
+                {
+                    index = markupLine.Value;
+                    return true;
+                }
+            }
+            return false;
         }
 
         private bool IsMatchingColors(string orgNewLine, out Regex regex, out string number)

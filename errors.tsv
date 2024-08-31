@@ -1,4 +1,3 @@
-7	Nice.
 22	I'm not holding it.
 181	4 and 2 bottles of beer...
 187	500 bottles of 8...
@@ -11,66 +10,29 @@
 264	Da da-da da da...
 265	Da da da da, da da da-da...
 266	Da da-da da da da da da!
-281	`THRIFTY-DIG-- For the treasure hunter on a budget.`
 310	This0xA0is0xA0a0xA0toll0xA0bridge.0xA0You0xA0gotta0xA0pay.
-312	Is this some sort of bribe situation?
-313	Sure. Take my money. I don't want any trouble.
-314	Sure.  Take my money.  I don't want any trouble.
-315	Who's gonna make me, shorty?
-316	I don't pay for nothin'. I'm a pirate!
 321	Tough guy, huh?
 326	There's no police on Scabb Island!
 333	Maybe0xA0I0xA0should0xA0cut0xA0you0xA0one0xA0out0xA0of0xA0cement!
 391	Did I mention that I'm Guybrush the LeChuck-busting stud?
 393	Hi. I'm Guybrush Threepwood, LeChuck-busting stud.
-404	Nobody sent me. I'm free-lance.
 405	I was sent by the I.R.S.  Let me see your files.
-406	Don't shoot! I was just asking.
-407	Well, well. Aren't we jumpy?
-415	Are you looking for Big Whoop, too?
-418	I'm looking for Big Whoop myself. Wanna help?
-451	Wow. That's some story.
-465	Hey! I did it! Largo LaGrande left Scabb!
-474	Is longitude the sideways one, or is that latitude?
-475	Thanks.  I gotta go.
-476	Would you mind if I just looked around?
 491	You do open-heart surgery?
 550	I can't see a thing without me monocle!
 561	Pretty nice map, eh?
 618	I can't believe somebody would STEAL it...
-688	Hey... Ah... How's the stew tonight?
-698	Shaken, not stirred.
-702	Look at my beard!
-716	I must have left my ID in my other pants.
-718	In that case, I'll take my business elsewhere.
-722	Why?
-728	Why?
-755	Maybe later. I gotta go now.
 791	Ha ha ha. Hilarious.
-813	As a matter of fact, there is.
-814	It's a story of the Ghost Pirate LeChuck and his gruesome demise--
-861	A little.
-863	Are you saying there's an opening in the kitchen?
-866	No thanks. I like being my own boss.
-867	I dunno. How much does it pay?
-868	Can I have some time to think about it?
 887	I went out for a swim.
 998	Aw, isn't that cute.
-1079	Nice April-fresh scent!
 1090	I'm gonna tear you limb from limb!
-1153	I... uh... thought it was my room?
-1192	Nice April-fresh scent!
 1312	I'm Guybrush.  You tried to sell me the minutes of a PTA meeting in the last game, claiming it was a map.
 1348	I think you're overlooking the potential symbolism to be gained by your closeness to the earth.
 1378	Give me money for the polish.
 1421	That you should bore passers-by to tears with long stories?
 1453	Pretty please with sugar, nuts, a cherry, and chocolate sprinkles?
-1583	What's the problem with that Largo guy?
 1585	How much wood could a woodchuck chuck if a woodchuck could chuck wood?
 1610	But if a woodchuck could chuck and would chuck some amount of wood, what amount of wood would a woodchuck chuck?
 1613	A woodchuck should chuck if a woodchuck could chuck wood, as long as a woodchuck would chuck wood.
-1625	`Stan's Kozy Krypts-- A Place to Spend Eternity, Not a Fortune.`
-1629	`Stan's Casual Crosses:
 1657	`Here lies Daredevil \nJim McDow.
 1658	Hand of steel, leg of wood...... \nJim took every risk he could.
 1659	A life of action--that was Jim's.\nToo bad he ran out of limbs.`
@@ -78,31 +40,15 @@
 1661	Jean did whatever he did please, \nUntil he kissed the gunner's daughter.`
 1662	`Marco Largo LaGrande, \nHell on sea or sand.
 1663	The good news is, he's dead. \nThe bad news is, he bred.`
-1830	c/o  LeChuck's Island Getaway & Spa
-1880	`Ash-2-Life
-1883	`Eau d'Mojo
-1888	`Golden Tongue
-1890	`Tender-touch Pirate Powder
-1896	`Ash-2-Life
-1946	Wally sent me to pick up some love potion.
-1948	I really could use that re-vitalizing creme.
-1950	About that jar I was looking at...
-1951	Do I know you from somewhere?
-1954	Why don't you just put a curse on Largo?
 2061	I have this pearly-white bra.
 2062	I have this clean, white shirt
-2119	What can I do?
-2120	Where can I hide?
 2123	You're already doing all that you can.
 2168	Would you like my monocle?
 2169	Would you like my money?
 2170	Would you like this?
 2289	That's right.  I'm the man who swashed the Ghost Pirate LeChuck's buckles.
 2291	No, my name is Smith.  You must have me confused with someone else.
-2298	Err... I must have left it in my other pants.
 2300	Look behind you, a three-headed monkey!
-2308	Am I under arrest?
-2309	I'm really very busy.  Could we do this another time?
 2320	Would you like to hear the story of the time I blew LeChuck's top?
 2335	Such as why there's a wanted poster on the wharf with my picture on it?
 2383	I guess that bounty would buy a lot of bacon grease and pure fat, huh?
@@ -122,13 +68,6 @@
 2557	It's a revolting idea.  I can't think of anything I'd less rather do.
 2564	I am really looking forward to making you eat my catch.
 2574	Think I'll drop a line right here.
-2686	Want to hear a fantastic ghost story?
-2694	Why do you have a model lighthouse here?
-2701	Why do you need a lighthouse?
-2722	Well... no.
-2944	I don't know, what have you got?
-2974	Ummm... twenty-one.
-2975	Errrr... twenty-one.
 3056	Says here the Mad Monkey sank at 33 North...
 3057	Says here the Mad Monkey sank at 34 North...
 3058	Says here the Mad Monkey sank at 35 North...
@@ -150,7 +89,6 @@
 3074	...90 West.
 3075	...91 West.
 3076	Says here the Mad Monkey sank at {var:global_100}N, {var:global_483}W.
-3300	Here's an interesting one: the Junior Ultra Soldier Commando Assault Vehicle.
 3390	`Zelda Carbuncle Tells All`. Hmmm, I'll have to remember that.
 3391	`Animatronics`. Hmmm, I'll have to remember that.
 3392	`Under the Surface`. Hmmm, I'll have to remember that.
@@ -364,24 +302,19 @@
 3600	Hmmm, I'll have to remember that.
 3601	Hmmm, I'll have to remember that.
 3602	Hmmm, I'll have to remember that.
-3656	Could you tell me how the game works again?
-3658	How can you make any profit if that guy keeps winning?
 3681	We have {string:global_44}...
 3683	We have a Free Pass to see The Linguini Brothers Circus...
 3684	We have a Three-Day Vacation on Fabulous Hook Island...
 3686	We have {string:global_44}!
 3687	We have a Free Pass to see The Linguini Brothers Circus!
 3688	We have a Three-Day Vacation on Fabulous Hook Island!
-3703	I'm pretty tight with cash at the moment...
 3878	You can have a Free Pass to see The Linguini Brothers Circus!
 3879	You can have a Three-Day Vacation on Fabulous Hook Island!
 3880	You can have {string:global_44}!
 3883	Gimme the MONEY!
-3884	I'd love to have the INVITATION!
 3885	I really want the CIRCUS TICKET!
 3886	I really want the VACATION!
 3887	I really want the {string:global_45}!
-3888	Got anything else?
 3893	He wants a Three-Day Vacation on Fabulous Hook Island!
 3894	He wants a Free Pass to see The Linguini Brothers Circus!
 3895	He wants {string:global_44}!
@@ -390,10 +323,6 @@
 4061	...and {string:global_44}.
 4206	{var:global_269} {string:global_39} it is.
 4221	You0xA0are0xA0starting0xA0to0xA0annoy0xA0me.
-4257	I don't know.  A million?
-4261	Are you trying to confuse me?
-4284	What!  You don't remember me?
-4290	Umm...  Sorry...
 4361	The winning number will be {var:global_268} {string:global_34}.
 4363	I already told you that ...
 4364	I already told you that the number would be {var:global_268} {string:global_34}...
@@ -402,28 +331,14 @@
 4501	One thing's for sure...
 4502	I am never shaving this off.
 4699	Look behind you, a three-headed monkey!
-4700	I'd love to stay and chat but I'm due at the manicurist's.
 4946	Careful with those pitons, or we'll fall into the jelly.
-4972	Suitable for even the best of my Kozy Krypts!
 5006	How'd you like a nice Fruit Punch?
 5037	Hey, old man.  How about blowing off the cannon?
-5042	Well, I'm off.
-5048	Hey, if it's a party, I'm there.
-5066	Marley?  That's funny.  I used to date a Governor Marley.
-5068	Maybe I'll just go up there now.  Bye.
-5070	Maybe I'll go there right now.
 5075	You'd better believe it!
-5128	I'm ready to head out again.
-5129	I'm ready to set sail!
 5131	Are you the same Kate who bought all the near-grog at the Bloody Lip?
-5133	I just remembered I'm late for a party.
-5154	Don't you think 6000 pieces of eight is a bit high?
 5156	I don't have that much money.
 5157	I don't have that much.
-5171	Yeah, let's blow this popsicle stand.
-5173	I'm not sure where I want to go.
 5214	It's a plaque with an odd-looking gob of something on it.
-5225	I am, of course, Captain Loogie.
 5399	That is a nice looking beard.
 5400	That is a nice looking beard.
 5407	That is a nice looking beard.
@@ -472,53 +387,25 @@
 5738	Can I sell back this vase
 5739	Can I sell back this hub cap?
 5740	Can I sell back this pirate hat?
-5758	I want to buy the latest comic book by Steve Purcell.
-5927	`Stan's Kozy Krypts-- A Place to Spend Eternity, Not a Fortune.`
-5973	Could you show me that coffin again?
-5974	How much is that coffin?
-5977	Didn't you used to be a used-ship salesman?
-5981	I gotta go.  See you later.
 6005	I don't have much.
 6008	Now this baby's going for 6500 pieces of eight.
-6023	I never knew morticians were so clever.
-6028	Making plot reservations now insures you a space at our popular Scabb Island Internment Park...
-6114	You mentioned a party before...
-6115	You mentioned a party before...
 6118	Elaine Marley?  From M0xEAl0xE9e Island?
-6119	Party?  What party?
 6120	Elaine Marley?  From M0xEAl0xE9e Island?
 6121	Elaine Marley?  From M0xEAl0xE9e Island?
-6122	Gotta go.  Keep up the good work.
-6125	But, I killed LeChuck!
-6127	Jealousy?
-6128	Revenge?
-6129	Fame and fortune?
-6130	For attention?
-6145	This is my costume.
 6187	It's not much of a name if you ask me.
 6385	Do you mean `Papier-M0xE2ch0xE9'
 6409	To the salmon pate!
 6410	To the salmon pate!
 6411	Pate!
 6412	Pate!
-6662	Don't I know you from somewhere?
 6663	Where'd you get that drink?
-6668	So, when do we bob for apples?
 6669	Say, did you make that costume yourself?
-6672	Gotta go now.
-6674	What did you say your name was?
-6678	So are you wearing anything under there?
 6703	Hey, it's Kyle Katarn in a dress!
 6704	Hey, it's Kyle Katarn!
 6705	Hey, it's Kyle Katarn in a dress!
 6706	Hey, it's Kyle Katarn!
 6818	You know, I have work to do...
 6822	Go tell it to your mother.
-6874	Don't you like my new beard?
-6877	I'm not sure, but don't you owe me some money?
-6886	That's some party downstairs...
-7000	Something very strange is going on here...
-7012	So what do you two want?
 7019	The head bone's connected to the...
 7020	The arm bone's connected to the...
 7021	The leg bone's connected to the...
@@ -563,18 +450,11 @@
 7139	Deep in the Caribbean, hidden by an endless storm, lies LeChuck's fortress...
 7156	Meanwhile, back at the fortress...
 7163	It is not the treasure that is important.
-7166	See to it.
 7168	Deep inside LeChuck's fortress...
-7172	You will regret a lot more if he finds another.
-7175	I want him alive.
 7183	Do you have anything else to report?
 7191	You've allowed him to find the second map piece, haven't you!!
-7193	You are to ready your ship and sail after him yerself!
 7195	Deep within LeChuck's fortress bla bla bla bla bla...
-7199	Is it true that Guybrush Threepwood has found the third piece of the map to Big Whoop?
-7208	But I won't hesitate to drag your entrails from behind my ship...
 7210	Yawn
-7220	If your plan fails...
 7321	Yes, I memorized the whole thing before he took it.
 7327	He's always envied my intellectual look.
 7363	I can't reach the punching bag from here.
@@ -592,9 +472,6 @@
 7431	How much wood would a woodchuck chuck, if a...
 7529	What did you do, order this ship out of the back of a comic book?
 7530	This ship is so small, the rats are leaving it humpbacked.
-7536	Let's head back to Booty Island.
-7545	Hey, I can hold my breath for ten minutes!
-7550	Let's head back to Booty Island.
 7551	We can't go there, mon. That's the Forbidden Triangle.
 7552	We can't go there, mon. That's the Forbidden Square.
 7553	We can't go there, mon. That's the Forbidden Pentagon.
@@ -656,8 +533,6 @@
 8098	Leg or no leg, I trust you about as far as I can throw Manhattan.
 8119	When our mother told you to hunt me down, did she actually mention KILLING me, or was that your idea?
 8121	Do you really think a truck is more important than your own BROTHER?
-8124	Well, you remember the time you broke my Junior Ultra Soldier Commando Assault Vehicle?
-8126	It wasn't a truck, it was a Junior Ultra Soldier Commando Assault Vehicle.
 8130	Will you promise not to hold me down and spit on me anymore?
 8155	You don't know what kinds of murderers and ne'er do wells might be hanging around a place like this.
 8158	I'm Guybrush Threepwood, a mighty pirate.  I don't have to worry about stuff like that.
@@ -1002,7 +877,3 @@
 8719	Ron: That's why you don't let artists write. 0x0ADave: And what would you put on them?
 8720	Ron: It would be "Fun" and "Spit". 0x0ADave: Oh, well, that's much better.
 8721	Ron: Yeah, it rolls better.
-8722	Nice.
-8723	Nice.
-8724	Nice.
-8725	Nice.
