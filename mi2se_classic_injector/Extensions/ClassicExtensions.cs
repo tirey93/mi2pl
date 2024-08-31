@@ -12,9 +12,9 @@ namespace mi2se_classic_injector.Extensions
             var result = new List<string>();
             foreach (var line in lines)
             {
-                if (line.Contains("\\255\\003"))
+                if (line.Contains(@"\255\003"))
                 {
-                    var splitted = line.Split("\\255\\003");
+                    var splitted = line.Split(@"\255\003");
                     result.AddRange(splitted);
                 }
                 else
@@ -86,7 +86,7 @@ namespace mi2se_classic_injector.Extensions
         private static bool TryGetIndexFromVariables(IEnumerable<KeyValuePair<string, int>> markupList, string line, out int index)
         {
             index = -1;
-            var regexVariable = new Regex("(\\{.*\\:.*\\})");
+            var regexVariable = new Regex(@"(\{.*\:.*\})");
             var variableMatch = regexVariable.Match(line);
             if (!variableMatch.Success)
                 return false;

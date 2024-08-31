@@ -18,7 +18,7 @@ namespace mi2se_classic_injector.Commands
         private readonly Dictionary<string, int> _classicOrgLines;
         private readonly Dictionary<string, string> _bookTranslations;
         private readonly string[] _classicPolLines;
-        private readonly Regex _regexClassicMarkup = new Regex("(\\\\255\\\\[0-9]{3}\\\\[0-9]{3}\\\\[0-9]{3})");
+        private readonly Regex _regexClassicMarkup = new Regex(@"(\\255\\[0-9]{3}\\[0-9]{3}\\[0-9]{3})");
 
         public bool HasErrors { get; set; }
 
@@ -80,6 +80,8 @@ namespace mi2se_classic_injector.Commands
             var classicMarkupOrgLines = _classicOrgLines
                 .Where(x => _regexClassicMarkup.IsMatch(x.Key)).ToList();
 
+            //IsMatchingToBookQuestions("doyouhaveanimatronics", out var r, out var x);
+
             for (int newIndex = 0; newIndex < _newOrgLines.Length; newIndex++)
             {
                 if(newIndex == 4051)
@@ -93,6 +95,12 @@ namespace mi2se_classic_injector.Commands
                 {
                     var res = _classicPolLines[index];
                 }
+                else if(IsMatchingToBookQuestions(orgNewLine, out var regex, out var bookToken) 
+                    && !orgNewLine.Contains("idliketobuy")//hack for now
+                    && newIndex != 7182)//hack for now
+                {
+                    
+                }
                 else
                 {
                     var message = $"{newIndex + 1}\t{_newOrgLinesNoChange[newIndex]}";
@@ -101,6 +109,33 @@ namespace mi2se_classic_injector.Commands
             }
 
             File.WriteAllText("../../../../errors.tsv", errors.ToString());
+        }
+
+        private bool IsMatchingToBookQuestions(string orgNewLine, out Regex regex, out string bookToken)
+        {
+            regex = null;
+            bookToken = null;
+
+            var questionRegexes = new List<Regex>
+            {
+                new Regex(@"^doyouhave(.*)"),
+                new Regex(@"^idlike(.*)"),
+                new Regex(@"^couldyoufind(.*)"),
+                new Regex(@"^ineed(.*)"),
+                new Regex(@"^thecoversays(.*)"),
+            };
+
+            foreach (var questionRegex in questionRegexes)
+            {
+                var match = questionRegex.Match(orgNewLine);
+                if (match.Success)
+                {
+                    regex = questionRegex;
+                    bookToken = match.Groups[1].Value;
+                    return true;
+                }
+            }
+            return false;
         }
     }
 }
