@@ -123,7 +123,7 @@ namespace mi2se_classic_injector.Commands
                 }
             }
 
-            File.WriteAllText("../../../../errors_ui.tsv", errors.ToString());
+            File.WriteAllText("../../../../errors.tsv", errors.ToString());
         }
 
         private bool IsMatchingMoney(string orgNewLine, out int index)
@@ -198,6 +198,7 @@ namespace mi2se_classic_injector.Commands
                 new Regex(@"^couldyoufind(.*)"),
                 new Regex(@"^ineed(.*)"),
                 new Regex(@"^thecoversays(.*)"),
+                new Regex(@"^(.*)hmmmillhavetorememberthat"),
             };
 
             foreach (var questionRegex in questionRegexes)
