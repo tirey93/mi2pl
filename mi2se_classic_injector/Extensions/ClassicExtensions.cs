@@ -5,8 +5,7 @@ namespace mi2se_classic_injector.Extensions
 {
     public static class ClassicExtensions
     {
-        private static readonly Regex _regexClassicMarkup = new Regex(".*\\\\255\\\\[0-9]{3}\\\\[0-9]{3}\\\\[0-9]{3}.*");
-        private static readonly Regex _regexNumber = new Regex(".*[1-9][0-9]*.*");
+        private static readonly Regex _regexClassicMarkup = new Regex("(\\\\255\\\\[0-9]{3}\\\\[0-9]{3}\\\\[0-9]{3})");
 
         public static string[] DivideMergedClassicLines(this string[] lines)
         {
@@ -56,28 +55,50 @@ namespace mi2se_classic_injector.Extensions
 
         public static bool TryGetIndexFromMarkup(this IEnumerable<KeyValuePair<string, int>> markupList, string line, out int index)
         {
-            var numberMatch = _regexNumber.Match(line);
-            if (numberMatch.Success)
-            {
+            line = line.TrimWhiteSpaces();
+            if (TryGetIndexFromNumber(markupList, line, out index))
+                return true;
+            if (TryGetIndexFromVariables(markupList, line, out index))
+                return true;
 
-                
-            }
-
-            index = -1;
             return false;
         }
 
         private static bool TryGetIndexFromNumber(IEnumerable<KeyValuePair<string, int>> markupList, string line, out int index)
         {
+            index = -1;
+            var regexNumber = new Regex("([1-9][0-9]*)");
+            var numberMatch = regexNumber.Match(line);
+            if (!numberMatch.Success)
+                return false;
+
             foreach (var classicLine in markupList)
             {
-                if(_regexClassicMarkup.Replace(classicLine.Key, "") == line)
+                if (_regexClassicMarkup.Replace(classicLine.Key, numberMatch.Value) == line)
                 {
-
+                    index = classicLine.Value;
+                    return true;
                 }
             }
+            return false;
+        }
 
+        private static bool TryGetIndexFromVariables(IEnumerable<KeyValuePair<string, int>> markupList, string line, out int index)
+        {
             index = -1;
+            var regexVariable = new Regex("(\\{.*\\:.*\\})");
+            var variableMatch = regexVariable.Match(line);
+            if (!variableMatch.Success)
+                return false;
+
+            foreach (var classicLine in markupList)
+            {
+                if (_regexClassicMarkup.Replace(classicLine.Key, variableMatch.Value) == line)
+                {
+                    index = classicLine.Value;
+                    return true;
+                }
+            }
             return false;
         }
     }
