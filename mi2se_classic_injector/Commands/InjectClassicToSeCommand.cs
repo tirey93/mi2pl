@@ -50,25 +50,27 @@ namespace mi2se_classic_injector.Commands
                 .DivideMergedClassicLines()
                 .ReplaceClassicLiterals(_literalSettings);
 
-            _classicOrgLines = File.ReadAllLines(_settings.ClassicOrgPath)
+            var classicOrgLines = File.ReadAllLines(_settings.ClassicOrgPath)
                 .DivideMergedClassicLines()
-                .ReplaceClassicLiterals(_literalSettings)
+                .ReplaceClassicLiterals(_literalSettings);
+
+            _classicOrgLines = classicOrgLines
                 .Select((value, index) => new { value = value.TrimNonAlphaNumSpaces(), index })
                 .GroupBy(pair => pair.value)
                 .ToDictionary(pair => pair.Key, pair => pair.FirstOrDefault().index);
 
             var bookTranslations = new Dictionary<string, string>();
             var regexBooks = new Regex("thecoversays(.*)");
-            //foreach (var orgLine in _newOrgLines)
-            //{
-            //    var regexMatch = regexBooks.Match(orgLine);
-            //    var value = regexMatch.Groups[1].Value;
-            //    if (regexMatch.Success && value.Length > 0)
-            //    {
-            //        var classicLine = _classicOrgLines[value];
-            //        bookTranslations.Add(value, _classicPolLines[classicLine]);
-            //    }
-            //}
+            foreach (var orgLine in _newOrgLines)
+            {
+                var regexMatch = regexBooks.Match(orgLine);
+                var value = regexMatch.Groups[1].Value;
+                if (regexMatch.Success && value.Length > 0)
+                {
+                    var classicLine = _classicOrgLines[value];
+                    bookTranslations.Add(value, _classicPolLines[classicLine]);
+                }
+            }
             _bookTranslations = bookTranslations;
         }
 
@@ -77,7 +79,6 @@ namespace mi2se_classic_injector.Commands
             StringBuilder errors = new StringBuilder();
             var classicMarkupOrgLines = _classicOrgLines
                 .Where(x => _regexClassicMarkup.IsMatch(x.Key)).ToList();
-
 
             for (int newIndex = 0; newIndex < _newOrgLines.Length; newIndex++)
             {

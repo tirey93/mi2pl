@@ -58,7 +58,6 @@
 998	Aw, isn't that cute.
 1079	Nice April-fresh scent!
 1090	I'm gonna tear you limb from limb!
-1119	Whoops.
 1153	I... uh... thought it was my room?
 1192	Nice April-fresh scent!
 1312	I'm Guybrush.  You tried to sell me the minutes of a PTA meeting in the last game, claiming it was a map.
@@ -66,17 +65,12 @@
 1378	Give me money for the polish.
 1421	That you should bore passers-by to tears with long stories?
 1453	Pretty please with sugar, nuts, a cherry, and chocolate sprinkles?
-1477	'--squeak--
 1583	What's the problem with that Largo guy?
 1585	How much wood could a woodchuck chuck if a woodchuck could chuck wood?
 1610	But if a woodchuck could chuck and would chuck some amount of wood, what amount of wood would a woodchuck chuck?
 1613	A woodchuck should chuck if a woodchuck could chuck wood, as long as a woodchuck would chuck wood.
-1624	`THE RICKETTS,  no trespassing`
 1625	`Stan's Kozy Krypts-- A Place to Spend Eternity, Not a Fortune.`
-1628	`THE QUAGMYRES, no trespassing`
 1629	`Stan's Casual Crosses:
-1631	`THE GROUTS, no trespassing`
-1653	I don't think I need to see the remains of Jean Louise.
 1657	`Here lies Daredevil \nJim McDow.
 1658	Hand of steel, leg of wood...... \nJim took every risk he could.
 1659	A life of action--that was Jim's.\nToo bad he ran out of limbs.`
@@ -84,7 +78,6 @@
 1661	Jean did whatever he did please, \nUntil he kissed the gunner's daughter.`
 1662	`Marco Largo LaGrande, \nHell on sea or sand.
 1663	The good news is, he's dead. \nThe bad news is, he bred.`
-1790	'--but only if you do me a favor first.
 1830	c/o  LeChuck's Island Getaway & Spa
 1880	`Ash-2-Life
 1883	`Eau d'Mojo
@@ -110,10 +103,8 @@
 2300	Look behind you, a three-headed monkey!
 2308	Am I under arrest?
 2309	I'm really very busy.  Could we do this another time?
-2315	'--oh, excuse me.
 2320	Would you like to hear the story of the time I blew LeChuck's top?
 2335	Such as why there's a wanted poster on the wharf with my picture on it?
-2345	'--excuse me.
 2383	I guess that bounty would buy a lot of bacon grease and pure fat, huh?
 2391	I'll be back!
 2392	I'll be BACK!
@@ -131,7 +122,6 @@
 2557	It's a revolting idea.  I can't think of anything I'd less rather do.
 2564	I am really looking forward to making you eat my catch.
 2574	Think I'll drop a line right here.
-2582	'--er--
 2686	Want to hear a fantastic ghost story?
 2694	Why do you have a model lighthouse here?
 2701	Why do you need a lighthouse?
@@ -351,7 +341,6 @@
 2944	I don't know, what have you got?
 2974	Ummm... twenty-one.
 2975	Errrr... twenty-one.
-3009	Age: 21.
 3056	Says here the Mad Monkey sank at 33 North...
 3057	Says here the Mad Monkey sank at 34 North...
 3058	Says here the Mad Monkey sank at 35 North...
@@ -373,11 +362,7 @@
 3074	...90 West.
 3075	...91 West.
 3076	Says here the Mad Monkey sank at {var:global_100}N, {var:global_483}W.
-3077	`Fascinating Facts About Scurvy`
 3300	Here's an interesting one: the Junior Ultra Soldier Commando Assault Vehicle.
-3312	'-- uh, oh--
-3313	'--booby traps on a place believed to be called Inky Island.
-3353	'--snicker--
 3390	`Zelda Carbuncle Tells All`. Hmmm, I'll have to remember that.
 3391	`Animatronics`. Hmmm, I'll have to remember that.
 3392	`Under the Surface`. Hmmm, I'll have to remember that.
@@ -591,10 +576,8 @@
 3600	Hmmm, I'll have to remember that.
 3601	Hmmm, I'll have to remember that.
 3602	Hmmm, I'll have to remember that.
-3650	Three days and Two nights at Fabulous Hook Island!'
 3656	Could you tell me how the game works again?
 3658	How can you make any profit if that guy keeps winning?
-3677	Lotsa people come to play when we've got a bunch of prizes.
 3681	We have {string:global_44}...
 3683	We have a Free Pass to see The Linguini Brothers Circus...
 3684	We have a Three-Day Vacation on Fabulous Hook Island...
@@ -602,11 +585,6 @@
 3687	We have a Free Pass to see The Linguini Brothers Circus!
 3688	We have a Three-Day Vacation on Fabulous Hook Island!
 3703	I'm pretty tight with cash at the moment...
-3783	I'd like {var:global_268} {string:global_34}.
-3786	I'd like {var:global_268} {string:global_34}.
-3789	I'd like {var:global_268} {string:global_34}.
-3792	I'd like {var:global_268} {string:global_34}.
-3795	I'd like {var:global_268} {string:global_34}.
 3803	1 red
 3804	2 red
 3805	3 red
@@ -673,7 +651,6 @@
 3866	30 black
 3867	31 black
 3868	32 black
-3869	{var:global_268} {string:global_34}.
 3878	You can have a Free Pass to see The Linguini Brothers Circus!
 3879	You can have a Three-Day Vacation on Fabulous Hook Island!
 3880	You can have {string:global_44}!
@@ -752,7 +729,6 @@
 3968	30 black.
 3969	31 black.
 3970	32 black.
-3971	{var:local_1} {string:global_35}.
 3986	1 red.
 3987	2 red.
 3988	3 red.
@@ -819,7 +795,6 @@
 4049	30 black.
 4050	31 black.
 4051	32 black.
-4052	{var:global_269} {string:global_39}.
 4059	...and a Three-Day Vacation on Fabulous Hook Island.
 4060	...and a Free Pass to see The Linguini Brothers Circus.
 4061	...and {string:global_44}.
@@ -889,7 +864,6 @@
 4136	30 black.
 4137	31 black.
 4138	32 black.
-4139	{var:global_269} {string:global_39}.
 4140	1 red it is.
 4141	2 red it is.
 4142	3 red it is.
@@ -1101,7 +1075,6 @@
 4500	That is a nice looking beard.
 4501	One thing's for sure...
 4502	I am never shaving this off.
-4545	I'm selling these fine leather jackets.
 4699	Look behind you, a three-headed monkey!
 4700	I'd love to stay and chat but I'm due at the manicurist's.
 4725	The cover says `Zelda Carbuncle Tells All.`
@@ -1327,7 +1300,6 @@
 5068	Maybe I'll just go up there now.  Bye.
 5070	Maybe I'll go there right now.
 5075	You'd better believe it!
-5080	'--whoops.  Uh...
 5128	I'm ready to head out again.
 5129	I'm ready to set sail!
 5131	Are you the same Kate who bought all the near-grog at the Bloody Lip?
@@ -1389,7 +1361,6 @@
 5740	Can I sell back this pirate hat?
 5758	I want to buy the latest comic book by Steve Purcell.
 5927	`Stan's Kozy Krypts-- A Place to Spend Eternity, Not a Fortune.`
-5946	'-Stans Previously-Owned Coffins.`
 5973	Could you show me that coffin again?
 5974	How much is that coffin?
 5977	Didn't you used to be a used-ship salesman?
@@ -1417,7 +1388,6 @@
 6410	To the salmon pate!
 6411	Pate!
 6412	Pate!
-6661	Hi.  My name's Guybrush.
 6662	Don't I know you from somewhere?
 6663	Where'd you get that drink?
 6668	So, when do we bob for apples?
@@ -1492,7 +1462,6 @@
 7208	But I won't hesitate to drag your entrails from behind my ship...
 7210	Yawn
 7220	If your plan fails...
-7254	That is one huge door.
 7321	Yes, I memorized the whole thing before he took it.
 7327	He's always envied my intellectual look.
 7363	I can't reach the punching bag from here.
@@ -1504,7 +1473,6 @@
 7369	I can't reach the shield from here.
 7370	I can't reach the shield from here.
 7371	I can't reach Wally from here.
-7374	Hahahaha...
 7387	You see that candle over there?
 7401	I will take your bones...
 7420	How much wood would a woodchuck chuck, if a...
@@ -1571,20 +1539,8 @@
 7989	Boy, that look comfy!
 8069	You know, this doll reminds me of the Stretchy Muscleman I had as a kid.
 8070	I wonder what would happen if I tore the leg off this thing?
-8087	'--ghack--
-8092	'--gag--
-8093	'--take my mask off...
 8097	No chance, you'll just rip my lungs out when I get close.
 8098	Leg or no leg, I trust you about as far as I can throw Manhattan.
-8101	'--hack--
-8102	'--my TRUE face!
-8103	'--gurgle--
-8106	'--argh--
-8107	'--the mask!
-8109	'--ack--
-8110	'--dying here!
-8113	'--hack--
-8114	'--mask.
 8119	When our mother told you to hunt me down, did she actually mention KILLING me, or was that your idea?
 8121	Do you really think a truck is more important than your own BROTHER?
 8124	Well, you remember the time you broke my Junior Ultra Soldier Commando Assault Vehicle?
@@ -1598,24 +1554,18 @@
 8213	I don't suppose it's a LucasArts0x99 game...
 8220	Is this going to be anything like `pin the tail on the donkey`?
 8230	I'll do anything, just please don't do that again!
-8314	'-
 8317	0
 8318	0
 8319	0
 8320	0
-8321	'-
 8326	0
 8327	0
-8328	'-
 8329	j
 8330	J
 8331	e
 8332	E
 8333	d
 8334	D
-8335	i
-8336	I
-8338	Remember kids: if you're under 18, ask your parents before calling.
 8396	Deep in the Caribbean \n Scabb Island
 8400	Ron: My name's Ron Gilbert and I did pretty much everything on this game. I did all the art, the music, programming and the writing.
 8401	Tim: So typical.0x0ADave: I'm Dave Grossman; I helped Ron do everything on this game.
