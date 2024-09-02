@@ -66,7 +66,7 @@ namespace mi2se_classic_injector.Extensions
 
         public static bool TryGetIndexFromMarkup(this IEnumerable<KeyValuePair<string, int>> markupList, string line, out int index)
         {
-            line = line.TrimNonAlphaNumSpaces();
+            line = line.TrimNonAlphaNumSpaces(false);
             if (TryGetIndexFromNumber(markupList, line, out index))
                 return true;
             if (TryGetIndexFromVariables(markupList, line, out index))

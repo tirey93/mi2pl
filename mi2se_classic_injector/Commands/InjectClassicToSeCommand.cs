@@ -22,6 +22,7 @@ namespace mi2se_classic_injector.Commands
         private readonly Regex _regexClassicMarkup = new Regex(@"(\\255\\[0-9]{3}\\[0-9]{3}\\[0-9]{3})");
 
         public bool HasErrors { get; set; }
+        public bool IsUi { get; set; }
 
         public InjectClassicToSeCommand(IOptions<MainSettings> options, IOptions<LiteralSettings> options1)
         {
@@ -43,9 +44,10 @@ namespace mi2se_classic_injector.Commands
                 return;
             }
 
+            IsUi = !_settings.NewOrgPath.Contains("speech");
             _newOrgLinesNoChange = File.ReadAllLines(_settings.NewOrgPath).ToArray();
             _newOrgLines = File.ReadAllLines(_settings.NewOrgPath)
-                .Select(x => x.TrimNonAlphaNumSpaces()).ToArray();
+                .Select(x => x.TrimNonAlphaNumSpaces(IsUi)).ToArray();
 
             _classicPolLines = File.ReadAllLines(_settings.ClassicPolPath)
                 .DivideMergedClassicLines()
@@ -57,7 +59,7 @@ namespace mi2se_classic_injector.Commands
             //File.WriteAllLines("engTokens", classicOrgLines.Select(x => x.TrimNonAlphaNumSpaces()));
 
             _classicOrgLines = classicOrgLines
-                .Select((value, index) => new { value = value.TrimNonAlphaNumSpaces(), index })
+                .Select((value, index) => new { value = value.TrimNonAlphaNumSpaces(IsUi), index })
                 .GroupBy(pair => pair.value)
                 .ToDictionary(pair => pair.Key, pair => pair.FirstOrDefault().index);
             _classicMarkupOrgLines = _classicOrgLines
@@ -103,21 +105,15 @@ namespace mi2se_classic_injector.Commands
 
             for (int newIndex = 0; newIndex < _newOrgLines.Length; newIndex++)
             {
-                if (newIndex == 1045)
+                if (newIndex == 768)
                 {
                 }
                 var isError = false;
                 var orgNewLineNotSplitted = _newOrgLines[newIndex];
-                var orgNewLineSplitted = orgNewLineNotSplitted.Split("\\n");
-                if (orgNewLineSplitted.Length > 3)
+                if (((newIndex > 709 && newIndex < 950) || (newIndex > 1025 && newIndex < 1267)) 
+                    && orgNewLineNotSplitted.Contains("`"))
                 {
-                    var orgNewSplitted = string.Empty;
-                    var title = string.Join("\\n", [orgNewLineSplitted[1], orgNewLineSplitted[2]]).Replace("\\n", "");
-                    orgNewSplitted = orgNewLineSplitted[0] + "\\n" + title;
-                    for (int i = 3; i < orgNewLineSplitted.Length; i++)
-                    {
-                        orgNewSplitted += "\\n" + orgNewLineSplitted[i];
-                    }
+                    string orgNewSplitted = ExtractTitle(orgNewLineNotSplitted);
 
                     foreach (var orgNewLine in orgNewSplitted.Split("\\n"))
                     {
@@ -134,7 +130,7 @@ namespace mi2se_classic_injector.Commands
                 }
                 else
                 {
-                    foreach (var orgNewLine in orgNewLineSplitted)
+                    foreach (var orgNewLine in orgNewLineNotSplitted.Split("\\n"))
                     {
                         if (_classicOrgLines.TryGetValue(orgNewLine, out var index)
                                             || _classicMarkupOrgLines.TryGetIndexFromMarkup(orgNewLine, out index))
@@ -206,6 +202,21 @@ namespace mi2se_classic_injector.Commands
             File.WriteAllText("../../../../errors.tsv", errors.ToString());
         }
 
+        private static string ExtractTitle(string orgNewLine)
+        {
+            var orgNewLineSplitted = orgNewLine.Split("`");
+
+            var orgNewSplitted = string.Empty;
+            var type = orgNewLineSplitted[0];
+            var title = orgNewLineSplitted[1];
+            var author = string.Empty;
+            if(orgNewLineSplitted.Length > 2)
+                author = orgNewLineSplitted[2];
+
+
+            return type.Replace("\\n", "") + "\\n" + title.Replace("\\n", "") + "\\n" + author.Replace("\\n", "");
+        }
+
         private bool IsMatchingForbidden(string orgNewLine, out int index)
         {
             index = -1;
@@ -213,7 +224,7 @@ namespace mi2se_classic_injector.Commands
                 return false;
             foreach (var item in _literalSettings.ForbiddenLiterals)
             {
-                var regexBuy = new Regex($@"wecantgotheremonthatstheforbidden{item.TrimNonAlphaNumSpaces()}");
+                var regexBuy = new Regex($@"wecantgotheremonthatstheforbidden{item.TrimNonAlphaNumSpaces(IsUi)}");
                 if (regexBuy.IsMatch(orgNewLine))
                 {
                     index = 7461;
@@ -232,14 +243,14 @@ namespace mi2se_classic_injector.Commands
                 return false;
             foreach (var item in _literalSettings.BuyingLiterals)
             {
-                var regexBuy = new Regex($"idliketobuyth.*{item.TrimNonAlphaNumSpaces()}");
+                var regexBuy = new Regex($"idliketobuyth.*{item.TrimNonAlphaNumSpaces(IsUi)}");
                 if (regexBuy.IsMatch(orgNewLine))
                 {
                     index = 5465;
                     return true;
 
                 }
-                var regexSell = new Regex($"canisellbackth.*{item.TrimNonAlphaNumSpaces()}");
+                var regexSell = new Regex($"canisellbackth.*{item.TrimNonAlphaNumSpaces(IsUi)}");
                 if (regexSell.IsMatch(orgNewLine))
                 {
                     index = 5534;
