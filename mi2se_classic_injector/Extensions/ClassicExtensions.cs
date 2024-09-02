@@ -66,7 +66,6 @@ namespace mi2se_classic_injector.Extensions
 
         public static bool TryGetIndexFromMarkup(this IEnumerable<KeyValuePair<string, int>> markupList, string line, out int index)
         {
-            line = line.TrimNonAlphaNumSpaces(false);
             if (TryGetIndexFromNumber(markupList, line, out index))
                 return true;
             if (TryGetIndexFromVariables(markupList, line, out index))
@@ -74,7 +73,7 @@ namespace mi2se_classic_injector.Extensions
 
             return false;
         }
-        private static bool TryGetIndexFromNumber(IEnumerable<KeyValuePair<string, int>> markupList, string line, out int index)
+        public static bool TryGetIndexFromNumber(this IEnumerable<KeyValuePair<string, int>> markupList, string line, out int index)
         {
             index = -1;
             var regexNumber = new Regex("([1-9][0-9]*)");
@@ -82,6 +81,7 @@ namespace mi2se_classic_injector.Extensions
             if (!numberMatch.Success)
                 return false;
 
+            line = line.TrimNonAlphaNumSpaces(false);
             foreach (var classicLine in markupList)
             {
                 if (_regexClassicMarkup.Replace(classicLine.Key, numberMatch.Value) == line)
@@ -93,7 +93,7 @@ namespace mi2se_classic_injector.Extensions
             return false;
         }
 
-        private static bool TryGetIndexFromVariables(IEnumerable<KeyValuePair<string, int>> markupList, string line, out int index)
+        public static bool TryGetIndexFromVariables(this IEnumerable<KeyValuePair<string, int>> markupList, string line, out int index)
         {
             index = -1;
             var regexVariable = new Regex(@"(\{.*\:.*\})");
@@ -101,6 +101,7 @@ namespace mi2se_classic_injector.Extensions
             if (!variableMatch.Success)
                 return false;
 
+            line = line.TrimNonAlphaNumSpaces(false);
             foreach (var classicLine in markupList)
             {
                 if (_regexClassicMarkup.Replace(classicLine.Key, variableMatch.Value) == line)

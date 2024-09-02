@@ -14,6 +14,7 @@ namespace mi2se_classic_injector.Commands
         private readonly MainSettings _settings;
         private readonly LiteralSettings _literalSettings;
         private readonly string[] _newOrgLines;
+        private readonly string[] _newPolLines;
         private readonly string[] _newOrgLinesNoChange;
         private readonly Dictionary<string, int> _classicOrgLines;
         private readonly List<KeyValuePair<string, int>> _classicMarkupOrgLines;
@@ -36,6 +37,8 @@ namespace mi2se_classic_injector.Commands
                 errors += "Error: ClassicOrgPath was not found in given path\n";
             if (!File.Exists(_settings.ClassicPolPath))
                 errors += "Error: ClassicPolPath was not found in given path\n";
+            if (!File.Exists(_settings.NewPolPath))
+                errors += "Error: NewPolPath was not found in given path\n";
             if (!string.IsNullOrEmpty(errors))
             {
                 Console.WriteLine(errors);
@@ -46,6 +49,7 @@ namespace mi2se_classic_injector.Commands
 
             IsUi = !_settings.NewOrgPath.Contains("speech");
             _newOrgLinesNoChange = File.ReadAllLines(_settings.NewOrgPath).ToArray();
+            _newPolLines = File.ReadAllLines(_settings.NewPolPath);
             _newOrgLines = File.ReadAllLines(_settings.NewOrgPath)
                 .Select(x => x.TrimNonAlphaNumSpaces(IsUi)).ToArray();
 
@@ -102,6 +106,7 @@ namespace mi2se_classic_injector.Commands
         private void ExecuteForUi()
         {
             StringBuilder errors = new StringBuilder();
+            StringBuilder result = new StringBuilder();
 
             for (int newIndex = 0; newIndex < _newOrgLines.Length; newIndex++)
             {
@@ -117,8 +122,7 @@ namespace mi2se_classic_injector.Commands
 
                     foreach (var orgNewLine in orgNewSplitted.Split("\\n"))
                     {
-                        if (_classicOrgLines.TryGetValue(orgNewLine, out var index)
-                                            || _classicMarkupOrgLines.TryGetIndexFromMarkup(orgNewLine, out index))
+                        if (_classicOrgLines.TryGetValue(orgNewLine, out var index))
                         {
                             var res = _classicPolLines[index];
                         }
@@ -132,8 +136,7 @@ namespace mi2se_classic_injector.Commands
                 {
                     foreach (var orgNewLine in orgNewLineNotSplitted.Split("\\n"))
                     {
-                        if (_classicOrgLines.TryGetValue(orgNewLine, out var index)
-                                            || _classicMarkupOrgLines.TryGetIndexFromMarkup(orgNewLine, out index))
+                        if (_classicOrgLines.TryGetValue(orgNewLine, out var index))
                         {
                             var res = _classicPolLines[index];
                         }
@@ -151,12 +154,14 @@ namespace mi2se_classic_injector.Commands
                 }
             }
             File.WriteAllText("../../../../errors_ui.tsv", errors.ToString());
+            File.WriteAllText("result_ui.txt", result.ToString());
 
         }
 
         private void ExecuteForSpeech()
         {
             StringBuilder errors = new StringBuilder();
+            StringBuilder result = new StringBuilder();
 
             for (int newIndex = 0; newIndex < _newOrgLines.Length; newIndex++)
             {
@@ -165,10 +170,17 @@ namespace mi2se_classic_injector.Commands
                 }
                 var orgNewLine = _newOrgLines[newIndex];
 
-                if (_classicOrgLines.TryGetValue(orgNewLine, out var index)
-                                        || _classicMarkupOrgLines.TryGetIndexFromMarkup(orgNewLine, out index))
+                if (_classicOrgLines.TryGetValue(orgNewLine, out var index))
                 {
                     var res = _classicPolLines[index];
+                }
+                else if(_classicMarkupOrgLines.TryGetIndexFromNumber(orgNewLine, out index))
+                {
+
+                }
+                else if(_classicMarkupOrgLines.TryGetIndexFromVariables(orgNewLine, out index))
+                {
+
                 }
                 else if (IsMatchingToBookQuestions(orgNewLine, out var regex, out var bookToken)
                     && !orgNewLine.Contains("idliketobuy")//hack for now
@@ -200,6 +212,7 @@ namespace mi2se_classic_injector.Commands
             }
 
             File.WriteAllText("../../../../errors.tsv", errors.ToString());
+            File.WriteAllText("result_speech.txt", result.ToString());
         }
 
         private static string ExtractTitle(string orgNewLine)
