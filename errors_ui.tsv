@@ -151,6 +151,10 @@
 177	SETTINGS
 178	Buy Full Game
 179	Buy Full Game
+181	%namount-of-money% pieces o' eight
+182	%namount-of-money% pieces o' eight and %nnumber-of-coins% dimes
+183	%namount-of-money% pieces o' eight and a dime
+184	%nnumber-of-coins% dimes
 191	`The Jolly Rasta`
 192	1/%ntimes-drunk-near-grog% bottle o' near-grog
 193	2 pieces of eight
@@ -181,6 +185,7 @@
 498	oozing lizard tails
 507	pancreas o' porcupine
 520	picture
+522	piece o' eight and %nnumber-of-coins% dimes
 531	pit
 536	porthole
 537	Possible Hidden Treasure
@@ -229,242 +234,81 @@
 709	Press
 710	for audio commentary
 711	Adult Entertainment \n`Zelda Carbuncle Tells All` \nMemoirs of a woman of \ndubious pleasure.
-712	Animatronics \n`Animatronics` \nby Walt Whimsy
-713	Animatronics \n`Under the Surface` \nby Walt Whimsy
-714	Annotation \nSee Footnoting
-715	Archaeology \n`X Never Marks the Spot` \nby I. Jones
-716	Art \n`Vagueness as an Art Form` \n
-717	Art/Philosophy \n`Idealism or Surrealism?` \nPhilosophy/art textbook.
-718	Beverages \n`Beverages for Everyone` \n
-719	Big Whoop \nSee: Treasure
-720	Biography \n`Both Hands Empty` \nThe Herman Toothrot story.
-721	Biography \n`Both Hands Moving` \nThe Stan story.
-722	Biography \n`Both Heads Empty` \nThe Fettucini Brothers story.
 723	Biography \n`A Fistful of Barnacles` \nJournal of \nCaptain Twiddlymore.
-724	Biography \n`Lick the Silver Spoon` \nby L. Phatt
-725	Biography \n`Me and Blackbeard`
 726	Biography \n`The Time \nI Blew Up LeChuck` \nQuestionable memoirs \nof Guybrush Threepwood
-727	Biography \n`Yikes!` \nMemoirs of Captain Gilbert
-728	Body \n`Unusual Birthmarks` \n
-729	Breakfast \n`Breakfast at Meathook's`
-730	Business \n`How to Make Friends \nand Influence People` \nby Bluebeard
-731	Cannibalism  \n`How to Serve \nYour Fellow Man` \nby Lemonhead
-732	Cannibalism \nSee Also:  Self-Help
-733	Catalogs \nSee Subheadings
-734	Cheese \n`Guide to Cheeses of the World` \nReference
 735	Children's Books  \n`The Sinister Beast \nUnder the Bed`
 736	Children's Books \n`Treasury of \nPirate Children's Stories`
-737	Circuses \n`Alfredo and Bill's \nExcellent Adventure` \nFiction
 738	Circuses \n`Damn the Human Torpedo` \nThe origin of the human \ncannonball trick.
-739	Classics  \n`Great Expectorations` \nby Captain Loogie
 740	Collectables \n`Junk, Junk, and \nMore Junk` \nA guide to collectable \nmemorabilia.
-741	Cooking \n`Noteworthy Pirate Foods`
 742	Cooking \n`Viscous Fluids You Can \nMake at Home`
 743	Crafts \n`Crochet Eyepatches \nfor Fun and Profit`
-744	Cross-Reference \nSee Referential Obscurantism
 745	Cryptography \n`The Code in My Nose` \nUnique message drops \nthrough history.
-746	Dewey Decimal System \nSee Organizational Schema
 747	Disaster \n`Great Shipwrecks \nof Our Century` \nFrom the Lime-Life \nDisaster series.
 748	Disease \n`Fascinating Facts \nAbout Scurvy`
-749	Disease \n`Shipboard Diseases`
-750	Dogs \n`Dog English Dictionary` \nReference
-751	Education \n`Preparing for the \nPirate Aptitude Test` \nby S. Karpman
-752	Entertainment \n`Quiet on the Set`
-753	Entomology \n`Tomato Worms` \nAn owner's manual.
-754	Etymology \n`Origins of Pirate Words`
-755	Eyesight \nSee: Vision
-756	Farthington Dynasty \nSee: Games
 757	Fashion \n`Summer Swashbuckling \nFashions` \nThree years of the \npopular periodical
-758	Fiction \n`E Ticket`
-759	Fiction \n`Five More Than I Needed`
-760	Fiction \n`Hedgehog Days`
-761	Fiction \n`Not So Much \nas a Doubloon` \nAn anthology of short fiction
-762	Fiction \n`Very Very Short Stories`
-763	Finance \n`Easy Ways to Make Money`
 764	Fish \n`Big Book of Fish` \nIllustrated guide to \nfish of the world.
 765	Fishing \n`Limpet Fishing: \nThe Lost Art`
-766	Food \n`I Married A Muenster` \nby S. Cheese
-767	Food \n`Life-Size and Larger`
-768	Food \n`Rats as a Protein Source`
 769	Food Also \nSee: Cannibalism
-770	Footnoting \nSee Vicious Pedantry
-771	Games \n`Hal Barwood on Monkey 2` \nA critical review.
-772	Games \n`Fan-Tan Fanatic` \nby Elroy T. Funbun
 773	Games \n`Kings of Shuffleboard` \nAn account of the \nFarthington Dynasty.
-774	Genealogy \n`My Mother the Cart` \nStrange but true tales.
-775	Genetics \n`How to Make a Jackalope`
 776	Geometry \n`Properties of the Elliptic \nHyperboloid`
-777	Ghost Pirate LeChuck \n`When I Blew Up LeChuck` \nOne of Threepwood's worst.
-778	Ghost Pirate LeChuck \n`Where I Blew Up LeChuck` \nOne of Threepwood's worst.
-779	Ghost Pirate LeChuck \n`Why I Blew Up LeChuck` \nOne of Threepwood's worst.
 780	Godiva, Lady \n`The Shirt Off My Back` \nBiography, \nSee also Adult Entertainment
 781	Grave Robbing \n`Popular Punishments for \nGrave Robbers`
 782	Grog, Addiction to \n`I Am Blackbeard's Liver` \nThe Horrifying True Story \nof a Confessed Grogaholic
-783	Groupings \nSee Catalogs
-784	Headings \nSee Cross-Reference
 785	History \n`Careful With \nThose Cannonballs!` \nLegend of the \nGlass-Bottomed Armada
-786	History \nSee Also: Scabb Island
-787	Hogwash \n`Rememberance of Molly`
-788	Humor \n`Bad Puns For Bad Pirates` \nby N. Falstein
-789	Humor \n`Dumb Pirate Jokes`
 790	Humor, Gallows \n`So You're Going \nTo Be Executed...` \nDozens of things to say \non the chopping block.
 791	Ice Cream \n`Pirates' Favorite \nIce Cream Flavors`
-792	Idols \n`Tikis of the South Pacific` \nReference
 793	Igloos \n`Igloo Construction \nMade Easy`
-794	Imaginary Numbers \n`The New Tax Laws` \nLight fiction.
-795	Indexes \nSee Indices
 796	Indian Burns \n`How to Give \nGreat Indian Burns`
-797	Indices \nSee Titles
-798	Inferiority \n`The Complex Complex`
-799	Internal Revenue Service \nSee Imaginary Numbers.
-800	Jackalope \nSee Genetics
 801	Jelly \n`The Story of Jelly`
-802	Jellyfish \n`Our Spineless Cousins`
 803	Justice \n`Kangaroo Court` \nCritique of the modern \njudicial system.
 804	Juvenile Behavior \n`Cow-Tipping Enthusiast` \nCollected essays on \nform and style.
-805	Karate \nSee Martial Arts
-806	Karma \n`My Karma Just Ran Over \nYour Dogma` \nsee also: Philosophy
 807	Keelhauling \n`Keelhauling: Methodology \nand Practice`
-808	Ketchup \nSee Vegetables
-809	Kidneys \n`The Little Organ \nThat Could` \nPop-up book of kidney functions.
-810	Kleptomania \n`Kleptomania`
-811	Labyrinths \nSee Zip Codes
 812	Language \n`Hip Lingo for Pirates` \nA dictionary of modern \nslang terms.
 813	Lice \n`Louse Ranching For \nFun and Profit`
-814	Lunch \n`Afternoon at Meathook's`
 815	Lyrics \n`Rock and Raunch` \nBanned record albums \nof the past decade.
-816	Magic \nSee Voodoo
-817	Manatees \n`Damp Damsels of the Deep`
-818	Manatees \n`The Sailor and the Sea Cow` \n-- A Fable
 819	Martial Arts \n`Theory and Practice of \nBone Breakage`
-820	Mathematics \n`Cubic Lemniscate Formulas`
-821	Maze Construction \nSee Annotation
 822	Military \n`The Steath Sailer: \nWhy It Won't Sail`
-823	Money \n`Make Easy Money at Home`
 824	Music \n`Elvis Lives` \nPredictions of future music \nby Nottruedamus
 825	Music \n`Greatest Rock Musicians \nof the Renaissance`
-826	Music \n`Volume First`
-827	Music \n`World's Worst Pirate Songs`
-828	Music \n`Xylophone For Beginners`
 829	Mystery \n`How Much Wood?` \nFrom the \nwoodchuck mystery series.
 830	Narcissism \n`Feeling Good \nAbout Narcissism`
-831	Narcolepsy \n`Confessions of a Narcoleptic`
 832	New Age \n`Dynanetics \nby L. Ron Gilbert`
 833	Night \n`Sounds From \nUnder the Bed`
-834	Normality \n`A White Picket Fence` \nSociological study.
 835	Noses \n`Honk If You Have To` \nColds, allergies, \nand other ailments.
-836	Nostalgia \n`Soda Fountains of My Youth` \nby Ponce de Leon
-837	Numerology \n`Numerology for Beginners`
-838	Nylon \n`Use of Nylon by Pirates`
-839	Obesity \n`More of Me to Love` \nBy L. Phatt
-840	Okra \n`Favorite Gumbo Recipes` \nSee also Food.
 841	Olives \n`Scourge of the Pizza` \nExamination of forced \nolive consumption.
-842	Optimism \n`There's Always A Rainbow`
-843	Orangutans \n`Our Hairy Cousins` \n
-844	Organizational Schema \nSee Labyrinths
-845	Origami \n`Paper Buffalo` \nAdvanced origami designs.
 846	Orthopedics \n`Hear the Sound of \nMy Feet Talking`
-847	Philosophy \n`Deliberance` \nA philosophical treatise.
-848	Philosophy \n`Rastafarian Philosophy`
 849	Pillaging \n`All about Pillaging` \nFrom the popular \nHow-To series.
 850	Pillaging \n`Masters of Pillaging` \nInterviews with \nsome of the best.
-851	Piracy \n`Pirating Primer` \nFor the novice pirate.
-852	Poetry \n`Three Sheets to the Wind` \nPoetry by pirates.
-853	Quotations \n`Famous Pirate Quotations`
-854	Ranching \nSee Lice
-855	Recursion \nSee Recursion
-856	Recipes, Voodoo \n`The Joy of Hex` \n101 essential voodoo recipes.
-857	Referential Obscurantism \nSee Groupings
-858	Romance \n`Amour's Agonizing Adieu` \nby Melanie Leary
 859	Romance \n`Desire's \nDistasteful \nDenouement` \nby Melanie Leary
-860	Romance \n`Fascination's Final Frenzy` \nby Melanie Leary
-861	Romance \n`Love's Lingering Lassitude` \nby Melanie Leary
 862	Romance \n`Next To Nothing` \nby E. Marley, \nan account of her time with \nGuybrush Threepwood.
-863	Romance  \n`Passion's Persistent Presence` \nby Melanie Leary
-864	Romance \n`Romance's \nWretched Residue` \nby Melanie Leary
-865	Romance \n`Sin's Sordid Swan Song` \nby Melanie Leary
-866	Romance \n`Yearning's \nYellowing Yesterdays` \nby Melanie Leary
 867	Sailing \n`If I Only \nHad A Drain` \nPerils of showering \naboard ship.
-868	Sailing \n`Safe Sailing`
 869	Salmon \n`Lox and Locks` \nModern problems \nfacing salmon.
-870	Scabb Island \n`Scabb Island History` \nAn Introduction
 871	Self-Help \n`Pirates Who \nLove Too Much`
 872	Self-Help \n`Not Eating People \nand Feeling Good About It` \nConfessions of \nan Ex-Cannibal
-873	Sharks \n`Killers of the Deep` \nA study of Caribbean sharks.
-874	Shipbuilding \n`Modern Shipbuilding` \nby G. Steele
-875	Shipwrecks \nSee: Disaster
-876	Sin \n`The Hidden Sins of Calculus`
-877	Sin \n`Top Seven Deadly Sins`
-878	Slang, Pirate \n`Shiver Me Timbers` \nSee also: Language
-879	Sociology \n`Social Darwinism and \nSocial Disease` \nComparative social theory.
-880	Solitaire \n`A Million and One Ways \nto Play Solitaire` \nby Herman Toothrot
-881	Spiritual \n`Gift of the Lizard People`
-882	Spiritual \n`Over the Crow's Nest`
 883	Stupidity \n`Walk Thru Walls: \nThe Intelligence Avoider` \nAn analysis of the system, \npat pending.
-884	Subheadings \nSee Maze Construction
 885	Subtraction \n`Subtraction: Addition's \nTricky Partner`
-886	Surgery \n`Operating Without A Net` \nTechniques for safe surgery.
-887	Tattoos \n`Why Chicks Dig Tattoos`
 888	Tattoos \n`Tattoo-Related \nSkin Infections`
 889	Tattoos \n`A Child's First \nBook of Tattoos`
-890	Tea \n`Tea Party Massacre` \nby Louisa de la Cruz
 891	Theater \n`Beyond Hearts \nand Question Marks` \nShadow Puppetry for the \nTwo-Hook Pirate
-892	Three-Headed Monkey \n`The Pride of Loch Ness`
-893	Titles \nSee Headings
-894	Toast \n`Thirty Things That Taste \nTerrific On Toast` \n
-895	Toenails \n`Modern Toenail Collector` \nPeriodical compendium.
-896	Toys \n`Collectable Toy Trucks`
 897	Travel \n`The Caribbean on \nNo Dollars \nA Day` \nA pirate handbook.
 898	Treasure \n`Big Whoop: \nUnclaimed Bonanza \nor Myth?`
 899	Tree Surgery \n`Anaesthetics For \nDeciduous Trees`
-900	Trilogies \n`Why People Shouldn't \nWrite Trilogies` \nby Simon Finkleberth
-901	Trilogies \n`Why People Won't \nRead Trilogies` \nby Simon Finkleberth
-902	Trilogies \n`Why People Write \nTrilogies Anyway` \nby Simon Finkleberth
 903	Tripe \n`Dessert Recipes \nfor Tripe Lovers`
 904	Ulcers \n`Why You Shouldn't Worry \nAbout Ulcers`
 905	Umbrellas \n`Giant Umbrellas and \nOther Bits of Art`
 906	Underwear \n`Wedgies: Harmless Fun Or \nSadistic Torture?`
-907	Vegetables \n`Vegetables Children Will Eat`
-908	Vicarious Living \n`Popular Spectator Sports`
-909	Vices \n`101 Vices` \nby J.P. Ampleform
-910	Vicious Pedantry \nSee Dewey Decimal System
 911	Violins \n`Thirty Non-Musical Uses \nFor Your Violin`
 912	Viruses \n`Things You Can Catch By \nReading a Library Book`
-913	Vision \n`Patches`
-914	Volcanoes \n`Warm All Year Round` \nReal estate handbook.
-915	Voodoo \nSee: Recipes, Voodoo
 916	Vulgarity \n`Gross Things to \nSay at Parties`
 917	Waiting \n`Is It Soup Yet?` \nA jillion things to do while \nwaiting in line.
 918	Wallpaper \n`Anywhere But My Room` \nDesigns featuring cute \ncartoon characters.
-919	Wallpaper \n`Impact of Yellow on \nSmall Children` \nPsychological study.
 920	Wallpaper \n`Living in Lime` \nOne thousand \nlime green designs.
-921	Waltzes \n`Dancing On Three Legs`
-922	Warthogs \n`The Misunderstood Pet`
-923	Wealth \n`Opulence as a Social Art` \nby L. Phatt
-924	Wild Animals \n`Meet Mr. Tiger` \nPop-up book.
-925	Wine \n`Sniffing the Cork` \nHow-to for the wine snob.
-926	Woodworking \n`Out On a Plank`
-927	Xanthippe \n`Life Cycle of the Shrew`
 928	Xenophobia \n`Hey You Kids, Get Off \nMy Lawn`
-929	Xylophone \nSee: Music
 930	Yacht Clubs \n`Pirate's Guide to Caribbean \nYacht Clubs`
-931	Yachting \n`All You Need is the Cap` \nYachting on land.
 932	Yaks \n`The Yak is Slow But \nthe Earth Is Patient`
 933	Yawning \n`The Yearn to Yawn` \nPsychological study \nof yawn envy.
-934	Yeti \n`Interview With A Snowman`
-935	Yiddish \n`Feh, and Other Useful Terms` \nReference.
 936	Yodeling \n`Yodeling from the Top \nof the Lungs` \nA study of yodeling as \nan offensive weapon.
-937	Yorkshire Pudding \n`Not Quite Really Pudding` \nArticles and recipes.
-938	Yo-yos \n`At the End of the Rope` \nYo-yo politics.
-939	Yo-yos \n`Bouncing and Behaving` \nIntermediate yo-yo tricks.
-940	Yo-yos \n`Spinning at the \nEnd of a String` \nYo-yo philosophy.
-941	Zinjanthropus \n`Pirates of the Pleistocene`
-942	Zip Codes \nSee Indexes
-943	Zippers \n`Zipper Theory`
-944	Zirconium \n`The Most Beautiful Element`
-945	Zoology \n`Just one of the Primates`
 946	Zoology \n`Zoo Animals More \nIntelligent Than Humans`
-947	Mountains \n`The Majesty of the Sierras`
 948	Obscenity \n`&$*#!` \nSymbolic equivalents \nof obscene words \nand phrases.
 949	Noises \n`A Definitive Guide to \nCartoon Noises`
 950	Noogies \n`How to Give \nGreat Noogies`
@@ -524,7 +368,9 @@
 1011	Apply
 1012	SAVING CONTENT
 1013	Online service is disabled on your PlayStation®Network account due to parental control restrictions.
+1014	dimes
 1015	and a dime
+1016	and
 1018	N
 1019	S
 1020	E
@@ -534,242 +380,81 @@
 1024	A network error has occurred. Returning to the main menu.
 1025	Settings
 1026	Adult Entertainment \n`Zelda Carbuncle Tells All` \nMemoirs of a woman of \ndubious pleasure.
-1027	Animatronics \n`Animatronics` \nby Walt Whimsy
-1028	Animatronics \n`Under the Surface` \nby Walt Whimsy
-1029	Annotation \nSee Footnoting
-1030	Archaeology \n`X Never Marks the Spot` \nby I. Jones
-1031	Art \n`Vagueness as an Art Form` \n
-1032	Art/Philosophy \n`Idealism or Surrealism?` \nPhilosophy/art textbook.
-1033	Beverages \n`Beverages for Everyone` \n
-1034	Big Whoop \nSee: Treasure
-1035	Biography \n`Both Hands Empty` \nThe Herman Toothrot story.
-1036	Biography \n`Both Hands Moving` \nThe Stan story.
-1037	Biography \n`Both Heads Empty` \nThe Fettucini Brothers story.
 1038	Biography \n`A Fistful of Barnacles` \nJournal of \nCaptain Twiddlymore.
-1039	Biography \n`Lick the Silver Spoon` \nby L. Phatt
-1040	Biography \n`Me and Blackbeard`
 1041	Biography \n`The Time \nI Blew Up LeChuck` \nQuestionable memoirs \nof Guybrush Threepwood
-1042	Biography \n`Yikes!` \nMemoirs of Captain Gilbert
-1043	Body \n`Unusual Birthmarks` \n
-1044	Breakfast \n`Breakfast at Meathook's`
-1045	Business \n`How to Make Friends \nand Influence People` \nby Bluebeard
-1046	Cannibalism  \n`How to Serve \nYour Fellow Man` \nby Lemonhead
-1047	Cannibalism \nSee Also:  Self-Help
-1048	Catalogs \nSee Subheadings
-1049	Cheese \n`Guide to Cheeses of the World` \nReference
 1050	Children's Books  \n`The Sinister Beast \nUnder the Bed`
 1051	Children's Books \n`Treasury of \nPirate Children's Stories`
-1052	Circuses \n`Alfredo and Bill's \nExcellent Adventure` \nFiction
 1053	Circuses \n`Damn the Human Torpedo` \nThe origin of the human \ncannonball trick.
-1054	Classics  \n`Great Expectorations` \nby Captain Loogie
 1055	Collectables \n`Junk, Junk, and \nMore Junk` \nA guide to collectable \nmemorabilia.
-1056	Cooking \n`Noteworthy Pirate Foods`
 1057	Cooking \n`Viscous Fluids You Can \nMake at Home`
 1058	Crafts \n`Crochet Eyepatches \nfor Fun and Profit`
-1059	Cross-Reference \nSee Referential Obscurantism
 1060	Cryptography \n`The Code in My Nose` \nUnique message drops \nthrough history.
-1061	Dewey Decimal System \nSee Organizational Schema
 1062	Disaster \n`Great Shipwrecks \nof Our Century` \nFrom the Lime-Life \nDisaster series.
 1063	Disease \n`Fascinating Facts \nAbout Scurvy`
-1064	Disease \n`Shipboard Diseases`
-1065	Dogs \n`Dog English Dictionary` \nReference
-1066	Education \n`Preparing for the \nPirate Aptitude Test` \nby S. Karpman
-1067	Entertainment \n`Quiet on the Set`
-1068	Entomology \n`Tomato Worms` \nAn owner's manual.
-1069	Etymology \n`Origins of Pirate Words`
-1070	Eyesight \nSee: Vision
-1071	Farthington Dynasty \nSee: Games
 1072	Fashion \n`Summer Swashbuckling \nFashions` \nThree years of the \npopular periodical
-1073	Fiction \n`E Ticket`
-1074	Fiction \n`Five More Than I Needed`
-1075	Fiction \n`Hedgehog Days`
-1076	Fiction \n`Not So Much \nas a Doubloon` \nAn anthology of short fiction
-1077	Fiction \n`Very Very Short Stories`
-1078	Finance \n`Easy Ways to Make Money`
 1079	Fish \n`Big Book of Fish` \nIllustrated guide to \nfish of the world.
 1080	Fishing \n`Limpet Fishing: \nThe Lost Art`
-1081	Food \n`I Married A Muenster` \nby S. Cheese
-1082	Food \n`Life-Size and Larger`
-1083	Food \n`Rats as a Protein Source`
 1084	Food Also \nSee: Cannibalism
-1085	Footnoting \nSee Vicious Pedantry
-1086	Games \n`Hal Barwood on Monkey 2` \nA critical review.
-1087	Games \n`Fan-Tan Fanatic` \nby Elroy T. Funbun
 1088	Games \n`Kings of Shuffleboard` \nAn account of the \nFarthington Dynasty.
-1089	Genealogy \n`My Mother the Cart` \nStrange but true tales.
-1090	Genetics \n`How to Make a Jackalope`
 1091	Geometry \n`Properties of the Elliptic \nHyperboloid`
-1092	Ghost Pirate LeChuck \n`When I Blew Up LeChuck` \nOne of Threepwood's worst.
-1093	Ghost Pirate LeChuck \n`Where I Blew Up LeChuck` \nOne of Threepwood's worst.
-1094	Ghost Pirate LeChuck \n`Why I Blew Up LeChuck` \nOne of Threepwood's worst.
 1095	Godiva, Lady \n`The Shirt Off My Back` \nBiography, \nSee also Adult Entertainment
 1096	Grave Robbing \n`Popular Punishments for \nGrave Robbers`
 1097	Grog, Addiction to \n`I Am Blackbeard's Liver` \nThe Horrifying True Story \nof a Confessed Grogaholic
-1098	Groupings \nSee Catalogs
-1099	Headings \nSee Cross-Reference
 1100	History \n`Careful With \nThose Cannonballs!` \nLegend of the \nGlass-Bottomed Armada
-1101	History \nSee Also: Scabb Island
-1102	Hogwash \n`Rememberance of Molly`
-1103	Humor \n`Bad Puns For Bad Pirates` \nby N. Falstein
-1104	Humor \n`Dumb Pirate Jokes`
 1105	Humor, Gallows \n`So You're Going \nTo Be Executed...` \nDozens of things to say \non the chopping block.
 1106	Ice Cream \n`Pirates' Favorite \nIce Cream Flavors`
-1107	Idols \n`Tikis of the South Pacific` \nReference
 1108	Igloos \n`Igloo Construction \nMade Easy`
-1109	Imaginary Numbers \n`The New Tax Laws` \nLight fiction.
-1110	Indexes \nSee Indices
 1111	Indian Burns \n`How to Give \nGreat Indian Burns`
-1112	Indices \nSee Titles
-1113	Inferiority \n`The Complex Complex`
-1114	Internal Revenue Service \nSee Imaginary Numbers.
-1115	Jackalope \nSee Genetics
 1116	Jelly \n`The Story of Jelly`
-1117	Jellyfish \n`Our Spineless Cousins`
 1118	Justice \n`Kangaroo Court` \nCritique of the modern \njudicial system.
 1119	Juvenile Behavior \n`Cow-Tipping Enthusiast` \nCollected essays on \nform and style.
-1120	Karate \nSee Martial Arts
-1121	Karma \n`My Karma Just Ran Over \nYour Dogma` \nsee also: Philosophy
 1122	Keelhauling \n`Keelhauling: Methodology \nand Practice`
-1123	Ketchup \nSee Vegetables
-1124	Kidneys \n`The Little Organ \nThat Could` \nPop-up book of kidney functions.
-1125	Kleptomania \n`Kleptomania`
-1126	Labyrinths \nSee Zip Codes
 1127	Language \n`Hip Lingo for Pirates` \nA dictionary of modern \nslang terms.
 1128	Lice \n`Louse Ranching For \nFun and Profit`
-1129	Lunch \n`Afternoon at Meathook's`
 1130	Lyrics \n`Rock and Raunch` \nBanned record albums \nof the past decade.
-1131	Magic \nSee Voodoo
-1132	Manatees \n`Damp Damsels of the Deep`
-1133	Manatees \n`The Sailor and the Sea Cow` \n-- A Fable
 1134	Martial Arts \n`Theory and Practice of \nBone Breakage`
-1135	Mathematics \n`Cubic Lemniscate Formulas`
-1136	Maze Construction \nSee Annotation
 1137	Military \n`The Steath Sailer: \nWhy It Won't Sail`
-1138	Money \n`Make Easy Money at Home`
 1139	Music \n`Elvis Lives` \nPredictions of future music \nby Nottruedamus
 1140	Music \n`Greatest Rock Musicians \nof the Renaissance`
-1141	Music \n`Volume First`
-1142	Music \n`World's Worst Pirate Songs`
-1143	Music \n`Xylophone For Beginners`
 1144	Mystery \n`How Much Wood?` \nFrom the \nwoodchuck mystery series.
 1145	Narcissism \n`Feeling Good \nAbout Narcissism`
-1146	Narcolepsy \n`Confessions of a Narcoleptic`
 1147	New Age \n`Dynanetics \nby L. Ron Gilbert`
 1148	Night \n`Sounds From \nUnder the Bed`
-1149	Normality \n`A White Picket Fence` \nSociological study.
 1150	Noses \n`Honk If You Have To` \nColds, allergies, \nand other ailments.
-1151	Nostalgia \n`Soda Fountains of My Youth` \nby Ponce de Leon
-1152	Numerology \n`Numerology for Beginners`
-1153	Nylon \n`Use of Nylon by Pirates`
-1154	Obesity \n`More of Me to Love` \nBy L. Phatt
-1155	Okra \n`Favorite Gumbo Recipes` \nSee also Food.
 1156	Olives \n`Scourge of the Pizza` \nExamination of forced \nolive consumption.
-1157	Optimism \n`There's Always A Rainbow`
-1158	Orangutans \n`Our Hairy Cousins` \n
-1159	Organizational Schema \nSee Labyrinths
-1160	Origami \n`Paper Buffalo` \nAdvanced origami designs.
 1161	Orthopedics \n`Hear the Sound of \nMy Feet Talking`
-1162	Philosophy \n`Deliberance` \nA philosophical treatise.
-1163	Philosophy \n`Rastafarian Philosophy`
 1164	Pillaging \n`All about Pillaging` \nFrom the popular \nHow-To series.
 1165	Pillaging \n`Masters of Pillaging` \nInterviews with \nsome of the best.
-1166	Piracy \n`Pirating Primer` \nFor the novice pirate.
-1167	Poetry \n`Three Sheets to the Wind` \nPoetry by pirates.
-1168	Quotations \n`Famous Pirate Quotations`
-1169	Ranching \nSee Lice
-1170	Recursion \nSee Recursion
-1171	Recipes, Voodoo \n`The Joy of Hex` \n101 essential voodoo recipes.
-1172	Referential Obscurantism \nSee Groupings
-1173	Romance \n`Amour's Agonizing Adieu` \nby Melanie Leary
 1174	Romance \n`Desire's \nDistasteful \nDenouement` \nby Melanie Leary
-1175	Romance \n`Fascination's Final Frenzy` \nby Melanie Leary
-1176	Romance \n`Love's Lingering Lassitude` \nby Melanie Leary
 1177	Romance \n`Next To Nothing` \nby E. Marley, \nan account of her time with \nGuybrush Threepwood.
-1178	Romance  \n`Passion's Persistent Presence` \nby Melanie Leary
-1179	Romance \n`Romance's \nWretched Residue` \nby Melanie Leary
-1180	Romance \n`Sin's Sordid Swan Song` \nby Melanie Leary
-1181	Romance \n`Yearning's \nYellowing Yesterdays` \nby Melanie Leary
 1182	Sailing \n`If I Only \nHad A Drain` \nPerils of showering \naboard ship.
-1183	Sailing \n`Safe Sailing`
 1184	Salmon \n`Lox and Locks` \nModern problems \nfacing salmon.
-1185	Scabb Island \n`Scabb Island History` \nAn Introduction
 1186	Self-Help \n`Pirates Who \nLove Too Much`
 1187	Self-Help \n`Not Eating People \nand Feeling Good About It` \nConfessions of \nan Ex-Cannibal
-1188	Sharks \n`Killers of the Deep` \nA study of Caribbean sharks.
-1189	Shipbuilding \n`Modern Shipbuilding` \nby G. Steele
-1190	Shipwrecks \nSee: Disaster
-1191	Sin \n`The Hidden Sins of Calculus`
-1192	Sin \n`Top Seven Deadly Sins`
-1193	Slang, Pirate \n`Shiver Me Timbers` \nSee also: Language
-1194	Sociology \n`Social Darwinism and \nSocial Disease` \nComparative social theory.
-1195	Solitaire \n`A Million and One Ways \nto Play Solitaire` \nby Herman Toothrot
-1196	Spiritual \n`Gift of the Lizard People`
-1197	Spiritual \n`Over the Crow's Nest`
 1198	Stupidity \n`Walk Thru Walls: \nThe Intelligence Avoider` \nAn analysis of the system, \npat pending.
-1199	Subheadings \nSee Maze Construction
 1200	Subtraction \n`Subtraction: Addition's \nTricky Partner`
-1201	Surgery \n`Operating Without A Net` \nTechniques for safe surgery.
-1202	Tattoos \n`Why Chicks Dig Tattoos`
 1203	Tattoos \n`Tattoo-Related \nSkin Infections`
 1204	Tattoos \n`A Child's First \nBook of Tattoos`
-1205	Tea \n`Tea Party Massacre` \nby Louisa de la Cruz
 1206	Theater \n`Beyond Hearts \nand Question Marks` \nShadow Puppetry for the \nTwo-Hook Pirate
-1207	Three-Headed Monkey \n`The Pride of Loch Ness`
-1208	Titles \nSee Headings
-1209	Toast \n`Thirty Things That Taste \nTerrific On Toast` \n
-1210	Toenails \n`Modern Toenail Collector` \nPeriodical compendium.
-1211	Toys \n`Collectable Toy Trucks`
 1212	Travel \n`The Caribbean on \nNo Dollars \nA Day` \nA pirate handbook.
 1213	Treasure \n`Big Whoop: \nUnclaimed Bonanza \nor Myth?`
 1214	Tree Surgery \n`Anaesthetics For \nDeciduous Trees`
-1215	Trilogies \n`Why People Shouldn't \nWrite Trilogies` \nby Simon Finkleberth
-1216	Trilogies \n`Why People Won't \nRead Trilogies` \nby Simon Finkleberth
-1217	Trilogies \n`Why People Write \nTrilogies Anyway` \nby Simon Finkleberth
 1218	Tripe \n`Dessert Recipes \nfor Tripe Lovers`
 1219	Ulcers \n`Why You Shouldn't Worry \nAbout Ulcers`
 1220	Umbrellas \n`Giant Umbrellas and \nOther Bits of Art`
 1221	Underwear \n`Wedgies: Harmless Fun Or \nSadistic Torture?`
-1222	Vegetables \n`Vegetables Children Will Eat`
-1223	Vicarious Living \n`Popular Spectator Sports`
-1224	Vices \n`101 Vices` \nby J.P. Ampleform
-1225	Vicious Pedantry \nSee Dewey Decimal System
 1226	Violins \n`Thirty Non-Musical Uses \nFor Your Violin`
 1227	Viruses \n`Things You Can Catch By \nReading a Library Book`
-1228	Vision \n`Patches`
-1229	Volcanoes \n`Warm All Year Round` \nReal estate handbook.
-1230	Voodoo \nSee: Recipes, Voodoo
 1231	Vulgarity \n`Gross Things to \nSay at Parties`
 1232	Waiting \n`Is It Soup Yet?` \nA jillion things to do while \nwaiting in line.
 1233	Wallpaper \n`Anywhere But My Room` \nDesigns featuring cute \ncartoon characters.
-1234	Wallpaper \n`Impact of Yellow on \nSmall Children` \nPsychological study.
 1235	Wallpaper \n`Living in Lime` \nOne thousand \nlime green designs.
-1236	Waltzes \n`Dancing On Three Legs`
-1237	Warthogs \n`The Misunderstood Pet`
-1238	Wealth \n`Opulence as a Social Art` \nby L. Phatt
-1239	Wild Animals \n`Meet Mr. Tiger` \nPop-up book.
-1240	Wine \n`Sniffing the Cork` \nHow-to for the wine snob.
-1241	Woodworking \n`Out On a Plank`
-1242	Xanthippe \n`Life Cycle of the Shrew`
 1243	Xenophobia \n`Hey You Kids, Get Off \nMy Lawn`
-1244	Xylophone \nSee: Music
 1245	Yacht Clubs \n`Pirate's Guide to Caribbean \nYacht Clubs`
-1246	Yachting \n`All You Need is the Cap` \nYachting on land.
 1247	Yaks \n`The Yak is Slow But \nthe Earth Is Patient`
 1248	Yawning \n`The Yearn to Yawn` \nPsychological study \nof yawn envy.
-1249	Yeti \n`Interview With A Snowman`
-1250	Yiddish \n`Feh, and Other Useful Terms` \nReference.
 1251	Yodeling \n`Yodeling from the Top \nof the Lungs` \nA study of yodeling as \nan offensive weapon.
-1252	Yorkshire Pudding \n`Not Quite Really Pudding` \nArticles and recipes.
-1253	Yo-yos \n`At the End of the Rope` \nYo-yo politics.
-1254	Yo-yos \n`Bouncing and Behaving` \nIntermediate yo-yo tricks.
-1255	Yo-yos \n`Spinning at the \nEnd of a String` \nYo-yo philosophy.
-1256	Zinjanthropus \n`Pirates of the Pleistocene`
-1257	Zip Codes \nSee Indexes
-1258	Zippers \n`Zipper Theory`
-1259	Zirconium \n`The Most Beautiful Element`
-1260	Zoology \n`Just one of the Primates`
 1261	Zoology \n`Zoo Animals More \nIntelligent Than Humans`
-1262	Mountains \n`The Majesty of the Sierras`
 1263	Obscenity \n`&$*#!` \nSymbolic equivalents \nof obscene words \nand phrases.
 1264	Noises \n`A Definitive Guide to \nCartoon Noises`
 1265	Noogies \n`How to Give \nGreat Noogies`

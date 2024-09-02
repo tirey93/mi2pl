@@ -81,46 +81,118 @@ namespace mi2se_classic_injector.Commands
 
         public void Execute()
         {
-            StringBuilder errors = new StringBuilder();
+            //IsMatchingToBookQuestions("doyouhaveanimatronics", out var r, out var x);
+            if (_settings.NewOrgPath.Contains("speech"))
+            {
+                ExecuteForSpeech();
+            }
+            else if (_settings.NewOrgPath.Contains("ui"))
+            {
+                ExecuteForUi();
+            }
+            else
+            {
+                Console.WriteLine("unknown type of org file");
+            }
 
-            IsMatchingToBookQuestions("doyouhaveanimatronics", out var r, out var x);
+        }
+
+        private void ExecuteForUi()
+        {
+            StringBuilder errors = new StringBuilder();
 
             for (int newIndex = 0; newIndex < _newOrgLines.Length; newIndex++)
             {
-                if(newIndex == 7550)
+                if (newIndex == 1045)
+                {
+                }
+                var isError = false;
+                var orgNewLineNotSplitted = _newOrgLines[newIndex];
+                var orgNewLineSplitted = orgNewLineNotSplitted.Split("\\n");
+                if (orgNewLineSplitted.Length > 3)
+                {
+                    var orgNewSplitted = string.Empty;
+                    var title = string.Join("\\n", [orgNewLineSplitted[1], orgNewLineSplitted[2]]).Replace("\\n", "");
+                    orgNewSplitted = orgNewLineSplitted[0] + "\\n" + title;
+                    for (int i = 3; i < orgNewLineSplitted.Length; i++)
+                    {
+                        orgNewSplitted += "\\n" + orgNewLineSplitted[i];
+                    }
+
+                    foreach (var orgNewLine in orgNewSplitted.Split("\\n"))
+                    {
+                        if (_classicOrgLines.TryGetValue(orgNewLine, out var index)
+                                            || _classicMarkupOrgLines.TryGetIndexFromMarkup(orgNewLine, out index))
+                        {
+                            var res = _classicPolLines[index];
+                        }
+                        else
+                        {
+                            isError = true;
+                        }
+                    }
+                }
+                else
+                {
+                    foreach (var orgNewLine in orgNewLineSplitted)
+                    {
+                        if (_classicOrgLines.TryGetValue(orgNewLine, out var index)
+                                            || _classicMarkupOrgLines.TryGetIndexFromMarkup(orgNewLine, out index))
+                        {
+                            var res = _classicPolLines[index];
+                        }
+                        else
+                        {
+                            isError = true;
+                        }
+                    }
+                }
+                
+                if (isError)
+                {
+                    var message = $"{newIndex + 1}\t{_newOrgLinesNoChange[newIndex]}";
+                    errors.AppendLine(message);
+                }
+            }
+            File.WriteAllText("../../../../errors_ui.tsv", errors.ToString());
+
+        }
+
+        private void ExecuteForSpeech()
+        {
+            StringBuilder errors = new StringBuilder();
+
+            for (int newIndex = 0; newIndex < _newOrgLines.Length; newIndex++)
+            {
+                if (newIndex == 711)
                 {
                 }
                 var orgNewLine = _newOrgLines[newIndex];
-                var noChangeLine = _newOrgLinesNoChange[newIndex];
-                
-                if(_classicOrgLines.TryGetValue(orgNewLine, out var index) 
-                    || _classicMarkupOrgLines.TryGetIndexFromMarkup(orgNewLine, out index))
+
+                if (_classicOrgLines.TryGetValue(orgNewLine, out var index)
+                                        || _classicMarkupOrgLines.TryGetIndexFromMarkup(orgNewLine, out index))
                 {
                     var res = _classicPolLines[index];
                 }
-                else if(IsMatchingToBookQuestions(orgNewLine, out var regex, out var bookToken) 
+                else if (IsMatchingToBookQuestions(orgNewLine, out var regex, out var bookToken)
                     && !orgNewLine.Contains("idliketobuy")//hack for now
                     && newIndex != 7182)//hack for now
                 {
-                    
+
                 }
                 else if (IsMatchingColors(orgNewLine, out regex, out var number))
                 {
-                    
+
                 }
-                else if(IsMatchAfterRemoveMarkup(orgNewLine, out index))
+                else if (IsMatchAfterRemoveMarkup(orgNewLine, out index))
                 {
 
                 }
-                else if(IsMatchingMoney(orgNewLine, out index))
+                else if (IsMatchingBuying(orgNewLine, out index))
                 {
 
                 }
-                else if(IsMatchingBuying(orgNewLine, out index))
-                {
-
-                }
-                else if(IsMatchingForbidden(orgNewLine, out index))
+                else if (IsMatchingForbidden(orgNewLine, out index))
                 {
 
                 }
@@ -175,26 +247,6 @@ namespace mi2se_classic_injector.Commands
                 }
             }
 
-            return false;
-        }
-
-        private bool IsMatchingMoney(string orgNewLine, out int index)
-        {
-            index = -1;
-            
-            if (!orgNewLine.Contains(_literalSettings.DimeMarkup.Split(",")[0]) && !orgNewLine.Contains(_literalSettings.EightMarkup.Split(",")[0]))
-                return false;
-
-            foreach (var line in _classicMarkupOrgLines)
-            {
-                var replacedLine = orgNewLine.Replace(_literalSettings.DimeMarkup.Split(",")[0], _literalSettings.DimeMarkup.Split(",")[1]);
-                replacedLine = replacedLine.Replace(_literalSettings.EightMarkup.Split(",")[0], _literalSettings.EightMarkup.Split(",")[1]);
-                if (line.Key == replacedLine)
-                {
-                    index = line.Value;
-                    return true;
-                }
-            }
             return false;
         }
 
