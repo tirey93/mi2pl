@@ -122,22 +122,22 @@ namespace mi2se_classic_injector.Commands
 
                 if (_classicOrgLines.TryGetValue(orgNewLine, out var index))
                 {
-                    result.AppendLine(_polishDictionary.ReplaceToPolishNew(_classicPolLines[index]));
+                    result.AppendLine(_classicPolLines[index].ReplaceToPolishNew(_polishDictionary));
                 }
                 else if (_classicMarkupOrgLines.TryGetIndexFromNumber(orgNewLine, out index, out var number))
                 {
-                    result.AppendLine(_regexClassicMarkup.Replace(_classicPolLines[index], number));
+                    result.AppendLine(_regexClassicMarkup.Replace(_classicPolLines[index], number).ReplaceToPolishNew(_polishDictionary));
                 }
                 else if (_classicMarkupOrgLines.TryGetIndexFromVariables(orgNewLine, out index, out var variable))
                 {
-                    result.AppendLine(_regexClassicMarkup.Replace(_classicPolLines[index], variable));
+                    result.AppendLine(_regexClassicMarkup.Replace(_classicPolLines[index], variable).ReplaceToPolishNew(_polishDictionary));
                 }
                 else if (IsMatchingToBookQuestions(orgNewLine, out index, out var bookToken)
                     && bookToken.Length > 0
                     && !orgNewLine.Contains("idliketobuy")//hack for now
                     && newIndex != 7182)//hack for now
                 {
-                    result.AppendLine(_regexClassicMarkup.Replace(_classicPolLines[index], _bookTranslations[bookToken]));
+                    result.AppendLine(_regexClassicMarkup.Replace(_classicPolLines[index], _bookTranslations[bookToken]).ReplaceToPolishNew(_polishDictionary));
                 }
                 else if (IsMatchingColors(orgNewLine, out index, out number))
                 {
@@ -155,25 +155,25 @@ namespace mi2se_classic_injector.Commands
                     else
                         strColor = "czarne";
 
-                    result.AppendLine(_classicPolLines[index].Replace(token, strNumber + " " + strColor));
+                    result.AppendLine(_classicPolLines[index].Replace(token, strNumber + " " + strColor).ReplaceToPolishNew(_polishDictionary));
                 }
                 else if (IsMatchAfterRemoveMarkup(orgNewLine, out index))
                 {
-                    result.AppendLine(_regexClassicMarkup.Replace(_classicPolLines[index], ""));
+                    result.AppendLine(_regexClassicMarkup.Replace(_classicPolLines[index], "").ReplaceToPolishNew(_polishDictionary));
                 }
                 else if (IsMatchingBuying(orgNewLine, out index, out var item))
                 {
-                    result.AppendLine(_regexClassicMarkup.Replace(_classicPolLines[index], _classicPolLines[_classicOrgLines[item]]));
+                    result.AppendLine(_regexClassicMarkup.Replace(_classicPolLines[index], _classicPolLines[_classicOrgLines[item]]).ReplaceToPolishNew(_polishDictionary));
                 }
                 else if (IsMatchingForbidden(orgNewLine, out index, out var place))
                 {
-                    result.AppendLine(_regexClassicMarkup.Replace(_classicPolLines[index], _classicPolLines[_classicOrgLines[place]]));
+                    result.AppendLine(_regexClassicMarkup.Replace(_classicPolLines[index], _classicPolLines[_classicOrgLines[place]]).ReplaceToPolishNew(_polishDictionary));
                 }
                 else
                 {
                     var message = $"{newIndex + 1}\t{_newOrgLinesNoChange[newIndex]}";
                     errors.AppendLine(message);
-                    result.AppendLine("\\404" + _newPolLines[newIndex]);
+                    result.AppendLine(_newPolLines[newIndex]);
                 }
             }
 

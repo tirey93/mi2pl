@@ -16,7 +16,7 @@ namespace mi2se_classic_injector.Extensions
             return rgx.Replace(text, "").ToLower();
         }
 
-        public static string ReplaceToPolishNew(this Dictionary<string, string> polishDict, string text)
+        public static string ReplaceToPolishNew(this string text, Dictionary<string, string> polishDict)
         {
             foreach (var item in polishDict)
             {
