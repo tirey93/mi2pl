@@ -64,18 +64,10 @@ namespace mi2se_classic_injector.Extensions
             return result.ToArray();
         }
 
-        public static bool TryGetIndexFromMarkup(this IEnumerable<KeyValuePair<string, int>> markupList, string line, out int index)
-        {
-            if (TryGetIndexFromNumber(markupList, line, out index))
-                return true;
-            if (TryGetIndexFromVariables(markupList, line, out index))
-                return true;
-
-            return false;
-        }
-        public static bool TryGetIndexFromNumber(this IEnumerable<KeyValuePair<string, int>> markupList, string line, out int index)
+        public static bool TryGetIndexFromNumber(this IEnumerable<KeyValuePair<string, int>> markupList, string line, out int index, out string number)
         {
             index = -1;
+            number = string.Empty;
             var regexNumber = new Regex("([1-9][0-9]*)");
             var numberMatch = regexNumber.Match(line);
             if (!numberMatch.Success)
@@ -87,15 +79,17 @@ namespace mi2se_classic_injector.Extensions
                 if (_regexClassicMarkup.Replace(classicLine.Key, numberMatch.Value) == line)
                 {
                     index = classicLine.Value;
+                    number = numberMatch.Value;
                     return true;
                 }
             }
             return false;
         }
 
-        public static bool TryGetIndexFromVariables(this IEnumerable<KeyValuePair<string, int>> markupList, string line, out int index)
+        public static bool TryGetIndexFromVariables(this IEnumerable<KeyValuePair<string, int>> markupList, string line, out int index, out string variable)
         {
             index = -1;
+            variable = string.Empty;
             var regexVariable = new Regex(@"(\{.*\:.*\})");
             var variableMatch = regexVariable.Match(line);
             if (!variableMatch.Success)
@@ -107,6 +101,7 @@ namespace mi2se_classic_injector.Extensions
                 if (_regexClassicMarkup.Replace(classicLine.Key, variableMatch.Value) == line)
                 {
                     index = classicLine.Value;
+                    variable = variableMatch.Value;
                     return true;
                 }
             }

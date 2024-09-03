@@ -11,9 +11,18 @@ namespace mi2se_classic_injector.Extensions
     {
         public static string TrimNonAlphaNumSpaces(this string text, bool ui)
         {
-            var regText = ui ? @"[^a-zA-Z0-9\\\{\}\:\`]" : @"[^a-zA-Z0-9\\\{\}\:]";
+            var regText = ui ? @"[^a-zA-Z0-9\\\{\}\:\`]" : @"[^a-zA-Z0-9\\\{\}\:\!\?]";
             Regex rgx = new Regex(regText);
             return rgx.Replace(text, "").ToLower();
+        }
+
+        public static string ReplaceToPolishNew(this Dictionary<string, string> polishDict, string text)
+        {
+            foreach (var item in polishDict)
+            {
+                text = text.Replace(item.Key, item.Value);
+            }
+            return text;
         }
     }
 }

@@ -19,12 +19,11 @@ namespace mi2se_classic_injector.Commands
         private readonly Dictionary<string, int> _classicOrgLines;
         private readonly List<KeyValuePair<string, int>> _classicMarkupOrgLines;
         private readonly Dictionary<string, string> _bookTranslations;
+        private readonly Dictionary<string, string> _polishDictionary;
         private readonly string[] _classicPolLines;
         private readonly Regex _regexClassicMarkup = new Regex(@"(\\255\\[0-9]{3}\\[0-9]{3}\\[0-9]{3})");
 
         public bool HasErrors { get; set; }
-        public bool IsUi { get; set; }
-
         public InjectClassicToSeCommand(IOptions<MainSettings> options, IOptions<LiteralSettings> options1)
         {
             _settings = options.Value;
@@ -39,6 +38,8 @@ namespace mi2se_classic_injector.Commands
                 errors += "Error: ClassicPolPath was not found in given path\n";
             if (!File.Exists(_settings.NewPolPath))
                 errors += "Error: NewPolPath was not found in given path\n";
+            if (!File.Exists("literal_codes.txt"))
+                errors += "Error: literal_codes was not found in given path\n";
             if (!string.IsNullOrEmpty(errors))
             {
                 Console.WriteLine(errors);
@@ -47,11 +48,11 @@ namespace mi2se_classic_injector.Commands
                 return;
             }
 
-            IsUi = !_settings.NewOrgPath.Contains("speech");
+            var isUi = !_settings.NewOrgPath.Contains("speech");
             _newOrgLinesNoChange = File.ReadAllLines(_settings.NewOrgPath).ToArray();
             _newPolLines = File.ReadAllLines(_settings.NewPolPath);
             _newOrgLines = File.ReadAllLines(_settings.NewOrgPath)
-                .Select(x => x.TrimNonAlphaNumSpaces(IsUi)).ToArray();
+                .Select(x => x.TrimNonAlphaNumSpaces(isUi)).ToArray();
 
             _classicPolLines = File.ReadAllLines(_settings.ClassicPolPath)
                 .DivideMergedClassicLines()
@@ -60,10 +61,11 @@ namespace mi2se_classic_injector.Commands
             var classicOrgLines = File.ReadAllLines(_settings.ClassicOrgPath)
                 .DivideMergedClassicLines()
                 .ReplaceClassicLiterals(_literalSettings);
-            //File.WriteAllLines("engTokens", classicOrgLines.Select(x => x.TrimNonAlphaNumSpaces()));
+
+            //File.WriteAllLines("engTokens", classicOrgLines.Select(x => x.TrimNonAlphaNumSpaces(false)));
 
             _classicOrgLines = classicOrgLines
-                .Select((value, index) => new { value = value.TrimNonAlphaNumSpaces(IsUi), index })
+                .Select((value, index) => new { value = value.TrimNonAlphaNumSpaces(isUi), index })
                 .GroupBy(pair => pair.value)
                 .ToDictionary(pair => pair.Key, pair => pair.FirstOrDefault().index);
             _classicMarkupOrgLines = _classicOrgLines
@@ -79,10 +81,12 @@ namespace mi2se_classic_injector.Commands
                 if (regexMatch.Success && value.Length > 0)
                 {
                     var classicLine = _classicOrgLines[value];
-                    bookTranslations.Add(value, _classicPolLines[classicLine]);
+                    bookTranslations.Add(value.Replace(".", "").Replace("?", ""), _classicPolLines[classicLine]);
                 }
             }
             _bookTranslations = bookTranslations;
+
+            _polishDictionary = File.ReadAllLines("literal_codes.txt").ToDictionary(x => x.Split(" - ")[3], y => y.Split(" - ")[2]);
         }
 
         public void Execute()
@@ -101,6 +105,80 @@ namespace mi2se_classic_injector.Commands
                 Console.WriteLine("unknown type of org file");
             }
 
+        }
+
+        private void ExecuteForSpeech()
+        {
+            StringBuilder errors = new StringBuilder();
+            StringBuilder result = new StringBuilder();
+
+            for (int newIndex = 0; newIndex < _newOrgLines.Length; newIndex++)
+            {
+                if (newIndex == 4362)
+                {
+                }
+                var orgNewLine = _newOrgLines[newIndex];
+                var newOrgLinesNoChange = _newOrgLinesNoChange[newIndex];
+
+                if (_classicOrgLines.TryGetValue(orgNewLine, out var index))
+                {
+                    result.AppendLine(_polishDictionary.ReplaceToPolishNew(_classicPolLines[index]));
+                }
+                else if (_classicMarkupOrgLines.TryGetIndexFromNumber(orgNewLine, out index, out var number))
+                {
+                    result.AppendLine(_regexClassicMarkup.Replace(_classicPolLines[index], number));
+                }
+                else if (_classicMarkupOrgLines.TryGetIndexFromVariables(orgNewLine, out index, out var variable))
+                {
+                    result.AppendLine(_regexClassicMarkup.Replace(_classicPolLines[index], variable));
+                }
+                else if (IsMatchingToBookQuestions(orgNewLine, out index, out var bookToken)
+                    && bookToken.Length > 0
+                    && !orgNewLine.Contains("idliketobuy")//hack for now
+                    && newIndex != 7182)//hack for now
+                {
+                    result.AppendLine(_regexClassicMarkup.Replace(_classicPolLines[index], _bookTranslations[bookToken]));
+                }
+                else if (IsMatchingColors(orgNewLine, out index, out number))
+                {
+                    var token = string.Empty;
+                    if(index == 4227 || index == 4226)
+                        token = "\\255\\004\\013\\001 \\255 \\039\\000";
+                    else
+                        token = "\\255\\004\\012\\001 \\255 \\034\\000";
+                    var regex = new Regex(@"([1-9][0-9]*)(.*)");
+                    var match = regex.Match(number);
+                    var strNumber = match.Groups[1].Value;
+                    var strColor = match.Groups[2].Value;
+                    if (strColor == "red")
+                        strColor = "czerwone";
+                    else
+                        strColor = "czarne";
+
+                    result.AppendLine(_classicPolLines[index].Replace(token, strNumber + " " + strColor));
+                }
+                else if (IsMatchAfterRemoveMarkup(orgNewLine, out index))
+                {
+                    result.AppendLine(_regexClassicMarkup.Replace(_classicPolLines[index], ""));
+                }
+                else if (IsMatchingBuying(orgNewLine, out index, out var item))
+                {
+                    result.AppendLine(_regexClassicMarkup.Replace(_classicPolLines[index], _classicPolLines[_classicOrgLines[item]]));
+                }
+                else if (IsMatchingForbidden(orgNewLine, out index, out var place))
+                {
+                    result.AppendLine(_regexClassicMarkup.Replace(_classicPolLines[index], _classicPolLines[_classicOrgLines[place]]));
+                }
+                else
+                {
+                    var message = $"{newIndex + 1}\t{_newOrgLinesNoChange[newIndex]}";
+                    errors.AppendLine(message);
+                    result.AppendLine("\\404" + _newPolLines[newIndex]);
+                }
+            }
+
+            File.WriteAllText("../../../../errors.tsv", errors.ToString());
+            File.WriteAllText("result_speech.txt", result.ToString());
         }
 
         private void ExecuteForUi()
@@ -158,63 +236,6 @@ namespace mi2se_classic_injector.Commands
 
         }
 
-        private void ExecuteForSpeech()
-        {
-            StringBuilder errors = new StringBuilder();
-            StringBuilder result = new StringBuilder();
-
-            for (int newIndex = 0; newIndex < _newOrgLines.Length; newIndex++)
-            {
-                if (newIndex == 711)
-                {
-                }
-                var orgNewLine = _newOrgLines[newIndex];
-
-                if (_classicOrgLines.TryGetValue(orgNewLine, out var index))
-                {
-                    var res = _classicPolLines[index];
-                }
-                else if(_classicMarkupOrgLines.TryGetIndexFromNumber(orgNewLine, out index))
-                {
-
-                }
-                else if(_classicMarkupOrgLines.TryGetIndexFromVariables(orgNewLine, out index))
-                {
-
-                }
-                else if (IsMatchingToBookQuestions(orgNewLine, out var regex, out var bookToken)
-                    && !orgNewLine.Contains("idliketobuy")//hack for now
-                    && newIndex != 7182)//hack for now
-                {
-
-                }
-                else if (IsMatchingColors(orgNewLine, out regex, out var number))
-                {
-
-                }
-                else if (IsMatchAfterRemoveMarkup(orgNewLine, out index))
-                {
-
-                }
-                else if (IsMatchingBuying(orgNewLine, out index))
-                {
-
-                }
-                else if (IsMatchingForbidden(orgNewLine, out index))
-                {
-
-                }
-                else
-                {
-                    var message = $"{newIndex + 1}\t{_newOrgLinesNoChange[newIndex]}";
-                    errors.AppendLine(message);
-                }
-            }
-
-            File.WriteAllText("../../../../errors.tsv", errors.ToString());
-            File.WriteAllText("result_speech.txt", result.ToString());
-        }
-
         private static string ExtractTitle(string orgNewLine)
         {
             var orgNewLineSplitted = orgNewLine.Split("`");
@@ -230,50 +251,55 @@ namespace mi2se_classic_injector.Commands
             return type.Replace("\\n", "") + "\\n" + title.Replace("\\n", "") + "\\n" + author.Replace("\\n", "");
         }
 
-        private bool IsMatchingForbidden(string orgNewLine, out int index)
+        private bool IsMatchingBuying(string orgNewLine, out int index, out string result)
         {
             index = -1;
+            result = string.Empty;
+            if (!orgNewLine.Contains("idliketobuyth") && !orgNewLine.Contains("canisellbackth"))
+                return false;
+            foreach (var item in _literalSettings.BuyingLiterals)
+            {
+                var trimmedItem = item.TrimNonAlphaNumSpaces(false);
+                var regexBuy = new Regex($"idliketobuyth.*{trimmedItem}");
+                if (regexBuy.IsMatch(orgNewLine))
+                {
+                    index = 5465;
+                    result = trimmedItem;
+                    return true;
+
+                }
+                var regexSell = new Regex($"canisellbackth.*{trimmedItem}");
+                if (regexSell.IsMatch(orgNewLine))
+                {
+                    index = 5534;
+                    result = trimmedItem;
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        private bool IsMatchingForbidden(string orgNewLine, out int index, out string place)
+        {
+            index = -1;
+            place = string.Empty;
             if (!orgNewLine.Contains("wecantgotheremonthatstheforbidden"))
                 return false;
             foreach (var item in _literalSettings.ForbiddenLiterals)
             {
-                var regexBuy = new Regex($@"wecantgotheremonthatstheforbidden{item.TrimNonAlphaNumSpaces(IsUi)}");
+                var trimmedPlace = item.TrimNonAlphaNumSpaces(false);
+                var regexBuy = new Regex($@"wecantgotheremonthatstheforbidden{trimmedPlace}");
                 if (regexBuy.IsMatch(orgNewLine))
                 {
-                    index = 7461;
-                    return true;
-
-                }
-            }
-
-            return false;
-        }
-
-        private bool IsMatchingBuying(string orgNewLine, out int index)
-        {
-            index = -1;
-            if(!orgNewLine.Contains("idliketobuyth") && !orgNewLine.Contains("canisellbackth"))
-                return false;
-            foreach (var item in _literalSettings.BuyingLiterals)
-            {
-                var regexBuy = new Regex($"idliketobuyth.*{item.TrimNonAlphaNumSpaces(IsUi)}");
-                if (regexBuy.IsMatch(orgNewLine))
-                {
-                    index = 5465;
-                    return true;
-
-                }
-                var regexSell = new Regex($"canisellbackth.*{item.TrimNonAlphaNumSpaces(IsUi)}");
-                if (regexSell.IsMatch(orgNewLine))
-                {
-                    index = 5534;
+                    index = 7460;
+                    place = trimmedPlace;
                     return true;
                 }
             }
 
             return false;
         }
-
         private bool IsMatchAfterRemoveMarkup(string orgNewLine, out int index)
         {
             index = -1;
@@ -289,23 +315,29 @@ namespace mi2se_classic_injector.Commands
             return false;
         }
 
-        private bool IsMatchingColors(string orgNewLine, out Regex regex, out string number)
+        private bool IsMatchingColors(string orgNewLine, out int index, out string number)
         {
-            regex = null;
+            index = -1;
             number = null;
 
-            var colorRegexes = new List<Regex>
+            var colorRegexes = new Dictionary<Regex, int>
             {
-                new Regex(@"[1-9][0-9]*red"),
-                new Regex(@"[1-9][0-9]*black"),
+                { new Regex(@"([1-9][0-9]*red)itis"), 4227 },
+                { new Regex(@"([1-9][0-9]*black)itis"), 4227 },
+                { new Regex(@"thewinningnumberwillbe([1-9][0-9]*red)"), 4330 },
+                { new Regex(@"thewinningnumberwillbe([1-9][0-9]*black)"), 4330 },
+                { new Regex(@"ialreadytoldyouthatthenumberwouldbe([1-9][0-9]*red)"), 4332 },
+                { new Regex(@"ialreadytoldyouthatthenumberwouldbe([1-9][0-9]*black)"), 4332 },
+                { new Regex(@"([1-9][0-9]*red)"), 4226 },
+                { new Regex(@"([1-9][0-9]*black)"), 4226 },
             };
 
             foreach (var colorRegex in colorRegexes)
             {
-                var match = colorRegex.Match(orgNewLine);
+                var match = colorRegex.Key.Match(orgNewLine);
                 if (match.Success)
                 {
-                    regex = colorRegex;
+                    index = colorRegex.Value;
                     number = match.Groups[1].Value;
                     return true;
                 }
@@ -314,28 +346,28 @@ namespace mi2se_classic_injector.Commands
             return false;
         }
 
-        private bool IsMatchingToBookQuestions(string orgNewLine, out Regex regex, out string bookToken)
+        private bool IsMatchingToBookQuestions(string orgNewLine, out int index, out string bookToken)
         {
-            regex = null;
+            index = -1;
             bookToken = null;
 
-            var questionRegexes = new List<Regex>
+            var questionRegexes = new Dictionary<Regex, int>
             {
-                new Regex(@"^doyouhave(.*)"),
-                new Regex(@"^idlike(.*)"),
-                new Regex(@"^couldyoufind(.*)"),
-                new Regex(@"^ineed(.*)"),
-                new Regex(@"^thecoversays(.*)"),
-                new Regex(@"^(.*)hmmmillhavetorememberthat"),
+                { new Regex(@"^doyouhave(.*)"), 2984 },
+                { new Regex(@"^idlike(.*)"), 2985 },
+                { new Regex(@"^couldyoufind(.*)"), 2986 },
+                { new Regex(@"^ineed(.*)"), 2987 },
+                { new Regex(@"^thecoversays(.*)"), 4693 },
+                { new Regex(@"^(.*)hmmmillhavetorememberthat"), 3636 },
             };
 
             foreach (var questionRegex in questionRegexes)
             {
-                var match = questionRegex.Match(orgNewLine);
+                var match = questionRegex.Key.Match(orgNewLine);
                 if (match.Success)
                 {
-                    regex = questionRegex;
-                    bookToken = match.Groups[1].Value;
+                    index = questionRegex.Value;
+                    bookToken = match.Groups[1].Value.Replace(".", "").Replace("?", "");
                     return true;
                 }
             }
