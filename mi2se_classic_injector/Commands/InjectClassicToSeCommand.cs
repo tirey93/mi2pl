@@ -202,7 +202,7 @@ namespace mi2se_classic_injector.Commands
                     {
                         if (_classicOrgLines.TryGetValue(orgNewLine, out var index))
                         {
-                            var res = _classicPolLines[index];
+                            result.AppendLine(_classicPolLines[index].ReplaceToPolishNew(_polishDictionary));
                         }
                         else
                         {
@@ -216,7 +216,7 @@ namespace mi2se_classic_injector.Commands
                     {
                         if (_classicOrgLines.TryGetValue(orgNewLine, out var index))
                         {
-                            var res = _classicPolLines[index];
+                            result.AppendLine(_classicPolLines[index].ReplaceToPolishNew(_polishDictionary));
                         }
                         else
                         {
@@ -229,6 +229,7 @@ namespace mi2se_classic_injector.Commands
                 {
                     var message = $"{newIndex + 1}\t{_newOrgLinesNoChange[newIndex]}";
                     errors.AppendLine(message);
+                    result.AppendLine(_newPolLines[newIndex]);
                 }
             }
             File.WriteAllText("../../../../errors_ui.tsv", errors.ToString());
