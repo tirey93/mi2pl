@@ -83,7 +83,7 @@ ZAPISZ GRE
 WCZYTAJ GRE
 WYJSCIE DO MENU GLOWNEGO
 ZAKONCZ GRE
-0xC0 0xC1 0xC4 0xC5 0xC7 0xC9 0xCA 0xD1 0xD2 0xE2 0xE5 0xE7 0xEB 0xEC 0xF1 0xF2 0xF3 0xF4 ?
+Czy na pewno chcesz zaladowac gre?
 Czy na pewno chcesz nadpisac ten zapis? Wszelkie informacje w tym zostana utracone.
 Czy na pewno chcesz wrocic do menu glownego?
 Kontynuuj bez zapisywania
