@@ -2,6 +2,7 @@
 using mi2se_classic_injector.Settings;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Options;
 using System.Data;
 
 var configuration = new ConfigurationBuilder()
@@ -13,14 +14,28 @@ var serviceProvider = new ServiceCollection()
     .Configure<MainSettings>(configuration.GetSection(nameof(MainSettings)))
     .Configure<LiteralSettings>(configuration.GetSection(nameof(LiteralSettings)))
     .AddTransient<InjectClassicToSeCommand>()
+    .AddTransient<ErrorsToPoCommand>()
     .BuildServiceProvider();
 
-var injectClassicToSeCommand = serviceProvider.GetRequiredService<InjectClassicToSeCommand>();
 
+
+
+var options = serviceProvider.GetService<IOptions<MainSettings>>();
 try
 {
-    if (!injectClassicToSeCommand.HasErrors)
-        injectClassicToSeCommand.Execute();
+    switch (options.Value.Mode)
+    {
+        case Mode.Default:
+            var injectClassicToSeCommand = serviceProvider.GetRequiredService<InjectClassicToSeCommand>();
+            if (!injectClassicToSeCommand.HasErrors)
+                injectClassicToSeCommand.Execute();
+            break;
+        case Mode.ErrorToPo:
+            var errorsToPoCommand = serviceProvider.GetRequiredService<ErrorsToPoCommand>();
+            if (!errorsToPoCommand.HasErrors)
+                errorsToPoCommand.Execute();
+            break;
+    }
 }
 catch (Exception ex)
 {

@@ -177,7 +177,7 @@ namespace mi2se_classic_injector.Commands
                 }
             }
 
-            File.WriteAllText("../../../../errors.tsv", errors.ToString());
+            File.WriteAllText(_settings.OutputCatalog + "errors.tsv", errors.ToString());
             File.WriteAllText("result_speech.txt", result.ToString());
         }
 
@@ -239,7 +239,7 @@ namespace mi2se_classic_injector.Commands
                     result.AppendLine(resultLine);
                 }
             }
-            File.WriteAllText("../../../../errors_ui.tsv", errors.ToString());
+            File.WriteAllText(_settings.OutputCatalog + "errors_ui.tsv", errors.ToString());
             File.WriteAllText("result_ui.txt", result.ToString());
 
         }
