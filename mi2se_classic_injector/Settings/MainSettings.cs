@@ -15,6 +15,7 @@ namespace mi2se_classic_injector.Settings
     public enum Mode
     {
         Default,
-        ErrorToPo
+        ErrorToPo,
+        ErrorFromPo
     }
 }

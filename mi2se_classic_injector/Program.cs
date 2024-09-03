@@ -15,6 +15,7 @@ var serviceProvider = new ServiceCollection()
     .Configure<LiteralSettings>(configuration.GetSection(nameof(LiteralSettings)))
     .AddTransient<InjectClassicToSeCommand>()
     .AddTransient<ErrorsToPoCommand>()
+    .AddTransient<ErrorsFromPoCommand>()
     .BuildServiceProvider();
 
 
@@ -34,6 +35,11 @@ try
             var errorsToPoCommand = serviceProvider.GetRequiredService<ErrorsToPoCommand>();
             if (!errorsToPoCommand.HasErrors)
                 errorsToPoCommand.Execute();
+            break;
+        case Mode.ErrorFromPo:
+            var errorsFromPoCommand = serviceProvider.GetRequiredService<ErrorsFromPoCommand>();
+            if (!errorsFromPoCommand.HasErrors)
+                errorsFromPoCommand.Execute();
             break;
     }
 }

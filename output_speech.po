@@ -12,7 +12,7 @@ msgstr "507 butelek 8..."
 
 msgctxt "193"
 msgid "Tenty-thousand bottles of 300..."
-msgstr "Dadziescia tysiecy butelek 300..."
+msgstr "Dadzieścia tysiecy butelek 300..."
 
 msgctxt "228"
 msgid "Da da-da da da da da da!"

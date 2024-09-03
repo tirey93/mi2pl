@@ -1,6 +1,6 @@
 msgctxt "1"
 msgid "PLAY NEW GAME"
-msgstr "ROZPOCZNIJ NOWA GRE"
+msgstr "ROZPOCZNIJ NOWĄ GRE"
 
 msgctxt "2"
 msgid "CONTINUE/LOAD GAME"
