@@ -114,7 +114,7 @@ namespace mi2se_classic_injector.Commands
 
             for (int newIndex = 0; newIndex < _newOrgLines.Length; newIndex++)
             {
-                if (newIndex == 4362)
+                if (newIndex == 1583)
                 {
                 }
                 var orgNewLine = _newOrgLines[newIndex];
@@ -193,6 +193,7 @@ namespace mi2se_classic_injector.Commands
                 }
                 var isError = false;
                 var orgNewLineNotSplitted = _newOrgLines[newIndex];
+                var resultLine = string.Empty;
                 if (((newIndex > 709 && newIndex < 950) || (newIndex > 1025 && newIndex < 1267)) 
                     && orgNewLineNotSplitted.Contains("`"))
                 {
@@ -202,7 +203,7 @@ namespace mi2se_classic_injector.Commands
                     {
                         if (_classicOrgLines.TryGetValue(orgNewLine, out var index))
                         {
-                            result.AppendLine(_classicPolLines[index].ReplaceToPolishNew(_polishDictionary));
+                            resultLine += _classicPolLines[index].ReplaceToPolishNew(_polishDictionary) + "\\n";
                         }
                         else
                         {
@@ -216,7 +217,7 @@ namespace mi2se_classic_injector.Commands
                     {
                         if (_classicOrgLines.TryGetValue(orgNewLine, out var index))
                         {
-                            result.AppendLine(_classicPolLines[index].ReplaceToPolishNew(_polishDictionary));
+                            resultLine += _classicPolLines[index].ReplaceToPolishNew(_polishDictionary) + "\\n";
                         }
                         else
                         {
@@ -230,6 +231,12 @@ namespace mi2se_classic_injector.Commands
                     var message = $"{newIndex + 1}\t{_newOrgLinesNoChange[newIndex]}";
                     errors.AppendLine(message);
                     result.AppendLine(_newPolLines[newIndex]);
+                }
+                else
+                {
+                    if (resultLine.Contains("\\n"))
+                        resultLine = resultLine.Substring(0, resultLine.Length - 2);
+                    result.AppendLine(resultLine);
                 }
             }
             File.WriteAllText("../../../../errors_ui.tsv", errors.ToString());
