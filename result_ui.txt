@@ -1,4 +1,4 @@
-ROZPOCZNIJ NOWA GRE
+ROZPOCZNIJ NOW0xC0 GRE
 KONTYNUUJ/WCZYTAJ
 POMOC I USTAWIENIA
 BONUSY
@@ -83,11 +83,11 @@ ZAPISZ GRE
 WCZYTAJ GRE
 WYJSCIE DO MENU GLOWNEGO
 ZAKONCZ GRE
-Czy na pewno chcesz zaladowac gre?
-Czy na pewno chcesz nadpisac ten zapis? Wszelkie informacje w tym zostana utracone.
-Czy na pewno chcesz wrocic do menu glownego?
+Czy na pewno chcesz za0xECadowa0xE7 gr0xEB?
+Czy na pewno chcesz nadpisa0xE7 ten zapis? Wszelkie informacje w tym zostan0xE2 utracone.
+Czy na pewno chcesz wr0xF3ci0xE7 do menu g0xEC0xF3wnego?
 Kontynuuj bez zapisywania
-Utworz nowy zapis gry
+Utw0xF3rz nowy zapis gry
 Nie wylaczaj swojej konsoli ani nie usuwaj nosnika pamieci gdy widzisz ten symbol na ekranie.
 Wyjscie
 Nie udalo sie zapisac gry.
@@ -97,7 +97,7 @@ Glosnosc muzyki
 Nie wybrano zadnego nosnika pamieci. Wybierz nosnik lub kontynuuj bez zapisywania.
 OK
 Wybierz nosnik z przynajmniej %iKB wolnej pamieci, w przeciwnym razie nie bedziesz mogl zapisac gry.
-Wyjscie bez zapisywania gry spowoduje utrate niezapisanych postepow.
+Wyj0xE5cie bez zapisywania gry spowoduje utrat0xEB niezapisanych post0xEBp0xF3w.
 Sprobuj ponownie wczytac
 Na nosniku nie odnaleziono zapisu. Chcesz utworzyc nowy zapis czy kontynuowac bez zapisywania?
 Zapisywanie. Nie wylaczaj konsoli.
@@ -111,10 +111,10 @@ Niej masz konta na Xbox LIVE i nie mozesz zobaczyc wynikow.
 Twfj nosnik danych dziala nieprawidlowo. Jesli bedziesz kontynuowac, nie bedziesz w stanie zapisac postepow.
 Nie masz aktywnego profilu gracza. Nie bedzie mozna zapisac gry ani osiagniec. By utworzyc lub wczytac profil gracza, nacisnij przycisk Xbox Guide. Chcesz kontynuowac bez mozliwosci zapisu gry i osiagniec?
 Anuluj
-Wyjscie
-Wybierz jezyk
-Zapisz i wyjdz
-Wyjdz bez zapisywania
+Wyj0xE5cie
+Wybierz j0xEBzyk
+Zapisz i wyjd0xF4
+Wyjd0xF4 bez zapisywania
 Nie.
 Wyniki
 Odblokuj pelna wersje gry
@@ -133,12 +133,12 @@ Pusty
 Autozapis:
 Slot
 Ostrzezenie - autozapis nie moze zostac nadpisany
-Czesc pierwsza
-Czesc druga
-Czesc trzecia
-Czesc ostatnia
+Cz0xEB0xE50xE7 pierwsza
+Cz0xEB0xE50xE7 druga
+Cz0xEB0xE50xE7 trzecia
+Cz0xEB0xE50xE7 ostatnia
 Czas gry:
-Postep:
+Post0xEBp:
 Odlaczony od Xbox LIVE
 Nacisnij START
 Przytrzymaj [Y] by ominac
@@ -706,7 +706,7 @@ do
 z
 Wios0xECuj do
 Concept Art odblokowany
-Nacisnij
+Naci0xE5nij
 po komentarz audio
 Atrakcje dla Doros0xECych\nZelda Karbunku0xEC Wie Wszystko\nPami0xEBtnik kobiety w0xE2tpliwych przyjemno0xE5ci.
 Animatronika\nAnimatronika\nWalt Whimsy
@@ -966,8 +966,8 @@ MOI PRZYJACIELE
 MOJ WYNIK
 GAMERTAG
 WYNIK
-Stracisz wszystkie niezapisane postepy. Czy na pewno chcesz wczytac ten zapis?
-Wersja klasyczna jest dostepna tylko po angielsku.
+Stracisz wszystkie niezapisane post0xEBpy. Czy na pewno chcesz wczyta0xE7 ten zapis?
+Wersja klasyczna jest dost0xEBpna tylko po angielsku.
 SKROTY KLAWIATUROWE
 Skroty klawiaturowe
 Wiekszosc dzialan wykonywanych w edycji rozszerzonej Monkey Island 2 mozna wprowadzic z klawiatury.
