@@ -24,7 +24,9 @@ namespace mi2se_classic_injector.Extensions
                 text = text.Replace(item.Key, item.Value);
             }
             //return text;
-            return Regex.Replace(text, @"\s+", " ");
+            return Regex
+                .Replace(text, @"\s+", " ")
+                .Replace("@", "");
         }
     }
 }

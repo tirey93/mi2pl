@@ -177,16 +177,16 @@ Wylaczone
 USTAWIENIA
 Kup pelna wersje gry
 Kup pelna wersje gry
-##### talar0xF3w@@@@@@@@@@@@@@@@######
+##### talar0xF3w######
 %namount-of-money% talarow
 %namount-of-money% talarow i %nnumber-of-coins% groszy
 %namount-of-money% talarow i grosz
 %nnumber-of-coins% groszy
-@@@@@@@@@@@
-@@@@@@@@@@@
-@@@@@@@@@@@
-@@@@@@szcz0xE2tki
-@@@@dynamit
+
+
+
+szcz0xE2tki
+dynamit
 znak drogowy `skr0xEBt w lewo`
 `Wesoly Rastaman`
 1/%ntimes-drunk-near-grog% butelki nibygrogu
@@ -226,7 +226,7 @@ dzwonek
 miechy
 du0xF2y znak
 Wielkie drzewo
-Wielkie X@@@@@@@@@@@@@
+Wielkie X
 ptak
 niebieski drink
 ko0xE50xE7
@@ -235,11 +235,11 @@ Wr0xF3bel 0xC5wirek
 ksi0xE20xF2ki
 Wyspa 0xC9upu
 alkohole
-butelka nibygrogu@@@@@@@@@@@@@@@@@@@@@@
-butelka@@@@@@@
+butelka nibygrogu
+butelka
 butelki
 butelki rumu
-miska@@@@@@@@@@@@@
+miska
 Ch0xECopiec od kr0xEBgli
 Ko0xECo bosmana
 skrzynia
@@ -258,7 +258,7 @@ z0xECamane wios0xECo
 uszkodzony znak
 br0xE2zowy drink
 wiadro b0xECota
-wiadro@@@@@@@@
+wiadro
 popiersie
 zje0xF2d0xF2alnia
 drzwi do chatki
@@ -416,12 +416,12 @@ w0xECa0xE5ciciel zajazdu
 pluca owadow
 zaproszenie
 cela
-s0xEC0xF3j@@@@@@@@@@
-s0xEC0xF3j@@@@@@@@@@
-s0xEC0xF3j@@@@@@@@@@
-s0xEC0xF3j@@@@@@@@@@
-s0xEC0xF3j@@@@@@@@@@
-s0xEC0xF3j@@@@@@@@@@
+s0xEC0xF3j
+s0xEC0xF3j
+s0xEC0xF3j
+s0xEC0xF3j
+s0xEC0xF3j
+s0xEC0xF3j
 Asia Jaszczurka
 Jojo
 fragmenty zyly szyjnej
@@ -454,8 +454,8 @@ pasztetowa
 k0xECoda
 mi0xECosna bomba 
 Malpa z wyspy Szpady
-Szalony Marty@@@
-Szalony Marty@@@
+Szalony Marty
+Szalony Marty
 br0xE2zowa koperta
 Rezydencja
 Rezydencja
@@ -464,8 +464,8 @@ mapa
 kawa0xECek mapy
 kawa0xECek mapy
 marynowane opuszki palcow
-kieliszek do martini@@@@@@@@@@@
-kieliszek do martini@@@@@@@@@@@
+kieliszek do martini
+kieliszek do martini
 maska
 ogromne drzwi
 ogromne zamki
@@ -484,9 +484,9 @@ ma0xECpia g0xECowa
 monokl
 g0xEBstwina
 wi0xEBcej 0xE5mieci voodoo
-kufel grogu@@@@@@@@@@@@@@@@@
-kufel grogu@@@@@@@@@@@@@@@@@
-kufel grogu@@@@@@@@@@@@@@@@@
+kufel grogu
+kufel grogu
+kufel grogu
 przybity znak
 gwo0xF4dzie
 nektar pajaka
@@ -494,7 +494,7 @@ niedawno odkryta dziura
 p0xF30xECnoc
 wios0xECo
 ocean
-staruszek@@@@@@@@
+staruszek
 saczace ogony jaszczura
 pomara0xF1czowy drink
 organy
@@ -512,7 +512,7 @@ go0xE50xE7 przyj0xEBcia
 go0xE5cie przyj0xEBcia 
 korytarz
 0xE5cie0xF2ka
-0xE5nie0xF2nobia0xECy biustonosz@@@
+0xE5nie0xF2nobia0xECy biustonosz
 drewniana noga
 P0xF30xECwysep
 Wyspa Phatta
@@ -555,8 +555,8 @@ lina
 Marynarz Papaja
 Purpurowy Tentacle0x99
 Sta0xECe l0xE2dy
-budka@@@@@@
-budka@@@@@@
+budka
+budka
 niestabilne wiadro na o0xE5cie0xF2u
 tarcza
 statek
@@ -609,7 +609,7 @@ r0xEBkawiczka chirurgiczna
 r0xEBkawiczka chirurgiczna
 Bagno
 robaki bagienne
-miecz w pochwie?@
+miecz w pochwie?
 st0xF30xEC
 teleskop
 tymczasowa karta biblioteczna
@@ -644,7 +644,7 @@ wazon
 jad krolikalopa
 vichyssoise avec szczurem
 vichyssoise avec szczurz0xE2 sier0xE5ci0xE2
-vichyssoise@@@@@@@@@@@@@@@@@@@
+vichyssoise
 Ville de la 0xC9up
 lalka voodoo
 klucz voodoo do wi0xEBzienia
@@ -713,144 +713,144 @@ Animatronika\nAnimatronika\nWalt Whimsy
 Animatronika\nUjrzyj, co jest pod Spodem\nWalt Whimsy
 Adnotacja\nZobacz: Przypis
 Archeologia\nX nigdy nie oznacza skarbu\nI. Jones
-Artyzm\nOg0xF3lnikowo0xE50xE7 jako forma artystyczna\n@@@@@@@@@@@
+Artyzm\nOg0xF3lnikowo0xE50xE7 jako forma artystyczna\n
 Artyzm/Filozofia\nIdealizm czy Surrealizm?\nPodr0xEBcznik do filozofii/sztuki.
-Benzyna i inne ciecze\nBrowar dla wszystkich\n@@@@@@@@@@@
-                               Big Whoop?\nZobacz: Skarb
+Benzyna i inne ciecze\nBrowar dla wszystkich\n
+ Big Whoop?\nZobacz: Skarb
 Biografia\nObie r0xEBce s0xE2 puste\nHerman Toothrot.
 Biografia\nObie r0xEBce s0xE2 w ruchu\nHistoria Stana.
 Biografia\nObie g0xECowy s0xE2 puste\nBracia Fettucini.
 Biografia\nA w pi0xEB0xE5ciach 0xE5ciska0xEC p0xE2kle\nDziennik Kapitana Twiddlymore.
 Biografia\nWyli0xF2 srebrn0xE2 0xECy0xF2eczk0xEB\nL. Phatt
-Biografia\nCzarnobrody i ja\n@@@@@@@@@@@
+Biografia\nCzarnobrody i ja\n
 Biografia\nGdy wysadzi0xECem LeChucka\nW0xE2tpliwe wspomnienia Guybrusha Threepwooda
 Biografia\nRany.\nWspomnienia kapitana Gilberta
-Budowa cia0xECa\nNiecodzienne znamiona \n@@@@@@@@@@@
-Bohaterowie z poprzedniej cz0xEB0xE5ci\n0xCAniadanie u Meathooka\n@@@@@@@@@@@
+Budowa cia0xECa\nNiecodzienne znamiona \n
+Bohaterowie z poprzedniej cz0xEB0xE5ci\n0xCAniadanie u Meathooka\n
 Biznes\nZdobywania Przyjaci0xF30xEC i Wp0xECywania na Ludzi\nautorstwa Jacka Wr0xF3bla
 Ceremonia0xECy kanibali\nJak serwowa0xE7 ludzi(om)\nCytrynog0xECowy
-Ceremonia0xECy kanibali\nZobacz:  Samopomoc
+Ceremonia0xECy kanibali\nZobacz: Samopomoc
 Dane katalogowe\nZobacz: S0xECowniki
 Chedar i inne sery\nPrzewodnik po serach 0xE5wiata\nOdniesienie
-Dla dzieci\nZ0xECowieszcze potwory spod 0xEC0xF30xF2ka\n@@@@@@@@@@@
-Dla dzieci\nOpowie0xE5ci dla ma0xECych pirat0xF3w\n@@@@@@@@@@@
+Dla dzieci\nZ0xECowieszcze potwory spod 0xEC0xF30xF2ka\n
+Dla dzieci\nOpowie0xE5ci dla ma0xECych pirat0xF3w\n
 Cyrki\nFantastyczne przygody Billa i Alfredo\nBeletrystyka
 Cyrki\nDo diab0xECa z ludzk0xE2 torped0xE2\nHistoria numeru z cz0xECowiekiem-kul0xE2.
 Dogmaty literatury\nWielkie odkaszliwania\nKapitan Loogie
 Bibeloty\nZ0xECom, z0xECom, jeszcze wi0xEBcej z0xEComu\nPrzewodnik po kolekcjonerskich pami0xE2tkach.
-Duszenie i gotowanie\nCiekawe pirackie dania\n@@@@@@@@@@@
-Duszenie i gotowanie\nKleiste ciecze, kt0xF3re mo0xF2esz zrobi0xE7 w domu\n@@@@@@@@@@@
-Cha0xECupnictwo\nSzyde0xECkowanie przepasek na weso0xECo i na serio\n@@@@@@@@@@@
+Duszenie i gotowanie\nCiekawe pirackie dania\n
+Duszenie i gotowanie\nKleiste ciecze, kt0xF3re mo0xF2esz zrobi0xE7 w domu\n
+Cha0xECupnictwo\nSzyde0xECkowanie przepasek na weso0xECo i na serio\n
 Dopisek\nZobacz: Referencyjny Obskurantyzm
 Cyfrowanie informacji\nSzyfr w moim nosie\nWyj0xE2tkowa wiadomo0xE50xE7 przewija si0xEB przez histori0xEB.
 Dziesi0xEBtna Klasyfikacja Biblioteczna\nZobacz: Schemat organizacyjny
 Dramaty i katastrofy\nWielkie wraki tego stulecia\nZ kolekcji ksi0xE20xF2ek katastroficznych Kole0xF2anki.
-Choroby\nCiekawostki o szkorbucie\n@@@@@@@@@@@
-Choroby\nChoroby na pok0xECadzie\n@@@@@@@@@@@
+Choroby\nCiekawostki o szkorbucie\n
+Choroby\nChoroby na pok0xECadzie\n
 Czworonogi\nS0xECownik piesko-angielski\nOdniesienie
 Edukacja\nPrzygotowanie do testu zdolno0xE5ci pirackich\nS. Karpman
-Film\nCisza na planie\n@@@@@@@@@@@
+Film\nCisza na planie\n
 Entomologia\nSzkodniki pomidor0xF3w\nInstrukcja obs0xECugi.
-Etymologia\nEtymologia pirackich zwrot0xF3w\n@@@@@@@@@@@
+Etymologia\nEtymologia pirackich zwrot0xF3w\n
 Fotoreceptory\nZobacz: Wizja
 Farthingtonowie\nZobacz: Gry
 Fasony\nLetnia kolekcja dla awanturnik0xF3w\nTrzy roczniki popularnego czasopisma
-Beletrystyka\nBilet klasy E \n@@@@@@@@@@@
-Beletrystyka\nO pi0xEB0xE7 za du0xF2o\n@@@@@@@@@@@
-Beletrystyka\nDzie0xF1 je0xF2a\n@@@@@@@@@@@
+Beletrystyka\nBilet klasy E \n
+Beletrystyka\nO pi0xEB0xE7 za du0xF2o\n
+Beletrystyka\nDzie0xF1 je0xF2a\n
 Beletrystyka\nNie to co dublon\nAntologia kr0xF3tkich powie0xE5ci
-Beletrystyka\nBardzo, bardzo kr0xF3tkie opowie0xE5ci\n@@@@@@@@@@@
-Finanse\nSposoby na 0xECatwe pieni0xE2dze\n@@@@@@@@@@@
+Beletrystyka\nBardzo, bardzo kr0xF3tkie opowie0xE5ci\n
+Finanse\nSposoby na 0xECatwe pieni0xE2dze\n
 Fl0xE2drologia\nWielka ksi0xEBga ryb\nIlustrowany przewodnik po rybach 0xE5wiata.
-Fiszing\n0xC9owienie na czareczki: Zapomniana sztuka\n@@@@@@@@@@@
+Fiszing\n0xC9owienie na czareczki: Zapomniana sztuka\n
 Edukacja 0xF2ywieniowa\nKeksmisja\nS. Cheese
-Edukacja 0xF2ywieniowa\nRozmiary naturalne i wi0xEBksze\n@@@@@@@@@@@
-Edukacja 0xF2ywieniowa\nSzczury jako 0xF4r0xF3d0xECo bia0xECka w diecie\n@@@@@@@@@@@
+Edukacja 0xF2ywieniowa\nRozmiary naturalne i wi0xEBksze\n
+Edukacja 0xF2ywieniowa\nSzczury jako 0xF4r0xF3d0xECo bia0xECka w diecie\n
 Zobacz: \nCeremionialy kanibali
 Fragmenty tekstu\nZobacz: Wycie0xF1czaj0xE2ca pedanteria
 Gry\nHal Barwood o Monkey 2\nKrytyczna recenzja.
 Gry\nFanatycy Fan-Tana\nElroy T. Funbun
 Gry\nKr0xF3lowie shuffleboard\nOpis dynastii Farthington0xF3w.
 Genealogia\nDylemat 66\nOpowie0xE5ci dziwne, ale prawdziwe.
-Genetyka\nJak zrobi0xE7 kr0xF3likalopa\n@@@@@@@@@@@
-Geometria\nW0xECasno0xE5ci eliptycznego hiperboloidu\n@@@@@@@@@@@
+Genetyka\nJak zrobi0xE7 kr0xF3likalopa\n
+Geometria\nW0xECasno0xE5ci eliptycznego hiperboloidu\n
 Widmowy Pirat LeChuck\nKiedy wysadzi0xECem LeChucka\nNajgorszy wr0xF3g Threepwooda.
 Widmowy Pirat LeChuck\nGdzie wysadzi0xECem LeChucka\nNajgorszy wr0xF3g Threepwooda.
 Widmowy Pirat LeChuck\nDlaczego wysadzi0xECem LeChucka\nNajgorszy wr0xF3g Threepwooda.
 Godiva, Lady\nZosta0xECy tylko skarpetki\nBiografia, zobacz: Atrakcje dla Doros0xECych
-...okradanie grob0xF3w...\nPopularne kary dla hien cmentarnych \n@@@@@@@@@@@
+...okradanie grob0xF3w...\nPopularne kary dla hien cmentarnych \n
 Grogoholizm\nJestem w0xE2trob0xE2 Czarnobrodego\nPrzera0xF2aj0xE2ca historia skruszonego grogoholika
 Grupowanie\nZobacz: Katalogi
 Grupowanie tekstu\nZobacz: Dopisek
 Historia\nOstro0xF2nie z tymi kulami armatnimi!\nLegenda o Armadzie Statk0xF3w ze Szklanymi Dnami 
 Historia\nZobacz: Sta0xECe l0xE2dy
-Bzdety\nWspomnienia o Molly\n@@@@@@@@@@@
+Bzdety\nWspomnienia o Molly\n
 Humor\nOkrutne kalambury dla okrutnych pirat0xF3w\nN. Falstein
-Humor\nG0xECupie 0xF2arty pirackie\n@@@@@@@@@@@
+Humor\nG0xECupie 0xF2arty pirackie\n
 Humor Wisielczy\nWi0xEBc idziesz pod top0xF3r...\n100 rzeczy, kt0xF3re mo0xF2esz powiedzie0xE7 katowi.
-Kremy i lody\nUlubione smaki lod0xF3w pirat0xF3w\n@@@@@@@@@@@
+Kremy i lody\nUlubione smaki lod0xF3w pirat0xF3w\n
 Idole\nTiki na obszarze po0xECudniowego Pacyfiku\nOdniesienie
-Igla\nJak prosto zrobi0xE7 igloo\n@@@@@@@@@@@
+Igla\nJak prosto zrobi0xE7 igloo\n
 Kwoty urojone\nNowe prawa podatkowe\nLiteratura lekka.
 Indeksy\nZobacz: Katalogi
-Kuksa0xF1ce\nJak robi0xE7 pokrzywki\n@@@@@@@@@@@
+Kuksa0xF1ce\nJak robi0xE7 pokrzywki\n
 Katalogi\nZobacz: Tytu0xECy
-Kompleks ni0xF2szo0xE5ci\nKompleks kompleksu\n@@@@@@@@@@@
+Kompleks ni0xF2szo0xE5ci\nKompleks kompleksu\n
 Kasa skarbowa\nZobacz: kwoty urojone
 Kr0xF3likalop\nZobacz: Genetyka
 Karagen \n`Historia zelek`
-Krewetki\nNasze bezkr0xEBgowe kuzynki\n@@@@@@@@@@@
+Krewetki\nNasze bezkr0xEBgowe kuzynki\n
 Jurysdykcja\nS0xE2d kangur0xF3w\nKrytyka nowoczesnego systemu s0xE2dowego
 Kultura nieletnich\nMi0xECo0xE5nicy przewracania kr0xF3w\nEseje wybrane ze wzgl0xEBdu na styl i form0xEB.
 Karate\nZobacz: MMA
 Karma\nMoja karma wyla0xECa si0xEB na twoje dogmaty\nZobacz: Rozw0xF3j my0xE5li filozoficznej
-Kil\nPrzeci0xE2ganie pod kilem: Metodyka i Praktyka\n@@@@@@@@@@@
+Kil\nPrzeci0xE2ganie pod kilem: Metodyka i Praktyka\n
 Ketchup\nZobacz: Warzywa
 J0xE2dra\nHistoria o ma0xECych, dzielnych organach.\nRozk0xECadana ksi0xE20xF2eczka o pracy j0xE2der.
-Kleptomania\nKleptomania\n@@@@@@@@@@@
+Kleptomania\nKleptomania\n
 Labyrinty\nZobacz: Kody pocztowe
 Lingwistyka\nModny slang dla pirat0xF3w\nS0xECownik slangu wsp0xF30xECczesnego.
-Mszyce\nHodowla mszyc na weso0xECo i na serio\n@@@@@@@@@@@
-Lunch\nPopo0xECudnie u Meathooka\n@@@@@@@@@@@
+Mszyce\nHodowla mszyc na weso0xECo i na serio\n
+Lunch\nPopo0xECudnie u Meathooka\n
 Limeryki\nJaja i spro0xE5no0xE5ci\nZakazane albumy z zesz0xECej dekady
 Magia\nZobacz: Poradniki
-Manaty\nWilgotne damy z g0xEC0xEBbin\n@@@@@@@@@@@
+Manaty\nWilgotne damy z g0xEC0xEBbin\n
 Manaty\n0xC7eglarz i krowa morska\n- Ba0xE50xF1
-MMA\nTeoria i praktyka rachowania ko0xE5ci\n@@@@@@@@@@@
-Matematyka\nWzory na lemniskaty sze0xE5cienne \n@@@@@@@@@@@
+MMA\nTeoria i praktyka rachowania ko0xE5ci\n
+Matematyka\nWzory na lemniskaty sze0xE5cienne \n
 Labirynty\nZobacz: Przypis
-Militaria\nOstro0xF2ny 0xC7eglarz: Dlaczego nie 0xF2egluj0xEB\n@@@@@@@@@@@
-Mamona\n0xC9atwe pieni0xE2dze do zrobienia w domu\n@@@@@@@@@@@
+Militaria\nOstro0xF2ny 0xC7eglarz: Dlaczego nie 0xF2egluj0xEB\n
+Mamona\n0xC9atwe pieni0xE2dze do zrobienia w domu\n
 Muzyka\nElvis 0xF2yje\nPrzewidywania Postradamusa na temat przysz0xECej muzyki
-Muzyka\nZdobywcy nagr0xF3d Grammy w renesansie \n@@@@@@@@@@@
-Muzyka\nTom pierwszy\n@@@@@@@@@@@
-Muzyka\nNajgorsze pirackie piosenki\n@@@@@@@@@@@
-Muzyka\nXylofon dla pocz0xE2tkuj0xE2cych\n@@@@@@@@@@@
+Muzyka\nZdobywcy nagr0xF3d Grammy w renesansie \n
+Muzyka\nTom pierwszy\n
+Muzyka\nNajgorsze pirackie piosenki\n
+Muzyka\nXylofon dla pocz0xE2tkuj0xE2cych\n
 Maskarady\nKr0xF3l Karol z Kr0xF3low0xE2 Karolin0xE2?\nZ serii tajemnic 0xE5wistak0xF3w.
-Narcyzm\nPodoba mi si0xEB narcyzm\n@@@@@@@@@@@
-Narkolepsja\nWyznania narkoleptyka\n@@@@@@@@@@@
-New Age\nDynanetyka autorstwa L. Rona Gilberta\n@@@@@@@@@@@
-Noc\nHa0xECasy spod 0xEC0xF30xF2ka\n@@@@@@@@@@@
+Narcyzm\nPodoba mi si0xEB narcyzm\n
+Narkolepsja\nWyznania narkoleptyka\n
+New Age\nDynanetyka autorstwa L. Rona Gilberta\n
+Noc\nHa0xECasy spod 0xEC0xF30xF2ka\n
 Normalno0xE50xE7\nP0xECot z bia0xECych sztachet\nNauki socjologiczne.
 Nosy\nZatr0xE2b je0xE5li musisz\nPrzezi0xEBbienia, alergie i inne dolegliwo0xE5ci
 Nostalgia\nGazowane fontanny mojej M0xECodo0xE5ci\nPonce de Leon
-Numerologia\nNumerologia dla pocz0xE2tkuj0xE2cych\n@@@@@@@@@@@
-Nylon\nNylon dla pirat0xF3w\n@@@@@@@@@@@
+Numerologia\nNumerologia dla pocz0xE2tkuj0xE2cych\n
+Nylon\nNylon dla pirat0xF3w\n
 Oty0xECo0xE50xE7\nJeszcze wi0xEBcej mnie do kochania\nL. Phatt
 Okra\nNajlepsze przepisy na potrawy z ketmi\nZobacz: Jedzenie.
 Oliwki\nPlaga pizzy\nAnaliza przymusowej konsumpcji oliwek
-Optymizm\nA po burzy przychodzi spok0xF3j\n@@@@@@@@@@@
-Orangutany\nNasi w0xECochaci kuzynowie\n@@@@@@@@@@@
+Optymizm\nA po burzy przychodzi spok0xF3j\n
+Orangutany\nNasi w0xECochaci kuzynowie\n
 Organizacyjne schematy\nZobacz: Labirynty
 Origami\nPapierowy bizon\nWzory origami dla zaawansowanych.
-Ortopedia\nUs0xECysz szept rozm0xF3w moich st0xF3p\n@@@@@@@@@@@
+Ortopedia\nUs0xECysz szept rozm0xF3w moich st0xF3p\n
 Rozw0xF3j my0xE5li filozoficznej\nUbawienie\nTraktat filozoficzny.
-Rozw0xF3j my0xE5li filozoficznej\nRastafarianizm\n@@@@@@@@@@@
+Rozw0xF3j my0xE5li filozoficznej\nRastafarianizm\n
 Pl0xE2drowanie\nWszystko o pl0xE2drowaniu\nZ serii Nauka w weekend.
 Pl0xE2drowanie\nMistrzowie w pl0xE2drowaniu\nWywiady z najlepszymi.
 Piractwo\nElementarz pirata\nPorady dla 0xF20xF30xECtodziob0xF3w.
 Poezja\nPu0xE5ci0xEC pijany 0xF2agle\nPoezja piracka.
-Powiedzenia i cytaty\nPowiedzenia znanych pirat0xF3w\n@@@@@@@@@@@
+Powiedzenia i cytaty\nPowiedzenia znanych pirat0xF3w\n
 Rozr0xF3d zwierz0xE2t\nZobacz: Mszyca
 Rekurencja\nZobacz: Rekurencja
 Poradniki\nKl0xE2twy na codzie0xF1\n101 niezb0xEBdnych przepis0xF3w voodoo.
@@ -865,89 +865,89 @@ Romans\nPrzekl0xEBte spadkobierstwo romantyzmu\nMelanie Leary
 Romans\n0xC9ab0xEBdzi 0xE5piew wstr0xEBtnego grzechu\nMelanie Leary
 Romans\nT0xEBsknota za 0xF20xF30xECciej0xE2cymi wczoraj\nMelanie Leary
 Sport 0xF2eglarski\nGdybym tylko mia0xEC musk\nNiebezpiecze0xF1stwa brania prysznica na pok0xECadzie statku.
-Sport 0xF2eglarski\nBezpieczne 0xF2eglowanie\n@@@@@@@@@@@
+Sport 0xF2eglarski\nBezpieczne 0xF2eglowanie\n
 Sandacz\nZamki i zamki\nWsp0xF30xECczesne problemy dotykaj0xE2ce sandacze.
 Sta0xECe l0xE2dy\nHistoria wyspy Parszywc0xF3w \nWprowadzenie
-Samopomoc\nPiraci, kt0xF3rzy kochaj0xE2 zbyt mocno\n@@@@@@@@@@@
+Samopomoc\nPiraci, kt0xF3rzy kochaj0xE2 zbyt mocno\n
 Samopomoc\nNie zjadam ludzi i czuj0xEB si0xEB z tym dobrze\nWyznania eks-kanibala
 Sowy\nZab0xF3jcy z g0xEC0xEBbin\nBadania karaibskich s0xF3w.
 Statki i okr0xEBty - budownictwo\nStaki i okr0xEBty - budowa\nG. Steele
 Statk0xF3w i okr0xEBt0xF3w wraki\nZobacz: Dramaty i katastrofy
-Sprawki diabelskie\nUkryte grzechy kamienia \n@@@@@@@@@@@
-Sprawki diabelskie\nTop 7 grzech0xF3w g0xEC0xF3wnych\n@@@@@@@@@@@
+Sprawki diabelskie\nUkryte grzechy kamienia \n
+Sprawki diabelskie\nTop 7 grzech0xF3w g0xEC0xF3wnych\n
 Slang piracki\nDo kro0xE7set\nZobacz: Lingwistyka
 Socjologia\nDarwinizm spo0xECeczny i choroby spo0xECeczne \nSpo0xECeczna teoria wzgl0xEBdno0xE5ci.
 Skat\nMilion jeden sposob0xF3w na skata\nHerman Toothrot
-Spirytualizm\nDar ludzi-jaszczur0xF3w\n@@@@@@@@@@@
-Spirytualizm\nNad kruczym gniazdem\n@@@@@@@@@@@
+Spirytualizm\nDar ludzi-jaszczur0xF3w\n
+Spirytualizm\nNad kruczym gniazdem\n
  G0xECupota?\nG0xECupota przechodz0xE2ca przez 0xE5ciany: Unikacz inteligencji\nAnaliza systemu, pat pending.
 S0xECowniki\nZobacz: Labirynty
-Scalanie\nScalanie: Sprytna partnerka roz0xEC0xE2czania\n@@@@@@@@@@@
+Scalanie\nScalanie: Sprytna partnerka roz0xEC0xE2czania\n
 Skalpele\nDzia0xECa0xE7 bez siatki\nBezpieczne metody przeprowadzania operacji.
-Tatua0xF2e\nDlaczego laski lubi0xE2 tatua0xF2e\n@@@@@@@@@@@
-Tatua0xF2e\nChoroby zwi0xE2zane z tatua0xF2ami\n@@@@@@@@@@@
-Tatua0xF2e\nMoja pierwsza ksi0xE20xF2eczka tatua0xF2y\n@@@@@@@@@@@
+Tatua0xF2e\nDlaczego laski lubi0xE2 tatua0xF2e\n
+Tatua0xF2e\nChoroby zwi0xE2zane z tatua0xF2ami\n
+Tatua0xF2e\nMoja pierwsza ksi0xE20xF2eczka tatua0xF2y\n
 Ta0xF1ce\nMasakra na pota0xF1c0xF3wce\nLouisa de la Cruz
 Teatr\nPoza sercami i pytajnikami\nTeatr cieni dla pirat0xF3w z dwoma hakami
-Trzyg0xECowa ma0xECpa\nDuma Loch Ness\n@@@@@@@@@@@
+Trzyg0xECowa ma0xECpa\nDuma Loch Ness\n
 Tytu0xECy\nZobacz: Nag0xEC0xF3wki
-Tost\n30 rzeczy, kt0xF3re paskudnie smakuj0xE2 na grzankach\n@@@@@@@@@@@
+Tost\n30 rzeczy, kt0xF3re paskudnie smakuj0xE2 na grzankach\n
 Pche0xECki\nWsp0xF30xECcze0xE5ni zbieracze pche0xECek\nPeriodyczne kompedium.
-TIRY\nCi0xEB0xF2ar0xF3wki Kolekcjonerskie\n@@@@@@@@@@@
+TIRY\nCi0xEB0xF2ar0xF3wki Kolekcjonerskie\n
 Tu0xECanie\nJak prze0xF2y0xE7 na Karaibach nie wydaj0xE2c grosza?\nPiracki przewodnik.
-Unikaty\nBig Whoop: Niezgarni0xEBta 0xF2y0xECa z0xECota czy mit?\n@@@@@@@@@@@
-Troska o drzewa\nAnestezjologia drzew li0xE5ciastych\n@@@@@@@@@@@
+Unikaty\nBig Whoop: Niezgarni0xEBta 0xF2y0xECa z0xECota czy mit?\n
+Troska o drzewa\nAnestezjologia drzew li0xE5ciastych\n
 Trylogie\nDlaczego ludzie nie powinni pisa0xE7 trylogii\nSimon Finkleberth
 Trylogie\nDlaczego ludzie nie powinni czyta0xE7 trylogii\nSimon Finkleberth
 Trylogie\nDlaczego ludzie i tak pisz0xE2 trylogie\nSimon Finkleberth
-Tatar\nPomys0xECy na deser z tatarem\n@@@@@@@@@@@
-Tyfus\nDlaczego nie powiniene0xE5 si0xEB przejmowa0xE7 tyfusem\n@@@@@@@@@@@
-Trapezy\nWielkie trapezy i inne dzie0xECa sztuki\n@@@@@@@@@@@
-Ubrania wierzchnie\nCi0xE2gni0xEBcie gaci: Nieszkodliwa zabawa czy tortura?\n@@@@@@@@@@@
-Warzywa\nWarzywa, kt0xF3re b0xEBd0xE2 je0xE50xE7 dzieci\n@@@@@@@@@@@
-W sprawach z drugiej r0xEBki\nPopularne sporty widowiskowe\n@@@@@@@@@@@
+Tatar\nPomys0xECy na deser z tatarem\n
+Tyfus\nDlaczego nie powiniene0xE5 si0xEB przejmowa0xE7 tyfusem\n
+Trapezy\nWielkie trapezy i inne dzie0xECa sztuki\n
+Ubrania wierzchnie\nCi0xE2gni0xEBcie gaci: Nieszkodliwa zabawa czy tortura?\n
+Warzywa\nWarzywa, kt0xF3re b0xEBd0xE2 je0xE50xE7 dzieci\n
+W sprawach z drugiej r0xEBki\nPopularne sporty widowiskowe\n
 Jakie0xE5 wykroczenia w przesz0xECo0xE5ci?\n101 wyst0xEBpk0xF3w\nJ.P. Ampleform
 Wycie0xF1czaj0xE2ca pedanteria\nZobacz: Dziesi0xEBtna Klasyfikacja Biblioteczna
-Skrzypce\nTrzydzie0xE5ci niemuzycznych zastosowa0xF1 skrzypiec\n@@@@@@@@@@@
-Wirusy\nRzeczy, kt0xF3re mo0xF2esz z0xECapa0xE7 czytaj0xE2c ksi0xE20xF2k0xEB\n@@@@@@@@@@@
-Wizja\nPrzepaski\n@@@@@@@@@@@
+Skrzypce\nTrzydzie0xE5ci niemuzycznych zastosowa0xF1 skrzypiec\n
+Wirusy\nRzeczy, kt0xF3re mo0xF2esz z0xECapa0xE7 czytaj0xE2c ksi0xE20xF2k0xEB\n
+Wizja\nPrzepaski\n
 Wulkany\nCiep0xECo przez ca0xECy rok\nPodr0xEBcznik handlu nieruchomo0xE5ciami.
 Voodoo\nZobacz: Poradniki
-Wulgarno0xE50xE7\nOhydne rzeczy do powiedzenia na przyj0xEBciu\n@@@@@@@@@@@
+Wulgarno0xE50xE7\nOhydne rzeczy do powiedzenia na przyj0xEBciu\n
 Czekanie\nCzy ta bluzka jest nowa?\nZylion rzeczy do zrobienia podczas czekania w kolejce.
 Wyk0xECadziny\nNigdzie jak w moim pokoju\nWzory ze 0xE5licznymi bohaterami z kresk0xF3wek.
 Wyk0xECadziny\nWp0xECyw 0xF20xF30xECtego na ma0xECe dzieci\nBadania psychologiczne.
 Wyk0xECadziny\n0xC7ycie w limetkowym\nTysi0xE2c limetkowozielonych wzor0xF3w.
-Walce\nTa0xF1cz0xE2c na trzech nogach\n@@@@@@@@@@@
-Wieprze\nNiezrozumiany zwierzak\n@@@@@@@@@@@
+Walce\nTa0xF1cz0xE2c na trzech nogach\n
+Wieprze\nNiezrozumiany zwierzak\n
 Wspania0xECo0xE50xE7\nWielkie bogactwo jako sztuka spo0xECeczna\nL. Phatt
 Wielkie koty\nPoznaj pana Tygrysa\nRozk0xECadana ksi0xE20xF2eczka.
 Wino\nW0xE2chaj0xE2c korek\nCo i jak dla winnych snob0xF3w.
-Warsztat stolarski\nKrocz0xE2c po desce\n@@@@@@@@@@@
-Xantypa\nPoskromienie ga0xE5nicy\n@@@@@@@@@@@
-Xenofobia\nBachory, won z mojego trawnika\n@@@@@@@@@@@
+Warsztat stolarski\nKrocz0xE2c po desce\n
+Xantypa\nPoskromienie ga0xE5nicy\n
+Xenofobia\nBachory, won z mojego trawnika\n
 Xylofon\nZobacz: Muzyka
-0xC7eglarstwo\nPiracki przewodnik po karaibskich jachtklubach\n@@@@@@@@@@@
+0xC7eglarstwo\nPiracki przewodnik po karaibskich jachtklubach\n
 0xC7eglarstwo\nJedyna rzecz jakiej ci trzeba to czapeczka\n0xC7eglarstwo na l0xE2dzie
-0xC7ubry\n0xC7ubry s0xE2 wolne, ale ziemia jest cierpliwa\n@@@@@@@@@@@
+0xC7ubry\n0xC7ubry s0xE2 wolne, ale ziemia jest cierpliwa\n
 Ziewanie\nPragnienie ziewania\nBadania psychologiczne nad zara0xF4liwo0xE5ci0xE2 ziewania.
-Yeti\nWywiad z Ba0xECwanem\n@@@@@@@@@@@
+Yeti\nWywiad z Ba0xECwanem\n
 Znaki i j0xEBzyki\nE tam, i inne przydatne zwroty\nOdniesienie
 Zab0xF3jcze g0xECosy\nJod0xECowanie na ca0xECy regulator\nBadania nad militarnym wykorzystaniem jod0xECowania.
 Yorkshire, pudding \nNie ca0xECkiem prawdziwy pudding\nPrzepisy i paragrafy.
 Yo-yo \nNa ko0xF1cu liny\nYo-yo w polityce .
 Yo-yo \nZdrowie i jego zachowanie\nSztuczki dla 0xE5redniozaawansowanych
 Yo-yo \nPrz0xEBdzenie, gdy ko0xF1czy si0xEB ni0xE7\nYo-yo w filozofii.
-Zinjanthropus\nPiraci w plejstocenie\n@@@@@@@@@@@
+Zinjanthropus\nPiraci w plejstocenie\n
 Znaczki pocztowe\nZobacz: Filatelistyka
-Zamki b0xECyskawiczne\nTeoria zapinania\n@@@@@@@@@@@
-Z\nLiczby ca0xECkowite\n@@@@@@@@@@@
-Zoologia\nPo prostu jeden z naczelnych\n@@@@@@@@@@@
-Zoologia\nZwierz0xEBta z ZOO bardziej inteligentne od ludzi\n@@@@@@@@@@@
-Lodowce\nPi0xEBkno g0xF3r Sierra\n@@@@@@@@@@@
-Nieprzyzwoito0xE50xE7\n@@@@@@@@@@@\nPrzeno0xE5ne odpowiedniki nieprzyzwoitych s0xEC0xF3w i kwestii.
-Odg0xECosy\nPrzewodnik po kresk0xF3wkowych odg0xECosach\n@@@@@@@@@@@
-Oskalpowywanie\nJak oskalpowywa0xE7\n@@@@@@@@@@@
+Zamki b0xECyskawiczne\nTeoria zapinania\n
+Z\nLiczby ca0xECkowite\n
+Zoologia\nPo prostu jeden z naczelnych\n
+Zoologia\nZwierz0xEBta z ZOO bardziej inteligentne od ludzi\n
+Lodowce\nPi0xEBkno g0xF3r Sierra\n
+Nieprzyzwoito0xE50xE7\n\nPrzeno0xE5ne odpowiedniki nieprzyzwoitych s0xEC0xF3w i kwestii.
+Odg0xECosy\nPrzewodnik po kresk0xF3wkowych odg0xECosach\n
+Oskalpowywanie\nJak oskalpowywa0xE7\n
 USTAWIENIA GRY
 USTAWIENIA DZWIEKU
 Monkey Island0x99 2 Edycja Rozszerzona PL0x0AZemsta LeChucka0x99
@@ -991,7 +991,7 @@ Wybrany nosnik pamieci zostal usuniety.
 Plik zapisu wydaje sie byc uszkodzony i nie moze zostac zaladowany.
 Plik zapisu wydaje sie byc uszkodzony i nie moze zostac zaladowany. Uszkodzony plik zapisu zostanie nadpisany automatycznie.
 Ponow probe zapisu
-##### talar0xF3w@@@@@@@@@@@@@@@@######
+##### talar0xF3w######
 Wybrany nosnik pamieci zostal usuniety. Funkcja automatycznego zapisywania jest obecnie wylaczona. Musisz wybrac nosnik pamieci aby ponownie wlaczyc funkcje automatycznego zapisu.
 sprzedawca
 Mistrz Plucia
@@ -1028,144 +1028,144 @@ Animatronika\nAnimatronika\nWalt Whimsy
 Animatronika\nUjrzyj, co jest pod Spodem\nWalt Whimsy
 Adnotacja\nZobacz: Przypis
 Archeologia\nX nigdy nie oznacza skarbu\nI. Jones
-Artyzm\nOg0xF3lnikowo0xE50xE7 jako forma artystyczna\n@@@@@@@@@@@
+Artyzm\nOg0xF3lnikowo0xE50xE7 jako forma artystyczna\n
 Artyzm/Filozofia\nIdealizm czy Surrealizm?\nPodr0xEBcznik do filozofii/sztuki.
-Benzyna i inne ciecze\nBrowar dla wszystkich\n@@@@@@@@@@@
-                               Big Whoop?\nZobacz: Skarb
+Benzyna i inne ciecze\nBrowar dla wszystkich\n
+ Big Whoop?\nZobacz: Skarb
 Biografia\nObie r0xEBce s0xE2 puste\nHerman Toothrot.
 Biografia\nObie r0xEBce s0xE2 w ruchu\nHistoria Stana.
 Biografia\nObie g0xECowy s0xE2 puste\nBracia Fettucini.
 Biografia\nA w pi0xEB0xE5ciach 0xE5ciska0xEC p0xE2kle\nDziennik Kapitana Twiddlymore.
 Biografia\nWyli0xF2 srebrn0xE2 0xECy0xF2eczk0xEB\nL. Phatt
-Biografia\nCzarnobrody i ja\n@@@@@@@@@@@
+Biografia\nCzarnobrody i ja\n
 Biografia\nGdy wysadzi0xECem LeChucka\nW0xE2tpliwe wspomnienia Guybrusha Threepwooda
 Biografia\nRany.\nWspomnienia kapitana Gilberta
-Budowa cia0xECa\nNiecodzienne znamiona \n@@@@@@@@@@@
-Bohaterowie z poprzedniej cz0xEB0xE5ci\n0xCAniadanie u Meathooka\n@@@@@@@@@@@
+Budowa cia0xECa\nNiecodzienne znamiona \n
+Bohaterowie z poprzedniej cz0xEB0xE5ci\n0xCAniadanie u Meathooka\n
 Biznes\nZdobywania Przyjaci0xF30xEC i Wp0xECywania na Ludzi\nautorstwa Jacka Wr0xF3bla
 Ceremonia0xECy kanibali\nJak serwowa0xE7 ludzi(om)\nCytrynog0xECowy
-Ceremonia0xECy kanibali\nZobacz:  Samopomoc
+Ceremonia0xECy kanibali\nZobacz: Samopomoc
 Dane katalogowe\nZobacz: S0xECowniki
 Chedar i inne sery\nPrzewodnik po serach 0xE5wiata\nOdniesienie
-Dla dzieci\nZ0xECowieszcze potwory spod 0xEC0xF30xF2ka\n@@@@@@@@@@@
-Dla dzieci\nOpowie0xE5ci dla ma0xECych pirat0xF3w\n@@@@@@@@@@@
+Dla dzieci\nZ0xECowieszcze potwory spod 0xEC0xF30xF2ka\n
+Dla dzieci\nOpowie0xE5ci dla ma0xECych pirat0xF3w\n
 Cyrki\nFantastyczne przygody Billa i Alfredo\nBeletrystyka
 Cyrki\nDo diab0xECa z ludzk0xE2 torped0xE2\nHistoria numeru z cz0xECowiekiem-kul0xE2.
 Dogmaty literatury\nWielkie odkaszliwania\nKapitan Loogie
 Bibeloty\nZ0xECom, z0xECom, jeszcze wi0xEBcej z0xEComu\nPrzewodnik po kolekcjonerskich pami0xE2tkach.
-Duszenie i gotowanie\nCiekawe pirackie dania\n@@@@@@@@@@@
-Duszenie i gotowanie\nKleiste ciecze, kt0xF3re mo0xF2esz zrobi0xE7 w domu\n@@@@@@@@@@@
-Cha0xECupnictwo\nSzyde0xECkowanie przepasek na weso0xECo i na serio\n@@@@@@@@@@@
+Duszenie i gotowanie\nCiekawe pirackie dania\n
+Duszenie i gotowanie\nKleiste ciecze, kt0xF3re mo0xF2esz zrobi0xE7 w domu\n
+Cha0xECupnictwo\nSzyde0xECkowanie przepasek na weso0xECo i na serio\n
 Dopisek\nZobacz: Referencyjny Obskurantyzm
 Cyfrowanie informacji\nSzyfr w moim nosie\nWyj0xE2tkowa wiadomo0xE50xE7 przewija si0xEB przez histori0xEB.
 Dziesi0xEBtna Klasyfikacja Biblioteczna\nZobacz: Schemat organizacyjny
 Dramaty i katastrofy\nWielkie wraki tego stulecia\nZ kolekcji ksi0xE20xF2ek katastroficznych Kole0xF2anki.
-Choroby\nCiekawostki o szkorbucie\n@@@@@@@@@@@
-Choroby\nChoroby na pok0xECadzie\n@@@@@@@@@@@
+Choroby\nCiekawostki o szkorbucie\n
+Choroby\nChoroby na pok0xECadzie\n
 Czworonogi\nS0xECownik piesko-angielski\nOdniesienie
 Edukacja\nPrzygotowanie do testu zdolno0xE5ci pirackich\nS. Karpman
-Film\nCisza na planie\n@@@@@@@@@@@
+Film\nCisza na planie\n
 Entomologia\nSzkodniki pomidor0xF3w\nInstrukcja obs0xECugi.
-Etymologia\nEtymologia pirackich zwrot0xF3w\n@@@@@@@@@@@
+Etymologia\nEtymologia pirackich zwrot0xF3w\n
 Fotoreceptory\nZobacz: Wizja
 Farthingtonowie\nZobacz: Gry
 Fasony\nLetnia kolekcja dla awanturnik0xF3w\nTrzy roczniki popularnego czasopisma
-Beletrystyka\nBilet klasy E \n@@@@@@@@@@@
-Beletrystyka\nO pi0xEB0xE7 za du0xF2o\n@@@@@@@@@@@
-Beletrystyka\nDzie0xF1 je0xF2a\n@@@@@@@@@@@
+Beletrystyka\nBilet klasy E \n
+Beletrystyka\nO pi0xEB0xE7 za du0xF2o\n
+Beletrystyka\nDzie0xF1 je0xF2a\n
 Beletrystyka\nNie to co dublon\nAntologia kr0xF3tkich powie0xE5ci
-Beletrystyka\nBardzo, bardzo kr0xF3tkie opowie0xE5ci\n@@@@@@@@@@@
-Finanse\nSposoby na 0xECatwe pieni0xE2dze\n@@@@@@@@@@@
+Beletrystyka\nBardzo, bardzo kr0xF3tkie opowie0xE5ci\n
+Finanse\nSposoby na 0xECatwe pieni0xE2dze\n
 Fl0xE2drologia\nWielka ksi0xEBga ryb\nIlustrowany przewodnik po rybach 0xE5wiata.
-Fiszing\n0xC9owienie na czareczki: Zapomniana sztuka\n@@@@@@@@@@@
+Fiszing\n0xC9owienie na czareczki: Zapomniana sztuka\n
 Edukacja 0xF2ywieniowa\nKeksmisja\nS. Cheese
-Edukacja 0xF2ywieniowa\nRozmiary naturalne i wi0xEBksze\n@@@@@@@@@@@
-Edukacja 0xF2ywieniowa\nSzczury jako 0xF4r0xF3d0xECo bia0xECka w diecie\n@@@@@@@@@@@
+Edukacja 0xF2ywieniowa\nRozmiary naturalne i wi0xEBksze\n
+Edukacja 0xF2ywieniowa\nSzczury jako 0xF4r0xF3d0xECo bia0xECka w diecie\n
 Zobacz: \nCeremionialy kanibali
 Fragmenty tekstu\nZobacz: Wycie0xF1czaj0xE2ca pedanteria
 Gry\nHal Barwood o Monkey 2\nKrytyczna recenzja.
 Gry\nFanatycy Fan-Tana\nElroy T. Funbun
 Gry\nKr0xF3lowie shuffleboard\nOpis dynastii Farthington0xF3w.
 Genealogia\nDylemat 66\nOpowie0xE5ci dziwne, ale prawdziwe.
-Genetyka\nJak zrobi0xE7 kr0xF3likalopa\n@@@@@@@@@@@
-Geometria\nW0xECasno0xE5ci eliptycznego hiperboloidu\n@@@@@@@@@@@
+Genetyka\nJak zrobi0xE7 kr0xF3likalopa\n
+Geometria\nW0xECasno0xE5ci eliptycznego hiperboloidu\n
 Widmowy Pirat LeChuck\nKiedy wysadzi0xECem LeChucka\nNajgorszy wr0xF3g Threepwooda.
 Widmowy Pirat LeChuck\nGdzie wysadzi0xECem LeChucka\nNajgorszy wr0xF3g Threepwooda.
 Widmowy Pirat LeChuck\nDlaczego wysadzi0xECem LeChucka\nNajgorszy wr0xF3g Threepwooda.
 Godiva, Lady\nZosta0xECy tylko skarpetki\nBiografia, zobacz: Atrakcje dla Doros0xECych
-...okradanie grob0xF3w...\nPopularne kary dla hien cmentarnych \n@@@@@@@@@@@
+...okradanie grob0xF3w...\nPopularne kary dla hien cmentarnych \n
 Grogoholizm\nJestem w0xE2trob0xE2 Czarnobrodego\nPrzera0xF2aj0xE2ca historia skruszonego grogoholika
 Grupowanie\nZobacz: Katalogi
 Grupowanie tekstu\nZobacz: Dopisek
 Historia\nOstro0xF2nie z tymi kulami armatnimi!\nLegenda o Armadzie Statk0xF3w ze Szklanymi Dnami 
 Historia\nZobacz: Sta0xECe l0xE2dy
-Bzdety\nWspomnienia o Molly\n@@@@@@@@@@@
+Bzdety\nWspomnienia o Molly\n
 Humor\nOkrutne kalambury dla okrutnych pirat0xF3w\nN. Falstein
-Humor\nG0xECupie 0xF2arty pirackie\n@@@@@@@@@@@
+Humor\nG0xECupie 0xF2arty pirackie\n
 Humor Wisielczy\nWi0xEBc idziesz pod top0xF3r...\n100 rzeczy, kt0xF3re mo0xF2esz powiedzie0xE7 katowi.
-Kremy i lody\nUlubione smaki lod0xF3w pirat0xF3w\n@@@@@@@@@@@
+Kremy i lody\nUlubione smaki lod0xF3w pirat0xF3w\n
 Idole\nTiki na obszarze po0xECudniowego Pacyfiku\nOdniesienie
-Igla\nJak prosto zrobi0xE7 igloo\n@@@@@@@@@@@
+Igla\nJak prosto zrobi0xE7 igloo\n
 Kwoty urojone\nNowe prawa podatkowe\nLiteratura lekka.
 Indeksy\nZobacz: Katalogi
-Kuksa0xF1ce\nJak robi0xE7 pokrzywki\n@@@@@@@@@@@
+Kuksa0xF1ce\nJak robi0xE7 pokrzywki\n
 Katalogi\nZobacz: Tytu0xECy
-Kompleks ni0xF2szo0xE5ci\nKompleks kompleksu\n@@@@@@@@@@@
+Kompleks ni0xF2szo0xE5ci\nKompleks kompleksu\n
 Kasa skarbowa\nZobacz: kwoty urojone
 Kr0xF3likalop\nZobacz: Genetyka
 Karagen \n`Historia zelek`
-Krewetki\nNasze bezkr0xEBgowe kuzynki\n@@@@@@@@@@@
+Krewetki\nNasze bezkr0xEBgowe kuzynki\n
 Jurysdykcja\nS0xE2d kangur0xF3w\nKrytyka nowoczesnego systemu s0xE2dowego
 Kultura nieletnich\nMi0xECo0xE5nicy przewracania kr0xF3w\nEseje wybrane ze wzgl0xEBdu na styl i form0xEB.
 Karate\nZobacz: MMA
 Karma\nMoja karma wyla0xECa si0xEB na twoje dogmaty\nZobacz: Rozw0xF3j my0xE5li filozoficznej
-Kil\nPrzeci0xE2ganie pod kilem: Metodyka i Praktyka\n@@@@@@@@@@@
+Kil\nPrzeci0xE2ganie pod kilem: Metodyka i Praktyka\n
 Ketchup\nZobacz: Warzywa
 J0xE2dra\nHistoria o ma0xECych, dzielnych organach.\nRozk0xECadana ksi0xE20xF2eczka o pracy j0xE2der.
-Kleptomania\nKleptomania\n@@@@@@@@@@@
+Kleptomania\nKleptomania\n
 Labyrinty\nZobacz: Kody pocztowe
 Lingwistyka\nModny slang dla pirat0xF3w\nS0xECownik slangu wsp0xF30xECczesnego.
-Mszyce\nHodowla mszyc na weso0xECo i na serio\n@@@@@@@@@@@
-Lunch\nPopo0xECudnie u Meathooka\n@@@@@@@@@@@
+Mszyce\nHodowla mszyc na weso0xECo i na serio\n
+Lunch\nPopo0xECudnie u Meathooka\n
 Limeryki\nJaja i spro0xE5no0xE5ci\nZakazane albumy z zesz0xECej dekady
 Magia\nZobacz: Poradniki
-Manaty\nWilgotne damy z g0xEC0xEBbin\n@@@@@@@@@@@
+Manaty\nWilgotne damy z g0xEC0xEBbin\n
 Manaty\n0xC7eglarz i krowa morska\n- Ba0xE50xF1
-MMA\nTeoria i praktyka rachowania ko0xE5ci\n@@@@@@@@@@@
-Matematyka\nWzory na lemniskaty sze0xE5cienne \n@@@@@@@@@@@
+MMA\nTeoria i praktyka rachowania ko0xE5ci\n
+Matematyka\nWzory na lemniskaty sze0xE5cienne \n
 Labirynty\nZobacz: Przypis
-Militaria\nOstro0xF2ny 0xC7eglarz: Dlaczego nie 0xF2egluj0xEB\n@@@@@@@@@@@
-Mamona\n0xC9atwe pieni0xE2dze do zrobienia w domu\n@@@@@@@@@@@
+Militaria\nOstro0xF2ny 0xC7eglarz: Dlaczego nie 0xF2egluj0xEB\n
+Mamona\n0xC9atwe pieni0xE2dze do zrobienia w domu\n
 Muzyka\nElvis 0xF2yje\nPrzewidywania Postradamusa na temat przysz0xECej muzyki
-Muzyka\nZdobywcy nagr0xF3d Grammy w renesansie \n@@@@@@@@@@@
-Muzyka\nTom pierwszy\n@@@@@@@@@@@
-Muzyka\nNajgorsze pirackie piosenki\n@@@@@@@@@@@
-Muzyka\nXylofon dla pocz0xE2tkuj0xE2cych\n@@@@@@@@@@@
+Muzyka\nZdobywcy nagr0xF3d Grammy w renesansie \n
+Muzyka\nTom pierwszy\n
+Muzyka\nNajgorsze pirackie piosenki\n
+Muzyka\nXylofon dla pocz0xE2tkuj0xE2cych\n
 Maskarady\nKr0xF3l Karol z Kr0xF3low0xE2 Karolin0xE2?\nZ serii tajemnic 0xE5wistak0xF3w.
-Narcyzm\nPodoba mi si0xEB narcyzm\n@@@@@@@@@@@
-Narkolepsja\nWyznania narkoleptyka\n@@@@@@@@@@@
-New Age\nDynanetyka autorstwa L. Rona Gilberta\n@@@@@@@@@@@
-Noc\nHa0xECasy spod 0xEC0xF30xF2ka\n@@@@@@@@@@@
+Narcyzm\nPodoba mi si0xEB narcyzm\n
+Narkolepsja\nWyznania narkoleptyka\n
+New Age\nDynanetyka autorstwa L. Rona Gilberta\n
+Noc\nHa0xECasy spod 0xEC0xF30xF2ka\n
 Normalno0xE50xE7\nP0xECot z bia0xECych sztachet\nNauki socjologiczne.
 Nosy\nZatr0xE2b je0xE5li musisz\nPrzezi0xEBbienia, alergie i inne dolegliwo0xE5ci
 Nostalgia\nGazowane fontanny mojej M0xECodo0xE5ci\nPonce de Leon
-Numerologia\nNumerologia dla pocz0xE2tkuj0xE2cych\n@@@@@@@@@@@
-Nylon\nNylon dla pirat0xF3w\n@@@@@@@@@@@
+Numerologia\nNumerologia dla pocz0xE2tkuj0xE2cych\n
+Nylon\nNylon dla pirat0xF3w\n
 Oty0xECo0xE50xE7\nJeszcze wi0xEBcej mnie do kochania\nL. Phatt
 Okra\nNajlepsze przepisy na potrawy z ketmi\nZobacz: Jedzenie.
 Oliwki\nPlaga pizzy\nAnaliza przymusowej konsumpcji oliwek
-Optymizm\nA po burzy przychodzi spok0xF3j\n@@@@@@@@@@@
-Orangutany\nNasi w0xECochaci kuzynowie\n@@@@@@@@@@@
+Optymizm\nA po burzy przychodzi spok0xF3j\n
+Orangutany\nNasi w0xECochaci kuzynowie\n
 Organizacyjne schematy\nZobacz: Labirynty
 Origami\nPapierowy bizon\nWzory origami dla zaawansowanych.
-Ortopedia\nUs0xECysz szept rozm0xF3w moich st0xF3p\n@@@@@@@@@@@
+Ortopedia\nUs0xECysz szept rozm0xF3w moich st0xF3p\n
 Rozw0xF3j my0xE5li filozoficznej\nUbawienie\nTraktat filozoficzny.
-Rozw0xF3j my0xE5li filozoficznej\nRastafarianizm\n@@@@@@@@@@@
+Rozw0xF3j my0xE5li filozoficznej\nRastafarianizm\n
 Pl0xE2drowanie\nWszystko o pl0xE2drowaniu\nZ serii Nauka w weekend.
 Pl0xE2drowanie\nMistrzowie w pl0xE2drowaniu\nWywiady z najlepszymi.
 Piractwo\nElementarz pirata\nPorady dla 0xF20xF30xECtodziob0xF3w.
 Poezja\nPu0xE5ci0xEC pijany 0xF2agle\nPoezja piracka.
-Powiedzenia i cytaty\nPowiedzenia znanych pirat0xF3w\n@@@@@@@@@@@
+Powiedzenia i cytaty\nPowiedzenia znanych pirat0xF3w\n
 Rozr0xF3d zwierz0xE2t\nZobacz: Mszyca
 Rekurencja\nZobacz: Rekurencja
 Poradniki\nKl0xE2twy na codzie0xF1\n101 niezb0xEBdnych przepis0xF3w voodoo.
@@ -1180,87 +1180,87 @@ Romans\nPrzekl0xEBte spadkobierstwo romantyzmu\nMelanie Leary
 Romans\n0xC9ab0xEBdzi 0xE5piew wstr0xEBtnego grzechu\nMelanie Leary
 Romans\nT0xEBsknota za 0xF20xF30xECciej0xE2cymi wczoraj\nMelanie Leary
 Sport 0xF2eglarski\nGdybym tylko mia0xEC musk\nNiebezpiecze0xF1stwa brania prysznica na pok0xECadzie statku.
-Sport 0xF2eglarski\nBezpieczne 0xF2eglowanie\n@@@@@@@@@@@
+Sport 0xF2eglarski\nBezpieczne 0xF2eglowanie\n
 Sandacz\nZamki i zamki\nWsp0xF30xECczesne problemy dotykaj0xE2ce sandacze.
 Sta0xECe l0xE2dy\nHistoria wyspy Parszywc0xF3w \nWprowadzenie
-Samopomoc\nPiraci, kt0xF3rzy kochaj0xE2 zbyt mocno\n@@@@@@@@@@@
+Samopomoc\nPiraci, kt0xF3rzy kochaj0xE2 zbyt mocno\n
 Samopomoc\nNie zjadam ludzi i czuj0xEB si0xEB z tym dobrze\nWyznania eks-kanibala
 Sowy\nZab0xF3jcy z g0xEC0xEBbin\nBadania karaibskich s0xF3w.
 Statki i okr0xEBty - budownictwo\nStaki i okr0xEBty - budowa\nG. Steele
 Statk0xF3w i okr0xEBt0xF3w wraki\nZobacz: Dramaty i katastrofy
-Sprawki diabelskie\nUkryte grzechy kamienia \n@@@@@@@@@@@
-Sprawki diabelskie\nTop 7 grzech0xF3w g0xEC0xF3wnych\n@@@@@@@@@@@
+Sprawki diabelskie\nUkryte grzechy kamienia \n
+Sprawki diabelskie\nTop 7 grzech0xF3w g0xEC0xF3wnych\n
 Slang piracki\nDo kro0xE7set\nZobacz: Lingwistyka
 Socjologia\nDarwinizm spo0xECeczny i choroby spo0xECeczne \nSpo0xECeczna teoria wzgl0xEBdno0xE5ci.
 Skat\nMilion jeden sposob0xF3w na skata\nHerman Toothrot
-Spirytualizm\nDar ludzi-jaszczur0xF3w\n@@@@@@@@@@@
-Spirytualizm\nNad kruczym gniazdem\n@@@@@@@@@@@
+Spirytualizm\nDar ludzi-jaszczur0xF3w\n
+Spirytualizm\nNad kruczym gniazdem\n
  G0xECupota?\nG0xECupota przechodz0xE2ca przez 0xE5ciany: Unikacz inteligencji\nAnaliza systemu, pat pending.
 S0xECowniki\nZobacz: Labirynty
-Scalanie\nScalanie: Sprytna partnerka roz0xEC0xE2czania\n@@@@@@@@@@@
+Scalanie\nScalanie: Sprytna partnerka roz0xEC0xE2czania\n
 Skalpele\nDzia0xECa0xE7 bez siatki\nBezpieczne metody przeprowadzania operacji.
-Tatua0xF2e\nDlaczego laski lubi0xE2 tatua0xF2e\n@@@@@@@@@@@
-Tatua0xF2e\nChoroby zwi0xE2zane z tatua0xF2ami\n@@@@@@@@@@@
-Tatua0xF2e\nMoja pierwsza ksi0xE20xF2eczka tatua0xF2y\n@@@@@@@@@@@
+Tatua0xF2e\nDlaczego laski lubi0xE2 tatua0xF2e\n
+Tatua0xF2e\nChoroby zwi0xE2zane z tatua0xF2ami\n
+Tatua0xF2e\nMoja pierwsza ksi0xE20xF2eczka tatua0xF2y\n
 Ta0xF1ce\nMasakra na pota0xF1c0xF3wce\nLouisa de la Cruz
 Teatr\nPoza sercami i pytajnikami\nTeatr cieni dla pirat0xF3w z dwoma hakami
-Trzyg0xECowa ma0xECpa\nDuma Loch Ness\n@@@@@@@@@@@
+Trzyg0xECowa ma0xECpa\nDuma Loch Ness\n
 Tytu0xECy\nZobacz: Nag0xEC0xF3wki
-Tost\n30 rzeczy, kt0xF3re paskudnie smakuj0xE2 na grzankach\n@@@@@@@@@@@
+Tost\n30 rzeczy, kt0xF3re paskudnie smakuj0xE2 na grzankach\n
 Pche0xECki\nWsp0xF30xECcze0xE5ni zbieracze pche0xECek\nPeriodyczne kompedium.
-TIRY\nCi0xEB0xF2ar0xF3wki Kolekcjonerskie\n@@@@@@@@@@@
+TIRY\nCi0xEB0xF2ar0xF3wki Kolekcjonerskie\n
 Tu0xECanie\nJak prze0xF2y0xE7 na Karaibach nie wydaj0xE2c grosza?\nPiracki przewodnik.
-Unikaty\nBig Whoop: Niezgarni0xEBta 0xF2y0xECa z0xECota czy mit?\n@@@@@@@@@@@
-Troska o drzewa\nAnestezjologia drzew li0xE5ciastych\n@@@@@@@@@@@
+Unikaty\nBig Whoop: Niezgarni0xEBta 0xF2y0xECa z0xECota czy mit?\n
+Troska o drzewa\nAnestezjologia drzew li0xE5ciastych\n
 Trylogie\nDlaczego ludzie nie powinni pisa0xE7 trylogii\nSimon Finkleberth
 Trylogie\nDlaczego ludzie nie powinni czyta0xE7 trylogii\nSimon Finkleberth
 Trylogie\nDlaczego ludzie i tak pisz0xE2 trylogie\nSimon Finkleberth
-Tatar\nPomys0xECy na deser z tatarem\n@@@@@@@@@@@
-Tyfus\nDlaczego nie powiniene0xE5 si0xEB przejmowa0xE7 tyfusem\n@@@@@@@@@@@
-Trapezy\nWielkie trapezy i inne dzie0xECa sztuki\n@@@@@@@@@@@
-Ubrania wierzchnie\nCi0xE2gni0xEBcie gaci: Nieszkodliwa zabawa czy tortura?\n@@@@@@@@@@@
-Warzywa\nWarzywa, kt0xF3re b0xEBd0xE2 je0xE50xE7 dzieci\n@@@@@@@@@@@
-W sprawach z drugiej r0xEBki\nPopularne sporty widowiskowe\n@@@@@@@@@@@
+Tatar\nPomys0xECy na deser z tatarem\n
+Tyfus\nDlaczego nie powiniene0xE5 si0xEB przejmowa0xE7 tyfusem\n
+Trapezy\nWielkie trapezy i inne dzie0xECa sztuki\n
+Ubrania wierzchnie\nCi0xE2gni0xEBcie gaci: Nieszkodliwa zabawa czy tortura?\n
+Warzywa\nWarzywa, kt0xF3re b0xEBd0xE2 je0xE50xE7 dzieci\n
+W sprawach z drugiej r0xEBki\nPopularne sporty widowiskowe\n
 Jakie0xE5 wykroczenia w przesz0xECo0xE5ci?\n101 wyst0xEBpk0xF3w\nJ.P. Ampleform
 Wycie0xF1czaj0xE2ca pedanteria\nZobacz: Dziesi0xEBtna Klasyfikacja Biblioteczna
-Skrzypce\nTrzydzie0xE5ci niemuzycznych zastosowa0xF1 skrzypiec\n@@@@@@@@@@@
-Wirusy\nRzeczy, kt0xF3re mo0xF2esz z0xECapa0xE7 czytaj0xE2c ksi0xE20xF2k0xEB\n@@@@@@@@@@@
-Wizja\nPrzepaski\n@@@@@@@@@@@
+Skrzypce\nTrzydzie0xE5ci niemuzycznych zastosowa0xF1 skrzypiec\n
+Wirusy\nRzeczy, kt0xF3re mo0xF2esz z0xECapa0xE7 czytaj0xE2c ksi0xE20xF2k0xEB\n
+Wizja\nPrzepaski\n
 Wulkany\nCiep0xECo przez ca0xECy rok\nPodr0xEBcznik handlu nieruchomo0xE5ciami.
 Voodoo\nZobacz: Poradniki
-Wulgarno0xE50xE7\nOhydne rzeczy do powiedzenia na przyj0xEBciu\n@@@@@@@@@@@
+Wulgarno0xE50xE7\nOhydne rzeczy do powiedzenia na przyj0xEBciu\n
 Czekanie\nCzy ta bluzka jest nowa?\nZylion rzeczy do zrobienia podczas czekania w kolejce.
 Wyk0xECadziny\nNigdzie jak w moim pokoju\nWzory ze 0xE5licznymi bohaterami z kresk0xF3wek.
 Wyk0xECadziny\nWp0xECyw 0xF20xF30xECtego na ma0xECe dzieci\nBadania psychologiczne.
 Wyk0xECadziny\n0xC7ycie w limetkowym\nTysi0xE2c limetkowozielonych wzor0xF3w.
-Walce\nTa0xF1cz0xE2c na trzech nogach\n@@@@@@@@@@@
-Wieprze\nNiezrozumiany zwierzak\n@@@@@@@@@@@
+Walce\nTa0xF1cz0xE2c na trzech nogach\n
+Wieprze\nNiezrozumiany zwierzak\n
 Wspania0xECo0xE50xE7\nWielkie bogactwo jako sztuka spo0xECeczna\nL. Phatt
 Wielkie koty\nPoznaj pana Tygrysa\nRozk0xECadana ksi0xE20xF2eczka.
 Wino\nW0xE2chaj0xE2c korek\nCo i jak dla winnych snob0xF3w.
-Warsztat stolarski\nKrocz0xE2c po desce\n@@@@@@@@@@@
-Xantypa\nPoskromienie ga0xE5nicy\n@@@@@@@@@@@
-Xenofobia\nBachory, won z mojego trawnika\n@@@@@@@@@@@
+Warsztat stolarski\nKrocz0xE2c po desce\n
+Xantypa\nPoskromienie ga0xE5nicy\n
+Xenofobia\nBachory, won z mojego trawnika\n
 Xylofon\nZobacz: Muzyka
-0xC7eglarstwo\nPiracki przewodnik po karaibskich jachtklubach\n@@@@@@@@@@@
+0xC7eglarstwo\nPiracki przewodnik po karaibskich jachtklubach\n
 0xC7eglarstwo\nJedyna rzecz jakiej ci trzeba to czapeczka\n0xC7eglarstwo na l0xE2dzie
-0xC7ubry\n0xC7ubry s0xE2 wolne, ale ziemia jest cierpliwa\n@@@@@@@@@@@
+0xC7ubry\n0xC7ubry s0xE2 wolne, ale ziemia jest cierpliwa\n
 Ziewanie\nPragnienie ziewania\nBadania psychologiczne nad zara0xF4liwo0xE5ci0xE2 ziewania.
-Yeti\nWywiad z Ba0xECwanem\n@@@@@@@@@@@
+Yeti\nWywiad z Ba0xECwanem\n
 Znaki i j0xEBzyki\nE tam, i inne przydatne zwroty\nOdniesienie
 Zab0xF3jcze g0xECosy\nJod0xECowanie na ca0xECy regulator\nBadania nad militarnym wykorzystaniem jod0xECowania.
 Yorkshire, pudding \nNie ca0xECkiem prawdziwy pudding\nPrzepisy i paragrafy.
 Yo-yo \nNa ko0xF1cu liny\nYo-yo w polityce .
 Yo-yo \nZdrowie i jego zachowanie\nSztuczki dla 0xE5redniozaawansowanych
 Yo-yo \nPrz0xEBdzenie, gdy ko0xF1czy si0xEB ni0xE7\nYo-yo w filozofii.
-Zinjanthropus\nPiraci w plejstocenie\n@@@@@@@@@@@
+Zinjanthropus\nPiraci w plejstocenie\n
 Znaczki pocztowe\nZobacz: Filatelistyka
-Zamki b0xECyskawiczne\nTeoria zapinania\n@@@@@@@@@@@
-Z\nLiczby ca0xECkowite\n@@@@@@@@@@@
-Zoologia\nPo prostu jeden z naczelnych\n@@@@@@@@@@@
-Zoologia\nZwierz0xEBta z ZOO bardziej inteligentne od ludzi\n@@@@@@@@@@@
-Lodowce\nPi0xEBkno g0xF3r Sierra\n@@@@@@@@@@@
-Nieprzyzwoito0xE50xE7\n@@@@@@@@@@@\nPrzeno0xE5ne odpowiedniki nieprzyzwoitych s0xEC0xF3w i kwestii.
-Odg0xECosy\nPrzewodnik po kresk0xF3wkowych odg0xECosach\n@@@@@@@@@@@
-Oskalpowywanie\nJak oskalpowywa0xE7\n@@@@@@@@@@@
+Zamki b0xECyskawiczne\nTeoria zapinania\n
+Z\nLiczby ca0xECkowite\n
+Zoologia\nPo prostu jeden z naczelnych\n
+Zoologia\nZwierz0xEBta z ZOO bardziej inteligentne od ludzi\n
+Lodowce\nPi0xEBkno g0xF3r Sierra\n
+Nieprzyzwoito0xE50xE7\n\nPrzeno0xE5ne odpowiedniki nieprzyzwoitych s0xEC0xF3w i kwestii.
+Odg0xECosy\nPrzewodnik po kresk0xF3wkowych odg0xECosach\n
+Oskalpowywanie\nJak oskalpowywa0xE7\n
 Jesli chcesz uzyskac dostep do menu pauzy w trakcie gry, obroc iPhone lub iPod touch w pionie.

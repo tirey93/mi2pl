@@ -120,11 +120,11 @@ msgstr "IKONY POLECEN"
 
 msgctxt "33"
 msgid "POINT AND CLICK CONTROLS0x0Aleft trigger:0x0AShow / Hide Inventory Menu0x0Aright trigger:0x0AShow / Hide Action dial / Perform Action0x0Aleft bumper:0x0AHighlight Interactive Objects0x0Aright bumper:0x0ATrigger Audio Commentary0x0AMove cursor (Navigate Action Dial / Select Dialog)0x0A"Look At" inventory item / Walk to location0x0ATrigger Hint0x0ASwitch to Classic Mode0x0AMove cursor0x0AMake Guybrush Walk (Navigate Action Dial / Select Dialog)0x0AMANUAL CONTROLS0x0AOptions Menu"
-msgstr "STEROWANIE WSKAZ I KLIKNIJ0x0Alewy spust (left trigger):0x0APokaz / Ukryj menu ekwipunku0x0Aprawy spust (right trigger):0x0APokaz / Ukryj wybor akcji / Wykonaj akcje0x0Alewy przycisk przedni (left bumper):0x0APodswietl interaktywne przedmioty0x0Aprawy przycisk przedni (right bumper):0x0AOdtworz komentarz audio0x0APrzesun kursor (Poruszaj sie po wyborze akcji / Wybierz odpowiedz)0x0A\"Obejrzyj\" przedmiot w ekwipunku / Idz do lokacji0x0APokaz podpowiedz0x0APrzelacz do trybu klasycznego0x0APrzesun kursor0x0AIdz Guybrushem (Poruszaj sie po wyborze akcji / Wybierz odpowiedz)0x0ASTEROWANIE RECZNE0x0AMenu opcji"
+msgstr "STEROWANIE WSKAZ I KLIKNIJ0x0Alewy spust (left trigger):0x0APokaz / Ukryj menu ekwipunku0x0Aprawy spust (right trigger):0x0APokaz / Ukryj wybor akcji / Wykonaj akcje0x0Alewy przycisk przedni (left bumper):0x0APodswietl interaktywne przedmioty0x0Aprawy przycisk przedni (right bumper):0x0AOdtworz komentarz audio0x0APrzesun kursor (Poruszaj sie po wyborze akcji / Wybierz odpowiedz)0x0A"Obejrzyj" przedmiot w ekwipunku / Idz do lokacji0x0APokaz podpowiedz0x0APrzelacz do trybu klasycznego0x0APrzesun kursor0x0AIdz Guybrushem (Poruszaj sie po wyborze akcji / Wybierz odpowiedz)0x0ASTEROWANIE RECZNE0x0AMenu opcji"
 
 msgctxt "34"
 msgid "POINT AND CLICK CONTROLS0x0AL2 button:0x0AShow / Hide Inventory Menu0x0AR2 button:0x0AShow / Hide Action dial / Perform Action0x0AL1 button:0x0AHighlight Interactive Objects0x0AR1 button:0x0ATrigger Audio Commentary0x0AMove cursor (Navigate Action Dial / Select Dialog)0x0A"Look At" inventory item / Walk to location0x0ATrigger Hint0x0ASwitch to Classic Mode0x0AMove cursor0x0AMake Guybrush Walk (Navigate Action Dial / Select Dialog)0x0AMANUAL CONTROLS0x0AOptions Menu"
-msgstr "STEROWANIE WSKAZ I KLIKNIJ0x0APrzycisk L2:0x0APokaz / Ukryj menu ekwipunku0x0APrzycisk R2:0x0APokaz / Ukryj wybor akcji / Wykonaj akcje0x0APrzycisk L1:0x0APodswietl interaktywne przedmioty0x0APrzycisk R20x0AOdtworz komentarz audio0x0APrzesun kursor (Poruszaj sie po wyborze akcji / Wybierz odpowiedz)0x0A\"Obejrzyj\" przedmiot w ekwipunku / Idz do lokacji0x0APokaz podpowiedz0x0APrzelacz do trybu klasycznego0x0APrzesun kursor0x0AIdz Guybrushem (Poruszaj sie po wyborze akcji / Wybierz odpowiedz)0x0ASTEROWANIE RECZNE0x0AMenu opcji"
+msgstr "STEROWANIE WSKAZ I KLIKNIJ0x0APrzycisk L2:0x0APokaz / Ukryj menu ekwipunku0x0APrzycisk R2:0x0APokaz / Ukryj wybor akcji / Wykonaj akcje0x0APrzycisk L1:0x0APodswietl interaktywne przedmioty0x0APrzycisk R20x0AOdtworz komentarz audio0x0APrzesun kursor (Poruszaj sie po wyborze akcji / Wybierz odpowiedz)0x0A"Obejrzyj" przedmiot w ekwipunku / Idz do lokacji0x0APokaz podpowiedz0x0APrzelacz do trybu klasycznego0x0APrzesun kursor0x0AIdz Guybrushem (Poruszaj sie po wyborze akcji / Wybierz odpowiedz)0x0ASTEROWANIE RECZNE0x0AMenu opcji"
 
 msgctxt "35"
 msgid "CONTROLS0x0AGameplay screen:0x0ATouch anywhere to interact0x0ACursor:0x0ANavigate / Select objects0x0AVerb Icons:0x0ATap to select0x0AInventory Icon:0x0ATap to open / close"
@@ -180,7 +180,7 @@ msgstr "MENU EKWIPUNKU (I)0x0AAby otworzyc i zamknac menu ekwipunku, stuknij pal
 
 msgctxt "48"
 msgid "INVENTORY MENU (II)0x0ASome items can be combined with other items. Tap the "use" verb icon at the bottom of the screen and then tap on two different inventory items to combine them."
-msgstr "MENU EKWIPUNKU (II)0x0ANiektore przedmioty moga zostac polaczone z innymi przedmiotami. Stuknij palcem ikone polecenia \"uzyj\" na dole ekranu a nastepnie stuknij palcem w dwa rozne przedmioty z ekwipunku aby je polaczyc."
+msgstr "MENU EKWIPUNKU (II)0x0ANiektore przedmioty moga zostac polaczone z innymi przedmiotami. Stuknij palcem ikone polecenia "uzyj" na dole ekranu a nastepnie stuknij palcem w dwa rozne przedmioty z ekwipunku aby je polaczyc."
 
 msgctxt "49"
 msgid "USING INVENTORY ITEMS IN THE ENVIRONMENT0x0AOnce you have selected an inventory item, touch an object in the environment to use the inventory item with it."
@@ -564,7 +564,7 @@ msgstr "OGrogP jest ulubionym napojem piratow. Chociaz rodzaj alkoholu uzywany d
 
 msgctxt "167"
 msgid ""Lubber" was an old English word for a big, slow, clumsy person, and this term was aimed at those persons on ship who were not very skilled or at ease with ship life, as if to say, "You were no better on the land.""
-msgstr "\"Lubber\" to stare angielskie slowo na duza, powolna i niezaradna osobe. Termin ten byl skierowany do tych osob na statku, ktore nie byly za bardzo wprawne lub swobodne w zyciu na morzu, jakby chciec powiedziec: \"Nie byles lepszy na ladzie\"."
+msgstr ""Lubber" to stare angielskie slowo na duza, powolna i niezaradna osobe. Termin ten byl skierowany do tych osob na statku, ktore nie byly za bardzo wprawne lub swobodne w zyciu na morzu, jakby chciec powiedziec: "Nie byles lepszy na ladzie"."
 
 msgctxt "168"
 msgid "A “squiffy0x94 is a buffoon. A “sprog0x94 is an untrained recruit. When someone calls you this, you should expect to be walking the plank very soon."
@@ -939,14 +939,12 @@ msgid "for audio commentary"
 msgstr "po komentarz audio"
 
 msgctxt "769"
-msgid "Food Also \nSee: Cannibalism"
-msgstr "Zobacz: \n"
-"Ceremionialy kanibali"
+msgid "Food Also <nl>See: Cannibalism"
+msgstr "Zobacz: <nl>Ceremionialy kanibali"
 
 msgctxt "801"
-msgid "Jelly \n`The Story of Jelly`"
-msgstr "Karagen \n"
-"`Historia zelek`"
+msgid "Jelly <nl>`The Story of Jelly`"
+msgstr "Karagen <nl>`Historia zelek`"
 
 msgctxt "951"
 msgid "GAME SETTINGS"
@@ -1217,21 +1215,16 @@ msgid "Settings"
 msgstr "Ustawienia"
 
 msgctxt "1026"
-msgid "Adult Entertainment \n`Zelda Carbuncle Tells All` \nMemoirs of a woman of \ndubious pleasure."
-msgstr "Atrakcje dla Doroslych \n"
-"`Karbunkul Zelda Wie Wszystko` \n"
-"Pamietnik kobiety \n"
-"watpliwych przyjemnosci."
+msgid "Adult Entertainment <nl>`Zelda Carbuncle Tells All` <nl>Memoirs of a woman of <nl>dubious pleasure."
+msgstr "Atrakcje dla Doroslych <nl>`Karbunkul Zelda Wie Wszystko` <nl>Pamietnik kobiety <nl>watpliwych przyjemnosci."
 
 msgctxt "1084"
-msgid "Food Also \nSee: Cannibalism"
-msgstr "Zobacz: \n"
-"Ceremionialy kanibali"
+msgid "Food Also <nl>See: Cannibalism"
+msgstr "Zobacz: <nl>Ceremionialy kanibali"
 
 msgctxt "1116"
-msgid "Jelly \n`The Story of Jelly`"
-msgstr "Karagen \n"
-"`Historia zelek`"
+msgid "Jelly <nl>`The Story of Jelly`"
+msgstr "Karagen <nl>`Historia zelek`"
 
 msgctxt "1266"
 msgid "If you want to access the pause menu during a game, rotate the iPhone or iPod touch vertically."

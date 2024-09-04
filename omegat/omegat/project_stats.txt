@@ -1,10 +1,10 @@
-9/4/24 7:52 AM
+9/4/24 9:51 AM
 Project Statistics
 
                  	Segments	Words	Characters (without spaces)	Characters (including spaces)	#Files	
-Total:           	     863	10376	                      48232	                        57578	     2	
+Total:           	     863	10383	                      48253	                        57599	     2	
 Remaining:       	       0	    0	                          0	                            0	     0	
-Unique:          	     795	10089	                      46889	                        56015	     2	
+Unique:          	     795	10094	                      46904	                        56030	     2	
 Unique Remaining:	       0	    0	                          0	                            0	     0	
 
 
@@ -12,4 +12,4 @@ Individual File Statistics:
 
 File Name       	Total Segments	Remaining Segments	Unique Segments	Unique Remaining Segments	Total Words	Remaining Words	Unique Words	Unique Remaining Words	Total Characters (without spaces)	Remaining Characters (without spaces)	Unique Characters (without spaces)	Unique Remaining Characters (without spaces)	Total Characters (including spaces)	Remaining Characters (including spaces)	Unique Characters (including spaces)	Unique Remaining Characters (including spaces)	
 output_speech.po	           555	                 0	            513	                        0	       7916	              0	        7709	                     0	                            35412	                                    0	                             34480	                                           0	                              42625	                                      0	                               41526	                                             0	
-output_ui.po    	           308	                 0	            282	                        0	       2460	              0	        2380	                     0	                            12820	                                    0	                             12409	                                           0	                              14953	                                      0	                               14489	                                             0	
+output_ui.po    	           308	                 0	            282	                        0	       2467	              0	        2385	                     0	                            12841	                                    0	                             12424	                                           0	                              14974	                                      0	                               14504	                                             0	
