@@ -1,0 +1,1232 @@
+msgctxt "1"
+msgid "PLAY NEW GAME"
+msgstr "ROZPOCZNIJ NOWĄ GRE"
+
+msgctxt "2"
+msgid "CONTINUE/LOAD GAME"
+msgstr "KONTYNUUJ/WCZYTAJ"
+
+msgctxt "3"
+msgid "HELP AND OPTIONS"
+msgstr "POMOC I USTAWIENIA"
+
+msgctxt "4"
+msgid "BONUS FEATURES"
+msgstr "BONUSY"
+
+msgctxt "5"
+msgid "LEADERBOARDS"
+msgstr "TABLICA WYNIKOW"
+
+msgctxt "6"
+msgid "ACHIEVEMENTS"
+msgstr "OSIAGNIECIA"
+
+msgctxt "7"
+msgid "RETURN TO GAME LIBRARY"
+msgstr "POWROT DO BIBLIOTEKI GRY"
+
+msgctxt "8"
+msgid "PIRATE PERFORMANCE"
+msgstr "WYDAJNOSC PIRATA"
+
+msgctxt "9"
+msgid "HOW TO PLAY"
+msgstr "JAK GRAC"
+
+msgctxt "10"
+msgid "CONTROLS"
+msgstr "STEROWANIE"
+
+msgctxt "11"
+msgid "VIDEO SETTINGS"
+msgstr "USTAWIENIA OBRAZU"
+
+msgctxt "12"
+msgid "CLASSIC EDITION CREDITS"
+msgstr "TWORCY EDYCJI KLASYCZNEJ"
+
+msgctxt "13"
+msgid "SPECIAL EDITION CREDITS"
+msgstr "TWORCY EDYCJI ROZSZERZONEJ"
+
+msgctxt "14"
+msgid "MANUAL"
+msgstr "INSTRUKCJA"
+
+msgctxt "15"
+msgid "POINT AND CLICK"
+msgstr "WSKAZ I KLIKNIJ"
+
+msgctxt "17"
+msgid "OFF"
+msgstr "WYLACZONE"
+
+msgctxt "19"
+msgid "DIRECT INPUT"
+msgstr "STEROWANIE BEZPOSREDNIE"
+
+msgctxt "20"
+msgid "TRACKPAD"
+msgstr "GLADZIK"
+
+msgctxt "21"
+msgid "GAME CONTROLS"
+msgstr "STEROWANIE"
+
+msgctxt "22"
+msgid "SUBTITLES IN SPECIAL EDITION"
+msgstr "NAPISY W EDYCJI ROZSZERZONEJ"
+
+msgctxt "23"
+msgid "VOICES IN CLASSIC EDITION"
+msgstr "DIALOGI W EDYCJI KLASYCZNEJ"
+
+msgctxt "24"
+msgid "THE ART OF MONKEY ISLAND"
+msgstr "THE ART OF MONKEY ISLAND"
+
+msgctxt "25"
+msgid "NAVIGATING GUYBRUSH0x0AWhen Manual Control is selected, use the <leftstick> to move Guybrush.0x0AWhen Point and Click Control is selecetd, use the <left or rightstick> to move the cursor.0x0AMove the cursor where you would like Guy-brush to go and press the <A> Button."
+msgstr "PORUSZANIE GUYBRUSHEM0x0AGdy Sterowanie Reczne jest wybrane, uzyj <leftstick> aby przejsc Guybrushem.0x0AKiedy Sterowanie Wskaz I Kliknij jest wybrane, uzyj <left or rightstick> aby przesunac kursor.0x0APrzesun kursor tam gdzie chcesz aby Guybrush sie udal i nacisnij przycisk <A>."
+
+msgctxt "26"
+msgid "INTERACTING WITH THE ENVIRONMENT0x0AThe cursor allows you to interact with the environment.0x0AUse the <rightstick> to move the cursor over objects in the environment."
+msgstr "INTERAKCJA ZE SRODOWISKIEM0x0AKursor pozwala ci na interakcje z otoczeniem.0x0AUzyj <rightstick> aby aby przesunac kursor nad przedmiotami w srodowisku."
+
+msgctxt "27"
+msgid "VERB ACTIONS0x0AWhen an object is selected, press and hold the <Right Trigger> to bring up the list of verb actions that can be performed with it.0x0AUse the <left or right stick> to select a verb icon.0x0ARelease the <Right Trigger> when a verb icon is highlighted to perform that action."
+msgstr "POLECENIE AKCJI0x0AKiedy przedmiot jest wybrany, nacisnij i przytrzymaj <Right Trigger> aby wywolac liste polecen akcji, ktore moga byc z nim wykonane.0x0AUzyj <left or right stick> aby wybrac ikone polecenia.0x0AZwolnij <Right Trigger> kiedy ikona polecenia jest podswietlona aby wykonac te akcje."
+
+msgctxt "28"
+msgid "OBJECT HIGHLIGHTING0x0ATo help you identifty interactive objects more quickly, press the <left button> to highlight them."
+msgstr "PODSWIETLANIE PRZEDMIOTU0x0AW celu szybszego zidentyfikowania przedmiotow, nacisnij <left button> aby je podswietlic."
+
+msgctxt "29"
+msgid "INVENTORY MENU0x0ATo bring up the inventory menu, press and hold the <Left trigger> . Release the <Left Trigger> to close the inventory menu.0x0AUse the <left or rightstick> to highlight an item and press the <Right Trigger>  to select it.0x0ASome items can be combined with other items. Highlight another item when one item is selected and press the <Right Trigger> to combine them."
+msgstr "MENU EKWIPUNKU0x0AAby wywolac menu ekwipunku nacisnij i przytrzymaj <Left trigger>. Zwolnij <Left trigger> aby zamknac menu ekwipunku.0x0AUzyj <left or rightstick> aby podswietlic przedmiot i nacisnij <Right Trigger> aby go wybrac.0x0ANiektore przedmioty moga zostac polaczone z innymi przedmiotami. Podswietl inny przedmiot gdy jeden przedmiot jest juz wybrany i nacisnij <Right Trigger> aby je polaczyc."
+
+msgctxt "30"
+msgid "USING INVENTORY ITEMS0x0AWhen an inventory item is selected, it will appear inside the cursor. 0x0AMove the cursor over an object or character in the environment and press <Right Trigger> to use the inventory item with it."
+msgstr "KORZYSTANIE Z PRZEDMIOTOW W EKWIPUNKU0x0AKiedy przedmiot z ekwipunku zostanie wybrany to pojawi sie wewnatrz kursora.0x0APrzesun kursor nad przedmiot lub postac w srodowisku i nacisnij <Right Trigger> aby uzyc przedmiotu z ekwipunku na nim."
+
+msgctxt "31"
+msgid "USING THE HINT SYSTEM0x0AIf you are ever unsure about what to do next in Monkey Island 2 Special Edition, you can bring up the hints by holding down the <x> button. Once you have held the button down long enough, the hint will appear.0x0AThese will start off being slight clues, and if you require further help you can press <X button> again for a more detailed decription of what you should do next.0x0A"
+msgstr "KORZYSTANIE ZE SYSTEMU WSKAZOWEK0x0AJesli kiedykolwiek nie bedziesz pewien co robic dalej w edycji rozszerzonej Monkey Island 2 to mozesz przywolac podpowiedzi poprzez przytrzymanie przycisku <x>. Jak tylko przytrzymasz przycisk wystarczajaco dlugo to pojawi sie podpowiedz.0x0AZacznie sie od drobnych wskazowek a jesli bedziesz potrzebowac dodatkowej pomocy mozesz ponownie nacisnac przycisk <x> po bardziej szczegolowy opis tego co nalezy zrobic.0x0A"
+
+msgctxt "32"
+msgid "VERB ICONS"
+msgstr "IKONY POLECEN"
+
+msgctxt "33"
+msgid "POINT AND CLICK CONTROLS0x0Aleft trigger:0x0AShow / Hide Inventory Menu0x0Aright trigger:0x0AShow / Hide Action dial / Perform Action0x0Aleft bumper:0x0AHighlight Interactive Objects0x0Aright bumper:0x0ATrigger Audio Commentary0x0AMove cursor (Navigate Action Dial / Select Dialog)0x0A"Look At" inventory item / Walk to location0x0ATrigger Hint0x0ASwitch to Classic Mode0x0AMove cursor0x0AMake Guybrush Walk (Navigate Action Dial / Select Dialog)0x0AMANUAL CONTROLS0x0AOptions Menu"
+msgstr "STEROWANIE WSKAZ I KLIKNIJ0x0Alewy spust (left trigger):0x0APokaz / Ukryj menu ekwipunku0x0Aprawy spust (right trigger):0x0APokaz / Ukryj wybor akcji / Wykonaj akcje0x0Alewy przycisk przedni (left bumper):0x0APodswietl interaktywne przedmioty0x0Aprawy przycisk przedni (right bumper):0x0AOdtworz komentarz audio0x0APrzesun kursor (Poruszaj sie po wyborze akcji / Wybierz odpowiedz)0x0A"Obejrzyj" przedmiot w ekwipunku / Idz do lokacji0x0APokaz podpowiedz0x0APrzelacz do trybu klasycznego0x0APrzesun kursor0x0AIdz Guybrushem (Poruszaj sie po wyborze akcji / Wybierz odpowiedz)0x0ASTEROWANIE RECZNE0x0AMenu opcji"
+
+msgctxt "34"
+msgid "POINT AND CLICK CONTROLS0x0AL2 button:0x0AShow / Hide Inventory Menu0x0AR2 button:0x0AShow / Hide Action dial / Perform Action0x0AL1 button:0x0AHighlight Interactive Objects0x0AR1 button:0x0ATrigger Audio Commentary0x0AMove cursor (Navigate Action Dial / Select Dialog)0x0A"Look At" inventory item / Walk to location0x0ATrigger Hint0x0ASwitch to Classic Mode0x0AMove cursor0x0AMake Guybrush Walk (Navigate Action Dial / Select Dialog)0x0AMANUAL CONTROLS0x0AOptions Menu"
+msgstr "STEROWANIE WSKAZ I KLIKNIJ0x0APrzycisk L2:0x0APokaz / Ukryj menu ekwipunku0x0APrzycisk R2:0x0APokaz / Ukryj wybor akcji / Wykonaj akcje0x0APrzycisk L1:0x0APodswietl interaktywne przedmioty0x0APrzycisk R20x0AOdtworz komentarz audio0x0APrzesun kursor (Poruszaj sie po wyborze akcji / Wybierz odpowiedz)0x0A"Obejrzyj" przedmiot w ekwipunku / Idz do lokacji0x0APokaz podpowiedz0x0APrzelacz do trybu klasycznego0x0APrzesun kursor0x0AIdz Guybrushem (Poruszaj sie po wyborze akcji / Wybierz odpowiedz)0x0ASTEROWANIE RECZNE0x0AMenu opcji"
+
+msgctxt "35"
+msgid "CONTROLS0x0AGameplay screen:0x0ATouch anywhere to interact0x0ACursor:0x0ANavigate / Select objects0x0AVerb Icons:0x0ATap to select0x0AInventory Icon:0x0ATap to open / close"
+msgstr "STEROWANIE0x0AEkran gry:0x0ADotknij gdziekolwiek aby wykonac interakcje0x0AKursor:0x0ANawigacja po / Zaznaczenie przedmiotow0x0AIkony polecen0x0AStuknij palcem aby wybrac0x0AIkona ekwipunku:0x0AStuknij palcem aby otworzyc / zamknac"
+
+msgctxt "36"
+msgid "INTERACTING WITH THE ENVIRONMENT0x0AThe cursor allows you to interact with the environment. Point the cursor over objects in the environment to select them."
+msgstr "INTERAKCJA ZE SRODOWISKIEM0x0AKursor pozwala ci na interakcje z otoczeniem. Ustaw kursor nad przedmiotem w srodowisku aby go wybrac."
+
+msgctxt "37"
+msgid "VERB ACTIONS0x0AWhen an object is selected, press and hold the Right Mouse Button to bring up the list of verb actions that can be performed with it.0x0APoint the cursor to select a verb icon. 0x0ARelease the Right Mouse Button when a verb icon is highlighted to perform that action."
+msgstr "POLECENIE AKCJI0x0AKiedy przedmiot jest wybrany, nacisnij i przytrzymaj prawy przycisk myszy aby wywolac liste polecen akcji, ktore moga byc z nim wykonane.0x0ANajedz kursorem aby wybrac ikone polecenia.0x0AZwolnij prawy przycisk myszy kiedy ikona polecenia jest podswietlona aby wykonac te akcje."
+
+msgctxt "38"
+msgid "OBJECT HIGHLIGHTING0x0ATo help you identify interactive objects more quickly, press the Left and Right Mouse Buttons together to highlight them."
+msgstr "PODSWIETLANIE PRZEDMIOTU0x0AW celu szybszego zidentyfikowania przedmiotow, nacisnij jednoczesnie lewy i prawy przycisk myszy aby je podswietlic."
+
+msgctxt "39"
+msgid "INVENTORY MENU0x0ATo bring up the inventory menu, click the mouse wheel.0x0APoint the cursor at an item to highlight it and press the Left Mouse Button to select it.0x0ASome items can be combined with other items. Highlight another item when one item is selected and press the Left Mouse Button to combine them."
+msgstr "MENU EKWIPUNKU0x0AAby wywolac menu ekwipunku kliknij kolko myszy.0x0ANajedz kursorem na przedmiot aby go podswietlic i nacisnij lewy przycisk myszy aby go wybrac.0x0ANiektore przedmioty moga zostac polaczone z innymi przedmiotami. Podswietl inny przedmiot gdy jeden przedmiot jest juz wybrany i nacisnij lewy przycisk myszy aby je polaczyc."
+
+msgctxt "40"
+msgid "USING INVENTORY ITEMS0x0AWhen an inventory item is selected, it will appear inside the cursor. 0x0AMove the cursor over objects or characters in the environment and press the Left Mouse Button to use the inventory item with it."
+msgstr "KORZYSTANIE Z PRZEDMIOTOW W EKWIPUNKU0x0AKiedy przedmiot z ekwipunku zostanie wybrany to pojawi sie wewnatrz kursora.0x0APrzesun kursor nad przedmiot lub postac w srodowisku i nacisnij lewy przycisk myszy aby uzyc przedmiotu z ekwipunku na nim."
+
+msgctxt "41"
+msgid "USING THE HINT SYSTEM (Exactly as written in Monkey 1)0x0AIf you are ever unsure about what to do next in Monkey Island 2 Special Edition, you can bring up the hints by pressing the “H0x94 key.  0x0AThese will start off being slight clues, and if you require further help you can press “H0x94 again for a more detailed description of what you should do next."
+msgstr "KORZYSTANIE ZE SYSTEMU WSKAZOWEK (Dokladnie tak jak napisane w Monkey 1)0x0AJesli kiedykolwiek nie bedziesz pewien co robic dalej w edycji rozszerzonej Monkey Island 2 to mozesz przywolac podpowiedzi naciskajac klawisz OHP key.0x0AZacznie sie od drobnych wskazowek a jesli bedziesz potrzebowac dodatkowej pomocy mozesz ponownie nacisnac OHP po bardziej szczegolowy opis tego co nalezy zrobic."
+
+msgctxt "42"
+msgid "NAVIGATING GUYBRUSH0x0AUse the mouse to point the cursor where you would like Guybrush to go and press the Left Mouse Button to make Guybrush walk there."
+msgstr "PORUSZANIE GUYBRUSHEM0x0AUzyj myszki aby ustawic kursor tam gdzie chcesz aby Guybrush sie udal i nacisnij lewy przycisk myszy aby pojsc Guybrushem tam."
+
+msgctxt "43"
+msgid "HOW TO PLAY0x0ANAVIGATING GUYBRUSH0x0AWhen Trackpad Control is selected, move the cursor where you want Guybrush to go and then tap the screen.0x0AWhen Direct Control is selected, touch the game screen where you want Guybrush to go. When you lift your finger, Guybrush will walk there."
+msgstr "JAK GRAC0x0APORUSZANIE GUYBRUSHEM0x0AGdy Sterowanie Gladzikiem jest wybrane, przesun kursor tam gdzie chcesz aby Guybrush sie udal a nastepnie stuknij palcem w ekranu.0x0AKiedy Sterowanie Bezposrednie jest wybrane dotknij ekranu gry tam gdzie chcesz aby Guybrush sie udal. Po podniesieniu palca Guybrush sie tam uda."
+
+msgctxt "44"
+msgid "HOW TO PLAY0x0ANAVIGATING GUYBRUSH0x0AWhen Trackpad Control is selected, move the cursor where you want Guybrush to go and then tap the screen.0x0AWhen Direct Control is selected, touch the game screen where you want Guybrush to go. When you lift your finger, Guybrush will walk there."
+msgstr "JAK GRAC0x0APORUSZANIE GUYBRUSHEM0x0AGdy Sterowanie Gladzikiem jest wybrane, przesun kursor tam gdzie chcesz aby Guybrush sie udal a nastepnie stuknij palcem w ekranu.0x0AKiedy Sterowanie Bezposrednie jest wybrane dotknij ekranu gry tam gdzie chcesz aby Guybrush sie udal. Po podniesieniu palca Guybrush sie tam uda."
+
+msgctxt "45"
+msgid "INTERACTING WITH THE ENVIRONMENT0x0AWhen Trackpad Control is selected, select a verb icon from the keyboard at the bottom of the screen and move the cursor over an interactive object. Tap anywhere on the screen to perform this action.0x0AWhen Direct Control is selected, select a verb icon from the keyboard at the bottom of the screen and touch an interactive object. Lift your finger off the screen to perform this action."
+msgstr "INTERAKCJA ZE SRODOWISKIEM0x0AGdy Sterowanie Gladzikiem jest wybrane, wybierz ikone polecenia z klawiatury na dole ekranu i przesun kursor nad interaktywny przedmiot. Stuknij palcem gdziekolwiek na ekranie aby wykonac te akcje.0x0AGdy Sterowanie Bezposrednie jest wybrane, wybierz ikone polecenia z klawiatury na dole ekranu i dotknij interaktywny przedmiot. Podnies palec z ekranu aby wykonac te akcje."
+
+msgctxt "46"
+msgid "OBJECT HIGHLIGHTING0x0ATo help you identify useful items more quickly, place two fingers on the screen at the same time and then lift them to highlight interactive objects."
+msgstr "PODSWIETLANIE PRZEDMIOTU0x0AW celu szybszego zidentyfikowania przedmiotow, umiesc dwa palce na ekranie w tym samym czasie a nastepnie unies je aby podswietlic interaktywne przedmioty."
+
+msgctxt "47"
+msgid "INVENTORY MENU (I)0x0ATo open and close the ivnentory menu, tap on the inventory icon at the lower right.0x0AYou can perform different actions with the inventory items. Select a verb from the keyboard at the bottom of the screen and then tap on an inventory item to aplpy the verb to it."
+msgstr "MENU EKWIPUNKU (I)0x0AAby otworzyc i zamknac menu ekwipunku, stuknij palcem ikone ekwipunku w prawym dolnym rogu.0x0AMozesz wykonac rozne akcje z przedmiotami z ekwipunku. Wybierz polecenie z klawiatury na dole ekranu a nastepnie stuknij palcem w przedmiot z ekwipunku aby zastosowac polecenie do niego."
+
+msgctxt "48"
+msgid "INVENTORY MENU (II)0x0ASome items can be combined with other items. Tap the "use" verb icon at the bottom of the screen and then tap on two different inventory items to combine them."
+msgstr "MENU EKWIPUNKU (II)0x0ANiektore przedmioty moga zostac polaczone z innymi przedmiotami. Stuknij palcem ikone polecenia "uzyj" na dole ekranu a nastepnie stuknij palcem w dwa rozne przedmioty z ekwipunku aby je polaczyc."
+
+msgctxt "49"
+msgid "USING INVENTORY ITEMS IN THE ENVIRONMENT0x0AOnce you have selected an inventory item, touch an object in the environment to use the inventory item with it."
+msgstr "KORZYSTANIE Z PRZEDMIOTOW W EKWIPUNKU W SRODOWISKU0x0AJak tylko wybierzesz przedmiot z ekwipunku, dotknij przedmiotu w srodowisku aby uzyc przedmiotu z ekwipunku z nim."
+
+msgctxt "50"
+msgid "USING THE HINT SYSTEM0x0AIf you are ever unsure about what to do next in Monkey Island 2 Special Edition, you can bring up the hints by shaking the Iphone or Ipod touch. 0x0AThese will start off being slight clues, and if you require further help you can shake your device again for a more detailed description of what you should do next."
+msgstr "KORZYSTANIE ZE SYSTEMU WSKAZOWEK0x0AJesli kiedykolwiek nie bedziesz pewien co robic dalej w edycji rozszerzonej Monkey Island 2 to mozesz przywolac podpowiedzi poprzez potrzasanie iPhonem lub iPodem touch.0x0AZacznie sie od drobnych wskazowek a jesli bedziesz potrzebowac dodatkowej pomocy mozesz ponownie potrzasnac urzadzeniem po bardziej szczegolowy opis tego co nalezy zrobic."
+
+msgctxt "51"
+msgid "USING THE HINT SYSTEM0x0AIf you are ever unsure about what to do next in Monkey Island 2 Special Edition, you can bring up the hints by placing three fingers on the screen at the same time. 0x0AThese will start off being slight clues, and if you require further help you can place three fingers on the screen again for a more detailed description of what you should do next."
+msgstr "KORZYSTANIE ZE SYSTEMU WSKAZOWEK0x0AJesli kiedykolwiek nie bedziesz pewien co robic dalej w edycji rozszerzonej Monkey Island 2 to mozesz przywolac podpowiedzi umieszczajac trzy palce na ekranie w tym samym czasie.0x0AZacznie sie od drobnych wskazowek a jesli bedziesz potrzebowac dodatkowej pomocy mozesz ponownie umiescic trzy palce na ekranie po bardziej szczegolowy opis tego co nalezy zrobic."
+
+msgctxt "52"
+msgid "AUDIO COMMENTARY0x0AAt certain points in the game, you can listen to the original developers of the Monkey Island game discuss the game's development. To play the Audio Commentary, touch the microphone icon at the top right of the screen when it lights up."
+msgstr "KOMENTARZ AUDIO0x0AW niektorych miejscach w grze mozesz posluchac pierwotnych deweloperow gry Monkey Island omawiajacych proces rozwoju gry. Aby odtworzyc komentarz audio dotknij ikony mikrofonu w prawym gornym rogu ekranu kiedy bedzie sie ona swiecic."
+
+msgctxt "53"
+msgid "PAUSE MENU0x0ATo access the Pause Menu, touch the compass icon at the top left of the screen."
+msgstr "MENU PAUZY0x0AAby uzyskac dostep do Menu Pauzy, dotknij ikony kompasu w lewym gornym rogu ekranu."
+
+msgctxt "54"
+msgid "CONTROLS"
+msgstr "STEROWANIE2"
+
+msgctxt "55"
+msgid "OBJECT HIGHLIGHTING"
+msgstr "PODSWIETLANIE PRZEDMIOTU"
+
+msgctxt "56"
+msgid "CLASSIC MODE VOICE DIALOG"
+msgstr "DIALOGI W EDYCJI KLASYCZNEJ"
+
+msgctxt "57"
+msgid "SUBTITLES"
+msgstr "NAPISY"
+
+msgctxt "58"
+msgid "MUSIC VOLUME"
+msgstr "GLOSNOSC MUZYKI"
+
+msgctxt "59"
+msgid "SFX VOLUME"
+msgstr "GLOSNOSC GRY"
+
+msgctxt "60"
+msgid "DIALOG VOLUME"
+msgstr "GLOSNOSC DIALOGOW"
+
+msgctxt "61"
+msgid "DEVELOPER'S COMMENTARY"
+msgstr "KOMENTARZE DEWELOPEROW"
+
+msgctxt "81"
+msgid "RESUME GAME"
+msgstr "POWROT DO GRY"
+
+msgctxt "82"
+msgid "SAVE GAME"
+msgstr "ZAPISZ GRE"
+
+msgctxt "83"
+msgid "LOAD GAME"
+msgstr "WCZYTAJ GRE"
+
+msgctxt "84"
+msgid "EXIT TO MAIN MENU"
+msgstr "WYJSCIE DO MENU GLOWNEGO"
+
+msgctxt "85"
+msgid "QUIT GAME"
+msgstr "ZAKONCZ GRE"
+
+msgctxt "86"
+msgid "Are you sure you want to load from this save slot?"
+msgstr "Czy na pewno chcesz zaladowac gre?"
+
+msgctxt "87"
+msgid "Are you sure you want to overwrite this save slot?  All progress in this save slot will be lost."
+msgstr "Czy na pewno chcesz nadpisac ten zapis? Wszelkie informacje w tym zostana utracone."
+
+msgctxt "88"
+msgid "Are you sure you want to quit to the main menu?"
+msgstr "Czy na pewno chcesz wrocic do menu glownego?"
+
+msgctxt "89"
+msgid "Continue Without Saving"
+msgstr "Kontynuuj bez zapisywania"
+
+msgctxt "90"
+msgid "Create New Save Data"
+msgstr "Utworz nowy zapis gry"
+
+msgctxt "91"
+msgid "Do not turn off the Xbox 360 console or remove the storage device whenever you see the icon above on screen."
+msgstr "Nie wylaczaj swojej konsoli ani nie usuwaj nosnika pamieci gdy widzisz ten symbol na ekranie."
+
+msgctxt "92"
+msgid "Exit Game"
+msgstr "Wyjscie"
+
+msgctxt "93"
+msgid "Failed to Save"
+msgstr "Nie udalo sie zapisac gry."
+
+msgctxt "94"
+msgid "Loading game. Please don't turn off your Xbox 360 console."
+msgstr "Wczytywanie gry. Nie wylaczaj swojej konsoli."
+
+msgctxt "95"
+msgid "Monkey Island"
+msgstr "Monkey Island"
+
+msgctxt "96"
+msgid "Music Volume"
+msgstr "Glosnosc muzyki"
+
+msgctxt "97"
+msgid "No storage device has been selected.  Please select a Storage device or choose to continue without saving."
+msgstr "Nie wybrano zadnego nosnika pamieci. Wybierz nosnik lub kontynuuj bez zapisywania."
+
+msgctxt "99"
+msgid "Please choose a storage device with at least %iKB free or you will be unable to save."
+msgstr "Wybierz nosnik z przynajmniej %iKB wolnej pamieci, w przeciwnym razie nie bedziesz mogl zapisac gry."
+
+msgctxt "100"
+msgid "Quitting without saving will result in the loss of unsaved progress."
+msgstr "Wyjscie bez zapisywania gry spowoduje utrate niezapisanych postepow."
+
+msgctxt "101"
+msgid "Retry Load"
+msgstr "Sprobuj ponownie wczytac"
+
+msgctxt "102"
+msgid "Save Data was not found on the storage device.  Would you like to create new save data or continue without saving?"
+msgstr "Na nosniku nie odnaleziono zapisu. Chcesz utworzyc nowy zapis czy kontynuowac bez zapisywania?"
+
+msgctxt "103"
+msgid "Saving content. Please do not turn off your console."
+msgstr "Zapisywanie. Nie wylaczaj konsoli."
+
+msgctxt "104"
+msgid "Select"
+msgstr "Wybierz"
+
+msgctxt "105"
+msgid "Select A storage device"
+msgstr "Wybierz nosnik pamieci"
+
+msgctxt "106"
+msgid "SFX Volume"
+msgstr "Glosnosc gry"
+
+msgctxt "107"
+msgid "Subtitles in Special Edition"
+msgstr "Napisy w edycji rozszerzonej"
+
+msgctxt "108"
+msgid "Voice Volume"
+msgstr "Glosnosc dialogow"
+
+msgctxt "110"
+msgid "You are not signed into Xbox LIVE and cannot access the Leaderboards."
+msgstr "Niej masz konta na Xbox LIVE i nie mozesz zobaczyc wynikow."
+
+msgctxt "111"
+msgid "You do not have a valid storage device selected. If you choose to proceed, you will be unable to save your progress in the game."
+msgstr "Twfj nosnik danych dziala nieprawidlowo. Jesli bedziesz kontynuowac, nie bedziesz w stanie zapisac postepow."
+
+msgctxt "112"
+msgid "You do not have an active gamer profile. Saving and achievements will be disabled. To create or load a gamer profile now, press the Xbox Guide button. Do you want to continue without saving and achievements?"
+msgstr "Nie masz aktywnego profilu gracza. Nie bedzie mozna zapisac gry ani osiagniec. By utworzyc lub wczytac profil gracza, nacisnij przycisk Xbox Guide. Chcesz kontynuowac bez mozliwosci zapisu gry i osiagniec?"
+
+msgctxt "114"
+msgid "Exit"
+msgstr "Wyjscie"
+
+msgctxt "115"
+msgid "Choose your language"
+msgstr "Wybierz jezyk"
+
+msgctxt "116"
+msgid "Autosave and Quit"
+msgstr "Zapisz i wyjdz"
+
+msgctxt "117"
+msgid "Quit Without Saving"
+msgstr "Wyjdz bez zapisywania"
+
+msgctxt "119"
+msgid "Leaderboard"
+msgstr "Wyniki"
+
+msgctxt "120"
+msgid "Unlock Full Game"
+msgstr "Odblokuj pelna wersje gry"
+
+msgctxt "121"
+msgid "Press A button to view this leaderboard"
+msgstr "Nacisnij A zeby wyswietlic wyniki"
+
+msgctxt "122"
+msgid "Retrieving records, please wait"
+msgstr "Trwa pobieranie danych, prosze czekac"
+
+msgctxt "123"
+msgid "Total number of players:"
+msgstr "Wszystkich graczy:"
+
+msgctxt "124"
+msgid "Friends"
+msgstr "Przyjaciele"
+
+msgctxt "125"
+msgid "Overall"
+msgstr "W sumie"
+
+msgctxt "126"
+msgid "My Score"
+msgstr "Moj wynik"
+
+msgctxt "127"
+msgid "Rank"
+msgstr "Pozycja"
+
+msgctxt "128"
+msgid "Gamertag"
+msgstr "Gamertag"
+
+msgctxt "129"
+msgid "Completed"
+msgstr "Ukonczone"
+
+msgctxt "130"
+msgid "View"
+msgstr "Widok"
+
+msgctxt "131"
+msgid "Gamer Card"
+msgstr "Karta gracza"
+
+msgctxt "132"
+msgid "Empty"
+msgstr "Pusty"
+
+msgctxt "133"
+msgid "Autosave:"
+msgstr "Autozapis:"
+
+msgctxt "134"
+msgid "Slot"
+msgstr "Slot"
+
+msgctxt "135"
+msgid "Warning - Autosave cannot be overwritten"
+msgstr "Ostrzezenie - autozapis nie moze zostac nadpisany"
+
+msgctxt "136"
+msgid "Part One"
+msgstr "Czesc pierwsza"
+
+msgctxt "137"
+msgid "Part Two"
+msgstr "Czesc druga"
+
+msgctxt "138"
+msgid "Part Three"
+msgstr "Czesc trzecia"
+
+msgctxt "139"
+msgid "The Last Part"
+msgstr "Czesc ostatnia"
+
+msgctxt "140"
+msgid "Play Time:"
+msgstr "Czas gry:"
+
+msgctxt "141"
+msgid "Percent Complete:"
+msgstr "Postep:"
+
+msgctxt "142"
+msgid "Disconnected from Xbox LIVE"
+msgstr "Odlaczony od Xbox LIVE"
+
+msgctxt "143"
+msgid "Press START"
+msgstr "Nacisnij START"
+
+msgctxt "144"
+msgid "Hold [Y] To Skip"
+msgstr "Przytrzymaj [Y] by ominac"
+
+msgctxt "145"
+msgid "Hold [X] For Hint"
+msgstr "Przytrzymaj [X] by wyswietlic podpowiedz"
+
+msgctxt "146"
+msgid "You are not yet ranked on the leaderboard for this game."
+msgstr "Nie zostales jeszcze uwzgledniony na tablicy wynikow w tej grze."
+
+msgctxt "147"
+msgid "Your friends are not yet ranked on the leaderboard for this game."
+msgstr "Nie zostales jeszcze uwzgledniony na tablicy wynikow w tej grze."
+
+msgctxt "148"
+msgid "There are no entries on this leaderboard."
+msgstr "Na tej tablicy wynikow nie ma zadnych wpisow"
+
+msgctxt "149"
+msgid "entries"
+msgstr "wpisy"
+
+msgctxt "150"
+msgid "entry"
+msgstr "wpis"
+
+msgctxt "151"
+msgid "The data could not be saved on the selected storage device."
+msgstr "Nie mozna zapisac na wybranym nosniku pamieci."
+
+msgctxt "152"
+msgid "Loading..."
+msgstr "Wczytywanie..."
+
+msgctxt "153"
+msgid "Gentleman o' Fortune"
+msgstr "Gentleman of Fortune - Pirat-Dzentelmen"
+
+msgctxt "154"
+msgid "Jolly Roger"
+msgstr "Jolly Roger - Piracka Bandera"
+
+msgctxt "155"
+msgid "Swifty Scallywag"
+msgstr "Swifty Scallywag - Podstepny Lajdak"
+
+msgctxt "156"
+msgid "Playful Picaroon"
+msgstr "Playful Picaroon - Swawolny Lotr"
+
+msgctxt "157"
+msgid "Steady Helmsman"
+msgstr "Steady Helmsman - Staly Sternik"
+
+msgctxt "158"
+msgid "Grog Guzzler"
+msgstr "Grog Guzzler - Pijak Grogu"
+
+msgctxt "159"
+msgid "Land Lubber"
+msgstr "Land Lubber - Szczur Ladowy"
+
+msgctxt "160"
+msgid "Squiffy Sprog"
+msgstr "Squiffy Sprog - Blazen Rekrut"
+
+msgctxt "161"
+msgid "This is a term of distinction for pirates! It is reserved for those pirates who are both wealthy and honorable."
+msgstr "Jest to termin bedacy wyroznieniem dla piratow! Jest zarezerwowany dla tych piratow, ktorzy sa zarowno bogaci jak i czcigodni."
+
+msgctxt "162"
+msgid "The “Jolly Roger0x94 refers to the skull and crossbones found on the pirate flag! Anyone given this title is a true pirate."
+msgstr "OJolly RogerP odnosi sie do czaszki i piszczeli znajdujacych sie na pirackiej fladze. Osoba ktorej nadano ten tytul jest prawdziwym piratem."
+
+msgctxt "163"
+msgid "A “scallywag0x94 is a bad person. A scoundrel. Considered to be clever and dangerous."
+msgstr "OScallywagP jest zla osoba, lajdakiem. Uznawany za przebieglego i niebezpiecznego."
+
+msgctxt "164"
+msgid "The term “Picaroon0x94, is from the Spanish word for rascal. It is meant to describe pirates in a way that is satirical or humorous."
+msgstr "Okreslenie OPicaroonP pochodzi od hiszpanskiego slowa Rascal. Jest przeznaczone do opisania piratow w sposob, ktory jest satyryczny lub humorystyczny."
+
+msgctxt "165"
+msgid "The “Helmsman0x94 is the Captain's attendant, who is tasked with rowing him to and from the ship."
+msgstr "OHelmsmanP jest asystentem kapitana, ktory ma za zadanie wioslowac zabierajac go na i ze statku."
+
+msgctxt "166"
+msgid "“Grog0x94 is a pirate's favorite drink. Although the type of alcohol used to make it may vary, more often than not it contains large quantities of rum."
+msgstr "OGrogP jest ulubionym napojem piratow. Chociaz rodzaj alkoholu uzywany do jego zrobienia moze sie roznic to zazwyczaj zawiera duze ilosci rumu"
+
+msgctxt "167"
+msgid ""Lubber" was an old English word for a big, slow, clumsy person, and this term was aimed at those persons on ship who were not very skilled or at ease with ship life, as if to say, "You were no better on the land.""
+msgstr ""Lubber" to stare angielskie slowo na duza, powolna i niezaradna osobe. Termin ten byl skierowany do tych osob na statku, ktore nie byly za bardzo wprawne lub swobodne w zyciu na morzu, jakby chciec powiedziec: "Nie byles lepszy na ladzie"."
+
+msgctxt "168"
+msgid "A “squiffy0x94 is a buffoon. A “sprog0x94 is an untrained recruit. When someone calls you this, you should expect to be walking the plank very soon."
+msgstr "OSquiffyP to blazen. OSprogP to niedoswiadczony rekrut. Gdy ktos Cie tak nazywa to powinienes spodziewac sie bardzo szybko spaceru po desce."
+
+msgctxt "169"
+msgid "CONGRATULATIONS! YOU'RE A:"
+msgstr "GRATULACJE! JESTES:"
+
+msgctxt "170"
+msgid "Cursor Speed"
+msgstr "Predkosc kursora"
+
+msgctxt "171"
+msgid "Fast"
+msgstr "Szybka"
+
+msgctxt "172"
+msgid "Normal"
+msgstr "Normalna"
+
+msgctxt "173"
+msgid "Voices in Classic Edition"
+msgstr "Dialogi w edycji klasycznej"
+
+msgctxt "174"
+msgid "Touch the screen anywhere and move the cursor as you would with a trackpad.0x0A0x0AThe cursor will allow you to interact with the environment.0x0A0x0AYou can adjust the speed of the cursor in the settings menu.0x0A"
+msgstr "Dotknij ekranu w dowolnym miejscu i przesun kursor tak jak w przypadku gladzika.0x0A0x0AKursor umozliwi ci interakcje z otoczeniem.0x0A0x0AMozesz dostosowac predkosc kursora w menu ustawien."
+
+msgctxt "176"
+msgid "Off"
+msgstr "Wylaczone"
+
+msgctxt "177"
+msgid "SETTINGS"
+msgstr "USTAWIENIA"
+
+msgctxt "178"
+msgid "Buy Full Game"
+msgstr "Kup pelna wersje gry"
+
+msgctxt "179"
+msgid "Buy Full Game"
+msgstr "Kup pelna wersje gry"
+
+msgctxt "181"
+msgid "%namount-of-money% pieces o' eight"
+msgstr "%namount-of-money% talarow"
+
+msgctxt "182"
+msgid "%namount-of-money% pieces o' eight and %nnumber-of-coins% dimes"
+msgstr "%namount-of-money% talarow i %nnumber-of-coins% groszy"
+
+msgctxt "183"
+msgid "%namount-of-money% pieces o' eight and a dime"
+msgstr "%namount-of-money% talarow i grosz"
+
+msgctxt "184"
+msgid "%nnumber-of-coins% dimes"
+msgstr "%nnumber-of-coins% groszy"
+
+msgctxt "191"
+msgid "`The Jolly Rasta`"
+msgstr "`Wesoly Rastaman`"
+
+msgctxt "192"
+msgid "1/%ntimes-drunk-near-grog% bottle o' near-grog"
+msgstr "1/%ntimes-drunk-near-grog% butelki nibygrogu"
+
+msgctxt "193"
+msgid "2 pieces of eight"
+msgstr "2 talary"
+
+msgctxt "200"
+msgid "appendix infections"
+msgstr "zapalenie wyrostka robaczkowego"
+
+msgctxt "252"
+msgid "breath o' dog"
+msgstr "oddech psa"
+
+msgctxt "294"
+msgid "churned thymus"
+msgstr "garsica"
+
+msgctxt "333"
+msgid "dock"
+msgstr "przystan"
+
+msgctxt "339"
+msgid "dragon's teeth"
+msgstr "zab smoka"
+
+msgctxt "342"
+msgid "Dred"
+msgstr "Dred"
+
+msgctxt "343"
+msgid "Dred's Ship"
+msgstr "Statek Dreda"
+
+msgctxt "349"
+msgid "elephant drool"
+msgstr "slina slonia"
+
+msgctxt "355"
+msgid "exit"
+msgstr "wyjscie"
+
+msgctxt "364"
+msgid "fish eyes"
+msgstr "rybie oczy"
+
+msgctxt "371"
+msgid "furnace"
+msgstr "piec"
+
+msgctxt "383"
+msgid "grasshopper tongues"
+msgstr "jezyki szaranczy"
+
+msgctxt "403"
+msgid "hemorrhoid specimens"
+msgstr "okazy hemoroidow"
+
+msgctxt "414"
+msgid "Indy's whip0x99"
+msgstr "Bicz Indiany Jonesa0x99"
+
+msgctxt "416"
+msgid "insect lungs"
+msgstr "pluca owadow"
+
+msgctxt "427"
+msgid "jugular vein fragments"
+msgstr "fragmenty zyly szyjnej"
+
+msgctxt "432"
+msgid "killer cooties"
+msgstr "wszy mordercy"
+
+msgctxt "448"
+msgid "Light"
+msgstr "Swiatlo"
+
+msgctxt "449"
+msgid "Light"
+msgstr "Swiatlo"
+
+msgctxt "451"
+msgid "liquor cabinette"
+msgstr "barek"
+
+msgctxt "453"
+msgid "liverwurst"
+msgstr "pasztetowa"
+
+msgctxt "456"
+msgid "M0xEAl0xE9e Monkey"
+msgstr "Malpa z wyspy Szpady"
+
+msgctxt "466"
+msgid "marinated fingertips"
+msgstr "marynowane opuszki palcow"
+
+msgctxt "492"
+msgid "nector o' spider"
+msgstr "nektar pajaka"
+
+msgctxt "498"
+msgid "oozing lizard tails"
+msgstr "saczace ogony jaszczura"
+
+msgctxt "507"
+msgid "pancreas o' porcupine"
+msgstr "trzustka jezozwierza"
+
+msgctxt "520"
+msgid "picture"
+msgstr "obraz"
+
+msgctxt "522"
+msgid "piece o' eight and %nnumber-of-coins% dimes"
+msgstr "talar i %nnumber-of-coins% groszy"
+
+msgctxt "531"
+msgid "pit"
+msgstr "dziura"
+
+msgctxt "536"
+msgid "porthole"
+msgstr "bulaj"
+
+msgctxt "537"
+msgid "Possible Hidden Treasure"
+msgstr "Prawdopodobnie Ukryty Skarb"
+
+msgctxt "542"
+msgid "quiche"
+msgstr "quiche"
+
+msgctxt "546"
+msgid "reptilian brain cells"
+msgstr "gadzie komorki mozgowe"
+
+msgctxt "556"
+msgid "Purple Tentacle0x99"
+msgstr "Purpurowy Tentacle0x99"
+
+msgctxt "587"
+msgid "stairs master"
+msgstr "stairs master"
+
+msgctxt "592"
+msgid "stone 1"
+msgstr "kamien 1"
+
+msgctxt "593"
+msgid "stone 2"
+msgstr "kamien 2"
+
+msgctxt "594"
+msgid "stone 3"
+msgstr "kamien 3"
+
+msgctxt "595"
+msgid "stone 4"
+msgstr "kamien 4"
+
+msgctxt "596"
+msgid "stone 5"
+msgstr "kamien 5"
+
+msgctxt "597"
+msgid "stone 6"
+msgstr "kamien 6"
+
+msgctxt "598"
+msgid "stone 7"
+msgstr "kamien 7"
+
+msgctxt "611"
+msgid "swamp worms"
+msgstr "robaki bagienne"
+
+msgctxt "617"
+msgid "The Mysterious Island of Cleptomaniac Parrots"
+msgstr "Tajemnicza Wyspa Papug Kleptomanek"
+
+msgctxt "621"
+msgid "tissue o' serpent"
+msgstr "tkanka weza"
+
+msgctxt "631"
+msgid "treasure hunter"
+msgstr "poszukiwacz skarbow"
+
+msgctxt "635"
+msgid "udder grease"
+msgstr "krem do wymion"
+
+msgctxt "644"
+msgid "venom o' jackalope"
+msgstr "jad krolikalopa"
+
+msgctxt "651"
+msgid "voodoo recipe book"
+msgstr "ksiazka z przepisami voodoo"
+
+msgctxt "668"
+msgid "wig dandruff"
+msgstr "lupiezo-peruka"
+
+msgctxt "679"
+msgid "xeroxed nosehairs"
+msgstr "skserowane wlosy z nosa"
+
+msgctxt "680"
+msgid "yak lips"
+msgstr "wargi jaka"
+
+msgctxt "683"
+msgid "zit puss"
+msgstr "ropa z pryszcza"
+
+msgctxt "684"
+msgid "empty"
+msgstr "pusty"
+
+msgctxt "685"
+msgid "empty"
+msgstr "pusty"
+
+msgctxt "686"
+msgid "empty"
+msgstr "pusty"
+
+msgctxt "687"
+msgid "empty"
+msgstr "pusty"
+
+msgctxt "688"
+msgid "empty"
+msgstr "pusty"
+
+msgctxt "689"
+msgid "empty"
+msgstr "pusty"
+
+msgctxt "690"
+msgid "empty"
+msgstr "pusty"
+
+msgctxt "691"
+msgid "empty"
+msgstr "pusty"
+
+msgctxt "692"
+msgid "empty"
+msgstr "pusty"
+
+msgctxt "693"
+msgid "empty"
+msgstr "pusty"
+
+msgctxt "694"
+msgid "empty"
+msgstr "pusty"
+
+msgctxt "695"
+msgid "empty"
+msgstr "pusty"
+
+msgctxt "696"
+msgid "empty"
+msgstr "pusty"
+
+msgctxt "697"
+msgid "empty"
+msgstr "pusty"
+
+msgctxt "698"
+msgid "empty"
+msgstr "pusty"
+
+msgctxt "699"
+msgid "empty"
+msgstr "pusty"
+
+msgctxt "700"
+msgid "empty"
+msgstr "pusty"
+
+msgctxt "701"
+msgid "empty"
+msgstr "pusty"
+
+msgctxt "702"
+msgid "empty"
+msgstr "pusty"
+
+msgctxt "708"
+msgid "Concept Art Unlocked"
+msgstr "Concept Art odblokowany"
+
+msgctxt "709"
+msgid "Press"
+msgstr "Nacisnij"
+
+msgctxt "710"
+msgid "for audio commentary"
+msgstr "po komentarz audio"
+
+msgctxt "769"
+msgid "Food Also \nSee: Cannibalism"
+msgstr "Zobacz: \nCeremionialy kanibali"
+
+msgctxt "801"
+msgid "Jelly \n`The Story of Jelly`"
+msgstr "Karagen \n`Historia zelek`"
+
+msgctxt "951"
+msgid "GAME SETTINGS"
+msgstr "USTAWIENIA GRY"
+
+msgctxt "952"
+msgid "AUDIO SETTINGS"
+msgstr "USTAWIENIA DZWIEKU"
+
+msgctxt "953"
+msgid "Monkey Island0x99 2 Special Edition0x0ALeChuck's Revenge0x99"
+msgstr "Monkey Island0x99 2 Edycja Rozszerzona PL0x0AZemsta LeChucka0x99"
+
+msgctxt "954"
+msgid "Part One: The Largo Embargo"
+msgstr "Czesc pierwsza: Embargo Largo!"
+
+msgctxt "955"
+msgid "Part Two: Four Map Pieces"
+msgstr "Czesc druga: Cztery Kawalki Mapy"
+
+msgctxt "956"
+msgid "Part Three: LeChuck's Fortress"
+msgstr "Czesc trzecia: Forteca LeChucka"
+
+msgctxt "957"
+msgid "Part Four: Dinky Island"
+msgstr "Czesc Czwarta: Wyspa Dinky"
+
+msgctxt "958"
+msgid "%d%% complete"
+msgstr "%d%% ukonczone"
+
+msgctxt "963"
+msgid "VIEW PROFILE"
+msgstr "ZOBACZ PROFIL"
+
+msgctxt "964"
+msgid "XBLA LEADERBOARDS"
+msgstr "TABLICA WYNIKOW XBLA"
+
+msgctxt "965"
+msgid "MY FRIENDS"
+msgstr "MOI PRZYJACIELE"
+
+msgctxt "966"
+msgid "MY SCORE"
+msgstr "MOJ WYNIK"
+
+msgctxt "967"
+msgid "GAMERTAG"
+msgstr "GAMERTAG"
+
+msgctxt "968"
+msgid "SCORE"
+msgstr "WYNIK"
+
+msgctxt "969"
+msgid "You will lose any unsaved progress. Are you sure you want to load from this save slot?"
+msgstr "Stracisz wszystkie niezapisane postepy. Czy na pewno chcesz wczytac ten zapis?"
+
+msgctxt "970"
+msgid "Classic Edition is only available in English."
+msgstr "Wersja klasyczna jest dostepna tylko po angielsku."
+
+msgctxt "971"
+msgid "KEYBOARD SHORTCUTS"
+msgstr "SKROTY KLAWIATUROWE"
+
+msgctxt "972"
+msgid "Keyboard Shortcuts"
+msgstr "Skroty klawiaturowe"
+
+msgctxt "973"
+msgid "Most of the actions you perform in Monkey Island 2 Special Edition can be entered with the keyboard."
+msgstr "Wiekszosc dzialan wykonywanych w edycji rozszerzonej Monkey Island 2 mozna wprowadzic z klawiatury."
+
+msgctxt "974"
+msgid "INVENTORY"
+msgstr "EKWIPUNEK"
+
+msgctxt "975"
+msgid "inventory"
+msgstr "ekwipunek"
+
+msgctxt "976"
+msgid "Hint"
+msgstr "Podpowiedz"
+
+msgctxt "977"
+msgid "HINT"
+msgstr "PODPOWIEDZ"
+
+msgctxt "978"
+msgid "View Profile"
+msgstr "Zobacz profil"
+
+msgctxt "979"
+msgid "CONTINUE GAME"
+msgstr "KONTYNUUJ GRE"
+
+msgctxt "980"
+msgid "Cancel Button"
+msgstr "przycisk Anuluj"
+
+msgctxt "981"
+msgid "FULL SCREEN"
+msgstr "PELNY EKRAN"
+
+msgctxt "982"
+msgid "TRACKPAD"
+msgstr "GLADZIK"
+
+msgctxt "983"
+msgid "PIRATE DICTIONARY"
+msgstr "PIRACKI SLOWNIK"
+
+msgctxt "984"
+msgid "PRESS FOR RANKING"
+msgstr "NACISNIJ PO RANKING"
+
+msgctxt "985"
+msgid "Left Button:0x0AWalk To / Use Inventory Item / Dialogue Selection0x0AWheel:0x0AClick once to:0x0AOpen / Close inventory menu0x0AScroll Through:0x0Ainventory menu0x0ALeft + Right Button:0x0AObject Highlight0x0ARight Button:0x0AOpen Verb Action dial / Perform Action / Look at Inventory Item0x0AHint Button0x0AMove Cursor"
+msgstr "Lewy Przycisk:0x0AIdz do / Uzyj przedmiotu z ekwipunku / Wybor odpowiedzi0x0AKolko Myszy:0x0AKliknij raz aby:0x0AOtworz / Zamknij menu ekwipunku0x0APrzewin:0x0Amenu ekwipunku0x0ALewy + Prawy Przycisk:0x0APodswietl przedmiot0x0APrawy Przycisk:0x0AOtworz wybor polecenia akcji / Wykonaj akcje / Spojrz na przedmiot z ekwipunku0x0APrzycisk wskazowki0x0APrzesun kursor"
+
+msgctxt "986"
+msgid "OVERALL"
+msgstr "W SUMIE"
+
+msgctxt "987"
+msgid "Close Inventory"
+msgstr "Zamknij ekwipunek"
+
+msgctxt "988"
+msgid "No objects available"
+msgstr "Brak dostepnych przedmiotow"
+
+msgctxt "989"
+msgid "Choose a different storage device."
+msgstr "Wybierz inny nosnik pamieci."
+
+msgctxt "990"
+msgid "The selected storage device has been removed."
+msgstr "Wybrany nosnik pamieci zostal usuniety."
+
+msgctxt "991"
+msgid "The save file appears to be damaged and cannot be loaded."
+msgstr "Plik zapisu wydaje sie byc uszkodzony i nie moze zostac zaladowany."
+
+msgctxt "992"
+msgid "The save file appears to be damaged and cannot be loaded. Damaged save file will be overwritten automatically."
+msgstr "Plik zapisu wydaje sie byc uszkodzony i nie moze zostac zaladowany. Uszkodzony plik zapisu zostanie nadpisany automatycznie."
+
+msgctxt "993"
+msgid "Retry saving"
+msgstr "Ponow probe zapisu"
+
+msgctxt "995"
+msgid "The selected storage device has been removed. Autosaving is now disabled. You must select a storage device to re-enable autosaving."
+msgstr "Wybrany nosnik pamieci zostal usuniety. Funkcja automatycznego zapisywania jest obecnie wylaczona. Musisz wybrac nosnik pamieci aby ponownie wlaczyc funkcje automatycznego zapisu."
+
+msgctxt "998"
+msgid "CLICK ON THE IMAGE FOR FULL SCREEN"
+msgstr "KLIKNIJ NA OBRAZ ABY PRZEJSC DO TRYBU PELNOEKRANOWEGO"
+
+msgctxt "999"
+msgid "Return to Game Library"
+msgstr "Powrot do biblioteki gry"
+
+msgctxt "1000"
+msgid "Exit to Main Menu"
+msgstr "Wyjscie do menu glownego"
+
+msgctxt "1001"
+msgid "ONLINE ID"
+msgstr "ONLINE ID"
+
+msgctxt "1002"
+msgid "Time of Completion"
+msgstr "Czas ukonczenia"
+
+msgctxt "1003"
+msgid "Time Score"
+msgstr "Punkty za czas"
+
+msgctxt "1004"
+msgid "Number of Items Collected"
+msgstr "Liczba zebranych przedmiotow"
+
+msgctxt "1005"
+msgid "Number of Hints Used"
+msgstr "Liczba uzytych wskazowek"
+
+msgctxt "1006"
+msgid "Score"
+msgstr "Wynik"
+
+msgctxt "1007"
+msgid "This game saves automatically at certain points. Do not switch off the power when the HDD access indicator is flashing."
+msgstr "Ta gra zapisuje sie automatycznie w okreslonych punktach. Nie wylaczaj zasilania, gdy wskaznik dostepu do dysku twardego miga."
+
+msgctxt "1008"
+msgid "Special Effects"
+msgstr "Efekty specjalne"
+
+msgctxt "1009"
+msgid "Resolution"
+msgstr "Rozdzielczosc"
+
+msgctxt "1010"
+msgid "Full Screen"
+msgstr "Pelny ekran"
+
+msgctxt "1011"
+msgid "Apply"
+msgstr "Potwierdz"
+
+msgctxt "1012"
+msgid "SAVING CONTENT"
+msgstr "ZAPISYWANIE"
+
+msgctxt "1013"
+msgid "Online service is disabled on your PlayStation®Network account due to parental control restrictions."
+msgstr "Usluga online zostala wylaczona na twoim koncie PlayStation® Network z powodu blokady rodzicielskiej."
+
+msgctxt "1014"
+msgid "dimes"
+msgstr "groszy"
+
+msgctxt "1015"
+msgid "and a dime"
+msgstr "i grosz"
+
+msgctxt "1016"
+msgid "and"
+msgstr "i"
+
+msgctxt "1018"
+msgid "N"
+msgstr "N"
+
+msgctxt "1019"
+msgid "S"
+msgstr "S"
+
+msgctxt "1020"
+msgid "E"
+msgstr "E"
+
+msgctxt "1021"
+msgid "W"
+msgstr "W"
+
+msgctxt "1022"
+msgid "Sorry, no hints available at this time..."
+msgstr "Niestety, brak wskazowek w tym momencie..."
+
+msgctxt "1023"
+msgid "All unsaved progress will be lost. Are you sure you want to continue?"
+msgstr "Wszystkie niezapisane postepy zostana utracone. Czy na pewno chcesz kontynuowac?"
+
+msgctxt "1024"
+msgid "A network error has occurred. Returning to the main menu."
+msgstr "Wystapil blad sieci. Powrot do menu glownego."
+
+msgctxt "1025"
+msgid "Settings"
+msgstr "Ustawienia"
+
+msgctxt "1026"
+msgid "Adult Entertainment \n`Zelda Carbuncle Tells All` \nMemoirs of a woman of \ndubious pleasure."
+msgstr "Atrakcje dla Doroslych \n`Karbunkul Zelda Wie Wszystko` \nPamietnik kobiety \nwatpliwych przyjemnosci."
+
+msgctxt "1084"
+msgid "Food Also \nSee: Cannibalism"
+msgstr "Zobacz: \nCeremionialy kanibali"
+
+msgctxt "1116"
+msgid "Jelly \n`The Story of Jelly`"
+msgstr "Karagen \n`Historia zelek`"
+
+msgctxt "1266"
+msgid "If you want to access the pause menu during a game, rotate the iPhone or iPod touch vertically."
+msgstr "Jesli chcesz uzyskac dostep do menu pauzy w trakcie gry, obroc iPhone lub iPod touch w pionie."
+
