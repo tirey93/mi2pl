@@ -13,6 +13,7 @@ namespace mi2se_classic_injector.Commands
     {
         private readonly MainSettings _settings;
         private readonly LiteralSettings _literalSettings;
+        private readonly string[] _recheckErrors;
         private readonly string[] _newOrgLines;
         private readonly string[] _newPolLines;
         private readonly string[] _newOrgLinesNoChange;
@@ -64,6 +65,34 @@ namespace mi2se_classic_injector.Commands
 
             //File.WriteAllLines("engTokens", classicOrgLines.Select(x => x.TrimNonAlphaNumSpaces(false)));
 
+            var res = classicOrgLines
+                .Select((value, index) => new { value = value.TrimNonAlphaNumSpaces(isUi), index })
+                .GroupBy(pair => pair.value)
+                .Where(x => x.Count() > 1)
+                .Select(x => new { x.Key, list= x.Select(y => y.index).ToList() }).ToList();
+
+            var recheckErrors = new List<string>();
+            foreach (var item in res)
+            {
+                var first = item.list.FirstOrDefault();
+                foreach (var pol in item.list)
+                {
+                    bool toRecheck = false;
+                    if (!_classicPolLines[pol].Contains("013") &&
+                        _classicPolLines[first].TrimNonAlphaNumSpaces(isUi) != _classicPolLines[pol].TrimNonAlphaNumSpaces(isUi))
+                    {
+                        toRecheck = true;
+                        //dodac do errors ui?
+                    }
+                    if (toRecheck)
+                    {
+                        foreach (var line in item.list)
+                        {
+                            //zapisac do listy i iterowac sie w execute
+                        }
+                    }
+                }
+            }
             _classicOrgLines = classicOrgLines
                 .Select((value, index) => new { value = value.TrimNonAlphaNumSpaces(isUi), index })
                 .GroupBy(pair => pair.value)
