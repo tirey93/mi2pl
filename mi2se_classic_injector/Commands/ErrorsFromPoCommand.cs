@@ -70,6 +70,9 @@ namespace mi2se_classic_injector.Commands
 
             for (int i = 0; i < _oldPolLines.Length; i++)
             {
+                if(i == 768)
+                {
+                }
                 var line = _oldPolLines[i];
                 if(_newPolLines.ContainsKey(i + 1))
                 {
