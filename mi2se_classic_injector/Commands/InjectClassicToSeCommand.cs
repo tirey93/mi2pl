@@ -141,21 +141,7 @@ namespace mi2se_classic_injector.Commands
                 }
                 else if (IsMatchingColors(orgNewLine, out index, out number))
                 {
-                    var token = string.Empty;
-                    if(index == 4227 || index == 4226)
-                        token = "\\255\\004\\013\\001 \\255 \\039\\000";
-                    else
-                        token = "\\255\\004\\012\\001 \\255 \\034\\000";
-                    var regex = new Regex(@"([1-9][0-9]*)(.*)");
-                    var match = regex.Match(number);
-                    var strNumber = match.Groups[1].Value;
-                    var strColor = match.Groups[2].Value;
-                    if (strColor == "red")
-                        strColor = "czerwone";
-                    else
-                        strColor = "czarne";
-
-                    result.AppendLine(_classicPolLines[index].Replace(token, strNumber + " " + strColor).ReplaceToPolishNew(_polishDictionary));
+                    result.AppendLine(ExtractColorTranslation(index, number));
                 }
                 else if (IsMatchAfterRemoveMarkup(orgNewLine, out index))
                 {
@@ -178,7 +164,26 @@ namespace mi2se_classic_injector.Commands
             }
 
             File.WriteAllText(_settings.OutputCatalog + "errors.tsv", errors.ToString());
-            File.WriteAllText("result_speech.txt", result.ToString());
+            File.WriteAllText(_settings.OutputCatalog + "result_speech.txt", result.ToString());
+        }
+
+        private string ExtractColorTranslation(int index, string number)
+        {
+            var token = string.Empty;
+            if (index == 4227 || index == 4226)
+                token = "\\255\\004\\013\\001 \\255 \\039\\000";
+            else
+                token = "\\255\\004\\012\\001 \\255 \\034\\000";
+            var regex = new Regex(@"([1-9][0-9]*)(.*)");
+            var match = regex.Match(number);
+            var strNumber = match.Groups[1].Value;
+            var strColor = match.Groups[2].Value;
+            if (strColor == "red")
+                strColor = "czerwone";
+            else
+                strColor = "czarne";
+
+            return _classicPolLines[index].Replace(token, strNumber + " " + strColor).ReplaceToPolishNew(_polishDictionary);
         }
 
         private void ExecuteForUi()
@@ -240,7 +245,7 @@ namespace mi2se_classic_injector.Commands
                 }
             }
             File.WriteAllText(_settings.OutputCatalog + "errors_ui.tsv", errors.ToString());
-            File.WriteAllText("result_ui.txt", result.ToString());
+            File.WriteAllText(_settings.OutputCatalog + "result_ui.txt", result.ToString());
 
         }
 

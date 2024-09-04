@@ -9,6 +9,7 @@ namespace mi2se_classic_injector.Extensions
 {
     public static class StringExtensions
     {
+        private static readonly Regex _regexClassicMarkup = new Regex(@"(\\255\\[0-9]{3}\\[0-9]{3}\\[0-9]{3})");
         public static string TrimNonAlphaNumSpaces(this string text, bool ui)
         {
             var regText = ui ? @"[^a-zA-Z0-9\\\{\}\:\`]" : @"[^a-zA-Z0-9\\\{\}\:\!\?]";
@@ -23,6 +24,7 @@ namespace mi2se_classic_injector.Extensions
                 text = text.Replace(item.Key, item.Value);
             }
             return text;
+            //return _regexClassicMarkup.Replace(text, "");
         }
     }
 }
