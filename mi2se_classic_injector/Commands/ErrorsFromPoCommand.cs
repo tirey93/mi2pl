@@ -56,7 +56,7 @@ namespace mi2se_classic_injector.Commands
                 var markup = int.Parse(splitter.Markup);
                 var plText = splitter.PlText;
 
-                polLines.Add(markup, plText.ReplaceToPolishNew(_polishDictionary));
+                polLines.Add(markup, plText.ReplaceToPolishNew(_polishDictionary).Replace("<nl>", "\\n"));
             }
 
             _newPolLines = polLines;

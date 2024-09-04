@@ -47,11 +47,15 @@ namespace mi2se_classic_injector.Commands
 
             for (int i = 0; i < _errorLines.Length; i++)
             {
+                
                 var line = _errorLines[i];
+                line = line.Replace("\\n", "<nl>");
                 var number = line.Split("\t")[0];
                 var clearLine = line.Split("\t")[1];
-
-                poResult.Append(ToPo(number, clearLine, _newPolLines[int.Parse(number) - 1]));
+                if (number == "769")
+                {
+                }
+                poResult.Append(ToPo(number, clearLine, _newPolLines[int.Parse(number) - 1].Replace("\\n", "<nl>")));
             }
 
             File.WriteAllText(_settings.OutputCatalog + "output.po", poResult.ToString());
