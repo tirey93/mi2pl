@@ -59,18 +59,18 @@ GLOSNOSC MUZYKI
 GLOSNOSC GRY
 GLOSNOSC DIALOGOW
 KOMENTARZE DEWELOPEROW
-Idz do:
+Idz do: 
 Daj
 Otworz
 Zamknij
-Wez
+Podnies
 Obejrzyj
 Rozmowa z
 Uzyj
 Pchnij
 Ciagnij
 Wypluj
-Splun
+Pluj!
 Prysk
 Plwaj
 Glut
@@ -106,7 +106,7 @@ Wybierz nosnik pamieci
 Glosnosc gry
 Napisy w edycji rozszerzonej
 Glosnosc dialogow
-Tak
+Tak?
 Niej masz konta na Xbox LIVE i nie mozesz zobaczyc wynikow.
 Twfj nosnik danych dziala nieprawidlowo. Jesli bedziesz kontynuowac, nie bedziesz w stanie zapisac postepow.
 Nie masz aktywnego profilu gracza. Nie bedzie mozna zapisac gry ani osiagniec. By utworzyc lub wczytac profil gracza, nacisnij przycisk Xbox Guide. Chcesz kontynuowac bez mozliwosci zapisu gry i osiagniec?
@@ -115,7 +115,7 @@ Wyjscie
 Wybierz jezyk
 Zapisz i wyjdz
 Wyjdz bez zapisywania
-Nie
+Nie.
 Wyniki
 Odblokuj pelna wersje gry
 Nacisnij A zeby wyswietlic wyniki
@@ -172,7 +172,7 @@ Szybka
 Normalna
 Dialogi w edycji klasycznej
 Dotknij ekranu w dowolnym miejscu i przesun kursor tak jak w przypadku gladzika.0x0A0x0AKursor umozliwi ci interakcje z otoczeniem.0x0A0x0AMozesz dostosowac predkosc kursora w menu ustawien.
-Wlaczone
+na
 Wylaczone
 USTAWIENIA
 Kup pelna wersje gry
@@ -219,7 +219,7 @@ antalki rumu
 bariera
 Bart
 wosk z uszu nietoperzy
-plaza
+Plaza
 lozko
 szafka nocna
 dzwonek
@@ -230,18 +230,18 @@ Wielkie X
 ptak
 niebieski drink
 kosc
-Kosci.
+Kosci. 
 Wrobel Cwirek
 ksiazki
 Wyspa Lupu
 alkohole
-butelki nibygrogu
+butelka nibygrogu
 butelka
 butelki
 butelki rumu
 miska
 Chlopiec od kregli
-kolo bosmana
+Kolo bosmana
 skrzynia
 pudelko mieszanki do krakersow
 skrzynia
@@ -270,7 +270,7 @@ puszki z jedzeniem
 Kanibal Mietek
 armata
 kule armatnie
-Kapitan Dred
+...Kapitan Dred!
 mapa kapitana Dreda
 Kapitan Kate
 uwieziony szczur
@@ -284,9 +284,9 @@ jaskinia
 Jaskiniowiec Fred
 drzwi do celi
 Cmentarz
-cmentarz
+Cmentarz
 krzeslo
-parawan
+parawan 
 tandetnie wykonany kostium
 tarka do sera?
 Keetosy
@@ -310,7 +310,7 @@ monety
 kucharz
 Klaun z Kosmosu
 Chatka
-chatka
+Chatka
 kanapa
 krakers
 skrzynka
@@ -351,7 +351,7 @@ drzwi windy
 puste pudelko
 pusty kubek
 pusty kufel grogu
-lozko ambulatoryjne
+lozko abulatoryjne
 wyjscie
 wyjscie do korytarza
 przepaski na oko
@@ -360,7 +360,7 @@ linia startowa
 gesie pioro
 stopy
 Fink
-ryba
+Fladrologia
 rybie oczy
 plakietka w ksztalcie ryby.
 rybak
@@ -401,7 +401,7 @@ balon z helem
 rekawiczka chirurgiczna z helem
 zbiornik z helem
 okazy hemoroidow
-Herman Toothrot
+ Herman Toothrot.
 dziura
 dziura w ziemi
 dziura
@@ -452,13 +452,13 @@ barek
 zapalony dynamit
 pasztetowa
 kloda
-milosna bomba
+milosna bomba 
 Malpa z wyspy Szpady
 Szalony Marty
 Szalony Marty
 brazowa koperta
 Rezydencja
-rezydencja
+Rezydencja
 Rezydencja
 mapa
 kawalek mapy
@@ -478,7 +478,7 @@ lustro
 rama lustra
 lustro
 makieta latarni
-soczewka z makiety latarni
+soczewka z makiety latarni 
 szczatki Mamy
 malpia glowa
 monokl
@@ -509,7 +509,7 @@ papier
 papuga
 karma dla papug
 gosc przyjecia
-goscie przyjecia
+goscie przyjecia 
 korytarz
 sciezka
 snieznobialy biustonosz
@@ -527,7 +527,7 @@ sterta papieru
 filar
 szpilki
 piracki kapelusz
-pirackie kapelusze
+pirackie kapelusze 
 dziura
 stary znak
 deska
@@ -554,9 +554,9 @@ piwo korzenne
 lina
 Marynarz Papaja
 Purpurowy Tentacle0x99
-Wyspa Parszywcow
-chatka
-chatka
+Stale lady
+budka
+budka
 niestabilne wiadro na osciezu
 tarcza
 statek
@@ -564,11 +564,11 @@ skrzynia
 rog okretowy
 brzeg
 skrot
-0xE2 0xE5 0xE7 0xEB 0xEC 0xF1 0xF2 0xF3 0xF4 
+lopata
 okiennice
 za domem
-0xC0 0xC1 0xC4 0xC5 0xC7 0xC9 0xCA 0xD1 0xD2
-0xC0 0xC1 0xC4 0xC5 0xC7 0xC9 0xCA 0xD1 0xD2
+znak
+znak
 wykluczajace sie znaki
 szkielet w wannie
 paluchy jaszczurki
@@ -635,16 +635,16 @@ pogiete prety
 krem do wymion
 kosciste paskudztwo
 brzydka zielona glowa
-bielizna
+Ubrania wierzchnie
 wyzszy poklad
-schody
+schody 
 zuzyta chusteczka
 waniliowa koperta
 wazon
 jad krolikalopa
-chlodnik vichyssoise ze szczurem
-chlodnik vichyssoise ze szczurza sierscia
-chlodnik vichyssoise
+vichyssoise avec szczurem
+vichyssoise avec szczurza sierscia
+vichyssoise
 Ville de la Lup
 lalka voodoo
 klucz voodoo do wiezienia
@@ -655,14 +655,14 @@ Walt
 usuwacz kurzajek
 umywalka
 Wodospad
-wodospad
+Wodospad
 weekendowy pobyt na Wyspie Hooka
 buda z parowkami
 wypolerowana stara pila
 zachod
-akwarela "Walen"
+akwarela `Walen`
 Przystan
-nabrzeze
+Przystan
 kolo
 kolo smierci
 lupiezo-peruka
@@ -674,7 +674,7 @@ drzewa
 stolarz
 Woodtick
 warsztat
-wrak
+wrak 
 Funkowy Slon
 skserowane wlosy z nosa
 wargi jaka
@@ -708,246 +708,246 @@ Wiosluj do
 Concept Art odblokowany
 Nacisnij
 po komentarz audio
-Atrakcje dla Doroslych \n`Karbunkul Zelda Wie Wszystko` \nPamietnik kobiety \nwatpliwych przyjemnosci.
-Animatronika \n`Animatronika` \nWalt Whimsy
-Animatronika \n`Ujrzyj, co jest pod Spodem` \nWalt Whimsy
-Adnotacja \nZobacz: Przypis
-Archeologia \n`X nigdy nie oznacza skarbu` \nI. Jones
-Artyzm \n`Ogolnikowosc jako forma artystyczna`
-Artyzm/Filozofia \n`Idealizm czy Surrealizm?` \nPodrecznik do filozofii/sztuki.
-Benzyna i inne ciecze \n`Browar dla wszystkich`
-Big Whoop \nZobacz: Skarb
-Biografia \n`Obie rece sa puste` \nHerman Toothrot.
-Biografia \n`Obie rece sa w ruchu` \nHistoria Stana.
-Biografia \n`Obie glowy sa puste` \nBracia Fettucini.
-Biografia \n`Garsc pakli` \nDziennik \nKapitana Twiddlymore.
-Biografia \n`Wyliz srebrna lyzeczke` \nL. Phatt
-Biografia \n`Czarnobrody i ja`
-Biografia \n`Gdy wysadzilem LeChucka` \nWatpliwe wspomnienia \nGuybrusha Threepwooda
-Biografia \n`Jejku!` \nWspomnienia kapitana Gilberta
-Budowa ciala \n`Niecodzienne znamiona`
-Bohaterowie z poprzedniej czesci \n`Sniadanie u Meathooka`
-Biznes \n`Zdobywania Przyjaciol \ni Wplywania na Ludzi` \nautorstwa Jacka Wrobla
-Ceremonialy kanibali \n`Jak serwowac ludzi(om)` \nCytrynoglowy
-Ceremonialy kanibali \nZobacz: Samopomoc
-Dane katalogowe \nZobacz: Slowniki
-Chedar i inne sery \n`Przewodnik po serach swiata` \nOdniesienie
-Dla dzieci \n`Zlowieszcze potwory \nspod lozka`
-Dla dzieci \n`Opowiesci dla \nmalych piratow`
-Cyrki \n`Fantastyczne przygody \nBilla i Alfredo` \nFikcja literacka
-Cyrki \n`Do diabla z ludzka torpeda` \nHistoria numeru \nz czlowiekiem-kula.
-Dogmaty literatury \n`Wielkie odkaszliwania` \nKapitan Loogie
-Bibeloty \n`Zlom, zlom, \njeszcze wiecej zlomu` \nPrzewodnik po \nkolekcjonerskich pamiatkach.
-Duszenie i gotowanie \n`Ciekawe pirackie dania`
-Duszenie i gotowanie \n`Kleiste ciecze, ktore \nmozesz zrobic w domu`
-Chalupnictwo \n`Szydelkowanie przepasek \nna wesolo i na serio`
-Dopisek \nZobacz: Referencyjny Obskurantyzm
-Cyfrowanie informacji \n`Szyfr w moim nosie` \nWyjatkowa wiadomosc przewija sie \nprzez historie.
-Dziesietna Klasyfikacja Biblioteczna \nZobacz: Schemat organizacyjny
-Dramaty i katastrofy \n`Slynne wraki \ntego stulecia` \nZ kolekcji ksiazek \nkatastroficznych Kolezanki.
-Choroby \n`Ciekawostki \no szkorbucie`
-Choroby \n`Choroby na pokladzie`
-Czworonogi \n`Slownik piesko-polski` \nOdniesienie
-Edukacja \n`Przygotowanie do \ntestu zdolnosci pirackich` \nS. Karpman
-Film \n`Cisza na planie`
-Entomologia \n`Szkodniki pomidorow` \nInstrukcja obslugi.
-Etymologia \n`Etymologia pirackich zwrotow`
-Fotoreceptory \nZobacz: Wizja
-Farthingtonowie \nZobacz: Gry
-Fasony \n`Letnia kolekcja \ndla awanturnikow` \nTrzy roczniki \npopularnego czasopisma
-Fikcja literacka \n`Bilet klasy E`
-Fikcja literacka \n`O piec za duzo`
-Fikcja literacka \n`Dzien jeza`
-Fikcja literacka \n`Nie to co dublon` \nAntologia krotkich powiesci
-Fikcja literacka \n`Bardzo, bardzo krotkie opowiesci`
-Finanse \n`Sposoby na latwe pieniadze`
-Fladrologia \n`Wielka ksiega ryb` \nIlustrowany przewodnik \npo rybach swiata.
-Fiszing \n`Lowienie na czareczki: \nZapomniana sztuka`
-Edukacja zywieniowa \n`Keksmisja` \nS. Cheese
-Edukacja zywieniowa \n`Rozmiary naturalne i wieksze`
-Edukacja zywieniowa \n`Szczury jako zrodlo bialka w diecie`
+Atrakcje dla Doroslych\nZelda Karbunkul Wie Wszystko\nPamietnik kobiety watpliwych przyjemnosci.
+Animatronika\nAnimatronika\nWalt Whimsy
+Animatronika\nUjrzyj, co jest pod Spodem\nWalt Whimsy
+Adnotacja\nZobacz: Przypis
+Archeologia\nX nigdy nie oznacza skarbu\nI. Jones
+Artyzm\nOgolnikowosc jako forma artystyczna\n
+Artyzm/Filozofia\nIdealizm czy Surrealizm?\nPodrecznik do filozofii/sztuki.
+Benzyna i inne ciecze\nBrowar dla wszystkich\n
+ Big Whoop?\nZobacz: Skarb
+Biografia\nObie rece sa puste\nHerman Toothrot.
+Biografia\nObie rece sa w ruchu\nHistoria Stana.
+Biografia\nObie glowy sa puste\nBracia Fettucini.
+Biografia\nA w piesciach sciskal pakle\nDziennik Kapitana Twiddlymore.
+Biografia\nWyliz srebrna lyzeczke\nL. Phatt
+Biografia\nCzarnobrody i ja\n
+Biografia\nGdy wysadzilem LeChucka\nWatpliwe wspomnienia Guybrusha Threepwooda
+Biografia\nRany.\nWspomnienia kapitana Gilberta
+Budowa ciala\nNiecodzienne znamiona \n
+Bohaterowie z poprzedniej czesci\nSniadanie u Meathooka\n
+Biznes\nZdobywania Przyjaciol i Wplywania na Ludzi\nautorstwa Jacka Wrobla
+Ceremonialy kanibali\nJak serwowac ludzi(om)\nCytrynoglowy
+Ceremonialy kanibali\nZobacz: Samopomoc
+Dane katalogowe\nZobacz: Slowniki
+Chedar i inne sery\nPrzewodnik po serach swiata\nOdniesienie
+Dla dzieci\nZlowieszcze potwory spod lozka\n
+Dla dzieci\nOpowiesci dla malych piratow\n
+Cyrki\nFantastyczne przygody Billa i Alfredo\nBeletrystyka
+Cyrki\nDo diabla z ludzka torpeda\nHistoria numeru z czlowiekiem-kula.
+Dogmaty literatury\nWielkie odkaszliwania\nKapitan Loogie
+Bibeloty\nZlom, zlom, jeszcze wiecej zlomu\nPrzewodnik po kolekcjonerskich pamiatkach.
+Duszenie i gotowanie\nCiekawe pirackie dania\n
+Duszenie i gotowanie\nKleiste ciecze, ktore mozesz zrobic w domu\n
+Chalupnictwo\nSzydelkowanie przepasek na wesolo i na serio\n
+Dopisek\nZobacz: Referencyjny Obskurantyzm
+Cyfrowanie informacji\nSzyfr w moim nosie\nWyjatkowa wiadomosc przewija sie przez historie.
+Dziesietna Klasyfikacja Biblioteczna\nZobacz: Schemat organizacyjny
+Dramaty i katastrofy\nWielkie wraki tego stulecia\nZ kolekcji ksiazek katastroficznych Kolezanki.
+Choroby\nCiekawostki o szkorbucie\n
+Choroby\nChoroby na pokladzie\n
+Czworonogi\nSlownik piesko-angielski\nOdniesienie
+Edukacja\nPrzygotowanie do testu zdolnosci pirackich\nS. Karpman
+Film\nCisza na planie\n
+Entomologia\nSzkodniki pomidorow\nInstrukcja obslugi.
+Etymologia\nEtymologia pirackich zwrotow\n
+Fotoreceptory\nZobacz: Wizja
+Farthingtonowie\nZobacz: Gry
+Fasony\nLetnia kolekcja dla awanturnikow\nTrzy roczniki popularnego czasopisma
+Beletrystyka\nBilet klasy E \n
+Beletrystyka\nO piec za duzo\n
+Beletrystyka\nDzien jeza\n
+Beletrystyka\nNie to co dublon\nAntologia krotkich powiesci
+Beletrystyka\nBardzo, bardzo krotkie opowiesci\n
+Finanse\nSposoby na latwe pieniadze\n
+Fladrologia\nWielka ksiega ryb\nIlustrowany przewodnik po rybach swiata.
+Fiszing\nLowienie na czareczki: Zapomniana sztuka\n
+Edukacja zywieniowa\nKeksmisja\nS. Cheese
+Edukacja zywieniowa\nRozmiary naturalne i wieksze\n
+Edukacja zywieniowa\nSzczury jako zrodlo bialka w diecie\n
 Zobacz: \nCeremionialy kanibali
-Fragmenty tekstu \nZobacz: Wycienczajaca pedanteria
-Gry \n`Hal Barwood o Monkey 2` \nKrytyczna recenzja.
-Gry \n`Fanatycy Fan-Tana` \nElroy T. Funbun
-Gry \n`Krolowie shuffleboard` \nOpis dynastii \nFarthingtonow.
-Genealogia \n`Dylemat 66` \nOpowiesci dziwne, ale prawdziwe.
-Genetyka \n`Jak zrobic krolikalopa`
-Geometria \n`Wlasnosci eliptycznego \nhiperboloidu`
-Widmowy Pirat LeChuck \n`Kiedy wysadzilem LeChucka` \nNajgorszy wrog Threepwooda.
-Widmowy Pirat LeChuck \n`Gdzie wysadzilem LeChucka` \nNajgorszy wrog Threepwooda.
-Widmowy Pirat LeChuck \n`Dlaczego wysadzilem LeChucka` \nNajgorszy wrog Threepwooda.
-Godiva, Lady \n`Zdejmujac koszulke` \nBiografia, \nzobacz: Atrakcje dla Doroslych
-Rabowanie grobow \n`Popularne kary dla \nhien cmentarnych`
-Grogoholizm \n`Jestem watroba Czarnobrodego` \nPrzerazajaca historia skruszonego grogoholika
-Grupowanie \nZobacz: Katalogi
-Grupowanie tekstu \nZobacz: Dopisek
-Historia \n`Ostroznie z tymi \nkulami armatnimi!` \nLegenda o Armadzie Statkow \nze Szklanymi Dnami
-Historia \nZobacz: Stale lady
-Bzdety \n`Wspomnienia o Molly`
-Humor \n`Okrutne kalambury dla okrutnych piratow` \nN. Falstein
-Humor \n`Glupie zarty pirackie`
-Humor Wisielczy \n`Wiec idziesz \npod topor...` \n100 rzeczy, ktore mozesz powiedziec \nkatowi.
-Kremy i lody \n`Ulubione smaki \nlodow piratow`
-Idole \n`Tiki na obszarze poludniowego Pacyfiku` \nOdniesienie
-Igla \n`Jak prosto \nzrobic igloo`
-Kwoty urojone \n`Nowe prawa podatkowe` \nLiteratura lekka.
-Indeksy \nZobacz: Katalogi
-Kuksance \n`Jak robic \npokrzywki`
-Katalogi \nZobacz: Tytuly
-Kompleks nizszosci \n`Kompleks kompleksu`
-Kasa skarbowa \nZobacz: kwoty urojone
-Krolikalop \nZobacz: Genetyka
+Fragmenty tekstu\nZobacz: Wycienczajaca pedanteria
+Gry\nHal Barwood o Monkey 2\nKrytyczna recenzja.
+Gry\nFanatycy Fan-Tana\nElroy T. Funbun
+Gry\nKrolowie shuffleboard\nOpis dynastii Farthingtonow.
+Genealogia\nDylemat 66\nOpowiesci dziwne, ale prawdziwe.
+Genetyka\nJak zrobic krolikalopa\n
+Geometria\nWlasnosci eliptycznego hiperboloidu\n
+Widmowy Pirat LeChuck\nKiedy wysadzilem LeChucka\nNajgorszy wrog Threepwooda.
+Widmowy Pirat LeChuck\nGdzie wysadzilem LeChucka\nNajgorszy wrog Threepwooda.
+Widmowy Pirat LeChuck\nDlaczego wysadzilem LeChucka\nNajgorszy wrog Threepwooda.
+Godiva, Lady\nZostaly tylko skarpetki\nBiografia, zobacz: Atrakcje dla Doroslych
+...okradanie grobow...\nPopularne kary dla hien cmentarnych \n
+Grogoholizm\nJestem watroba Czarnobrodego\nPrzerazajaca historia skruszonego grogoholika
+Grupowanie\nZobacz: Katalogi
+Grupowanie tekstu\nZobacz: Dopisek
+Historia\nOstroznie z tymi kulami armatnimi!\nLegenda o Armadzie Statkow ze Szklanymi Dnami 
+Historia\nZobacz: Stale lady
+Bzdety\nWspomnienia o Molly\n
+Humor\nOkrutne kalambury dla okrutnych piratow\nN. Falstein
+Humor\nGlupie zarty pirackie\n
+Humor Wisielczy\nWiec idziesz pod topor...\n100 rzeczy, ktore mozesz powiedziec katowi.
+Kremy i lody\nUlubione smaki lodow piratow\n
+Idole\nTiki na obszarze poludniowego Pacyfiku\nOdniesienie
+Igla\nJak prosto zrobic igloo\n
+Kwoty urojone\nNowe prawa podatkowe\nLiteratura lekka.
+Indeksy\nZobacz: Katalogi
+Kuksance\nJak robic pokrzywki\n
+Katalogi\nZobacz: Tytuly
+Kompleks nizszosci\nKompleks kompleksu\n
+Kasa skarbowa\nZobacz: kwoty urojone
+Krolikalop\nZobacz: Genetyka
 Karagen \n`Historia zelek`
-Krewetki \n`Nasze bezkregowe kuzynki`
-Jurysdykcja \n`Sad kangurow` \nKrytyka nowoczesnego \nsystemu sadowego
-Kultura nieletnich \n`Milosnicy przewracania krow` \nEseje wybrane ze wzgledu na \nstyl i forme.
-Karate \nZobacz: MMA
-Karma \n`Moja karma wylala sie na \ntwoje dogmaty` \nZobacz: Rozwoj mysli filozoficznej
-Kil \n`Przeciaganie pod kilem: \nMetodyka i Praktyka`
-Ketchup \nZobacz: Warzywa
-Jadra \n`Historia o malych, \ndzielnych organach.` \nRozkladana ksiazeczka o pracy jader.
-Kleptomania \n`Kleptomania`
-Labyrinty \nZobacz: Kody pocztowe
-Lingwistyka \n`Modny slang dla piratow` \nSlownik \nslangu wspolczesnego.
-Mszyce \n`Hodowla mszyc \nna wesolo i na serio`
-Lunch \n`Popoludnie u Meathooka`
-Limeryki \n`Jaja i sprosnosci` \nZakazane albumy \nz zeszlej dekady
-Magia \nZobacz: Poradniki
-Manaty \n`Wilgotne damy z glebin`
-Manaty \n`Zeglarz i krowa morska` \n- Basn
-MMA \n`Teoria i praktyka \nrachowania kosci`
-Matematyka \n`Wzory na lemniskaty szescienne`
-Labirynty \nZobacz: Przypis
-Militaria \n`Ostrozny Zeglarz: \nDlaczego nie zegluje`
-Mamona \n`Latwe pieniadze do zrobienia w domu`
-Muzyka \n`Elvis zyje` \nPrzewidywania Postradamusa \nna temat przyszlej muzyki
-Muzyka \n`Zdobywcy nagrod Grammy \nw renesansie`
-Muzyka \n`Tom pierwszy`
-Muzyka \n`Najgorsze pirackie piosenki`
-Muzyka \n`Xylofon dla poczatkujacych`
-Maskarady \n`Krol Karol z Krolowa Karolina?` \nZ serii \ntajemnic swistakow.
-Narcyzm \n`Podoba mi sie \nnarcyzm`
-Narkolepsja \n`Wyznania narkoleptyka`
-New Age \n`Dynanetyka \nautorstwa L. Rona Gilberta`
-Noc \n`Halasy spod \nlozka`
-Normalnosc \n`Plot z bialych sztachet` \nNauki socjologiczne.
-Nosy \n`Zatrab jesli musisz` \nPrzeziebienia, alergie \ni inne dolegliwosci
-Nostalgia \n`Gazowane fontanny mojej Mlodosci` \nPonce de Leon
-Numerologia \n`Numerologia dla poczatkujacych`
-Nylon \n`Nylon dla piratow`
-Otylosc \n`Jeszcze wiecej mnie do kochania` \nL. Phatt
-Okra \n`Najlepsze przepisy na potrawy z ketmi` \nZobacz: Jedzenie.
-Olives \n`Plaga pizzy` \nAnaliza przymusowej \nkonsumpcji oliwek
-Optymizm \n`A po burzy przychodzi spokoj`
-Orangutany \n`Nasi wlochaci kuzynowie`
-Organizacyjne schematy \nZobacz: Labirynty
-Origami \n`Papierowy bizon` \nWzory origami dla zaawansowanych.
-Ortopedia \n`Uslysz szept \nrozmow moich stop`
-Rozwoj mysli filozoficznej \n`Ubawienie` \nTraktat filozoficzny.
-Rozwoj mysli filozoficznej \n`Rastafarianizm`
-Pladrowanie \n`Wszystko o pladrowaniu` \nZ serii \nNauka w weekend.
-Pladrowanie \n`Mistrzowie w pladrowaniu` \nWywiady \nz najlepszymi.
-Piractwo \n`Elementarz pirata` \nPorady dla zoltodziobow.
-Poezja \n`Puscil pijany zagle` \nPoezja piracka.
-Powiedzenia i cytaty \n`Powiedzenia znanych piratow`
-Rozrod zwierzat \nZobacz: Mszyca
-Rekurencja \nZobacz: Rekurencja
-Poradniki \n`Klatwy na co dzien` \n101 niezbednych przepisow voodoo.
-Referencyjny obskurantyzm \nZobacz: Grupowanie
-Romans \n`Przejmujace pozegnanie amora` \nMelanie Leary
-Romans \n`Zaspokojenie \nniesmacznego \npragnienia` \nMelanie Leary
-Romans \n`Ostateczna goraczka fascynacji` \nMelanie Leary
-Romans \n`Znuzenie dlugotrwalym zwiazkiem` \nMelanie Leary
-Romans \n`Prawie nic` \nE. Marley, \nopis czasu spedzonego z \nGuybrushem Threepwoodem.
-Romans \n`Ciagle trwajaca pasja` \nMelanie Leary
-Romans \n`Przeklete \nspadkobierstwo romantyzmu` \nMelanie Leary
-Romans \n`Labedzi spiew wstretnego grzechu` \nMelanie Leary
-Romans \n`Tesknota za \nzolciejacymi wczoraj` \nMelanie Leary
-Sport zeglarski \n`Gdybym tylko mial musk` \nNiebezpieczenstwa brania prysznica \nna pokladzie statku.
-Sport zeglarski \n`Bezpieczne zeglowanie`
-Sandacz \n`Zamki i zamki` \nWspolczesne problemy \ndotykajace sandacze.
-Stale lady \n`Historia wyspy Parszywcow` \nWprowadzenie
-Samopomoc \n`Piraci, ktorzy \nkochaja zbyt mocno`
-Samopomoc \n`Nie zjadam ludzi \ni czuje sie z tym dobrze` \nWyznania \neks-kanibala
-Sowy \n`Zabojcy z glebin` \nBadania karaibskich sow.
-Statki i okrety - budownictwo \n`Staki i okrety - budowa` \nG. Steele
-Statkow i okretow wraki \nZobacz: Dramaty i katastrofy
-Sprawki diabelskie \n`Ukryte grzechy kamienia`
-Sprawki diabelskie \n`Top 7 grzechow glownych`
-Slang piracki \n`Do krocset` \nZobacz: Lingwistyka
-Socjologia \n`Darwinizm spoleczny \ni choroby spoleczne` \nSpoleczna teoria wzglednosci.
-Skat \n`Milion jeden sposobow \nna skata` \nHerman Toothrot
-Spirytualizm \n`Dar ludzi-jaszczurow`
-Spirytualizm \n`Nad kruczym gniazdem`
-Glupota \n`Glupota przechodzaca przez sciany:\n Unikacz inteligencji` \nAnaliza systemu, \npat pending.
-Slowniki \nZobacz: Labirynty
-Scalanie \n`Scalanie: \nSprytna partnerka rozlaczania`
-Skalpele \n`Dzialac bez siatki` \nBezpieczne metody przeprowadzania operacji.
-Tatuaze \n`Dlaczego laski lubia tatuaze`
-Tatuaze \n`Choroby zwiazane \nz tatuazami`
-Tatuaze \n`Moja pierwsza \nksiazeczka tatuazy`
-Tance \n`Masakra na potancowce` \nLouisa de la Cruz
-Teatr \n`Poza sercami \ni pytajnikami` \nTeatr cieni dla \npiratow z dwoma hakami
-Trzyglowa malpa \n`Duma Loch Ness`
-Tytuly \nZobacz: Naglowki
-Tost \n`30 rzeczy, ktore \npaskudnie smakuja na grzankach`
-Pchelki \n`Wspolczesni zbieracze pchelek` \nPeriodyczne kompendium.
-TIRY \n`Ciezarowki Kolekcjonerskie`
-Tulanie \n`Jak przezyc \nna Karaibach \nnie wydajac grosza?` \nPiracki przewodnik.
-Unikaty \n`Big Whoop: \nNiezgarnieta zyla zlota \nczy mit?`
-Troska o drzewa \n`Anestezjologia \ndrzew lisciastych`
-Trylogie \n`Dlaczego ludzie nie powinni \npisac trylogii` \nSimon Finkleberth
-Trylogie \n`Dlaczego ludzie nie powinni \nczytac trylogii` \nSimon Finkleberth
-Trylogie \n`Dlaczego ludzie \ni tak pisza trylogie` \nSimon Finkleberth
-Tatar \n`Pomysly na deser \nz tatarem`
-Tyfus \n`Dlaczego nie powinienes \nsie przejmowac tyfusem`
-Trapezy \n`Wielkie trapezy \ni inne dziela sztuki`
-Ubrania wierzchnie \n`Ciagniecie gaci: \nNieszkodliwa zabawa \nczy tortura?`
-Warzywa \n`Warzywa, ktore beda jesc dzieci`
-W sprawach z drugiej reki \n`Popularne sporty widowiskowe`
-Wystepki \n`101 wystepkow` \nJ.P. Ampleform
-Wycienczajaca pedanteria \nZobacz: Dziesietna Klasyfikacja Biblioteczna
-Skrzypce \n`Trzydziesci niemuzycznych zastosowan \nskrzypiec`
-Wirusy \n`Rzeczy, ktore mozesz zlapac \nczytajac ksiazke`
-Wizja \n`Przepaski`
-Wulkany \n`Cieplo przez caly rok` \nPodrecznik handlu nieruchomosciami.
-Voodoo \nZobacz: Poradniki
-Wulgarnosc \n`Ohydne rzeczy \ndo powiedzenia na przyjeciu`
-Czekanie \n`Czy ta bluzka jest nowa?` \nZylion rzeczy do zrobienia \npodczas czekania w kolejce.
-Tapeta \n`Nigdzie jak w moim pokoju` \nWzory ze slicznymi \nbohaterami z kreskowek.
-Tapeta \n`Wplyw zoltego \nna male dzieci` \nBadania psychologiczne.
-Tapeta \n`Zycie w limonkowym` \nTysiac \nlimonkowozielonych wzorow.
-Walce \n`Tanczac na trzech nogach`
-Wieprze \n`Niezrozumiany zwierzak`
-Wspanialosc \n`Wielkie bogactwo jako sztuka spoleczna` \nL. Phatt
-Wielkie koty \n`Poznaj pana Tygrysa` \nRozkladana ksiazeczka.
-Wino \n`Wachajac korek` \nCo i jak dla winnych snobow.
-Warsztat stolarski \n`Kroczac po desce`
-Xantypa \n`Poskromienie gasnicy`
-Xenofobia \n`Bachory, \nwon z mojego trawnika`
-Xylofon \nZobacz: Muzyka
-Zeglarstwo \n`Piracki przewodnik po \nkaraibskich jachtklubach`
-Zeglarstwo \n`Jedyna rzecz jakiej ci trzeba to czapeczka` \nZeglarstwo na ladzie
-Zubry \n`Zubry sa wolne, \nale ziemia jest cierpliwa`
-Ziewanie \n`Pragnienie ziewania` \nBadania psychologiczne \nnad zarazliwoscia ziewania.
-Yeti \n`Wywiad z Balwanem`
-Znaki i jezyki \n`E tam, i inne przydatne zwroty` \nOdniesienie.
-Zabojcze glosy \n`Jodlowanie na caly regulator` \nBadania nad militarnym \nwykorzystaniem jodlowania.
-Yorkshire, pudding \n`Nie calkiem prawdziwy pudding` \nPrzepisy i paragrafy.
-Yo-yo \n`Na koncu liny` \nYo-yo w polityce .
-Yo-yo \n`Zdrowie i jego zachowanie` \nSztuczki dla sredniozaawansowanych
-Yo-yo \n`Przedzenie, gdy \nkonczy sie nic` \nYo-yo w filozofii.
-Zinjanthropus \n`Piraci w plejstocenie`
-Znaczki pocztowe \nZobacz: Filatelistyka
-Zamki blyskawiczne \n`Teoria zapinania`
-Z \n`Liczby calkowite`
-Zoologia \n`Po prostu jeden z naczelnych`
-Zoologia \n`Zwierzeta z ZOO \nbardziej inteligentne od ludzi`
-Lodowce \n`Piekno gor Sierra`
-Nieprzyzwoitosc \n`&$*#!` \nPrzenosne odpowiedniki \nnieprzyzwoitych slow \ni kwestii.
-Odglosy \n`Przewodnik po \nkreskowkowych odglosach`
-Oskalpowywanie \n`Jak \noskalpowywac`
+Krewetki\nNasze bezkregowe kuzynki\n
+Jurysdykcja\nSad kangurow\nKrytyka nowoczesnego systemu sadowego
+Kultura nieletnich\nMilosnicy przewracania krow\nEseje wybrane ze wzgledu na styl i forme.
+Karate\nZobacz: MMA
+Karma\nMoja karma wylala sie na twoje dogmaty\nZobacz: Rozwoj mysli filozoficznej
+Kil\nPrzeciaganie pod kilem: Metodyka i Praktyka\n
+Ketchup\nZobacz: Warzywa
+Jadra\nHistoria o malych, dzielnych organach.\nRozkladana ksiazeczka o pracy jader.
+Kleptomania\nKleptomania\n
+Labyrinty\nZobacz: Kody pocztowe
+Lingwistyka\nModny slang dla piratow\nSlownik slangu wspolczesnego.
+Mszyce\nHodowla mszyc na wesolo i na serio\n
+Lunch\nPopoludnie u Meathooka\n
+Limeryki\nJaja i sprosnosci\nZakazane albumy z zeszlej dekady
+Magia\nZobacz: Poradniki
+Manaty\nWilgotne damy z glebin\n
+Manaty\nZeglarz i krowa morska\n- Basn
+MMA\nTeoria i praktyka rachowania kosci\n
+Matematyka\nWzory na lemniskaty szescienne \n
+Labirynty\nZobacz: Przypis
+Militaria\nOstrozny Zeglarz: Dlaczego nie zegluje\n
+Mamona\nLatwe pieniadze do zrobienia w domu\n
+Muzyka\nElvis zyje\nPrzewidywania Postradamusa na temat przyszlej muzyki
+Muzyka\nZdobywcy nagrod Grammy w renesansie \n
+Muzyka\nTom pierwszy\n
+Muzyka\nNajgorsze pirackie piosenki\n
+Muzyka\nXylofon dla poczatkujacych\n
+Maskarady\nKrol Karol z Krolowa Karolina?\nZ serii tajemnic swistakow.
+Narcyzm\nPodoba mi sie narcyzm\n
+Narkolepsja\nWyznania narkoleptyka\n
+New Age\nDynanetyka autorstwa L. Rona Gilberta\n
+Noc\nHalasy spod lozka\n
+Normalnosc\nPlot z bialych sztachet\nNauki socjologiczne.
+Nosy\nZatrab jesli musisz\nPrzeziebienia, alergie i inne dolegliwosci
+Nostalgia\nGazowane fontanny mojej Mlodosci\nPonce de Leon
+Numerologia\nNumerologia dla poczatkujacych\n
+Nylon\nNylon dla piratow\n
+Otylosc\nJeszcze wiecej mnie do kochania\nL. Phatt
+Okra\nNajlepsze przepisy na potrawy z ketmi\nZobacz: Jedzenie.
+Oliwki\nPlaga pizzy\nAnaliza przymusowej konsumpcji oliwek
+Optymizm\nA po burzy przychodzi spokoj\n
+Orangutany\nNasi wlochaci kuzynowie\n
+Organizacyjne schematy\nZobacz: Labirynty
+Origami\nPapierowy bizon\nWzory origami dla zaawansowanych.
+Ortopedia\nUslysz szept rozmow moich stop\n
+Rozwoj mysli filozoficznej\nUbawienie\nTraktat filozoficzny.
+Rozwoj mysli filozoficznej\nRastafarianizm\n
+Pladrowanie\nWszystko o pladrowaniu\nZ serii Nauka w weekend.
+Pladrowanie\nMistrzowie w pladrowaniu\nWywiady z najlepszymi.
+Piractwo\nElementarz pirata\nPorady dla zoltodziobow.
+Poezja\nPuscil pijany zagle\nPoezja piracka.
+Powiedzenia i cytaty\nPowiedzenia znanych piratow\n
+Rozrod zwierzat\nZobacz: Mszyca
+Rekurencja\nZobacz: Rekurencja
+Poradniki\nKlatwy na codzien\n101 niezbednych przepisow voodoo.
+Referencyjny obskurantyzm\nZobacz: Grupowanie
+Romans\nPrzejmujace pozegnanie amora\nMelanie Leary
+Romans\nZaspokojenie niesmacznego pragnienia \nMelanie Leary
+Romans\nOstateczna goraczka fascynacji\nMelanie Leary
+Romans\nZnuzenie dlugotrwalym zwiazkiem\nMelanie Leary
+Romans\nPrawie nic\nE. Marley, opis czasu spedzonego z Guybrushem Threepwoodem.
+Romans\nCiagle trwajaca pasja\nMelanie Leary
+Romans\nPrzeklete spadkobierstwo romantyzmu\nMelanie Leary
+Romans\nLabedzi spiew wstretnego grzechu\nMelanie Leary
+Romans\nTesknota za zolciejacymi wczoraj\nMelanie Leary
+Sport zeglarski\nGdybym tylko mial musk\nNiebezpieczenstwa brania prysznica na pokladzie statku.
+Sport zeglarski\nBezpieczne zeglowanie\n
+Sandacz\nZamki i zamki\nWspolczesne problemy dotykajace sandacze.
+Stale lady\nHistoria wyspy Parszywcow \nWprowadzenie
+Samopomoc\nPiraci, ktorzy kochaja zbyt mocno\n
+Samopomoc\nNie zjadam ludzi i czuje sie z tym dobrze\nWyznania eks-kanibala
+Sowy\nZabojcy z glebin\nBadania karaibskich sow.
+Statki i okrety - budownictwo\nStaki i okrety - budowa\nG. Steele
+Statkow i okretow wraki\nZobacz: Dramaty i katastrofy
+Sprawki diabelskie\nUkryte grzechy kamienia \n
+Sprawki diabelskie\nTop 7 grzechow glownych\n
+Slang piracki\nDo krocset\nZobacz: Lingwistyka
+Socjologia\nDarwinizm spoleczny i choroby spoleczne \nSpoleczna teoria wzglednosci.
+Skat\nMilion jeden sposobow na skata\nHerman Toothrot
+Spirytualizm\nDar ludzi-jaszczurow\n
+Spirytualizm\nNad kruczym gniazdem\n
+ Glupota?\nGlupota przechodzaca przez sciany: Unikacz inteligencji\nAnaliza systemu, pat pending.
+Slowniki\nZobacz: Labirynty
+Scalanie\nScalanie: Sprytna partnerka rozlaczania\n
+Skalpele\nDzialac bez siatki\nBezpieczne metody przeprowadzania operacji.
+Tatuaze\nDlaczego laski lubia tatuaze\n
+Tatuaze\nChoroby zwiazane z tatuazami\n
+Tatuaze\nMoja pierwsza ksiazeczka tatuazy\n
+Tance\nMasakra na potancowce\nLouisa de la Cruz
+Teatr\nPoza sercami i pytajnikami\nTeatr cieni dla piratow z dwoma hakami
+Trzyglowa malpa\nDuma Loch Ness\n
+Tytuly\nZobacz: Naglowki
+Tost\n30 rzeczy, ktore paskudnie smakuja na grzankach\n
+Pchelki\nWspolczesni zbieracze pchelek\nPeriodyczne kompedium.
+TIRY\nCiezarowki Kolekcjonerskie\n
+Tulanie\nJak przezyc na Karaibach nie wydajac grosza?\nPiracki przewodnik.
+Unikaty\nBig Whoop: Niezgarnieta zyla zlota czy mit?\n
+Troska o drzewa\nAnestezjologia drzew lisciastych\n
+Trylogie\nDlaczego ludzie nie powinni pisac trylogii\nSimon Finkleberth
+Trylogie\nDlaczego ludzie nie powinni czytac trylogii\nSimon Finkleberth
+Trylogie\nDlaczego ludzie i tak pisza trylogie\nSimon Finkleberth
+Tatar\nPomysly na deser z tatarem\n
+Tyfus\nDlaczego nie powinienes sie przejmowac tyfusem\n
+Trapezy\nWielkie trapezy i inne dziela sztuki\n
+Ubrania wierzchnie\nCiagniecie gaci: Nieszkodliwa zabawa czy tortura?\n
+Warzywa\nWarzywa, ktore beda jesc dzieci\n
+W sprawach z drugiej reki\nPopularne sporty widowiskowe\n
+Jakies wykroczenia w przeszlosci?\n101 wystepkow\nJ.P. Ampleform
+Wycienczajaca pedanteria\nZobacz: Dziesietna Klasyfikacja Biblioteczna
+Skrzypce\nTrzydziesci niemuzycznych zastosowan skrzypiec\n
+Wirusy\nRzeczy, ktore mozesz zlapac czytajac ksiazke\n
+Wizja\nPrzepaski\n
+Wulkany\nCieplo przez caly rok\nPodrecznik handlu nieruchomosciami.
+Voodoo\nZobacz: Poradniki
+Wulgarnosc\nOhydne rzeczy do powiedzenia na przyjeciu\n
+Czekanie\nCzy ta bluzka jest nowa?\nZylion rzeczy do zrobienia podczas czekania w kolejce.
+Wykladziny\nNigdzie jak w moim pokoju\nWzory ze slicznymi bohaterami z kreskowek.
+Wykladziny\nWplyw zoltego na male dzieci\nBadania psychologiczne.
+Wykladziny\nZycie w limetkowym\nTysiac limetkowozielonych wzorow.
+Walce\nTanczac na trzech nogach\n
+Wieprze\nNiezrozumiany zwierzak\n
+Wspanialosc\nWielkie bogactwo jako sztuka spoleczna\nL. Phatt
+Wielkie koty\nPoznaj pana Tygrysa\nRozkladana ksiazeczka.
+Wino\nWachajac korek\nCo i jak dla winnych snobow.
+Warsztat stolarski\nKroczac po desce\n
+Xantypa\nPoskromienie gasnicy\n
+Xenofobia\nBachory, won z mojego trawnika\n
+Xylofon\nZobacz: Muzyka
+Zeglarstwo\nPiracki przewodnik po karaibskich jachtklubach\n
+Zeglarstwo\nJedyna rzecz jakiej ci trzeba to czapeczka\nZeglarstwo na ladzie
+Zubry\nZubry sa wolne, ale ziemia jest cierpliwa\n
+Ziewanie\nPragnienie ziewania\nBadania psychologiczne nad zarazliwoscia ziewania.
+Yeti\nWywiad z Balwanem\n
+Znaki i jezyki\nE tam, i inne przydatne zwroty\nOdniesienie
+Zabojcze glosy\nJodlowanie na caly regulator\nBadania nad militarnym wykorzystaniem jodlowania.
+Yorkshire, pudding \nNie calkiem prawdziwy pudding\nPrzepisy i paragrafy.
+Yo-yo \nNa koncu liny\nYo-yo w polityce .
+Yo-yo \nZdrowie i jego zachowanie\nSztuczki dla sredniozaawansowanych
+Yo-yo \nPrzedzenie, gdy konczy sie nic\nYo-yo w filozofii.
+Zinjanthropus\nPiraci w plejstocenie\n
+Znaczki pocztowe\nZobacz: Filatelistyka
+Zamki blyskawiczne\nTeoria zapinania\n
+Z\nLiczby calkowite\n
+Zoologia\nPo prostu jeden z naczelnych\n
+Zoologia\nZwierzeta z ZOO bardziej inteligentne od ludzi\n
+Lodowce\nPiekno gor Sierra\n
+Nieprzyzwoitosc\n\nPrzenosne odpowiedniki nieprzyzwoitych slow i kwestii.
+Odglosy\nPrzewodnik po kreskowkowych odglosach\n
+Oskalpowywanie\nJak oskalpowywac\n
 USTAWIENIA GRY
 USTAWIENIA DZWIEKU
 Monkey Island0x99 2 Edycja Rozszerzona PL0x0AZemsta LeChucka0x99
@@ -991,10 +991,10 @@ Wybrany nosnik pamieci zostal usuniety.
 Plik zapisu wydaje sie byc uszkodzony i nie moze zostac zaladowany.
 Plik zapisu wydaje sie byc uszkodzony i nie moze zostac zaladowany. Uszkodzony plik zapisu zostanie nadpisany automatycznie.
 Ponow probe zapisu
-talarow
+##### talarow######
 Wybrany nosnik pamieci zostal usuniety. Funkcja automatycznego zapisywania jest obecnie wylaczona. Musisz wybrac nosnik pamieci aby ponownie wlaczyc funkcje automatycznego zapisu.
 sprzedawca
-mistrz plucia
+Mistrz Plucia
 KLIKNIJ NA OBRAZ ABY PRZEJSC DO TRYBU PELNOEKRANOWEGO
 Powrot do biblioteki gry
 Wyjscie do menu glownego
@@ -1024,243 +1024,243 @@ Wszystkie niezapisane postepy zostana utracone. Czy na pewno chcesz kontynuowac?
 Wystapil blad sieci. Powrot do menu glownego.
 Ustawienia
 Atrakcje dla Doroslych \n`Karbunkul Zelda Wie Wszystko` \nPamietnik kobiety \nwatpliwych przyjemnosci.
-Animatronika \n`Animatronika` \nWalt Whimsy
-Animatronika \n`Ujrzyj, co jest pod Spodem` \nWalt Whimsy
-Adnotacja \nZobacz: Przypis
-Archeologia \n`X nigdy nie oznacza skarbu` \nI. Jones
-Artyzm \n`Ogolnikowosc jako forma artystyczna`
-Artyzm/Filozofia \n`Idealizm czy Surrealizm?` \nPodrecznik do filozofii/sztuki.
-Benzyna i inne ciecze \n`Browar dla wszystkich`
-Big Whoop \nZobacz: Skarb
-Biografia \n`Obie rece sa puste` \nHerman Toothrot.
-Biografia \n`Obie rece sa w ruchu` \nHistoria Stana.
-Biografia \n`Obie glowy sa puste` \nBracia Fettucini.
-Biografia \n`Garsc pakli` \nDziennik \nKapitana Twiddlymore.
-Biografia \n`Wyliz srebrna lyzeczke` \nL. Phatt
-Biografia \n`Czarnobrody i ja`
-Biografia \n`Gdy wysadzilem LeChucka` \nWatpliwe wspomnienia \nGuybrusha Threepwooda
-Biografia \n`Jejku!` \nWspomnienia kapitana Gilberta
-Budowa ciala \n`Niecodzienne znamiona`
-Bohaterowie z poprzedniej czesci \n`Sniadanie u Meathooka`
-Biznes \n`Zdobywania Przyjaciol \ni Wplywania na Ludzi` \nautorstwa Jacka Wrobla
-Ceremonialy kanibali \n`Jak serwowac ludzi(om)` \nCytrynoglowy
-Ceremonialy kanibali \nZobacz: Samopomoc
-Dane katalogowe \nZobacz: Slowniki
-Chedar i inne sery \n`Przewodnik po serach swiata` \nOdniesienie
-Dla dzieci \n`Zlowieszcze potwory \nspod lozka`
-Dla dzieci \n`Opowiesci dla \nmalych piratow`
-Cyrki \n`Fantastyczne przygody \nBilla i Alfredo` \nFikcja literacka
-Cyrki \n`Do diabla z ludzka torpeda` \nHistoria numeru \nz czlowiekiem-kula.
-Dogmaty literatury \n`Wielkie odkaszliwania` \nKapitan Loogie
-Bibeloty \n`Zlom, zlom, \njeszcze wiecej zlomu` \nPrzewodnik po \nkolekcjonerskich pamiatkach.
-Duszenie i gotowanie \n`Ciekawe pirackie dania`
-Duszenie i gotowanie \n`Kleiste ciecze, ktore \nmozesz zrobic w domu`
-Chalupnictwo \n`Szydelkowanie przepasek \nna wesolo i na serio`
-Dopisek \nZobacz: Referencyjny Obskurantyzm
-Cyfrowanie informacji \n`Szyfr w moim nosie` \nWyjatkowa wiadomosc przewija sie \nprzez historie.
-Dziesietna Klasyfikacja Biblioteczna \nZobacz: Schemat organizacyjny
-Dramaty i katastrofy \n`Slynne wraki \ntego stulecia` \nZ kolekcji ksiazek \nkatastroficznych Kolezanki.
-Choroby \n`Ciekawostki \no szkorbucie`
-Choroby \n`Choroby na pokladzie`
-Czworonogi \n`Slownik piesko-polski` \nOdniesienie
-Edukacja \n`Przygotowanie do \ntestu zdolnosci pirackich` \nS. Karpman
-Film \n`Cisza na planie`
-Entomologia \n`Szkodniki pomidorow` \nInstrukcja obslugi.
-Etymologia \n`Etymologia pirackich zwrotow`
-Fotoreceptory \nZobacz: Wizja
-Farthingtonowie \nZobacz: Gry
-Fasony \n`Letnia kolekcja \ndla awanturnikow` \nTrzy roczniki \npopularnego czasopisma
-Fikcja literacka \n`Bilet klasy E`
-Fikcja literacka \n`O piec za duzo`
-Fikcja literacka \n`Dzien jeza`
-Fikcja literacka \n`Nie to co dublon` \nAntologia krotkich powiesci
-Fikcja literacka \n`Bardzo, bardzo krotkie opowiesci`
-Finanse \n`Sposoby na latwe pieniadze`
-Fladrologia \n`Wielka ksiega ryb` \nIlustrowany przewodnik \npo rybach swiata.
-Fiszing \n`Lowienie na czareczki: \nZapomniana sztuka`
-Edukacja zywieniowa \n`Keksmisja` \nS. Cheese
-Edukacja zywieniowa \n`Rozmiary naturalne i wieksze`
-Edukacja zywieniowa \n`Szczury jako zrodlo bialka w diecie`
+Animatronika\nAnimatronika\nWalt Whimsy
+Animatronika\nUjrzyj, co jest pod Spodem\nWalt Whimsy
+Adnotacja\nZobacz: Przypis
+Archeologia\nX nigdy nie oznacza skarbu\nI. Jones
+Artyzm\nOgolnikowosc jako forma artystyczna\n
+Artyzm/Filozofia\nIdealizm czy Surrealizm?\nPodrecznik do filozofii/sztuki.
+Benzyna i inne ciecze\nBrowar dla wszystkich\n
+ Big Whoop?\nZobacz: Skarb
+Biografia\nObie rece sa puste\nHerman Toothrot.
+Biografia\nObie rece sa w ruchu\nHistoria Stana.
+Biografia\nObie glowy sa puste\nBracia Fettucini.
+Biografia\nA w piesciach sciskal pakle\nDziennik Kapitana Twiddlymore.
+Biografia\nWyliz srebrna lyzeczke\nL. Phatt
+Biografia\nCzarnobrody i ja\n
+Biografia\nGdy wysadzilem LeChucka\nWatpliwe wspomnienia Guybrusha Threepwooda
+Biografia\nRany.\nWspomnienia kapitana Gilberta
+Budowa ciala\nNiecodzienne znamiona \n
+Bohaterowie z poprzedniej czesci\nSniadanie u Meathooka\n
+Biznes\nZdobywania Przyjaciol i Wplywania na Ludzi\nautorstwa Jacka Wrobla
+Ceremonialy kanibali\nJak serwowac ludzi(om)\nCytrynoglowy
+Ceremonialy kanibali\nZobacz: Samopomoc
+Dane katalogowe\nZobacz: Slowniki
+Chedar i inne sery\nPrzewodnik po serach swiata\nOdniesienie
+Dla dzieci\nZlowieszcze potwory spod lozka\n
+Dla dzieci\nOpowiesci dla malych piratow\n
+Cyrki\nFantastyczne przygody Billa i Alfredo\nBeletrystyka
+Cyrki\nDo diabla z ludzka torpeda\nHistoria numeru z czlowiekiem-kula.
+Dogmaty literatury\nWielkie odkaszliwania\nKapitan Loogie
+Bibeloty\nZlom, zlom, jeszcze wiecej zlomu\nPrzewodnik po kolekcjonerskich pamiatkach.
+Duszenie i gotowanie\nCiekawe pirackie dania\n
+Duszenie i gotowanie\nKleiste ciecze, ktore mozesz zrobic w domu\n
+Chalupnictwo\nSzydelkowanie przepasek na wesolo i na serio\n
+Dopisek\nZobacz: Referencyjny Obskurantyzm
+Cyfrowanie informacji\nSzyfr w moim nosie\nWyjatkowa wiadomosc przewija sie przez historie.
+Dziesietna Klasyfikacja Biblioteczna\nZobacz: Schemat organizacyjny
+Dramaty i katastrofy\nWielkie wraki tego stulecia\nZ kolekcji ksiazek katastroficznych Kolezanki.
+Choroby\nCiekawostki o szkorbucie\n
+Choroby\nChoroby na pokladzie\n
+Czworonogi\nSlownik piesko-angielski\nOdniesienie
+Edukacja\nPrzygotowanie do testu zdolnosci pirackich\nS. Karpman
+Film\nCisza na planie\n
+Entomologia\nSzkodniki pomidorow\nInstrukcja obslugi.
+Etymologia\nEtymologia pirackich zwrotow\n
+Fotoreceptory\nZobacz: Wizja
+Farthingtonowie\nZobacz: Gry
+Fasony\nLetnia kolekcja dla awanturnikow\nTrzy roczniki popularnego czasopisma
+Beletrystyka\nBilet klasy E \n
+Beletrystyka\nO piec za duzo\n
+Beletrystyka\nDzien jeza\n
+Beletrystyka\nNie to co dublon\nAntologia krotkich powiesci
+Beletrystyka\nBardzo, bardzo krotkie opowiesci\n
+Finanse\nSposoby na latwe pieniadze\n
+Fladrologia\nWielka ksiega ryb\nIlustrowany przewodnik po rybach swiata.
+Fiszing\nLowienie na czareczki: Zapomniana sztuka\n
+Edukacja zywieniowa\nKeksmisja\nS. Cheese
+Edukacja zywieniowa\nRozmiary naturalne i wieksze\n
+Edukacja zywieniowa\nSzczury jako zrodlo bialka w diecie\n
 Zobacz: \nCeremionialy kanibali
-Fragmenty tekstu \nZobacz: Wycienczajaca pedanteria
-Gry \n`Hal Barwood o Monkey 2` \nKrytyczna recenzja.
-Gry \n`Fanatycy Fan-Tana` \nElroy T. Funbun
-Gry \n`Krolowie shuffleboard` \nOpis dynastii \nFarthingtonow.
-Genealogia \n`Dylemat 66` \nOpowiesci dziwne, ale prawdziwe.
-Genetyka \n`Jak zrobic krolikalopa`
-Geometria \n`Wlasnosci eliptycznego \nhiperboloidu`
-Widmowy Pirat LeChuck \n`Kiedy wysadzilem LeChucka` \nNajgorszy wrog Threepwooda.
-Widmowy Pirat LeChuck \n`Gdzie wysadzilem LeChucka` \nNajgorszy wrog Threepwooda.
-Widmowy Pirat LeChuck \n`Dlaczego wysadzilem LeChucka` \nNajgorszy wrog Threepwooda.
-Godiva, Lady \n`Zdejmujac koszulke` \nBiografia, \nzobacz: Atrakcje dla Doroslych
-Rabowanie grobow \n`Popularne kary dla \nhien cmentarnych`
-Grogoholizm \n`Jestem watroba Czarnobrodego` \nPrzerazajaca historia skruszonego grogoholika
-Grupowanie \nZobacz: Katalogi
-Grupowanie tekstu \nZobacz: Dopisek
-Historia \n`Ostroznie z tymi \nkulami armatnimi!` \nLegenda o Armadzie Statkow \nze Szklanymi Dnami
-Historia \nZobacz: Stale lady
-Bzdety \n`Wspomnienia o Molly`
-Humor \n`Okrutne kalambury dla okrutnych piratow` \nN. Falstein
-Humor \n`Glupie zarty pirackie`
-Humor Wisielczy \n`Wiec idziesz \npod topor...` \n100 rzeczy, ktore mozesz powiedziec \nkatowi.
-Kremy i lody \n`Ulubione smaki \nlodow piratow`
-Idole \n`Tiki na obszarze poludniowego Pacyfiku` \nOdniesienie
-Igla \n`Jak prosto \nzrobic igloo`
-Kwoty urojone \n`Nowe prawa podatkowe` \nLiteratura lekka.
-Indeksy \nZobacz: Katalogi
-Kuksance \n`Jak robic \npokrzywki`
-Katalogi \nZobacz: Tytuly
-Kompleks nizszosci \n`Kompleks kompleksu`
-Kasa skarbowa \nZobacz: kwoty urojone
-Krolikalop \nZobacz: Genetyka
+Fragmenty tekstu\nZobacz: Wycienczajaca pedanteria
+Gry\nHal Barwood o Monkey 2\nKrytyczna recenzja.
+Gry\nFanatycy Fan-Tana\nElroy T. Funbun
+Gry\nKrolowie shuffleboard\nOpis dynastii Farthingtonow.
+Genealogia\nDylemat 66\nOpowiesci dziwne, ale prawdziwe.
+Genetyka\nJak zrobic krolikalopa\n
+Geometria\nWlasnosci eliptycznego hiperboloidu\n
+Widmowy Pirat LeChuck\nKiedy wysadzilem LeChucka\nNajgorszy wrog Threepwooda.
+Widmowy Pirat LeChuck\nGdzie wysadzilem LeChucka\nNajgorszy wrog Threepwooda.
+Widmowy Pirat LeChuck\nDlaczego wysadzilem LeChucka\nNajgorszy wrog Threepwooda.
+Godiva, Lady\nZostaly tylko skarpetki\nBiografia, zobacz: Atrakcje dla Doroslych
+...okradanie grobow...\nPopularne kary dla hien cmentarnych \n
+Grogoholizm\nJestem watroba Czarnobrodego\nPrzerazajaca historia skruszonego grogoholika
+Grupowanie\nZobacz: Katalogi
+Grupowanie tekstu\nZobacz: Dopisek
+Historia\nOstroznie z tymi kulami armatnimi!\nLegenda o Armadzie Statkow ze Szklanymi Dnami 
+Historia\nZobacz: Stale lady
+Bzdety\nWspomnienia o Molly\n
+Humor\nOkrutne kalambury dla okrutnych piratow\nN. Falstein
+Humor\nGlupie zarty pirackie\n
+Humor Wisielczy\nWiec idziesz pod topor...\n100 rzeczy, ktore mozesz powiedziec katowi.
+Kremy i lody\nUlubione smaki lodow piratow\n
+Idole\nTiki na obszarze poludniowego Pacyfiku\nOdniesienie
+Igla\nJak prosto zrobic igloo\n
+Kwoty urojone\nNowe prawa podatkowe\nLiteratura lekka.
+Indeksy\nZobacz: Katalogi
+Kuksance\nJak robic pokrzywki\n
+Katalogi\nZobacz: Tytuly
+Kompleks nizszosci\nKompleks kompleksu\n
+Kasa skarbowa\nZobacz: kwoty urojone
+Krolikalop\nZobacz: Genetyka
 Karagen \n`Historia zelek`
-Krewetki \n`Nasze bezkregowe kuzynki`
-Jurysdykcja \n`Sad kangurow` \nKrytyka nowoczesnego \nsystemu sadowego
-Kultura nieletnich \n`Milosnicy przewracania krow` \nEseje wybrane ze wzgledu na \nstyl i forme.
-Karate \nZobacz: MMA
-Karma \n`Moja karma wylala sie na \ntwoje dogmaty` \nZobacz: Rozwoj mysli filozoficznej
-Kil \n`Przeciaganie pod kilem: \nMetodyka i Praktyka`
-Ketchup \nZobacz: Warzywa
-Jadra \n`Historia o malych, \ndzielnych organach.` \nRozkladana ksiazeczka o pracy jader.
-Kleptomania \n`Kleptomania`
-Labyrinty \nZobacz: Kody pocztowe
-Lingwistyka \n`Modny slang dla piratow` \nSlownik \nslangu wspolczesnego.
-Mszyce \n`Hodowla mszyc \nna wesolo i na serio`
-Lunch \n`Popoludnie u Meathooka`
-Limeryki \n`Jaja i sprosnosci` \nZakazane albumy \nz zeszlej dekady
-Magia \nZobacz: Poradniki
-Manaty \n`Wilgotne damy z glebin`
-Manaty \n`Zeglarz i krowa morska` \n- Basn
-MMA \n`Teoria i praktyka \nrachowania kosci`
-Matematyka \n`Wzory na lemniskaty szescienne`
-Labirynty \nZobacz: Przypis
-Militaria \n`Ostrozny Zeglarz: \nDlaczego nie zegluje`
-Mamona \n`Latwe pieniadze do zrobienia w domu`
-Muzyka \n`Elvis zyje` \nPrzewidywania Postradamusa \nna temat przyszlej muzyki
-Muzyka \n`Zdobywcy nagrod Grammy \nw renesansie`
-Muzyka \n`Tom pierwszy`
-Muzyka \n`Najgorsze pirackie piosenki`
-Muzyka \n`Xylofon dla poczatkujacych`
-Maskarady \n`Krol Karol z Krolowa Karolina?` \nZ serii \ntajemnic swistakow.
-Narcyzm \n`Podoba mi sie \nnarcyzm`
-Narkolepsja \n`Wyznania narkoleptyka`
-New Age \n`Dynanetyka \nautorstwa L. Rona Gilberta`
-Noc \n`Halasy spod \nlozka`
-Normalnosc \n`Plot z bialych sztachet` \nNauki socjologiczne.
-Nosy \n`Zatrab jesli musisz` \nPrzeziebienia, alergie \ni inne dolegliwosci
-Nostalgia \n`Gazowane fontanny mojej Mlodosci` \nPonce de Leon
-Numerologia \n`Numerologia dla poczatkujacych`
-Nylon \n`Nylon dla piratow`
-Otylosc \n`Jeszcze wiecej mnie do kochania` \nL. Phatt
-Okra \n`Najlepsze przepisy na potrawy z ketmi` \nZobacz: Jedzenie.
-Olives \n`Plaga pizzy` \nAnaliza przymusowej \nkonsumpcji oliwek
-Optymizm \n`A po burzy przychodzi spokoj`
-Orangutany \n`Nasi wlochaci kuzynowie`
-Organizacyjne schematy \nZobacz: Labirynty
-Origami \n`Papierowy bizon` \nWzory origami dla zaawansowanych.
-Ortopedia \n`Uslysz szept \nrozmow moich stop`
-Rozwoj mysli filozoficznej \n`Ubawienie` \nTraktat filozoficzny.
-Rozwoj mysli filozoficznej \n`Rastafarianizm`
-Pladrowanie \n`Wszystko o pladrowaniu` \nZ serii \nNauka w weekend.
-Pladrowanie \n`Mistrzowie w pladrowaniu` \nWywiady \nz najlepszymi.
-Piractwo \n`Elementarz pirata` \nPorady dla zoltodziobow.
-Poezja \n`Puscil pijany zagle` \nPoezja piracka.
-Powiedzenia i cytaty \n`Powiedzenia znanych piratow`
-Rozrod zwierzat \nZobacz: Mszyca
-Rekurencja \nZobacz: Rekurencja
-Poradniki \n`Klatwy na co dzien` \n101 niezbednych przepisow voodoo.
-Referencyjny obskurantyzm \nZobacz: Grupowanie
-Romans \n`Przejmujace pozegnanie amora` \nMelanie Leary
-Romans \n`Zaspokojenie \nniesmacznego \npragnienia` \nMelanie Leary
-Romans \n`Ostateczna goraczka fascynacji` \nMelanie Leary
-Romans \n`Znuzenie dlugotrwalym zwiazkiem` \nMelanie Leary
-Romans \n`Prawie nic` \nE. Marley, \nopis czasu spedzonego z \nGuybrushem Threepwoodem.
-Romans \n`Ciagle trwajaca pasja` \nMelanie Leary
-Romans \n`Przeklete \nspadkobierstwo romantyzmu` \nMelanie Leary
-Romans \n`Labedzi spiew wstretnego grzechu` \nMelanie Leary
-Romans \n`Tesknota za \nzolciejacymi wczoraj` \nMelanie Leary
-Sport zeglarski \n`Gdybym tylko mial musk` \nNiebezpieczenstwa brania prysznica \nna pokladzie statku.
-Sport zeglarski \n`Bezpieczne zeglowanie`
-Sandacz \n`Zamki i zamki` \nWspolczesne problemy \ndotykajace sandacze.
-Stale lady \n`Historia wyspy Parszywcow` \nWprowadzenie
-Samopomoc \n`Piraci, ktorzy \nkochaja zbyt mocno`
-Samopomoc \n`Nie zjadam ludzi \ni czuje sie z tym dobrze` \nWyznania \neks-kanibala
-Sowy \n`Zabojcy z glebin` \nBadania karaibskich sow.
-Statki i okrety - budownictwo \n`Staki i okrety - budowa` \nG. Steele
-Statkow i okretow wraki \nZobacz: Dramaty i katastrofy
-Sprawki diabelskie \n`Ukryte grzechy kamienia`
-Sprawki diabelskie \n`Top 7 grzechow glownych`
-Slang piracki \n`Do krocset` \nZobacz: Lingwistyka
-Socjologia \n`Darwinizm spoleczny \ni choroby spoleczne` \nSpoleczna teoria wzglednosci.
-Skat \n`Milion jeden sposobow \nna skata` \nHerman Toothrot
-Spirytualizm \n`Dar ludzi-jaszczurow`
-Spirytualizm \n`Nad kruczym gniazdem`
-Glupota \n`Glupota przechodzaca przez sciany:\n Unikacz inteligencji` \nAnaliza systemu, \npat pending.
-Slowniki \nZobacz: Labirynty
-Scalanie \n`Scalanie: \nSprytna partnerka rozlaczania`
-Skalpele \n`Dzialac bez siatki` \nBezpieczne metody przeprowadzania operacji.
-Tatuaze \n`Dlaczego laski lubia tatuaze`
-Tatuaze \n`Choroby zwiazane \nz tatuazami`
-Tatuaze \n`Moja pierwsza \nksiazeczka tatuazy`
-Tance \n`Masakra na potancowce` \nLouisa de la Cruz
-Teatr \n`Poza sercami \ni pytajnikami` \nTeatr cieni dla \npiratow z dwoma hakami
-Trzyglowa malpa \n`Duma Loch Ness`
-Tytuly \nZobacz: Naglowki
-Tost \n`30 rzeczy, ktore \npaskudnie smakuja na grzankach`
-Pchelki \n`Wspolczesni zbieracze pchelek` \nPeriodyczne kompendium.
-TIRY \n`Ciezarowki Kolekcjonerskie`
-Tulanie \n`Jak przezyc \nna Karaibach \nnie wydajac grosza?` \nPiracki przewodnik.
-Unikaty \n`Big Whoop: \nNiezgarnieta zyla zlota \nczy mit?`
-Troska o drzewa \n`Anestezjologia \ndrzew lisciastych`
-Trylogie \n`Dlaczego ludzie nie powinni \npisac trylogii` \nSimon Finkleberth
-Trylogie \n`Dlaczego ludzie nie powinni \nczytac trylogii` \nSimon Finkleberth
-Trylogie \n`Dlaczego ludzie \ni tak pisza trylogie` \nSimon Finkleberth
-Tatar \n`Pomysly na deser \nz tatarem`
-Tyfus \n`Dlaczego nie powinienes \nsie przejmowac tyfusem`
-Trapezy \n`Wielkie trapezy \ni inne dziela sztuki`
-Ubrania wierzchnie \n`Ciagniecie gaci: \nNieszkodliwa zabawa \nczy tortura?`
-Warzywa \n`Warzywa, ktore beda jesc dzieci`
-W sprawach z drugiej reki \n`Popularne sporty widowiskowe`
-Wystepki \n`101 wystepkow` \nJ.P. Ampleform
-Wycienczajaca pedanteria \nZobacz: Dziesietna Klasyfikacja Biblioteczna
-Skrzypce \n`Trzydziesci niemuzycznych zastosowan \nskrzypiec`
-Wirusy \n`Rzeczy, ktore mozesz zlapac \nczytajac ksiazke`
-Wizja \n`Przepaski`
-Wulkany \n`Cieplo przez caly rok` \nPodrecznik handlu nieruchomosciami.
-Voodoo \nZobacz: Poradniki
-Wulgarnosc \n`Ohydne rzeczy \ndo powiedzenia na przyjeciu`
-Czekanie \n`Czy ta bluzka jest nowa?` \nZylion rzeczy do zrobienia \npodczas czekania w kolejce.
-Tapeta \n`Nigdzie jak w moim pokoju` \nWzory ze slicznymi \nbohaterami z kreskowek.
-Tapeta \n`Wplyw zoltego \nna male dzieci` \nBadania psychologiczne.
-Tapeta \n`Zycie w limonkowym` \nTysiac \nlimonkowozielonych wzorow.
-Walce \n`Tanczac na trzech nogach`
-Wieprze \n`Niezrozumiany zwierzak`
-Wspanialosc \n`Wielkie bogactwo jako sztuka spoleczna` \nL. Phatt
-Wielkie koty \n`Poznaj pana Tygrysa` \nRozkladana ksiazeczka.
-Wino \n`Wachajac korek` \nCo i jak dla winnych snobow.
-Warsztat stolarski \n`Kroczac po desce`
-Xantypa \n`Poskromienie gasnicy`
-Xenofobia \n`Bachory, \nwon z mojego trawnika`
-Xylofon \nZobacz: Muzyka
-Zeglarstwo \n`Piracki przewodnik po \nkaraibskich jachtklubach`
-Zeglarstwo \n`Jedyna rzecz jakiej ci trzeba to czapeczka` \nZeglarstwo na ladzie
-Zubry \n`Zubry sa wolne, \nale ziemia jest cierpliwa`
-Ziewanie \n`Pragnienie ziewania` \nBadania psychologiczne \nnad zarazliwoscia ziewania.
-Yeti \n`Wywiad z Balwanem`
-Znaki i jezyki \n`E tam, i inne przydatne zwroty` \nOdniesienie.
-Zabojcze glosy \n`Jodlowanie na caly regulator` \nBadania nad militarnym \nwykorzystaniem jodlowania.
-Yorkshire, pudding \n`Nie calkiem prawdziwy pudding` \nPrzepisy i paragrafy.
-Yo-yo \n`Na koncu liny` \nYo-yo w polityce .
-Yo-yo \n`Zdrowie i jego zachowanie` \nSztuczki dla sredniozaawansowanych
-Yo-yo \n`Przedzenie, gdy \nkonczy sie nic` \nYo-yo w filozofii.
-Zinjanthropus \n`Piraci w plejstocenie`
-Znaczki pocztowe \nZobacz: Filatelistyka
-Zamki blyskawiczne \n`Teoria zapinania`
-Z \n`Liczby calkowite`
-Zoologia \n`Po prostu jeden z naczelnych`
-Zoologia \n`Zwierzeta z ZOO \nbardziej inteligentne od ludzi`
-Lodowce \n`Piekno gor Sierra`
-Nieprzyzwoitosc \n`&$*#!` \nPrzenosne odpowiedniki \nnieprzyzwoitych slow \ni kwestii.
-Odglosy \n`Przewodnik po \nkreskowkowych odglosach`
-Oskalpowywanie \n`Jak \noskalpowywac`
+Krewetki\nNasze bezkregowe kuzynki\n
+Jurysdykcja\nSad kangurow\nKrytyka nowoczesnego systemu sadowego
+Kultura nieletnich\nMilosnicy przewracania krow\nEseje wybrane ze wzgledu na styl i forme.
+Karate\nZobacz: MMA
+Karma\nMoja karma wylala sie na twoje dogmaty\nZobacz: Rozwoj mysli filozoficznej
+Kil\nPrzeciaganie pod kilem: Metodyka i Praktyka\n
+Ketchup\nZobacz: Warzywa
+Jadra\nHistoria o malych, dzielnych organach.\nRozkladana ksiazeczka o pracy jader.
+Kleptomania\nKleptomania\n
+Labyrinty\nZobacz: Kody pocztowe
+Lingwistyka\nModny slang dla piratow\nSlownik slangu wspolczesnego.
+Mszyce\nHodowla mszyc na wesolo i na serio\n
+Lunch\nPopoludnie u Meathooka\n
+Limeryki\nJaja i sprosnosci\nZakazane albumy z zeszlej dekady
+Magia\nZobacz: Poradniki
+Manaty\nWilgotne damy z glebin\n
+Manaty\nZeglarz i krowa morska\n- Basn
+MMA\nTeoria i praktyka rachowania kosci\n
+Matematyka\nWzory na lemniskaty szescienne \n
+Labirynty\nZobacz: Przypis
+Militaria\nOstrozny Zeglarz: Dlaczego nie zegluje\n
+Mamona\nLatwe pieniadze do zrobienia w domu\n
+Muzyka\nElvis zyje\nPrzewidywania Postradamusa na temat przyszlej muzyki
+Muzyka\nZdobywcy nagrod Grammy w renesansie \n
+Muzyka\nTom pierwszy\n
+Muzyka\nNajgorsze pirackie piosenki\n
+Muzyka\nXylofon dla poczatkujacych\n
+Maskarady\nKrol Karol z Krolowa Karolina?\nZ serii tajemnic swistakow.
+Narcyzm\nPodoba mi sie narcyzm\n
+Narkolepsja\nWyznania narkoleptyka\n
+New Age\nDynanetyka autorstwa L. Rona Gilberta\n
+Noc\nHalasy spod lozka\n
+Normalnosc\nPlot z bialych sztachet\nNauki socjologiczne.
+Nosy\nZatrab jesli musisz\nPrzeziebienia, alergie i inne dolegliwosci
+Nostalgia\nGazowane fontanny mojej Mlodosci\nPonce de Leon
+Numerologia\nNumerologia dla poczatkujacych\n
+Nylon\nNylon dla piratow\n
+Otylosc\nJeszcze wiecej mnie do kochania\nL. Phatt
+Okra\nNajlepsze przepisy na potrawy z ketmi\nZobacz: Jedzenie.
+Oliwki\nPlaga pizzy\nAnaliza przymusowej konsumpcji oliwek
+Optymizm\nA po burzy przychodzi spokoj\n
+Orangutany\nNasi wlochaci kuzynowie\n
+Organizacyjne schematy\nZobacz: Labirynty
+Origami\nPapierowy bizon\nWzory origami dla zaawansowanych.
+Ortopedia\nUslysz szept rozmow moich stop\n
+Rozwoj mysli filozoficznej\nUbawienie\nTraktat filozoficzny.
+Rozwoj mysli filozoficznej\nRastafarianizm\n
+Pladrowanie\nWszystko o pladrowaniu\nZ serii Nauka w weekend.
+Pladrowanie\nMistrzowie w pladrowaniu\nWywiady z najlepszymi.
+Piractwo\nElementarz pirata\nPorady dla zoltodziobow.
+Poezja\nPuscil pijany zagle\nPoezja piracka.
+Powiedzenia i cytaty\nPowiedzenia znanych piratow\n
+Rozrod zwierzat\nZobacz: Mszyca
+Rekurencja\nZobacz: Rekurencja
+Poradniki\nKlatwy na codzien\n101 niezbednych przepisow voodoo.
+Referencyjny obskurantyzm\nZobacz: Grupowanie
+Romans\nPrzejmujace pozegnanie amora\nMelanie Leary
+Romans\nZaspokojenie niesmacznego pragnienia \nMelanie Leary
+Romans\nOstateczna goraczka fascynacji\nMelanie Leary
+Romans\nZnuzenie dlugotrwalym zwiazkiem\nMelanie Leary
+Romans\nPrawie nic\nE. Marley, opis czasu spedzonego z Guybrushem Threepwoodem.
+Romans\nCiagle trwajaca pasja\nMelanie Leary
+Romans\nPrzeklete spadkobierstwo romantyzmu\nMelanie Leary
+Romans\nLabedzi spiew wstretnego grzechu\nMelanie Leary
+Romans\nTesknota za zolciejacymi wczoraj\nMelanie Leary
+Sport zeglarski\nGdybym tylko mial musk\nNiebezpieczenstwa brania prysznica na pokladzie statku.
+Sport zeglarski\nBezpieczne zeglowanie\n
+Sandacz\nZamki i zamki\nWspolczesne problemy dotykajace sandacze.
+Stale lady\nHistoria wyspy Parszywcow \nWprowadzenie
+Samopomoc\nPiraci, ktorzy kochaja zbyt mocno\n
+Samopomoc\nNie zjadam ludzi i czuje sie z tym dobrze\nWyznania eks-kanibala
+Sowy\nZabojcy z glebin\nBadania karaibskich sow.
+Statki i okrety - budownictwo\nStaki i okrety - budowa\nG. Steele
+Statkow i okretow wraki\nZobacz: Dramaty i katastrofy
+Sprawki diabelskie\nUkryte grzechy kamienia \n
+Sprawki diabelskie\nTop 7 grzechow glownych\n
+Slang piracki\nDo krocset\nZobacz: Lingwistyka
+Socjologia\nDarwinizm spoleczny i choroby spoleczne \nSpoleczna teoria wzglednosci.
+Skat\nMilion jeden sposobow na skata\nHerman Toothrot
+Spirytualizm\nDar ludzi-jaszczurow\n
+Spirytualizm\nNad kruczym gniazdem\n
+ Glupota?\nGlupota przechodzaca przez sciany: Unikacz inteligencji\nAnaliza systemu, pat pending.
+Slowniki\nZobacz: Labirynty
+Scalanie\nScalanie: Sprytna partnerka rozlaczania\n
+Skalpele\nDzialac bez siatki\nBezpieczne metody przeprowadzania operacji.
+Tatuaze\nDlaczego laski lubia tatuaze\n
+Tatuaze\nChoroby zwiazane z tatuazami\n
+Tatuaze\nMoja pierwsza ksiazeczka tatuazy\n
+Tance\nMasakra na potancowce\nLouisa de la Cruz
+Teatr\nPoza sercami i pytajnikami\nTeatr cieni dla piratow z dwoma hakami
+Trzyglowa malpa\nDuma Loch Ness\n
+Tytuly\nZobacz: Naglowki
+Tost\n30 rzeczy, ktore paskudnie smakuja na grzankach\n
+Pchelki\nWspolczesni zbieracze pchelek\nPeriodyczne kompedium.
+TIRY\nCiezarowki Kolekcjonerskie\n
+Tulanie\nJak przezyc na Karaibach nie wydajac grosza?\nPiracki przewodnik.
+Unikaty\nBig Whoop: Niezgarnieta zyla zlota czy mit?\n
+Troska o drzewa\nAnestezjologia drzew lisciastych\n
+Trylogie\nDlaczego ludzie nie powinni pisac trylogii\nSimon Finkleberth
+Trylogie\nDlaczego ludzie nie powinni czytac trylogii\nSimon Finkleberth
+Trylogie\nDlaczego ludzie i tak pisza trylogie\nSimon Finkleberth
+Tatar\nPomysly na deser z tatarem\n
+Tyfus\nDlaczego nie powinienes sie przejmowac tyfusem\n
+Trapezy\nWielkie trapezy i inne dziela sztuki\n
+Ubrania wierzchnie\nCiagniecie gaci: Nieszkodliwa zabawa czy tortura?\n
+Warzywa\nWarzywa, ktore beda jesc dzieci\n
+W sprawach z drugiej reki\nPopularne sporty widowiskowe\n
+Jakies wykroczenia w przeszlosci?\n101 wystepkow\nJ.P. Ampleform
+Wycienczajaca pedanteria\nZobacz: Dziesietna Klasyfikacja Biblioteczna
+Skrzypce\nTrzydziesci niemuzycznych zastosowan skrzypiec\n
+Wirusy\nRzeczy, ktore mozesz zlapac czytajac ksiazke\n
+Wizja\nPrzepaski\n
+Wulkany\nCieplo przez caly rok\nPodrecznik handlu nieruchomosciami.
+Voodoo\nZobacz: Poradniki
+Wulgarnosc\nOhydne rzeczy do powiedzenia na przyjeciu\n
+Czekanie\nCzy ta bluzka jest nowa?\nZylion rzeczy do zrobienia podczas czekania w kolejce.
+Wykladziny\nNigdzie jak w moim pokoju\nWzory ze slicznymi bohaterami z kreskowek.
+Wykladziny\nWplyw zoltego na male dzieci\nBadania psychologiczne.
+Wykladziny\nZycie w limetkowym\nTysiac limetkowozielonych wzorow.
+Walce\nTanczac na trzech nogach\n
+Wieprze\nNiezrozumiany zwierzak\n
+Wspanialosc\nWielkie bogactwo jako sztuka spoleczna\nL. Phatt
+Wielkie koty\nPoznaj pana Tygrysa\nRozkladana ksiazeczka.
+Wino\nWachajac korek\nCo i jak dla winnych snobow.
+Warsztat stolarski\nKroczac po desce\n
+Xantypa\nPoskromienie gasnicy\n
+Xenofobia\nBachory, won z mojego trawnika\n
+Xylofon\nZobacz: Muzyka
+Zeglarstwo\nPiracki przewodnik po karaibskich jachtklubach\n
+Zeglarstwo\nJedyna rzecz jakiej ci trzeba to czapeczka\nZeglarstwo na ladzie
+Zubry\nZubry sa wolne, ale ziemia jest cierpliwa\n
+Ziewanie\nPragnienie ziewania\nBadania psychologiczne nad zarazliwoscia ziewania.
+Yeti\nWywiad z Balwanem\n
+Znaki i jezyki\nE tam, i inne przydatne zwroty\nOdniesienie
+Zabojcze glosy\nJodlowanie na caly regulator\nBadania nad militarnym wykorzystaniem jodlowania.
+Yorkshire, pudding \nNie calkiem prawdziwy pudding\nPrzepisy i paragrafy.
+Yo-yo \nNa koncu liny\nYo-yo w polityce .
+Yo-yo \nZdrowie i jego zachowanie\nSztuczki dla sredniozaawansowanych
+Yo-yo \nPrzedzenie, gdy konczy sie nic\nYo-yo w filozofii.
+Zinjanthropus\nPiraci w plejstocenie\n
+Znaczki pocztowe\nZobacz: Filatelistyka
+Zamki blyskawiczne\nTeoria zapinania\n
+Z\nLiczby calkowite\n
+Zoologia\nPo prostu jeden z naczelnych\n
+Zoologia\nZwierzeta z ZOO bardziej inteligentne od ludzi\n
+Lodowce\nPiekno gor Sierra\n
+Nieprzyzwoitosc\n\nPrzenosne odpowiedniki nieprzyzwoitych slow i kwestii.
+Odglosy\nPrzewodnik po kreskowkowych odglosach\n
+Oskalpowywanie\nJak oskalpowywac\n
 Jesli chcesz uzyskac dostep do menu pauzy w trakcie gry, obroc iPhone lub iPod touch w pionie.

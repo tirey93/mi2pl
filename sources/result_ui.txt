@@ -106,7 +106,7 @@ Wybierz nosnik pamieci
 Glosnosc gry
 Napisy w edycji rozszerzonej
 Glosnosc dialogow
-Tak?
+Tak
 Niej masz konta na Xbox LIVE i nie mozesz zobaczyc wynikow.
 Twfj nosnik danych dziala nieprawidlowo. Jesli bedziesz kontynuowac, nie bedziesz w stanie zapisac postepow.
 Nie masz aktywnego profilu gracza. Nie bedzie mozna zapisac gry ani osiagniec. By utworzyc lub wczytac profil gracza, nacisnij przycisk Xbox Guide. Chcesz kontynuowac bez mozliwosci zapisu gry i osiagniec?
@@ -115,7 +115,7 @@ Wyj0xE5cie
 Wybierz j0xEBzyk
 Zapisz i wyjd0xF4
 Wyjd0xF4 bez zapisywania
-Nie.
+Nie
 Wyniki
 Odblokuj pelna wersje gry
 Nacisnij A zeby wyswietlic wyniki
@@ -172,12 +172,12 @@ Szybka
 Normalna
 Dialogi w edycji klasycznej
 Dotknij ekranu w dowolnym miejscu i przesun kursor tak jak w przypadku gladzika.0x0A0x0AKursor umozliwi ci interakcje z otoczeniem.0x0A0x0AMozesz dostosowac predkosc kursora w menu ustawien.
-na
+W0xEC0xE2czone
 Wylaczone
 USTAWIENIA
 Kup pelna wersje gry
 Kup pelna wersje gry
-##### talar0xF3w######
+talar0xF3w
 %namount-of-money% talarow
 %namount-of-money% talarow i %nnumber-of-coins% groszy
 %namount-of-money% talarow i grosz
@@ -642,8 +642,8 @@ zu0xF2yta chusteczka
 waniliowa koperta
 wazon
 jad krolikalopa
-vichyssoise avec szczurem
-vichyssoise avec szczurz0xE2 sier0xE5ci0xE2
+vichyssoise ze szczurem
+vichyssoise ze szczurz0xE2 sier0xE5ci0xE2
 vichyssoise
 Ville de la 0xC9up
 lalka voodoo
@@ -991,7 +991,7 @@ Wybrany nosnik pamieci zostal usuniety.
 Plik zapisu wydaje sie byc uszkodzony i nie moze zostac zaladowany.
 Plik zapisu wydaje sie byc uszkodzony i nie moze zostac zaladowany. Uszkodzony plik zapisu zostanie nadpisany automatycznie.
 Ponow probe zapisu
-##### talar0xF3w######
+talar0xF3w
 Wybrany nosnik pamieci zostal usuniety. Funkcja automatycznego zapisywania jest obecnie wylaczona. Musisz wybrac nosnik pamieci aby ponownie wlaczyc funkcje automatycznego zapisu.
 sprzedawca
 Mistrz Plucia
