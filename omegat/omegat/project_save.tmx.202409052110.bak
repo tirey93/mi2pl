@@ -2246,16 +2246,16 @@ Jim ryzykowal zawsze, gdy sytuacja byla niepewna.</seg>
       <tuv lang="en-US">
         <seg>I already told you that ...</seg>
       </tuv>
-      <tuv lang="pl" changeid="dapyt" changedate="20240905T191159Z">
-        <seg>Już ci powiedziałem, że...</seg>
+      <tuv lang="pl">
+        <seg>Juz ci powiedzialem, ze...</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>I already told you that the number would be {var:global_268} {string:global_34}...</seg>
       </tuv>
-      <tuv lang="pl" changeid="dapyt" changedate="20240905T191153Z">
-        <seg>Już ci powiedziałem, że wypadnie {var:global_268} {string:global_34}...</seg>
+      <tuv lang="pl">
+        <seg>Juz ci powiedzialem, ze wypadnie {var:global_268} {string:global_34}...</seg>
       </tuv>
     </tu>
     <tu>
@@ -4120,8 +4120,8 @@ Az sprobowal corke bosmana zostawic na lodzie.`</seg>
       <tuv lang="en-US">
         <seg>Says here the Mad Monkey sank at {var:global_100}N, {var:global_483}W.</seg>
       </tuv>
-      <tuv lang="pl" changeid="dapyt" changedate="20240905T191102Z">
-        <seg>Tu jest napisane, ze Szalona Małpa zatonęła na {var:global_100}N, {var:global_483}W.</seg>
+      <tuv lang="pl">
+        <seg>Tu jest napisane, ze Szalona Malpa zatonela na {var:global_100}N, {var:global_483}W.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6368,8 +6368,8 @@ Ani na ladzie, ani na wodzie.</seg>
       <tuv lang="en-US">
         <seg>{var:global_269} {string:global_39} it is.</seg>
       </tuv>
-      <tuv lang="pl" changeid="dapyt" changedate="20240905T191120Z">
-        <seg>{var:global_269} {string:global_39}, niech będzie.</seg>
+      <tuv lang="pl">
+        <seg>{var:global_269} {string:global_39}, niech bedzie.</seg>
       </tuv>
     </tu>
     <tu>

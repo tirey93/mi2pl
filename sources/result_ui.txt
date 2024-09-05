@@ -178,9 +178,9 @@ USTAWIENIA
 Kup pelna wersje gry
 Kup pelna wersje gry
 talar0xF3w
-%namount-of-money% talarow
-%namount-of-money% talarow i %nnumber-of-coins% groszy
-%namount-of-money% talarow i grosz
+%namount-of-money% talar0xF3w
+%namount-of-money% talar0xF3w i %nnumber-of-coins% groszy
+%namount-of-money% talar0xF3w i grosz
 %nnumber-of-coins% groszy
 
 
