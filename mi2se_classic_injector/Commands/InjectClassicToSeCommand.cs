@@ -137,12 +137,13 @@ namespace mi2se_classic_injector.Commands
                 }
                 else if (_classicMarkupOrgLines.TryGetIndexFromVariables(orgNewLine, out index, out var variable))
                 {
+                    var res = _regexClassicMarkup.Replace(_classicPolLines[index], variable).ReplaceToPolishNew(_polishDictionary);
                     result.AppendLine(_regexClassicMarkup.Replace(_classicPolLines[index], variable).ReplaceToPolishNew(_polishDictionary));
                 }
                 else if (IsMatchingToBookQuestions(orgNewLine, out index, out var bookToken)
                     && bookToken.Length > 0
-                    && !orgNewLine.Contains("idliketobuy")//hack for now
-                    && newIndex != 7182)//hack for now
+                    && !orgNewLine.Contains("idliketobuy")
+                    && newIndex != 7182)
                 {
                     result.AppendLine(_regexClassicMarkup.Replace(_classicPolLines[index], _bookTranslations[bookToken]).ReplaceToPolishNew(_polishDictionary));
                 }

@@ -17,10 +17,10 @@ Nie mog0xEB tego dosi0xEBgn0xE20xE7.
 To raczej nie zadzia0xECa.
 To raczej nie zadzia0xECa.
 To raczej nie zadzia0xECa.
-{verb:local1}
+{verb:local_1}
 Hmm. Wygl0xE2da na to, 0xF2e drzwi s0xE2 zamkni0xEBte.
 Nie trzymam tego.
-Nie trzymam {name:local1}.
+Nie trzymam {name:local_1}.
 Nie mog0xEB dosi0xEBgn0xE20xE7.
 Nie mog0xEB dosi0xEBgn0xE20xE7.
 Nie mog0xEB dosi0xEBgn0xE20xE7.
@@ -217,7 +217,7 @@ We0xF4miesz jedn0xE2, zostanie...
 We0xF4miesz jedn0xE2, zostanie...
 We0xF4miesz jedn0xE2, zostanie...
 We0xF4miesz jedn0xE2, zostanie...
- {var:global354}!
+ {var:global_354}!
  10372!
  508!
 99 butelek piwa na 0xE5cianie!
@@ -308,7 +308,7 @@ Z drogi, modnisiu!
 Z drugiej strony... chod0xF4 no tu!
 Nie jeste0xE5 z tych stron, co?
 Ten0xA0most0xA0jest0xA0platny.0xA0Musisz0xA0zaplacic0xA0myto.
- Czy to jaki0xE5 test 0xECap0xF3wkarski?{var:global25}
+ Czy to jaki0xE5 test 0xECap0xF3wkarski?{var:global_25}
  Czy to jaki0xE5 test 0xECap0xF3wkarski?
  Jasne. We0xF4 moje pieni0xE2dze. Nie chc0xEB mie0xE7 0xF2adnych k0xECopot0xF3w.
  Jasne. We0xF4 moje pieni0xE2dze. Nie chc0xEB mie0xE7 0xF2adnych k0xECopot0xF3w.
@@ -359,7 +359,7 @@ M0xF3g0xECbym wpatrywa0xE7 si0xEB w t0xEB fors0xEB ca0xECy dzie0xF1.
 Kasa, kasa, kasa.
 Mam dziwn0xE2 ch0xEB0xE7, by roztrwoni0xE7 m0xF3j maj0xE2tek na niemoralne i niebezpieczne rozrywki.
 Chcia0xECbym, 0xF2eby te wszystkie dziewczyny, kt0xF3re nie chcia0xECy ze mn0xE2 chodzi0xE7 za szkolnych czas0xF3w, mog0xECy to zobaczy0xE7!
-{verb:local1}
+{verb:local_1}
 Przypomina mi domek dla lalek, kt0xF3ry kiedy0xE5 mia0xECem.
 Znaczy si0xEB, moja SIOSTRA mia0xECa.
 Jest za ma0xECe.
@@ -694,7 +694,7 @@ Hej! To wej0xE5cie tylko dla pracownik0xF3w.
  Czy ta posada jest jeszcze wolna?
  Chcesz zobaczy0xE7 moj0xE2 blizn0xEB?
  0xC9adny bar. No c0xF30xF2, do zobaczenia.
-Musz0xEB ju0xF2 lecie0xE7.{var:global26}
+Musz0xEB ju0xF2 lecie0xE7.{var:global_26}
 Wstrz0xE20xE5ni0xEBty, nie mieszany.
 Ha, ha, ha!
 Mo0xF2e wola0xECby0xE5 co0xE5 bezalkoholowego?
@@ -2499,7 +2499,7 @@ Dlatego jestem znany jako `Bajeczny W0xEBdkarz.`
  A ja jestem znany jako `Ta0xF1cz0xE2cy z Pstr0xE2gami.`
  Twoje ryby s0xE2 tak ma0xECe, 0xF2e z powrotem do morza musisz je wrzuca0xE7 p0xEBset0xE2.
 Ach tak?
-@@@@@@@@@@@
+
 Pos0xECuchaj ma0xECa fl0xE2dro, to ja jestem najlepszy. I koniec tematu.
  Nie, je0xF2eli twoje haczyki s0xE2 tak t0xEBpe jak ty.
  Nie, je0xF2eli twoje robaki s0xE2 tak ma0xECe jak tw0xF3j m0xF3zg.
@@ -2725,7 +2725,7 @@ Musz0xEB ci wyda0xE7 tymczasow0xE2 kart0xEB.
 Powiedzia0xECam, 0xF2e mo0xF2esz mie0xE7 na koncie tylko cztery ksi0xE20xF2ki.
 B0xEBdziesz musia0xEC co0xE5 odda0xE7, zanim wypo0xF2yczysz now0xE2 ksi0xE20xF2k0xEB.
 Jakiej ksi0xE20xF2ki szukasz?
- Czy macie '{name:global163}'?
+ Czy macie '{name:global_163}'?
  Czy macie 'Zelda Karbunku0xEC Wie Wszystko'?
  Czy macie 'Animatronika'?
  Czy macie 'Ujrzyj, co jest pod Spodem'?
@@ -2778,7 +2778,7 @@ Jakiej ksi0xE20xF2ki szukasz?
  Czy macie 'Szczury jako 0xF4r0xF3d0xECo bia0xECka w diecie'?
  Czy macie 'Hal Barwood o Monkey 2'?
 Czy macie
- Poprosz0xEB '{name:global162}'.
+ Poprosz0xEB '{name:global_162}'.
  Poprosz0xEB 'Fanatycy Fan-Tana'.
  Poprosz0xEB 'Kr0xF3lowie shuffleboard'.
  Poprosz0xEB 'Dylemat 66'.
@@ -2831,7 +2831,7 @@ Czy macie
  Poprosz0xEB 'Dynanetyka autorstwa L. Rona Gilberta'.
  Poprosz0xEB 'Ha0xECasy spod 0xEC0xF30xF2ka'.
  Poprosz0xEB ''.
- Czy mog0xECaby pani poszuka0xE7 '{name:global161}'?
+ Czy mog0xECaby pani poszuka0xE7 '{name:global_161}'?
  Czy mog0xECaby pani poszuka0xE7 'Przewodnik po kresk0xF3wkowych odg0xECosach'?
  Czy mog0xECaby pani poszuka0xE7 'Jak oskalpowywa0xE7'?
  Czy mog0xECaby pani poszuka0xE7 'P0xECot z bia0xECych sztachet'?
@@ -2884,7 +2884,7 @@ Czy macie
  Czy mog0xECaby pani poszuka0xE7 'Dzia0xECa0xE7 bez siatki'?
  Czy mog0xECaby pani poszuka0xE7 'Dlaczego laski lubi0xE2 tatua0xF2e'?
 Czy moglaby pani poszukac
- Potrzebuj0xEB '{name:global160}'.
+ Potrzebuj0xEB '{name:global_160}'.
  Potrzebuj0xEB 'Choroby zwi0xE2zane z tatua0xF2ami'.
  Potrzebuj0xEB 'Moja pierwsza ksi0xE20xF2eczka tatua0xF2y'.
  Potrzebuj0xEB 'Masakra na pota0xF1c0xF3wce'.
@@ -3645,7 +3645,7 @@ Nie jest w moim typie.
 Serdecznie zapraszamy do udzia0xECu w festiwalu ostatkowym gubernator Marley.
 Odbieraj0xE2c darmowy kostium nie zapomnij zabra0xE7 niniejszego zaproszenia!
 Przed wej0xE5ciem prosz0xEB okaza0xE7 zaproszenie oraz za0xECo0xF2y0xE7 kostium.
-{string:global43}
+{string:global_43}
 To bilet na jakie0xE5 przedstawienie cyrkowe. `Bracia Fettucini.`
 `Trzy dni i Dwie noce na Wspania0xECej Wyspie Hooka!`
 Witaj.
@@ -3678,12 +3678,12 @@ Mn0xF3stwo ludzi przychodzi, gdy mamy nagrody,
 Ale na dzi0xE5 ju0xF2 ko0xF1czymy. Zosta0xECa nam tylko jedna.
 Ale dzi0xE5 ju0xF2 ko0xF1czymy. Zosta0xECy nam tylko dwie.
 Ale dzi0xE5 ju0xF2 ko0xF1czymy. Zosta0xECy nam tylko trzy.
-Mamy {string:global44}...
+Mamy {string:global_44}...
 ...oraz zaproszenie na przyj0xEBcie ostatkowe gubernator Marley.
 Mamy darmowa wejsciowke do Cyrku Braci Linguini...
 Mamy trzydniowe wakacje na Wspanialej Wyspie Hooka...
 Mamy zaproszenie na przyj0xEBcie ostatkowe gubernator Marley.
-Mamy {string:global44}!
+Mamy {string:global_44}!
 Mamy darmowa wejsciowke do Cyrku Braci Linguini!
 Mamy trzydniowe wakacje na Wspanialej Wyspie Hooka!
 I oczywi0xE5cie mamy pieni0xE2dze.
@@ -3780,21 +3780,21 @@ Jaki numer wybierasz?
  Wybieram 30 czarne.
  Wybieram 31 czarne.
  Wybieram 32 czarne.
- Poprosz0xEB '{var:global268}{string:global34}'.
- Wybieram {var:global270} czarne.
- Wybieram {var:global270} czerwone.
- Poprosz0xEB '{var:global268}{string:global34}'.
- Wybieram {var:global271} czarne.
- Wybieram {var:global271} czerwone.
- Poprosz0xEB '{var:global268}{string:global34}'.
- Wybieram {var:global272} czarne.
- Wybieram {var:global272} czerwone.
- Poprosz0xEB '{var:global268}{string:global34}'.
- Wybieram {var:global273} czarne.
- Wybieram {var:global273} czerwone.
- Poprosz0xEB '{var:global268}{string:global34}'.
- Wybieram {var:global274} czarne.
- Wybieram {var:global274} czerwone.
+ Poprosz0xEB '{var:global_268} {string:global_34}'.
+ Wybieram {var:global_270} czarne.
+ Wybieram {var:global_270} czerwone.
+ Poprosz0xEB '{var:global_268} {string:global_34}'.
+ Wybieram {var:global_271} czarne.
+ Wybieram {var:global_271} czerwone.
+ Poprosz0xEB '{var:global_268} {string:global_34}'.
+ Wybieram {var:global_272} czarne.
+ Wybieram {var:global_272} czerwone.
+ Poprosz0xEB '{var:global_268} {string:global_34}'.
+ Wybieram {var:global_273} czarne.
+ Wybieram {var:global_273} czerwone.
+ Poprosz0xEB '{var:global_268} {string:global_34}'.
+ Wybieram {var:global_274} czarne.
+ Wybieram {var:global_274} czerwone.
  Po namy0xE5le, spasuj0xEB.
 Niewa0xF2ne.
 Oddaj0xEB ci twoje pieni0xE2dze.
@@ -3866,7 +3866,7 @@ Zaczynamy.
 30 czarne.
 31 czarne.
 32 czarne.
-{var:global268}{string:global34}
+{var:global_268} {string:global_34}
 Wygrywasz, dzieciaku.
 Kt0xF3rej z naszych wspania0xECych nagr0xF3d pragniesz?
 Wybieraj!
@@ -3877,14 +3877,14 @@ Mo0xF2esz wzi0xE20xE7 zaproszenie na przyj0xEBcie ostatkowe gubernator Marley!
 ...ALBO...
 Mozesz wziac darmowa wejsciowke do Cyrku Braci Linguini!
 Mozesz wziac trzydniowe wakacje na Wspanialej Wyspie Hooka!
-Mo0xF2esz wzi0xE20xE7 {string:global44}!
+Mo0xF2esz wzi0xE20xE7 {string:global_44}!
 No wi0xEBc?
 Co wybierasz?
  Dawaj KAS0xC1!
  Z ch0xEBci0xE2 wezm0xEB ZAPROSZENIE!
 Naprawde chce BILET DO CYRKU!
 Naprawde chce WAKACJE!
- Naprawd0xEB chc0xEB {string:global45}!
+ Naprawd0xEB chc0xEB {string:global_45}!
  Masz co0xE5 jeszcze?
 Wybiera KAS0xC1!
 C0xF30xF2, pieni0xE2dze si0xEB sko0xF1czy0xECy...
@@ -3892,7 +3892,7 @@ Masz szcz0xEB0xE5cie, 0xF2e uda0xECo ci si0xEB wygra0xE7 ostatnie!
 Chce ZAPROSZENIE!
 Chce trzydniowe wakacje na Wspanialej Wyspie Hooka!
 Chce darmowa wejsciowke do Cyrku Braci Linguini!
-Chce {string:global44}!
+Chce {string:global_44}!
 Nie.
 Ale tE nagrody s0xE2 WSPAnIA0xC9E!
 GRATULACJE!
@@ -3968,7 +3968,7 @@ Zaczynamy.
 30 czarne.
 31 czarne.
 32 czarne.
-{var:local1}{string:global35}
+{var:local_1} {string:global_35}
 Szkoda! 0xC7ycz0xEB ci wi0xEBcej szcz0xEB0xE5cia nast0xEBpnym razem.
 Mo0xF2e po prostu nie obstawia0xECe0xE5 w0xECa0xE5ciwego numeru?...
 Wiesz, co mam na my0xE5li?
@@ -4049,7 +4049,7 @@ Dobrze, zaczynamy.
 30 czarne.
 31 czarne.
 32 czarne.
-{var:global269}{string:global39}
+{var:global_269} {string:global_39}
 O tak!
 Wygrywa pan!
 Jak0xE2 nagrod0xEB pan wybiera? 
@@ -4058,7 +4058,7 @@ Mamy pieni0xE2dze...
 ...i zaproszenie na Przyj0xEBcie Mardi Gras Gubernator Marley...
 ... i trzydniowe wakacje na Wspanialej Wyspie Hooka.
 ... i darmowa wejsciowke do Cyrku Braci Linguini.
-...i {string:global44}.
+...i {string:global_44}.
 Poprosz0xEB pieni0xE2dze.
 A wi0xEBc pieni0xE2dze.
 Znowu pan wygrywa!
@@ -4136,7 +4136,7 @@ Dobrze, kt0xF3ry numer?
 30 czarne.
 31 czarne.
 32 czarne.
-{var:global269}{string:global39}
+{var:global_269} {string:global_39}
 1 czerwone, niech b0xEBdzie.
 2 czerwone, niech b0xEBdzie.
 3 czerwone, niech b0xEBdzie.
@@ -5155,7 +5155,7 @@ Jak wspomnia0xECam, moje wynagrodzenie wynosi 6000 talar0xF3w.
  Obawiam si0xEB, 0xF2e nie mam 0xF2adnych pieni0xEBdzy.
 Nie mam tyle pieniedzy.
 Nie mam tyle.
- Mam tylko {var:global305} talar0xF3w.
+ Mam tylko {var:global_305} talar0xF3w.
  W porz0xE2dku, zap0xECac0xEB ci 6000 talar0xF3w. 
  Udzielasz kredyt0xF3w?
  Wr0xF3c0xEB p0xF30xF4niej.
@@ -5723,7 +5723,7 @@ Poza tym lubi0xEB przedmioty wykonane z br0xE2zu.
 Dam ci za to 6000 talar0xF3w.
 To si0xEB nazywa interes.
 Aha. 
-Czy mog0xEB odsprzeda0xE7 ci te {name:local0}?
+Czy mog0xEB odsprzeda0xE7 ci te {name:local_0}?
 Czy mog0xEB odsprzeda0xE7 ci ten papuga?
 Czy mog0xEB odsprzeda0xE7 ci ten lustro?
 Czy mog0xEB odsprzeda0xE7 ci ten znak?
@@ -5738,7 +5738,7 @@ Czy mog0xEB odsprzeda0xE7 ci ten znak?
 Czy mog0xEB odsprzeda0xE7 ci ten wazon?
 Czy moge odsprzedac ci ten kolpak?
 Czy moge odsprzedac ci ten piracki kapelusz?
-Czy mog0xEB odsprzeda0xE7 ci ten {name:local0}?
+Czy mog0xEB odsprzeda0xE7 ci ten {name:local_0}?
 Oczywi0xE5cie.
 Do licha, oddam ci nawet z powrotem pieni0xE2dze za nie.
 Do licha, oddam ci nawet z powrotem pieni0xE2dze za to.
@@ -6003,12 +6003,12 @@ Ustalanie cen w zak0xECadzie Stana odbywa si0xEB przy pomocy skali ruchomej...
 To mi0xECo z twojej strony.
 C0xF30xF2, a ile w0xECa0xE5ciwie masz forsy?
 Nie mam wiele.
-Mam {var:global305} talar0xF3w.
+Mam {var:global_305} talar0xF3w.
 W0xC9A0xCANIE podnie0xE5li VAT na trumny.
 To bedzie okolo 6500 talarow.
 Aj0xE7.
-To b0xEBdzie oko0xECo {var:global484} talar.
-To b0xEBdzie oko0xECo {var:global484} talar.
+To b0xEBdzie oko0xECo {var:global_484} talar.
+To b0xEBdzie oko0xECo {var:global_484} talar.
 W0xECa0xE5ciwie, chyba zaliczam si0xEB do tych biedniejszych klient0xF3w.
 Rozumiem.
 S0xE2dz0xEB, 0xF2e w twoim przypadku w0xECa0xE5ciwsza b0xEBdzie kremacja.
@@ -7072,7 +7072,7 @@ Kosci zeber lacza sie z koscmi reki.
 Kosci zeber lacza sie z koscmi nogi.
 Kosci zeber lacza sie z koscmi biodra.
 Kosci zeber lacza sie z koscmi czaszki.
-...ko0xE50xE7mi {string:global47}boneconnectedtothe{string:global48}...
+...ko0xE50xE7mi {string:global_47} bone connected to the {string:global_48}...
 Nie ma tam nic interesuj0xE2cego.
 Jest ju0xF2 otwarta.
 Nie ma tam nic interesuj0xE2cego.
@@ -7369,7 +7369,7 @@ Nie siegne stad do patelni.
 Nie siegne stad do tarczy.
 Nie siegne stad do tarczy.
 Nie siegne stad do Wally'ego.
-Nie si0xEBgn0xEB st0xE2d do {name:local1}.
+Nie si0xEBgn0xEB st0xE2d do {name:local_1}.
 St0xE2d nie mog0xEB tego zrobi0xE7.
 Ha, ha, ha, ha.
 Guybrush Threepwood! Wpad0xECe0xE5 jak buty w obornik.
@@ -7422,7 +7422,7 @@ Je0xF2eli to jest 4 a to jest 2, to ile to jest?
 Czym jest tajemnica Wyspy Ma0xECp?
 Dlaczego przygod0xF3wki s0xE2 takie drogie?
 Dlaczego mnie po prostu nie zastrzeli0xECe0xE5?
-{string:global33}
+{string:global_33}
 Czy zostawienie dziury z kwasem bez przykrycia nie jest niebezpieczne?
 Cholipa no, mia0xECem chwil0xEB temu z milion pyta0xF1...
 Co mo0xF2na by0xECo wygra0xE7 w Kole Fortuny na pocz0xE2tku lat 90.?
@@ -7434,7 +7434,7 @@ Czym jest tajemnica Wyspy Ma0xECp?
 Dlaczego przygod0xF3wki s0xE2 takie drogie?
 Dlaczego mnie po prostu nie zastrzeli0xECe0xE5?
 Sk0xE2d si0xEB bior0xE2 dzieci?
-{string:global34}
+{string:global_34}
 0xCAwieca przepali lin0xEB, powoduj0xE2c upadek worka z piaskiem.
 Miechy wystrzel0xE2 pocisk w patelni0xEB.
 Odbije si0xEB on od kilku rzeczy.
@@ -7449,7 +7449,7 @@ Za par0xEB chwil wszystko si0xEB wyja0xE5ni.
 Bo t0xECumacze ka0xF20xE2 sobie p0xECaci0xE7 jak za zbo0xF2e.
 Bo mieli0xE5my jeszcze troch0xEB miejsca na p0xECycie.
 Ty si0xEB wzi0xE20xECe0xE5 z sieroci0xF1ca.
-{string:global36}
+{string:global_36}
 W tej sytuacji raczej nie dbam o bezpiecze0xF1stwo.
 My0xE5l szybciej, czas ucieka.
 Poloneza.
@@ -7461,7 +7461,7 @@ Za par0xEB chwil wszystko si0xEB wyja0xE5ni.
 Bo t0xECumacze ka0xF20xE2 sobie p0xECaci0xE7 jak za zbo0xF2e.
 Bo mieli0xE5my jeszcze troch0xEB miejsca na p0xECycie.
 Ty si0xEB wzi0xE20xECe0xE5 z sieroci0xF1ca.
-{string:global37}
+{string:global_37}
 Mam ju0xF2 do0xE50xE7 twoich durnych pyta0xF1.
 Przygotuj si0xEB na 0xE5mier0xE7.
 Nie powiedzia0xEC, co si0xEB ze mn0xE2 stanie?
@@ -8311,21 +8311,21 @@ Jest ociupin0xEB za g0xEBste na p0xECywanie.
 Fuj, nie chc0xEB ani kropli TEGO wstr0xEBtnego mu0xECu.
 1
 1
-@@@@@@@@@@@
+
 9
 9
 0
 0
 0
 0
-@@@@@@@@@@@
+
 7
 7
 4
 4
 0
 0
-@@@@@@@@@@@
+
 j
 J
 e
