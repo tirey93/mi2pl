@@ -350,7 +350,7 @@ slina slonia
 drzwi windy
 puste pude0xECko
 pusty kubek
-???pusty kufel grogu
+pusty kufel grogu
 0xEC0xF30xF2ko abulatoryjne
 wyjscie
 wyj0xE5cie do korytarza
@@ -674,7 +674,7 @@ drzewa
 stolarz
 Woodtick
 warsztat
-???wrak 
+wrak 
 Funkowy S0xECo0xF1
 skserowane wlosy z nosa
 wargi jaka

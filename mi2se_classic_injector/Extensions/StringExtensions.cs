@@ -36,7 +36,8 @@ namespace mi2se_classic_injector.Extensions
             //return text;
             return Regex
                 .Replace(text, @"\s+", " ")
-                .Replace("@", "");
+                .Replace("@", "")
+                .Replace("???", "");
         }
     }
 }
