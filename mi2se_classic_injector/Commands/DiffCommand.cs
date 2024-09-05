@@ -50,7 +50,7 @@ namespace mi2se_classic_injector.Commands
             {
                 var line = _orgPolLines[i];
                 var newLine = _newPolLines[i].ReplaceToPolishNew(_polishDictionary);
-                poResult.AppendLine(newLine);
+                poResult.AppendLine(line);
             }
 
             File.WriteAllText(_settings.OutputCatalog + "output.txt", poResult.ToString());
