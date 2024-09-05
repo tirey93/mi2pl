@@ -16,6 +16,7 @@ namespace mi2se_classic_injector.Settings
     {
         Default,
         ErrorToPo,
-        ErrorFromPo
+        ErrorFromPo,
+        Diff
     }
 }

@@ -16,6 +16,7 @@ var serviceProvider = new ServiceCollection()
     .AddTransient<InjectClassicToSeCommand>()
     .AddTransient<ErrorsToPoCommand>()
     .AddTransient<ErrorsFromPoCommand>()
+    .AddTransient<DiffCommand>()
     .BuildServiceProvider();
 
 
@@ -40,6 +41,11 @@ try
             var errorsFromPoCommand = serviceProvider.GetRequiredService<ErrorsFromPoCommand>();
             if (!errorsFromPoCommand.HasErrors)
                 errorsFromPoCommand.Execute();
+            break;
+        case Mode.Diff:
+            var diffCommand = serviceProvider.GetRequiredService<DiffCommand>();
+            if (!diffCommand.HasErrors)
+                diffCommand.Execute();
             break;
     }
 }
