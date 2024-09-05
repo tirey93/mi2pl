@@ -142,7 +142,7 @@ Najwiekszego ze wszystkich.
 Skarbu tak cennego i dobrze ukrytego, ze nawiedza w snach kazdego pirata.
 Masz na mysli...
 Big Whoop?
-                               Big Whoop?
+ Big Whoop?
 Wlasnie tak.
 W takim razie po co przybyles tutaj?
 Na wyspie Parszywcow nie ma zadnego skarbu!
@@ -280,8 +280,8 @@ Po co mialbym taszczyc ze soba wielkie, puste, przesiakniete zapachem korniszono
 Ale malutkie drzwi.
 `EKOLOPATA - Dla poszukiwaczy skarbow z malym budzetem.`
 Nie moge tego wykopac, tatku.
-0xE2 0xE5 0xE7 0xEB 0xEC 0xF1 0xF2 0xF3 0xF4 
-0xC0 0xC1 0xC4 0xC5 0xC7 0xC9 0xCA 0xD1 0xD2
+a s c e l n z o z 
+A E O C Z L S N Z
 Ups...
 ... Chyba zlamalem znak.
 Lepiej nie bede go jeszcze bardziej psuc.
@@ -458,7 +458,7 @@ Ale gdybym tylko mogl zerknac na mape tej wyspy...
 No coz, nawet nie znam ich imion.
 Wiesz co, przypomniales mi...
 ze mialem isc do biblioteki na wyspie Phatta i to sprawdzic...
-... Poszukalbym informacji o nich w  bibliotece miasta Phatta...
+... Poszukalbym informacji o nich w bibliotece miasta Phatta...
 ... gdyby nie to glupie Embargo Largo!
 Tak, tak.
 Sadze wiec, ze nie jestem ci potrzebny.
@@ -1610,7 +1610,7 @@ Stol z powylamywanymi nogami to juz nie stol... bo nogi ma powylamywane i nie st
 Ale gdyby ten stol z powylamywanymi nogami mial powylamywane tylko dwie nogi, a dwie kolejne wylamane by nie byly, to czy nadal to by byl stol?
 Oj, zamknij sie.
 Nawet gdyby ten stol z powylamywanymi nogami mogl miec powylamywane tylko dwie nogi, to jak mialby on ustac tylko na dwoch niepowylamywanych?
-Choc stol z powylamywanymi nogami nie stoi, to nadal moglby byc stolem... tyle ze z  powylamywanymi nogami.
+Choc stol z powylamywanymi nogami nie stoi, to nadal moglby byc stolem... tyle ze z powylamywanymi nogami.
 Oj, zamknij sie.
 Oj, zamknij sie.
 Hej, to ty zaczales.
@@ -8148,7 +8148,7 @@ Oczywiscie, ze nie.
 Chuckie probowal mnie zabic!
 Sporo kradlem i spowodowalem dwie ogromne eksplozje.
 Oczywiscie, ze nie.
-         Oczywiscie ze nie.
+ Oczywiscie ze nie.
 To dobrze.
 Wolalabym, zebyscie juz wiecej nie uciekali, chlopcy.
 Zamartwialismy sie na smierc.
