@@ -287,7 +287,7 @@ msgstr "... 91 W."
 
 msgctxt "3076"
 msgid "Says here the Mad Monkey sank at {var:global_100}N, {var:global_483}W."
-msgstr "Tu jest napisane, ze Szalona Malpa zatonela na {var:global_100}N, {var:global_483}W."
+msgstr "Tu jest napisane, ze Szalona Małpa zatonęła na {var:global_100}N, {var:global_483}W."
 
 msgctxt "3683"
 msgid "We have a Free Pass to see The Linguini Brothers Circus..."
@@ -339,7 +339,7 @@ msgstr "... i darmowa wejsciowke do Cyrku Braci Linguini."
 
 msgctxt "4206"
 msgid "{var:global_269} {string:global_39} it is."
-msgstr "{var:global_269} {string:global_39}, niech bedzie."
+msgstr "{var:global_269} {string:global_39}, niech będzie."
 
 msgctxt "4221"
 msgid "You0xA0are0xA0starting0xA0to0xA0annoy0xA0me."
@@ -351,11 +351,11 @@ msgstr "Wypadnie {var:global_268} {string:global_34}."
 
 msgctxt "4363"
 msgid "I already told you that ..."
-msgstr "Juz ci powiedzialem, ze..."
+msgstr "Już ci powiedziałem, że..."
 
 msgctxt "4364"
 msgid "I already told you that the number would be {var:global_268} {string:global_34}..."
-msgstr "Juz ci powiedzialem, ze wypadnie {var:global_268} {string:global_34}..."
+msgstr "Już ci powiedziałem, że wypadnie {var:global_268} {string:global_34}..."
 
 msgctxt "4446"
 msgid "The winning number will be {var:global_269} {string:global_39}."

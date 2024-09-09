@@ -6,7 +6,7 @@ TABLICA WYNIKOW
 OSIAGNIECIA
 POWROT DO BIBLIOTEKI GRY
 WYDAJNOSC PIRATA
-JAK GRAC
+JAK GRA0xC5
 STEROWANIE
 USTAWIENIA OBRAZU
 TWORCY EDYCJI KLASYCZNEJ
@@ -52,13 +52,13 @@ KORZYSTANIE ZE SYSTEMU WSKAZOWEK0x0AJesli kiedykolwiek nie bedziesz pewien co ro
 KOMENTARZ AUDIO0x0AW niektorych miejscach w grze mozesz posluchac pierwotnych deweloperow gry Monkey Island omawiajacych proces rozwoju gry. Aby odtworzyc komentarz audio dotknij ikony mikrofonu w prawym gornym rogu ekranu kiedy bedzie sie ona swiecic.
 MENU PAUZY0x0AAby uzyskac dostep do Menu Pauzy, dotknij ikony kompasu w lewym gornym rogu ekranu.
 STEROWANIE2
-PODSWIETLANIE PRZEDMIOTU
+POD0xCAWIETLANIE PRZEDMIOTU
 DIALOGI W EDYCJI KLASYCZNEJ
 NAPISY
-GLOSNOSC MUZYKI
-GLOSNOSC GRY
-GLOSNOSC DIALOGOW
-KOMENTARZE DEWELOPEROW
+G0xC9O0xCANO0xCA0xC5 MUZYKI
+G0xC9O0xCANO0xCA0xC5 GRY
+G0xC9O0xCANO0xCA0xC5 DIALOG0xC4W
+KOMENTARZE DEWELOPER0xC4W
 Id0xF4 do: 
 Daj
 Otw0xF3rz
@@ -78,7 +78,7 @@ Chrz0xE2knij
 Flegma
 Tfu
 Opluj
-POWROT DO GRY
+POWR0xC4T DO GRY
 ZAPISZ GRE
 WCZYTAJ GRE
 WYJSCIE DO MENU GLOWNEGO
@@ -978,7 +978,7 @@ PODPOWIEDZ
 Zobacz profil
 KONTYNUUJ GRE
 przycisk Anuluj
-PELNY EKRAN
+PE0xC9NY EKRAN
 GLADZIK
 PIRACKI SLOWNIK
 NACISNIJ PO RANKING
@@ -1006,9 +1006,9 @@ Liczba uzytych wskazowek
 Wynik
 Ta gra zapisuje sie automatycznie w okreslonych punktach. Nie wylaczaj zasilania, gdy wskaznik dostepu do dysku twardego miga.
 Efekty specjalne
-Rozdzielczosc
-Pelny ekran
-Potwierdz
+Rozdzielczo0xE50xE7
+Pe0xECny ekran
+Potwierd0xF4
 ZAPISYWANIE
 Usluga online zostala wylaczona na twoim koncie PlayStation® Network z powodu blokady rodzicielskiej.
 groszy

@@ -32,7 +32,7 @@ msgstr "WYDAJNOSC PIRATA"
 
 msgctxt "9"
 msgid "HOW TO PLAY"
-msgstr "JAK GRAC"
+msgstr "JAK GRAĆ"
 
 msgctxt "10"
 msgid "CONTROLS"
@@ -208,7 +208,7 @@ msgstr "STEROWANIE2"
 
 msgctxt "55"
 msgid "OBJECT HIGHLIGHTING"
-msgstr "PODSWIETLANIE PRZEDMIOTU"
+msgstr "PODŚWIETLANIE PRZEDMIOTU"
 
 msgctxt "56"
 msgid "CLASSIC MODE VOICE DIALOG"
@@ -220,23 +220,23 @@ msgstr "NAPISY"
 
 msgctxt "58"
 msgid "MUSIC VOLUME"
-msgstr "GLOSNOSC MUZYKI"
+msgstr "GŁOŚNOŚĆ MUZYKI"
 
 msgctxt "59"
 msgid "SFX VOLUME"
-msgstr "GLOSNOSC GRY"
+msgstr "GŁOŚNOŚĆ GRY"
 
 msgctxt "60"
 msgid "DIALOG VOLUME"
-msgstr "GLOSNOSC DIALOGOW"
+msgstr "GŁOŚNOŚĆ DIALOGÓW"
 
 msgctxt "61"
 msgid "DEVELOPER'S COMMENTARY"
-msgstr "KOMENTARZE DEWELOPEROW"
+msgstr "KOMENTARZE DEWELOPERÓW"
 
 msgctxt "81"
 msgid "RESUME GAME"
-msgstr "POWROT DO GRY"
+msgstr "POWRÓT DO GRY"
 
 msgctxt "82"
 msgid "SAVE GAME"
@@ -612,15 +612,15 @@ msgstr "Kup pelna wersje gry"
 
 msgctxt "181"
 msgid "%namount-of-money% pieces o' eight"
-msgstr "%namount-of-money% talarow"
+msgstr "%namount-of-money% talarów"
 
 msgctxt "182"
 msgid "%namount-of-money% pieces o' eight and %nnumber-of-coins% dimes"
-msgstr "%namount-of-money% talarow i %nnumber-of-coins% groszy"
+msgstr "%namount-of-money% talarów i %nnumber-of-coins% groszy"
 
 msgctxt "183"
 msgid "%namount-of-money% pieces o' eight and a dime"
-msgstr "%namount-of-money% talarow i grosz"
+msgstr "%namount-of-money% talarów i grosz"
 
 msgctxt "184"
 msgid "%nnumber-of-coins% dimes"
@@ -1052,7 +1052,7 @@ msgstr "przycisk Anuluj"
 
 msgctxt "981"
 msgid "FULL SCREEN"
-msgstr "PELNY EKRAN"
+msgstr "PEŁNY EKRAN"
 
 msgctxt "982"
 msgid "TRACKPAD"
@@ -1152,15 +1152,15 @@ msgstr "Efekty specjalne"
 
 msgctxt "1009"
 msgid "Resolution"
-msgstr "Rozdzielczosc"
+msgstr "Rozdzielczość"
 
 msgctxt "1010"
 msgid "Full Screen"
-msgstr "Pelny ekran"
+msgstr "Pełny ekran"
 
 msgctxt "1011"
 msgid "Apply"
-msgstr "Potwierdz"
+msgstr "Potwierdź"
 
 msgctxt "1012"
 msgid "SAVING CONTENT"

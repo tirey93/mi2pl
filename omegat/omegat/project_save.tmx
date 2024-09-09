@@ -1042,8 +1042,8 @@ Szkoda, ze teraz to my chodzimy po nim.`</seg>
       <tuv lang="en-US">
         <seg>Apply</seg>
       </tuv>
-      <tuv lang="pl">
-        <seg>Potwierdz</seg>
+      <tuv lang="pl" changeid="dapyt" changedate="20240909T114407Z">
+        <seg>Potwierdź</seg>
       </tuv>
     </tu>
     <tu>
@@ -1338,16 +1338,16 @@ Szkoda, ze teraz to my chodzimy po nim.`</seg>
       <tuv lang="en-US">
         <seg>DEVELOPER'S COMMENTARY</seg>
       </tuv>
-      <tuv lang="pl">
-        <seg>KOMENTARZE DEWELOPEROW</seg>
+      <tuv lang="pl" changeid="dapyt" changedate="20240909T114303Z">
+        <seg>KOMENTARZE DEWELOPERÓW</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>DIALOG VOLUME</seg>
       </tuv>
-      <tuv lang="pl">
-        <seg>GLOSNOSC DIALOGOW</seg>
+      <tuv lang="pl" changeid="dapyt" changedate="20240909T114301Z">
+        <seg>GŁOŚNOŚĆ DIALOGÓW</seg>
       </tuv>
     </tu>
     <tu>
@@ -1956,8 +1956,8 @@ Szkoda, ze teraz to my chodzimy po nim.`</seg>
       <tuv lang="en-US">
         <seg>FULL SCREEN</seg>
       </tuv>
-      <tuv lang="pl">
-        <seg>PELNY EKRAN</seg>
+      <tuv lang="pl" changeid="dapyt" changedate="20240909T114326Z">
+        <seg>PEŁNY EKRAN</seg>
       </tuv>
     </tu>
     <tu>
@@ -1996,8 +1996,8 @@ Szkoda, ze teraz to my chodzimy po nim.`</seg>
       <tuv lang="en-US">
         <seg>Full Screen</seg>
       </tuv>
-      <tuv lang="pl">
-        <seg>Pelny ekran</seg>
+      <tuv lang="pl" changeid="dapyt" changedate="20240909T114401Z">
+        <seg>Pełny ekran</seg>
       </tuv>
     </tu>
     <tu>
@@ -2108,8 +2108,8 @@ Szkoda, ze teraz to my chodzimy po nim.`</seg>
       <tuv lang="en-US">
         <seg>HOW TO PLAY</seg>
       </tuv>
-      <tuv lang="pl">
-        <seg>JAK GRAC</seg>
+      <tuv lang="pl" changeid="dapyt" changedate="20240909T114156Z">
+        <seg>JAK GRAĆ</seg>
       </tuv>
     </tu>
     <tu>
@@ -2768,8 +2768,8 @@ Az sprobowal corke bosmana zostawic na lodzie.`</seg>
       <tuv lang="en-US">
         <seg>MUSIC VOLUME</seg>
       </tuv>
-      <tuv lang="pl">
-        <seg>GLOSNOSC MUZYKI</seg>
+      <tuv lang="pl" changeid="dapyt" changedate="20240909T114243Z">
+        <seg>GŁOŚNOŚĆ MUZYKI</seg>
       </tuv>
     </tu>
     <tu>
@@ -2944,8 +2944,8 @@ Az sprobowal corke bosmana zostawic na lodzie.`</seg>
       <tuv lang="en-US">
         <seg>OBJECT HIGHLIGHTING</seg>
       </tuv>
-      <tuv lang="pl">
-        <seg>PODSWIETLANIE PRZEDMIOTU</seg>
+      <tuv lang="pl" changeid="dapyt" changedate="20240909T114228Z">
+        <seg>PODŚWIETLANIE PRZEDMIOTU</seg>
       </tuv>
     </tu>
     <tu>
@@ -3272,8 +3272,8 @@ Az sprobowal corke bosmana zostawic na lodzie.`</seg>
       <tuv lang="en-US">
         <seg>RESUME GAME</seg>
       </tuv>
-      <tuv lang="pl">
-        <seg>POWROT DO GRY</seg>
+      <tuv lang="pl" changeid="dapyt" changedate="20240909T114313Z">
+        <seg>POWRÓT DO GRY</seg>
       </tuv>
     </tu>
     <tu>
@@ -3296,8 +3296,8 @@ Az sprobowal corke bosmana zostawic na lodzie.`</seg>
       <tuv lang="en-US">
         <seg>Resolution</seg>
       </tuv>
-      <tuv lang="pl">
-        <seg>Rozdzielczosc</seg>
+      <tuv lang="pl" changeid="dapyt" changedate="20240909T114354Z">
+        <seg>Rozdzielczość</seg>
       </tuv>
     </tu>
     <tu>
@@ -3984,8 +3984,8 @@ Az sprobowal corke bosmana zostawic na lodzie.`</seg>
       <tuv lang="en-US">
         <seg>SFX VOLUME</seg>
       </tuv>
-      <tuv lang="pl">
-        <seg>GLOSNOSC GRY</seg>
+      <tuv lang="pl" changeid="dapyt" changedate="20240909T114247Z">
+        <seg>GŁOŚNOŚĆ GRY</seg>
       </tuv>
     </tu>
     <tu>

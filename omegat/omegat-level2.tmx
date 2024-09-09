@@ -24,24 +24,24 @@
       <tuv xml:lang="en-US">
         <seg>%namount-of-money% pieces o' eight</seg>
       </tuv>
-      <tuv xml:lang="pl">
-        <seg>%namount-of-money% talarow</seg>
+      <tuv xml:lang="pl" changeid="dapyt" changedate="20240905T191010Z">
+        <seg>%namount-of-money% talarów</seg>
       </tuv>
     </tu>
     <tu>
       <tuv xml:lang="en-US">
         <seg>%namount-of-money% pieces o' eight and %nnumber-of-coins% dimes</seg>
       </tuv>
-      <tuv xml:lang="pl">
-        <seg>%namount-of-money% talarow i %nnumber-of-coins% groszy</seg>
+      <tuv xml:lang="pl" changeid="dapyt" changedate="20240905T191013Z">
+        <seg>%namount-of-money% talarów i %nnumber-of-coins% groszy</seg>
       </tuv>
     </tu>
     <tu>
       <tuv xml:lang="en-US">
         <seg>%namount-of-money% pieces o' eight and a dime</seg>
       </tuv>
-      <tuv xml:lang="pl">
-        <seg>%namount-of-money% talarow i grosz</seg>
+      <tuv xml:lang="pl" changeid="dapyt" changedate="20240905T191015Z">
+        <seg>%namount-of-money% talarów i grosz</seg>
       </tuv>
     </tu>
     <tu>
@@ -1042,8 +1042,8 @@ Szkoda, ze teraz to my chodzimy po nim.`</seg>
       <tuv xml:lang="en-US">
         <seg>Apply</seg>
       </tuv>
-      <tuv xml:lang="pl">
-        <seg>Potwierdz</seg>
+      <tuv xml:lang="pl" changeid="dapyt" changedate="20240909T114407Z">
+        <seg>Potwierdź</seg>
       </tuv>
     </tu>
     <tu>
@@ -1338,16 +1338,16 @@ Szkoda, ze teraz to my chodzimy po nim.`</seg>
       <tuv xml:lang="en-US">
         <seg>DEVELOPER'S COMMENTARY</seg>
       </tuv>
-      <tuv xml:lang="pl">
-        <seg>KOMENTARZE DEWELOPEROW</seg>
+      <tuv xml:lang="pl" changeid="dapyt" changedate="20240909T114303Z">
+        <seg>KOMENTARZE DEWELOPERÓW</seg>
       </tuv>
     </tu>
     <tu>
       <tuv xml:lang="en-US">
         <seg>DIALOG VOLUME</seg>
       </tuv>
-      <tuv xml:lang="pl">
-        <seg>GLOSNOSC DIALOGOW</seg>
+      <tuv xml:lang="pl" changeid="dapyt" changedate="20240909T114301Z">
+        <seg>GŁOŚNOŚĆ DIALOGÓW</seg>
       </tuv>
     </tu>
     <tu>
@@ -1956,8 +1956,8 @@ Szkoda, ze teraz to my chodzimy po nim.`</seg>
       <tuv xml:lang="en-US">
         <seg>FULL SCREEN</seg>
       </tuv>
-      <tuv xml:lang="pl">
-        <seg>PELNY EKRAN</seg>
+      <tuv xml:lang="pl" changeid="dapyt" changedate="20240909T114326Z">
+        <seg>PEŁNY EKRAN</seg>
       </tuv>
     </tu>
     <tu>
@@ -1996,8 +1996,8 @@ Szkoda, ze teraz to my chodzimy po nim.`</seg>
       <tuv xml:lang="en-US">
         <seg>Full Screen</seg>
       </tuv>
-      <tuv xml:lang="pl">
-        <seg>Pelny ekran</seg>
+      <tuv xml:lang="pl" changeid="dapyt" changedate="20240909T114401Z">
+        <seg>Pełny ekran</seg>
       </tuv>
     </tu>
     <tu>
@@ -2108,8 +2108,8 @@ Szkoda, ze teraz to my chodzimy po nim.`</seg>
       <tuv xml:lang="en-US">
         <seg>HOW TO PLAY</seg>
       </tuv>
-      <tuv xml:lang="pl">
-        <seg>JAK GRAC</seg>
+      <tuv xml:lang="pl" changeid="dapyt" changedate="20240909T114156Z">
+        <seg>JAK GRAĆ</seg>
       </tuv>
     </tu>
     <tu>
@@ -2246,16 +2246,16 @@ Jim ryzykowal zawsze, gdy sytuacja byla niepewna.</seg>
       <tuv xml:lang="en-US">
         <seg>I already told you that ...</seg>
       </tuv>
-      <tuv xml:lang="pl">
-        <seg>Juz ci powiedzialem, ze...</seg>
+      <tuv xml:lang="pl" changeid="dapyt" changedate="20240905T191159Z">
+        <seg>Już ci powiedziałem, że...</seg>
       </tuv>
     </tu>
     <tu>
       <tuv xml:lang="en-US">
         <seg>I already told you that the number would be {var:global_268} {string:global_34}...</seg>
       </tuv>
-      <tuv xml:lang="pl">
-        <seg>Juz ci powiedzialem, ze wypadnie {var:global_268} {string:global_34}...</seg>
+      <tuv xml:lang="pl" changeid="dapyt" changedate="20240905T191153Z">
+        <seg>Już ci powiedziałem, że wypadnie {var:global_268} {string:global_34}...</seg>
       </tuv>
     </tu>
     <tu>
@@ -2768,8 +2768,8 @@ Az sprobowal corke bosmana zostawic na lodzie.`</seg>
       <tuv xml:lang="en-US">
         <seg>MUSIC VOLUME</seg>
       </tuv>
-      <tuv xml:lang="pl">
-        <seg>GLOSNOSC MUZYKI</seg>
+      <tuv xml:lang="pl" changeid="dapyt" changedate="20240909T114243Z">
+        <seg>GŁOŚNOŚĆ MUZYKI</seg>
       </tuv>
     </tu>
     <tu>
@@ -2944,8 +2944,8 @@ Az sprobowal corke bosmana zostawic na lodzie.`</seg>
       <tuv xml:lang="en-US">
         <seg>OBJECT HIGHLIGHTING</seg>
       </tuv>
-      <tuv xml:lang="pl">
-        <seg>PODSWIETLANIE PRZEDMIOTU</seg>
+      <tuv xml:lang="pl" changeid="dapyt" changedate="20240909T114228Z">
+        <seg>PODŚWIETLANIE PRZEDMIOTU</seg>
       </tuv>
     </tu>
     <tu>
@@ -3272,8 +3272,8 @@ Az sprobowal corke bosmana zostawic na lodzie.`</seg>
       <tuv xml:lang="en-US">
         <seg>RESUME GAME</seg>
       </tuv>
-      <tuv xml:lang="pl">
-        <seg>POWROT DO GRY</seg>
+      <tuv xml:lang="pl" changeid="dapyt" changedate="20240909T114313Z">
+        <seg>POWRÓT DO GRY</seg>
       </tuv>
     </tu>
     <tu>
@@ -3296,8 +3296,8 @@ Az sprobowal corke bosmana zostawic na lodzie.`</seg>
       <tuv xml:lang="en-US">
         <seg>Resolution</seg>
       </tuv>
-      <tuv xml:lang="pl">
-        <seg>Rozdzielczosc</seg>
+      <tuv xml:lang="pl" changeid="dapyt" changedate="20240909T114354Z">
+        <seg>Rozdzielczość</seg>
       </tuv>
     </tu>
     <tu>
@@ -3984,8 +3984,8 @@ Az sprobowal corke bosmana zostawic na lodzie.`</seg>
       <tuv xml:lang="en-US">
         <seg>SFX VOLUME</seg>
       </tuv>
-      <tuv xml:lang="pl">
-        <seg>GLOSNOSC GRY</seg>
+      <tuv xml:lang="pl" changeid="dapyt" changedate="20240909T114247Z">
+        <seg>GŁOŚNOŚĆ GRY</seg>
       </tuv>
     </tu>
     <tu>
@@ -4120,8 +4120,8 @@ Az sprobowal corke bosmana zostawic na lodzie.`</seg>
       <tuv xml:lang="en-US">
         <seg>Says here the Mad Monkey sank at {var:global_100}N, {var:global_483}W.</seg>
       </tuv>
-      <tuv xml:lang="pl">
-        <seg>Tu jest napisane, ze Szalona Malpa zatonela na {var:global_100}N, {var:global_483}W.</seg>
+      <tuv xml:lang="pl" changeid="dapyt" changedate="20240905T191102Z">
+        <seg>Tu jest napisane, ze Szalona Małpa zatonęła na {var:global_100}N, {var:global_483}W.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6368,8 +6368,8 @@ Ani na ladzie, ani na wodzie.</seg>
       <tuv xml:lang="en-US">
         <seg>{var:global_269} {string:global_39} it is.</seg>
       </tuv>
-      <tuv xml:lang="pl">
-        <seg>{var:global_269} {string:global_39}, niech bedzie.</seg>
+      <tuv xml:lang="pl" changeid="dapyt" changedate="20240905T191120Z">
+        <seg>{var:global_269} {string:global_39}, niech będzie.</seg>
       </tuv>
     </tu>
     <tu>
