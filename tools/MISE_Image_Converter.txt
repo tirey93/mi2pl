@@ -1,0 +1,3 @@
+MISE_Image_Converter
+Obsługa jest prosta. Należy wybrać plik dds i przeciągnąć go na program. 
+Ważne: Przy eksporcie grafiki należy wybrać Compression: BC1/DXT1, bez inny opcji oraz należy zmergować wszystkie warstwy do jednej.
