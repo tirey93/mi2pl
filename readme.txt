@@ -1,5 +1,5 @@
 Niniejsze repozytorium zawiera narzędzia oraz źródła użyte do ulepszenia spolszczenia do gry Monkey Island 2: Special Edition.
-Link do spolszczenia: 
+Link do spolszczenia: https://github.com/tirey93/mi2pl/releases/tag/spolszczenie
 
 Opis repozytorium:
 Katalog fonts zawiera czcionki wyeksportowane z pierwszej części gry. Wystarczy je przekopiować do katalogu fonts w katalogu głównym gry.
