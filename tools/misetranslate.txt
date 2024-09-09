@@ -1,8 +1,0 @@
-MISITranslate 4.9.7
-Głównie używałem do importu tekstu do pliku .info
-
-Instrukcja:
-Aby dokonać importu do pliku info
-1. Wybrać File -> Open Original File... i wskazać oryginalny, francuski speach.info
-2. Wybrać File -> Import translation from txt, kolumna z translacjami się nadpisze
-3. Wybrać Submit po prawej stronie co zapisze nowy plik info z końcówką 0001

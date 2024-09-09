@@ -1,3 +1,6 @@
 MISE_Image_Converter
+Link: https://github.com/tirey93/mi2pl/releases/tag/mise_image_converter
+Oryginalny link: https://quickandeasysoftware.net/software/monkey-island-image-converter
+
 Obsługa jest prosta. Należy wybrać plik dds i przeciągnąć go na program. 
 Ważne: Przy eksporcie grafiki należy wybrać Compression: BC1/DXT1, bez inny opcji oraz należy zmergować wszystkie warstwy do jednej.

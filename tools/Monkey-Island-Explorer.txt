@@ -1,0 +1,5 @@
+Monkey-Island-Explorer
+Link: https://github.com/tirey93/mi2pl/releases/tag/monkey_island_explorer
+Oryginalny link: https://quickandeasysoftware.net/software/monkey-island-explorer
+
+Służy do przeglądania plików gry spakowanych w pliku .pak

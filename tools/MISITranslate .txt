@@ -1,0 +1,11 @@
+MISITranslate 4.9.7
+Link: https://github.com/tirey93/mi2pl/releases/tag/misi_translate
+Oryginalny link: https://github.com/ShadowNate/MISETranslator
+Głównie używałem do importu tekstu do pliku .info
+
+Instrukcja:
+Aby dokonać importu do pliku info
+1. Wybrać File -> Open Original File... i wskazać oryginalny, francuski speach.info
+2. Wybrać File -> Import translation from txt, kolumna z translacjami się nadpisze
+3. Wybrać Submit po prawej stronie co zapisze nowy plik info z końcówką 0001
+4. Usunąć końcówkę 0001 i podmienić z plikiem info znajdującym się w plikach gry

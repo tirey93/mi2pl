@@ -1,3 +1,4 @@
+Link: https://github.com/tirey93/mi2pl/releases/tag/mi2se_classic_injector
 Program służy do konwertowania pliku .po znajdującego się w targecie OmegaT do plików txt. Pliki txt następnie należy przekonwertować do plików .info za pomocą MISETranslatora.
 
 INSTRUKCJA:
